@@ -1,0 +1,38 @@
+[
+  {
+    "name": "notary",
+    "tags": [
+      "server-0.6.1-2",
+      "server"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "fe7543aa8fc466423578b726570192028bbb818c",
+        "repo": "https://github.com/docker/notary-official-images.git",
+        "path": "notary-server/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "notary",
+    "tags": [
+      "signer-0.6.1-2",
+      "signer"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "fe7543aa8fc466423578b726570192028bbb818c",
+        "repo": "https://github.com/docker/notary-official-images.git",
+        "path": "notary-signer/Dockerfile"
+      }
+    ]
+  }
+]
