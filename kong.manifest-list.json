@@ -2,11 +2,93 @@
   {
     "name": "kong",
     "tags": [
-      "2.6.0-alpine",
-      "2.6.0",
-      "2.6",
+      "2.7.0-alpine",
+      "2.7.0",
+      "2.7",
       "alpine",
       "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4896c55914e46d044183c6a6541cf50366f5cffa",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/2.7.0"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "4896c55914e46d044183c6a6541cf50366f5cffa",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/2.7.0"
+      }
+    ]
+  },
+  {
+    "name": "kong",
+    "tags": [
+      "2.7.0-ubuntu",
+      "2.7-ubuntu",
+      "ubuntu"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4896c55914e46d044183c6a6541cf50366f5cffa",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "ubuntu/Dockerfile",
+        "branch": "refs/tags/2.7.0"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "4896c55914e46d044183c6a6541cf50366f5cffa",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "ubuntu/Dockerfile",
+        "branch": "refs/tags/2.7.0"
+      }
+    ]
+  },
+  {
+    "name": "kong",
+    "tags": [
+      "2.7.0-centos",
+      "2.7-centos",
+      "centos"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4896c55914e46d044183c6a6541cf50366f5cffa",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "centos/Dockerfile",
+        "branch": "refs/tags/2.7.0"
+      }
+    ]
+  },
+  {
+    "name": "kong",
+    "tags": [
+      "2.6.0-alpine",
+      "2.6.0",
+      "2.6"
     ],
     "images": [
       {
@@ -36,8 +118,7 @@
     "name": "kong",
     "tags": [
       "2.6.0-ubuntu",
-      "2.6-ubuntu",
-      "ubuntu"
+      "2.6-ubuntu"
     ],
     "images": [
       {
@@ -67,8 +148,7 @@
     "name": "kong",
     "tags": [
       "2.6.0-centos",
-      "2.6-centos",
-      "centos"
+      "2.6-centos"
     ],
     "images": [
       {
@@ -160,87 +240,6 @@
         "repo": "https://github.com/Kong/docker-kong.git",
         "path": "centos/Dockerfile",
         "branch": "refs/tags/2.5.1"
-      }
-    ]
-  },
-  {
-    "name": "kong",
-    "tags": [
-      "2.4.1-alpine",
-      "2.4-alpine",
-      "2.4.1",
-      "2.4"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "e1b0a6c7eddd327926027692863a9900fd856977",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/2.4.1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "e1b0a6c7eddd327926027692863a9900fd856977",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/2.4.1"
-      }
-    ]
-  },
-  {
-    "name": "kong",
-    "tags": [
-      "2.4.1-ubuntu",
-      "2.4-ubuntu"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "e1b0a6c7eddd327926027692863a9900fd856977",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "ubuntu/Dockerfile",
-        "branch": "refs/tags/2.4.1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "e1b0a6c7eddd327926027692863a9900fd856977",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "ubuntu/Dockerfile",
-        "branch": "refs/tags/2.4.1"
-      }
-    ]
-  },
-  {
-    "name": "kong",
-    "tags": [
-      "2.4.1-centos",
-      "2.4-centos"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "e1b0a6c7eddd327926027692863a9900fd856977",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "centos/Dockerfile",
-        "branch": "refs/tags/2.4.1"
       }
     ]
   }
