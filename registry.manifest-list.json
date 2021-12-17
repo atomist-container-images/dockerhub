@@ -1,0 +1,45 @@
+[
+  {
+    "name": "registry",
+    "tags": [
+      "2.7.1",
+      "2.7",
+      "2",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ab00e8dae12d4515ed259015eab771ec92e92dd4",
+        "repo": "https://github.com/docker/distribution-library-image.git",
+        "path": "amd64/Dockerfile",
+        "branch": "refs/heads/release/2.7"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ab00e8dae12d4515ed259015eab771ec92e92dd4",
+        "repo": "https://github.com/docker/distribution-library-image.git",
+        "path": "arm64/Dockerfile",
+        "branch": "refs/heads/release/2.7"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "ab00e8dae12d4515ed259015eab771ec92e92dd4",
+        "repo": "https://github.com/docker/distribution-library-image.git",
+        "path": "arm/Dockerfile",
+        "branch": "refs/heads/release/2.7"
+      }
+    ]
+  }
+]
