@@ -2,10 +2,7 @@
   {
     "name": "caddy",
     "tags": [
-      "2",
-      "2.4.6",
       "alpine",
-      "latest",
       "2-alpine",
       "2.4.6-alpine"
     ],
@@ -16,7 +13,6 @@
           "architecture": "amd64"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/alpine/Dockerfile"
       },
       {
@@ -26,7 +22,6 @@
           "variant": "v8"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/alpine/Dockerfile"
       },
       {
@@ -36,7 +31,6 @@
           "variant": "v6"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/alpine/Dockerfile"
       },
       {
@@ -46,7 +40,6 @@
           "variant": "v7"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/alpine/Dockerfile"
       },
       {
@@ -55,7 +48,6 @@
           "architecture": "ppc64le"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/alpine/Dockerfile"
       },
       {
@@ -64,7 +56,6 @@
           "architecture": "s390x"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/alpine/Dockerfile"
       }
     ]
@@ -72,9 +63,231 @@
   {
     "name": "caddy",
     "tags": [
-      "builder",
-      "2-builder",
-      "2.4.6-builder",
+      "2.4.6"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
+      "2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
       "builder-alpine",
       "2-builder-alpine",
       "2.4.6-builder-alpine"
@@ -86,7 +299,6 @@
           "architecture": "amd64"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/builder/Dockerfile"
       },
       {
@@ -96,7 +308,6 @@
           "variant": "v8"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/builder/Dockerfile"
       },
       {
@@ -106,7 +317,6 @@
           "variant": "v6"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/builder/Dockerfile"
       },
       {
@@ -116,7 +326,6 @@
           "variant": "v7"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/builder/Dockerfile"
       },
       {
@@ -125,7 +334,6 @@
           "architecture": "ppc64le"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/builder/Dockerfile"
       },
       {
@@ -134,7 +342,6 @@
           "architecture": "s390x"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/builder/Dockerfile"
       }
     ]
@@ -142,13 +349,232 @@
   {
     "name": "caddy",
     "tags": [
-      "2",
-      "2.4.6",
-      "latest",
-      "windowsservercore",
-      "2-windowsservercore",
+      "2.4.6-builder"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows-builder/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows-builder/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
+      "2-builder"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows-builder/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows-builder/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
+      "builder"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/builder/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows-builder/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows-builder/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
       "windowsservercore-1809",
-      "2.4.6-windowsservercore",
       "2-windowsservercore-1809",
       "2.4.6-windowsservercore-1809"
     ],
@@ -159,7 +585,6 @@
           "architecture": "amd64"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/windows/1809/Dockerfile"
       }
     ]
@@ -167,12 +592,78 @@
   {
     "name": "caddy",
     "tags": [
-      "2",
-      "2.4.6",
-      "latest",
-      "windowsservercore",
-      "2-windowsservercore",
-      "2.4.6-windowsservercore",
+      "2.4.6-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
+      "2-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
+      "windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/1809/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
+        "path": "2.4/windows/ltsc2016/Dockerfile"
+      }
+    ]
+  },
+  {
+    "name": "caddy",
+    "tags": [
       "windowsservercore-ltsc2016",
       "2-windowsservercore-ltsc2016",
       "2.4.6-windowsservercore-ltsc2016"
@@ -184,7 +675,6 @@
           "architecture": "amd64"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/windows/ltsc2016/Dockerfile"
       }
     ]
@@ -192,9 +682,6 @@
   {
     "name": "caddy",
     "tags": [
-      "builder",
-      "2-builder",
-      "2.4.6-builder",
       "builder-windowsservercore-1809",
       "2-builder-windowsservercore-1809",
       "2.4.6-builder-windowsservercore-1809"
@@ -206,7 +693,6 @@
           "architecture": "amd64"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/windows-builder/1809/Dockerfile"
       }
     ]
@@ -214,9 +700,6 @@
   {
     "name": "caddy",
     "tags": [
-      "builder",
-      "2-builder",
-      "2.4.6-builder",
       "builder-windowsservercore-ltsc2016",
       "2-builder-windowsservercore-ltsc2016",
       "2.4.6-builder-windowsservercore-ltsc2016"
@@ -228,7 +711,6 @@
           "architecture": "amd64"
         },
         "sha": "c2a97d2c1ac79f2d20db8464d717eaa5a19c030c",
-        "repo": "https://github.com/caddyserver/caddy-docker.git",
         "path": "2.4/windows-builder/ltsc2016/Dockerfile"
       }
     ]
