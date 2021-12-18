@@ -2,11 +2,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8",
-      "8-jdk",
       "8-focal",
       "8-jdk-focal",
-      "8u312-b07-jdk",
       "8u312-b07-jdk-focal"
     ],
     "images": [
@@ -57,6 +54,246 @@
   {
     "name": "eclipse-temurin",
     "tags": [
+      "8u312-b07-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "8-centos7",
       "8-jdk-centos7",
       "8u312-b07-jdk-centos7"
@@ -98,13 +335,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8",
-      "8-jdk",
-      "8u312-b07-jdk",
-      "8-windowsservercore",
-      "8-jdk-windowsservercore",
       "8-windowsservercore-ltsc2022",
-      "8u312-b07-jdk-windowsservercore",
       "8-jdk-windowsservercore-ltsc2022",
       "8u312-b07-jdk-windowsservercore-ltsc2022"
     ],
@@ -124,10 +355,121 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-nanoserver",
-      "8-jdk-nanoserver",
+      "8u312-b07-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "8-nanoserver-ltsc2022",
-      "8u312-b07-jdk-nanoserver",
       "8-jdk-nanoserver-ltsc2022",
       "8u312-b07-jdk-nanoserver-ltsc2022"
     ],
@@ -147,14 +489,92 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8",
-      "8-jdk",
-      "8u312-b07-jdk",
-      "8-windowsservercore",
-      "8-jdk-windowsservercore",
+      "8u312-b07-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "8-windowsservercore-1809",
       "8-jdk-windowsservercore-1809",
-      "8u312-b07-jdk-windowsservercore",
       "8u312-b07-jdk-windowsservercore-1809"
     ],
     "images": [
@@ -173,11 +593,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-nanoserver",
-      "8-jdk-nanoserver",
       "8-nanoserver-1809",
       "8-jdk-nanoserver-1809",
-      "8u312-b07-jdk-nanoserver",
       "8u312-b07-jdk-nanoserver-1809"
     ],
     "images": [
@@ -196,13 +613,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8",
-      "8-jdk",
-      "8u312-b07-jdk",
-      "8-windowsservercore",
-      "8-jdk-windowsservercore",
       "8-windowsservercore-ltsc2016",
-      "8u312-b07-jdk-windowsservercore",
       "8-jdk-windowsservercore-ltsc2016",
       "8u312-b07-jdk-windowsservercore-ltsc2016"
     ],
@@ -222,9 +633,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre",
       "8-jre-focal",
-      "8u312-b07-jre",
       "8u312-b07-jre-focal"
     ],
     "images": [
@@ -275,6 +684,166 @@
   {
     "name": "eclipse-temurin",
     "tags": [
+      "8u312-b07-jre"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "8-jre-centos7",
       "8u312-b07-jre-centos7"
     ],
@@ -315,10 +884,6 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre",
-      "8u312-b07-jre",
-      "8-jre-windowsservercore",
-      "8u312-b07-jre-windowsservercore",
       "8-jre-windowsservercore-ltsc2022",
       "8u312-b07-jre-windowsservercore-ltsc2022"
     ],
@@ -338,8 +903,82 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre-nanoserver",
-      "8u312-b07-jre-nanoserver",
+      "8u312-b07-jre-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "8-jre-nanoserver-ltsc2022",
       "8u312-b07-jre-nanoserver-ltsc2022"
     ],
@@ -359,11 +998,63 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre",
-      "8u312-b07-jre",
-      "8-jre-windowsservercore",
+      "8u312-b07-jre-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "8-jre-windowsservercore-1809",
-      "8u312-b07-jre-windowsservercore",
       "8u312-b07-jre-windowsservercore-1809"
     ],
     "images": [
@@ -382,9 +1073,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre-nanoserver",
       "8-jre-nanoserver-1809",
-      "8u312-b07-jre-nanoserver",
       "8u312-b07-jre-nanoserver-1809"
     ],
     "images": [
@@ -403,10 +1092,6 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre",
-      "8u312-b07-jre",
-      "8-jre-windowsservercore",
-      "8u312-b07-jre-windowsservercore",
       "8-jre-windowsservercore-ltsc2016",
       "8u312-b07-jre-windowsservercore-ltsc2016"
     ],
@@ -446,11 +1131,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11",
-      "11-jdk",
       "11-focal",
       "11-jdk-focal",
-      "11.0.13_8-jdk",
       "11.0.13_8-jdk-focal"
     ],
     "images": [
@@ -511,6 +1193,276 @@
   {
     "name": "eclipse-temurin",
     "tags": [
+      "11.0.13_8-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "11-centos7",
       "11-jdk-centos7",
       "11.0.13_8-jdk-centos7"
@@ -552,13 +1504,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11",
-      "11-jdk",
-      "11.0.13_8-jdk",
-      "11-windowsservercore",
-      "11-jdk-windowsservercore",
       "11-windowsservercore-ltsc2022",
-      "11.0.13_8-jdk-windowsservercore",
       "11-jdk-windowsservercore-ltsc2022",
       "11.0.13_8-jdk-windowsservercore-ltsc2022"
     ],
@@ -578,10 +1524,121 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-nanoserver",
-      "11-jdk-nanoserver",
+      "11.0.13_8-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "11-nanoserver-ltsc2022",
-      "11.0.13_8-jdk-nanoserver",
       "11-jdk-nanoserver-ltsc2022",
       "11.0.13_8-jdk-nanoserver-ltsc2022"
     ],
@@ -601,14 +1658,92 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11",
-      "11-jdk",
-      "11.0.13_8-jdk",
-      "11-windowsservercore",
-      "11-jdk-windowsservercore",
+      "11.0.13_8-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "47934b0585c53985e98a6145ded7d87f3a3313ad",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "11-windowsservercore-1809",
       "11-jdk-windowsservercore-1809",
-      "11.0.13_8-jdk-windowsservercore",
       "11.0.13_8-jdk-windowsservercore-1809"
     ],
     "images": [
@@ -627,11 +1762,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-nanoserver",
-      "11-jdk-nanoserver",
       "11-nanoserver-1809",
       "11-jdk-nanoserver-1809",
-      "11.0.13_8-jdk-nanoserver",
       "11.0.13_8-jdk-nanoserver-1809"
     ],
     "images": [
@@ -650,13 +1782,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11",
-      "11-jdk",
-      "11.0.13_8-jdk",
-      "11-windowsservercore",
-      "11-jdk-windowsservercore",
       "11-windowsservercore-ltsc2016",
-      "11.0.13_8-jdk-windowsservercore",
       "11-jdk-windowsservercore-ltsc2016",
       "11.0.13_8-jdk-windowsservercore-ltsc2016"
     ],
@@ -695,9 +1821,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre",
       "11-jre-focal",
-      "11.0.13_8-jre",
       "11.0.13_8-jre-focal"
     ],
     "images": [
@@ -758,6 +1882,186 @@
   {
     "name": "eclipse-temurin",
     "tags": [
+      "11.0.13_8-jre"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "11-jre-centos7",
       "11.0.13_8-jre-centos7"
     ],
@@ -798,10 +2102,6 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre",
-      "11.0.13_8-jre",
-      "11-jre-windowsservercore",
-      "11.0.13_8-jre-windowsservercore",
       "11-jre-windowsservercore-ltsc2022",
       "11.0.13_8-jre-windowsservercore-ltsc2022"
     ],
@@ -821,8 +2121,82 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre-nanoserver",
-      "11.0.13_8-jre-nanoserver",
+      "11.0.13_8-jre-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "11-jre-nanoserver-ltsc2022",
       "11.0.13_8-jre-nanoserver-ltsc2022"
     ],
@@ -842,11 +2216,63 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre",
-      "11.0.13_8-jre",
-      "11-jre-windowsservercore",
+      "11.0.13_8-jre-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "11-jre-windowsservercore-1809",
-      "11.0.13_8-jre-windowsservercore",
       "11.0.13_8-jre-windowsservercore-1809"
     ],
     "images": [
@@ -865,9 +2291,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre-nanoserver",
       "11-jre-nanoserver-1809",
-      "11.0.13_8-jre-nanoserver",
       "11.0.13_8-jre-nanoserver-1809"
     ],
     "images": [
@@ -886,10 +2310,6 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre",
-      "11.0.13_8-jre",
-      "11-jre-windowsservercore",
-      "11.0.13_8-jre-windowsservercore",
       "11-jre-windowsservercore-ltsc2016",
       "11.0.13_8-jre-windowsservercore-ltsc2016"
     ],
@@ -929,11 +2349,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "16",
-      "16-jdk",
       "16-focal",
       "16-jdk-focal",
-      "16.0.2_7-jdk",
       "16.0.2_7-jdk-focal"
     ],
     "images": [
@@ -994,6 +2411,246 @@
   {
     "name": "eclipse-temurin",
     "tags": [
+      "16.0.2_7-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "16-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "16"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "16-centos7",
       "16-jdk-centos7",
       "16.0.2_7-jdk-centos7"
@@ -1035,14 +2692,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "16",
-      "16-jdk",
-      "16.0.2_7-jdk",
-      "16-windowsservercore",
-      "16-jdk-windowsservercore",
       "16-windowsservercore-1809",
       "16-jdk-windowsservercore-1809",
-      "16.0.2_7-jdk-windowsservercore",
       "16.0.2_7-jdk-windowsservercore-1809"
     ],
     "images": [
@@ -1061,11 +2712,92 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "16-nanoserver",
-      "16-jdk-nanoserver",
+      "16.0.2_7-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "16-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "16-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "16-nanoserver-1809",
       "16-jdk-nanoserver-1809",
-      "16.0.2_7-jdk-nanoserver",
       "16.0.2_7-jdk-nanoserver-1809"
     ],
     "images": [
@@ -1084,13 +2816,61 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "16",
-      "16-jdk",
-      "16.0.2_7-jdk",
-      "16-windowsservercore",
-      "16-jdk-windowsservercore",
+      "16.0.2_7-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "16-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "16-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c611c0d0d5c9efd70a7569a33dd7a46c31dfb06d",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "16/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "16-windowsservercore-ltsc2016",
-      "16.0.2_7-jdk-windowsservercore",
       "16-jdk-windowsservercore-ltsc2016",
       "16.0.2_7-jdk-windowsservercore-ltsc2016"
     ],
@@ -1130,12 +2910,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "17",
-      "17-jdk",
-      "latest",
       "17-focal",
       "17-jdk-focal",
-      "17.0.1_12-jdk",
       "17.0.1_12-jdk-focal"
     ],
     "images": [
@@ -1196,6 +2972,366 @@
   {
     "name": "eclipse-temurin",
     "tags": [
+      "17.0.1_12-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "17"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5bd9771ac01651e79894552b66e4007f2501316b",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubuntu/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "17-centos7",
       "17-jdk-centos7",
       "17.0.1_12-jdk-centos7"
@@ -1237,14 +3373,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "17",
-      "17-jdk",
-      "latest",
-      "17.0.1_12-jdk",
-      "17-windowsservercore",
-      "17-jdk-windowsservercore",
       "17-windowsservercore-ltsc2022",
-      "17.0.1_12-jdk-windowsservercore",
       "17-jdk-windowsservercore-ltsc2022",
       "17.0.1_12-jdk-windowsservercore-ltsc2022"
     ],
@@ -1264,10 +3393,121 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "17-nanoserver",
-      "17-jdk-nanoserver",
+      "17.0.1_12-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jdk-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2016/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "17-nanoserver-ltsc2022",
-      "17.0.1_12-jdk-nanoserver",
       "17-jdk-nanoserver-ltsc2022",
       "17.0.1_12-jdk-nanoserver-ltsc2022"
     ],
@@ -1287,15 +3527,92 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "17",
-      "17-jdk",
-      "latest",
-      "17.0.1_12-jdk",
-      "17-windowsservercore",
-      "17-jdk-windowsservercore",
+      "17.0.1_12-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jdk-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f06ea446cee4810ab29df927d2d4c53f6270a5cd",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "eclipse-temurin",
+    "tags": [
       "17-windowsservercore-1809",
       "17-jdk-windowsservercore-1809",
-      "17.0.1_12-jdk-windowsservercore",
       "17.0.1_12-jdk-windowsservercore-1809"
     ],
     "images": [
@@ -1314,11 +3631,8 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "17-nanoserver",
-      "17-jdk-nanoserver",
       "17-nanoserver-1809",
       "17-jdk-nanoserver-1809",
-      "17.0.1_12-jdk-nanoserver",
       "17.0.1_12-jdk-nanoserver-1809"
     ],
     "images": [
@@ -1337,14 +3651,7 @@
   {
     "name": "eclipse-temurin",
     "tags": [
-      "17",
-      "17-jdk",
-      "latest",
-      "17.0.1_12-jdk",
-      "17-windowsservercore",
-      "17-jdk-windowsservercore",
       "17-windowsservercore-ltsc2016",
-      "17.0.1_12-jdk-windowsservercore",
       "17-jdk-windowsservercore-ltsc2016",
       "17.0.1_12-jdk-windowsservercore-ltsc2016"
     ],
