@@ -58,10 +58,7 @@
   {
     "name": "nats-streaming",
     "tags": [
-      "0.23",
       "linux",
-      "0.23.2",
-      "latest",
       "scratch",
       "0.23-linux",
       "0.23-scratch",
@@ -117,10 +114,190 @@
   {
     "name": "nats-streaming",
     "tags": [
-      "windowsservercore",
-      "0.23-windowsservercore",
+      "0.23.2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
+      "0.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
       "windowsservercore-1809",
-      "0.23.2-windowsservercore",
       "0.23-windowsservercore-1809",
       "0.23.2-windowsservercore-1809"
     ],
@@ -140,13 +317,91 @@
   {
     "name": "nats-streaming",
     "tags": [
-      "0.23",
-      "0.23.2",
-      "latest",
-      "nanoserver",
-      "0.23-nanoserver",
+      "0.23.2-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/windowsservercore-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/windowsservercore-ltsc2016/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
+      "0.23-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/windowsservercore-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/windowsservercore-ltsc2016/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
+      "windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/windowsservercore-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/windowsservercore-ltsc2016/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
       "nanoserver-1809",
-      "0.23.2-nanoserver",
       "0.23-nanoserver-1809",
       "0.23.2-nanoserver-1809"
     ],
@@ -166,9 +421,60 @@
   {
     "name": "nats-streaming",
     "tags": [
-      "windowsservercore",
-      "0.23-windowsservercore",
-      "0.23.2-windowsservercore",
+      "0.23.2-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
+      "0.23-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
+      "nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "fdc63eac17da16ad27229b48561c1b3462f40ee3",
+        "repo": "https://github.com/nats-io/nats-streaming-docker.git",
+        "path": "0.23.2/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "name": "nats-streaming",
+    "tags": [
       "windowsservercore-ltsc2016",
       "0.23-windowsservercore-ltsc2016",
       "0.23.2-windowsservercore-ltsc2016"
