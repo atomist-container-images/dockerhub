@@ -1,5 +1,70 @@
 [
   {
+    "version": "1",
+    "name": "traefik",
+    "tags": [
+      "2.6-windowsservercore-1809",
+      "v2.6-windowsservercore-1809",
+      "2.6.0-rc1-windowsservercore-1809",
+      "rocamadour-windowsservercore-1809",
+      "v2.6.0-rc1-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "72e26bf14573fda137e2e4b9665e956a85a5776c",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "1",
+    "name": "traefik",
+    "tags": [
+      "2.6",
+      "v2.6",
+      "2.6.0-rc1",
+      "rocamadour",
+      "v2.6.0-rc1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "72e26bf14573fda137e2e4b9665e956a85a5776c",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "72e26bf14573fda137e2e4b9665e956a85a5776c",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "72e26bf14573fda137e2e4b9665e956a85a5776c",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "1",
     "name": "traefik",
     "tags": [
       "windowsservercore-1809",
@@ -22,6 +87,7 @@
     ]
   },
   {
+    "version": "1",
     "name": "traefik",
     "tags": [
       "2.5",
@@ -64,6 +130,7 @@
     ]
   },
   {
+    "version": "1",
     "name": "traefik",
     "tags": [
       "1.7-windowsservercore-1809",
@@ -85,6 +152,7 @@
     ]
   },
   {
+    "version": "1",
     "name": "traefik",
     "tags": [
       "1.7-alpine",
@@ -126,6 +194,7 @@
     ]
   },
   {
+    "version": "1",
     "name": "traefik",
     "tags": [
       "1.7",
