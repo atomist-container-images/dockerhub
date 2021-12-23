@@ -1,6 +1,6 @@
 [
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk17",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk17-openjdk-buster",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk17-openjdk-slim",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk17-openjdk-slim-buster",
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk17-corretto",
@@ -159,7 +159,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk17-temurin",
@@ -220,7 +220,68 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
+    "name": "tomcat",
+    "tags": [
+      "10.1-jre17-temurin",
+      "10.1.0-jre17-temurin",
+      "10.1.0-M8-jre17-temurin",
+      "10.1-jre17-temurin-focal",
+      "10.1.0-jre17-temurin-focal",
+      "10.1.0-M8-jre17-temurin-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9abca60a12b84b9f3ee9e60de92486f37ac680dc",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "9abca60a12b84b9f3ee9e60de92486f37ac680dc",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9abca60a12b84b9f3ee9e60de92486f37ac680dc",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "9abca60a12b84b9f3ee9e60de92486f37ac680dc",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "9abca60a12b84b9f3ee9e60de92486f37ac680dc",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre17/temurin-focal/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk16-temurin",
@@ -281,7 +342,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1",
@@ -320,7 +381,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jre11",
@@ -356,7 +417,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk11-openjdk-buster",
@@ -386,7 +447,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jre11-openjdk-buster",
@@ -416,7 +477,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk11-openjdk-slim",
@@ -449,7 +510,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jre11-openjdk-slim",
@@ -482,7 +543,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk11-openjdk-slim-buster",
@@ -512,7 +573,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jre11-openjdk-slim-buster",
@@ -542,7 +603,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk11-corretto",
@@ -572,7 +633,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jdk11-temurin",
@@ -633,7 +694,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10.1-jre11-temurin",
@@ -694,7 +755,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk17",
@@ -733,7 +794,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk17-openjdk-buster",
@@ -764,7 +825,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk17-openjdk-slim",
@@ -799,7 +860,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk17-openjdk-slim-buster",
@@ -830,7 +891,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk17-corretto",
@@ -861,7 +922,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk17-temurin",
@@ -924,7 +985,70 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
+    "name": "tomcat",
+    "tags": [
+      "jre17-temurin",
+      "10-jre17-temurin",
+      "10.0-jre17-temurin",
+      "jre17-temurin-focal",
+      "10.0.14-jre17-temurin",
+      "10-jre17-temurin-focal",
+      "10.0-jre17-temurin-focal",
+      "10.0.14-jre17-temurin-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "34e76b32cdea514f686e801d8d116f8c30513157",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "34e76b32cdea514f686e801d8d116f8c30513157",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "34e76b32cdea514f686e801d8d116f8c30513157",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "34e76b32cdea514f686e801d8d116f8c30513157",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "34e76b32cdea514f686e801d8d116f8c30513157",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.0/jre17/temurin-focal/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk16-temurin",
@@ -987,7 +1111,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "10",
@@ -1030,7 +1154,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre11",
@@ -1069,7 +1193,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk11-openjdk-buster",
@@ -1100,7 +1224,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre11-openjdk-buster",
@@ -1131,7 +1255,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk11-openjdk-slim",
@@ -1166,7 +1290,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre11-openjdk-slim",
@@ -1201,7 +1325,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk11-openjdk-slim-buster",
@@ -1232,7 +1356,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre11-openjdk-slim-buster",
@@ -1263,7 +1387,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk11-corretto",
@@ -1294,7 +1418,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk11-temurin",
@@ -1357,7 +1481,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre11-temurin",
@@ -1420,7 +1544,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk8",
@@ -1459,7 +1583,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre8",
@@ -1498,7 +1622,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk8-openjdk-buster",
@@ -1529,7 +1653,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre8-openjdk-buster",
@@ -1560,7 +1684,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk8-openjdk-slim",
@@ -1595,7 +1719,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre8-openjdk-slim",
@@ -1630,7 +1754,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk8-openjdk-slim-buster",
@@ -1661,7 +1785,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre8-openjdk-slim-buster",
@@ -1692,7 +1816,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk8-corretto",
@@ -1723,7 +1847,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jdk8-temurin",
@@ -1777,7 +1901,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "jre8-temurin",
@@ -1831,7 +1955,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk17",
@@ -1867,7 +1991,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk17-openjdk-buster",
@@ -1897,7 +2021,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk17-openjdk-slim",
@@ -1930,7 +2054,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk17-openjdk-slim-buster",
@@ -1960,7 +2084,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk17-corretto",
@@ -1990,7 +2114,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk17-temurin",
@@ -2051,7 +2175,68 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
+    "name": "tomcat",
+    "tags": [
+      "9-jre17-temurin",
+      "9.0-jre17-temurin",
+      "9.0.56-jre17-temurin",
+      "9-jre17-temurin-focal",
+      "9.0-jre17-temurin-focal",
+      "9.0.56-jre17-temurin-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "62090f1edb9e8bb06d70d6dc2b6bfaf9653a85d3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "62090f1edb9e8bb06d70d6dc2b6bfaf9653a85d3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "62090f1edb9e8bb06d70d6dc2b6bfaf9653a85d3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "62090f1edb9e8bb06d70d6dc2b6bfaf9653a85d3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "62090f1edb9e8bb06d70d6dc2b6bfaf9653a85d3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre17/temurin-focal/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk16-temurin",
@@ -2112,7 +2297,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9",
@@ -2151,7 +2336,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre11",
@@ -2187,7 +2372,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk11-openjdk-buster",
@@ -2217,7 +2402,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre11-openjdk-buster",
@@ -2247,7 +2432,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk11-openjdk-slim",
@@ -2280,7 +2465,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre11-openjdk-slim",
@@ -2313,7 +2498,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk11-openjdk-slim-buster",
@@ -2343,7 +2528,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre11-openjdk-slim-buster",
@@ -2373,7 +2558,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk11-corretto",
@@ -2403,7 +2588,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk11-temurin",
@@ -2464,7 +2649,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre11-temurin",
@@ -2525,7 +2710,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk8",
@@ -2561,7 +2746,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre8",
@@ -2597,7 +2782,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk8-openjdk-buster",
@@ -2627,7 +2812,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre8-openjdk-buster",
@@ -2657,7 +2842,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk8-openjdk-slim",
@@ -2690,7 +2875,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre8-openjdk-slim",
@@ -2723,7 +2908,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk8-openjdk-slim-buster",
@@ -2753,7 +2938,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre8-openjdk-slim-buster",
@@ -2783,7 +2968,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk8-corretto",
@@ -2813,7 +2998,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jdk8-temurin",
@@ -2865,7 +3050,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "9-jre8-temurin",
@@ -2917,7 +3102,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk17",
@@ -2953,7 +3138,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk17-openjdk-buster",
@@ -2983,7 +3168,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk17-openjdk-slim",
@@ -3016,7 +3201,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk17-openjdk-slim-buster",
@@ -3046,7 +3231,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk17-corretto",
@@ -3076,7 +3261,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk17-temurin",
@@ -3137,7 +3322,68 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
+    "name": "tomcat",
+    "tags": [
+      "8-jre17-temurin",
+      "8.5-jre17-temurin",
+      "8.5.73-jre17-temurin",
+      "8-jre17-temurin-focal",
+      "8.5-jre17-temurin-focal",
+      "8.5.73-jre17-temurin-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "afea6ec027e1fefbce53119c55cbbc03c598bec8",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "afea6ec027e1fefbce53119c55cbbc03c598bec8",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "afea6ec027e1fefbce53119c55cbbc03c598bec8",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "afea6ec027e1fefbce53119c55cbbc03c598bec8",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre17/temurin-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "afea6ec027e1fefbce53119c55cbbc03c598bec8",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre17/temurin-focal/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk16-temurin",
@@ -3198,7 +3444,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8",
@@ -3237,7 +3483,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre11",
@@ -3273,7 +3519,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk11-openjdk-buster",
@@ -3303,7 +3549,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre11-openjdk-buster",
@@ -3333,7 +3579,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk11-openjdk-slim",
@@ -3366,7 +3612,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre11-openjdk-slim",
@@ -3399,7 +3645,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk11-openjdk-slim-buster",
@@ -3429,7 +3675,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre11-openjdk-slim-buster",
@@ -3459,7 +3705,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk11-corretto",
@@ -3489,7 +3735,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk11-temurin",
@@ -3550,7 +3796,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre11-temurin",
@@ -3611,7 +3857,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk8",
@@ -3647,7 +3893,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre8",
@@ -3683,7 +3929,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk8-openjdk-buster",
@@ -3713,7 +3959,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre8-openjdk-buster",
@@ -3743,7 +3989,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk8-openjdk-slim",
@@ -3776,7 +4022,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre8-openjdk-slim",
@@ -3809,7 +4055,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk8-openjdk-slim-buster",
@@ -3839,7 +4085,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre8-openjdk-slim-buster",
@@ -3869,7 +4115,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk8-corretto",
@@ -3899,7 +4145,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jdk8-temurin",
@@ -3951,7 +4197,7 @@
     ]
   },
   {
-    "version": "5",
+    "version": "10",
     "name": "tomcat",
     "tags": [
       "8-jre8-temurin",
