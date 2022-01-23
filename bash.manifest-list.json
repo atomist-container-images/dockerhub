@@ -4,9 +4,9 @@
     "name": "bash",
     "tags": [
       "devel",
-      "devel-20220104",
-      "devel-alpine3.14",
-      "devel-20220104-alpine3.14"
+      "devel-20220111",
+      "devel-alpine3.15",
+      "devel-20220111-alpine3.15"
     ],
     "images": [
       {
@@ -14,7 +14,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
       },
@@ -24,7 +24,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
       },
@@ -34,7 +34,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
       },
@@ -44,7 +44,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
       },
@@ -53,7 +53,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
       },
@@ -62,7 +62,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
       },
@@ -71,9 +71,89 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b4c9aa714df062b82583f7dff89a42826c278f53",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "devel/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "bash",
+    "tags": [
+      "rc",
+      "5.2-rc",
+      "5.2-alpha",
+      "rc-alpine3.15",
+      "5.2-rc-alpine3.15",
+      "5.2-alpha-alpine3.15"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
+        "repo": "https://github.com/tianon/docker-bash.git",
+        "path": "5.2-rc/Dockerfile"
       }
     ]
   },
@@ -85,10 +165,10 @@
       "5.1",
       "5.1.16",
       "latest",
-      "alpine3.14",
-      "5-alpine3.14",
-      "5.1-alpine3.14",
-      "5.1.16-alpine3.14"
+      "alpine3.15",
+      "5-alpine3.15",
+      "5.1-alpine3.15",
+      "5.1.16-alpine3.15"
     ],
     "images": [
       {
@@ -96,7 +176,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       },
@@ -106,7 +186,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       },
@@ -116,7 +196,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       },
@@ -126,7 +206,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       },
@@ -135,7 +215,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       },
@@ -144,7 +224,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       },
@@ -153,7 +233,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "aec6fb94c8d17971717fb62a6c1db53e607a1cd4",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.1/Dockerfile"
       }
@@ -165,8 +245,8 @@
     "tags": [
       "5.0",
       "5.0.18",
-      "5.0-alpine3.14",
-      "5.0.18-alpine3.14"
+      "5.0-alpine3.15",
+      "5.0.18-alpine3.15"
     ],
     "images": [
       {
@@ -174,7 +254,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       },
@@ -184,7 +264,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       },
@@ -194,7 +274,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       },
@@ -204,7 +284,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       },
@@ -213,7 +293,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       },
@@ -222,7 +302,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       },
@@ -231,7 +311,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "5.0/Dockerfile"
       }
@@ -244,9 +324,9 @@
       "4",
       "4.4",
       "4.4.23",
-      "4-alpine3.14",
-      "4.4-alpine3.14",
-      "4.4.23-alpine3.14"
+      "4-alpine3.15",
+      "4.4-alpine3.15",
+      "4.4.23-alpine3.15"
     ],
     "images": [
       {
@@ -254,7 +334,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       },
@@ -264,7 +344,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       },
@@ -274,7 +354,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       },
@@ -284,7 +364,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       },
@@ -293,7 +373,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       },
@@ -302,7 +382,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       },
@@ -311,7 +391,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.4/Dockerfile"
       }
@@ -323,8 +403,8 @@
     "tags": [
       "4.3",
       "4.3.48",
-      "4.3-alpine3.14",
-      "4.3.48-alpine3.14"
+      "4.3-alpine3.15",
+      "4.3.48-alpine3.15"
     ],
     "images": [
       {
@@ -332,7 +412,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       },
@@ -342,7 +422,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       },
@@ -352,7 +432,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       },
@@ -362,7 +442,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       },
@@ -371,7 +451,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       },
@@ -380,7 +460,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       },
@@ -389,7 +469,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.3/Dockerfile"
       }
@@ -401,8 +481,8 @@
     "tags": [
       "4.2",
       "4.2.53",
-      "4.2-alpine3.14",
-      "4.2.53-alpine3.14"
+      "4.2-alpine3.15",
+      "4.2.53-alpine3.15"
     ],
     "images": [
       {
@@ -410,7 +490,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       },
@@ -420,7 +500,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       },
@@ -430,7 +510,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       },
@@ -440,7 +520,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       },
@@ -449,7 +529,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       },
@@ -458,7 +538,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       },
@@ -467,7 +547,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.2/Dockerfile"
       }
@@ -479,8 +559,8 @@
     "tags": [
       "4.1",
       "4.1.17",
-      "4.1-alpine3.14",
-      "4.1.17-alpine3.14"
+      "4.1-alpine3.15",
+      "4.1.17-alpine3.15"
     ],
     "images": [
       {
@@ -488,7 +568,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       },
@@ -498,7 +578,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       },
@@ -508,7 +588,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       },
@@ -518,7 +598,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       },
@@ -527,7 +607,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       },
@@ -536,7 +616,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       },
@@ -545,7 +625,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.1/Dockerfile"
       }
@@ -557,8 +637,8 @@
     "tags": [
       "4.0",
       "4.0.44",
-      "4.0-alpine3.14",
-      "4.0.44-alpine3.14"
+      "4.0-alpine3.15",
+      "4.0.44-alpine3.15"
     ],
     "images": [
       {
@@ -566,7 +646,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       },
@@ -576,7 +656,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       },
@@ -586,7 +666,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       },
@@ -596,7 +676,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       },
@@ -605,7 +685,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       },
@@ -614,7 +694,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       },
@@ -623,7 +703,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "4.0/Dockerfile"
       }
@@ -636,9 +716,9 @@
       "3",
       "3.2",
       "3.2.57",
-      "3-alpine3.14",
-      "3.2-alpine3.14",
-      "3.2.57-alpine3.14"
+      "3-alpine3.15",
+      "3.2-alpine3.15",
+      "3.2.57-alpine3.15"
     ],
     "images": [
       {
@@ -646,7 +726,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       },
@@ -656,7 +736,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       },
@@ -666,7 +746,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       },
@@ -676,7 +756,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       },
@@ -685,7 +765,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       },
@@ -694,7 +774,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       },
@@ -703,7 +783,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.2/Dockerfile"
       }
@@ -715,8 +795,8 @@
     "tags": [
       "3.1",
       "3.1.23",
-      "3.1-alpine3.14",
-      "3.1.23-alpine3.14"
+      "3.1-alpine3.15",
+      "3.1.23-alpine3.15"
     ],
     "images": [
       {
@@ -724,7 +804,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       },
@@ -734,7 +814,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       },
@@ -744,7 +824,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       },
@@ -754,7 +834,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       },
@@ -763,7 +843,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       },
@@ -772,7 +852,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       },
@@ -781,7 +861,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.1/Dockerfile"
       }
@@ -793,8 +873,8 @@
     "tags": [
       "3.0",
       "3.0.22",
-      "3.0-alpine3.14",
-      "3.0.22-alpine3.14"
+      "3.0-alpine3.15",
+      "3.0.22-alpine3.15"
     ],
     "images": [
       {
@@ -802,7 +882,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       },
@@ -812,7 +892,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       },
@@ -822,7 +902,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       },
@@ -832,7 +912,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       },
@@ -841,7 +921,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       },
@@ -850,7 +930,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       },
@@ -859,7 +939,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "83941cc446c3e1789afaf1c849e445ddf9687a06",
+        "sha": "70b65fa22011fa4b58c93570b2fed168b79102e4",
         "repo": "https://github.com/tianon/docker-bash.git",
         "path": "3.0/Dockerfile"
       }
