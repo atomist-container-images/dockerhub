@@ -11,7 +11,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/kernel/Dockerfile.ubuntu.ibmjava8"
       }
@@ -29,7 +29,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/kernel/Dockerfile.ubuntu.openjdk11"
       },
@@ -38,7 +38,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/kernel/Dockerfile.ubuntu.openjdk11"
       },
@@ -47,7 +47,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/kernel/Dockerfile.ubuntu.openjdk11"
       }
@@ -66,7 +66,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/full/Dockerfile.ubuntu.ibmjava8"
       }
@@ -84,7 +84,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/full/Dockerfile.ubuntu.openjdk11"
       },
@@ -93,7 +93,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/full/Dockerfile.ubuntu.openjdk11"
       },
@@ -102,9 +102,117 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/latest/full/Dockerfile.ubuntu.openjdk11"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "websphere-liberty",
+    "tags": [
+      "22.0.0.1-kernel-java8-ibmjava"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/kernel/Dockerfile.ubuntu.ibmjava8"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "websphere-liberty",
+    "tags": [
+      "22.0.0.1-kernel-java11-openj9"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/kernel/Dockerfile.ubuntu.openjdk11"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/kernel/Dockerfile.ubuntu.openjdk11"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/kernel/Dockerfile.ubuntu.openjdk11"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "websphere-liberty",
+    "tags": [
+      "22.0.0.1-full-java8-ibmjava"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/full/Dockerfile.ubuntu.ibmjava8"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "websphere-liberty",
+    "tags": [
+      "22.0.0.1-full-java11-openj9"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/full/Dockerfile.ubuntu.openjdk11"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/full/Dockerfile.ubuntu.openjdk11"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
+        "repo": "https://github.com/WASdev/ci.docker.git",
+        "path": "ga/22.0.0.1/full/Dockerfile.ubuntu.openjdk11"
       }
     ]
   },
@@ -120,7 +228,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/kernel/Dockerfile.ubuntu.ibmjava8"
       }
@@ -138,7 +246,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/kernel/Dockerfile.ubuntu.openjdk11"
       },
@@ -147,7 +255,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/kernel/Dockerfile.ubuntu.openjdk11"
       },
@@ -156,7 +264,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/kernel/Dockerfile.ubuntu.openjdk11"
       }
@@ -174,7 +282,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/full/Dockerfile.ubuntu.ibmjava8"
       }
@@ -192,7 +300,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/full/Dockerfile.ubuntu.openjdk11"
       },
@@ -201,7 +309,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/full/Dockerfile.ubuntu.openjdk11"
       },
@@ -210,7 +318,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.12/full/Dockerfile.ubuntu.openjdk11"
       }
@@ -228,7 +336,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/kernel/Dockerfile.ubuntu.ibmjava8"
       }
@@ -246,7 +354,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/kernel/Dockerfile.ubuntu.openjdk11"
       },
@@ -255,7 +363,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/kernel/Dockerfile.ubuntu.openjdk11"
       },
@@ -264,7 +372,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/kernel/Dockerfile.ubuntu.openjdk11"
       }
@@ -282,7 +390,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/full/Dockerfile.ubuntu.ibmjava8"
       }
@@ -300,7 +408,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/full/Dockerfile.ubuntu.openjdk11"
       },
@@ -309,7 +417,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/full/Dockerfile.ubuntu.openjdk11"
       },
@@ -318,7 +426,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2cac18f3d3dc4905bd408b1299ab2ee480fd5752",
+        "sha": "8d4da49ca83834add6499b53616554b222c98d8e",
         "repo": "https://github.com/WASdev/ci.docker.git",
         "path": "ga/21.0.0.9/full/Dockerfile.ubuntu.openjdk11"
       }
