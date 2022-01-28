@@ -3,117 +3,11 @@
     "version": "20",
     "name": "sonarqube",
     "tags": [
-      "lts",
-      "8-community",
-      "8.9-community",
-      "lts-community",
-      "8.9.6-community"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
-        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
-        "path": "8/community/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "sonarqube",
-    "tags": [
-      "8-developer",
-      "8.9-developer",
-      "lts-developer",
-      "8.9.6-developer"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
-        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
-        "path": "8/developer/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "sonarqube",
-    "tags": [
-      "8-enterprise",
-      "8.9-enterprise",
-      "lts-enterprise",
-      "8.9.6-enterprise"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
-        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
-        "path": "8/enterprise/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "sonarqube",
-    "tags": [
-      "8-datacenter-app",
-      "8.9-datacenter-app",
-      "lts-datacenter-app",
-      "8.9.6-datacenter-app"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
-        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
-        "path": "8/datacenter/app/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "sonarqube",
-    "tags": [
-      "8-datacenter-search",
-      "8.9-datacenter-search",
-      "lts-datacenter-search",
-      "8.9.6-datacenter-search"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
-        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
-        "path": "8/datacenter/search/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "sonarqube",
-    "tags": [
       "latest",
       "community",
       "9-community",
-      "9.2-community",
-      "9.2.4-community"
+      "9.3-community",
+      "9.3.0-community"
     ],
     "images": [
       {
@@ -121,7 +15,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
+        "sha": "4a9e01cbeeaf454233731c28585891b71baa1540",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/community/Dockerfile"
       }
@@ -133,8 +27,8 @@
     "tags": [
       "developer",
       "9-developer",
-      "9.2-developer",
-      "9.2.4-developer"
+      "9.3-developer",
+      "9.3.0-developer"
     ],
     "images": [
       {
@@ -142,7 +36,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
+        "sha": "4a9e01cbeeaf454233731c28585891b71baa1540",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/developer/Dockerfile"
       }
@@ -154,8 +48,8 @@
     "tags": [
       "enterprise",
       "9-enterprise",
-      "9.2-enterprise",
-      "9.2.4-enterprise"
+      "9.3-enterprise",
+      "9.3.0-enterprise"
     ],
     "images": [
       {
@@ -163,7 +57,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
+        "sha": "4a9e01cbeeaf454233731c28585891b71baa1540",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/enterprise/Dockerfile"
       }
@@ -175,8 +69,8 @@
     "tags": [
       "datacenter-app",
       "9-datacenter-app",
-      "9.2-datacenter-app",
-      "9.2.4-datacenter-app"
+      "9.3-datacenter-app",
+      "9.3.0-datacenter-app"
     ],
     "images": [
       {
@@ -184,7 +78,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
+        "sha": "4a9e01cbeeaf454233731c28585891b71baa1540",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/datacenter/app/Dockerfile"
       }
@@ -196,8 +90,8 @@
     "tags": [
       "datacenter-search",
       "9-datacenter-search",
-      "9.2-datacenter-search",
-      "9.2.4-datacenter-search"
+      "9.3-datacenter-search",
+      "9.3.0-datacenter-search"
     ],
     "images": [
       {
@@ -205,7 +99,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "11e88744db150517a75c176fcd80893999b62f95",
+        "sha": "4a9e01cbeeaf454233731c28585891b71baa1540",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/datacenter/search/Dockerfile"
       }
