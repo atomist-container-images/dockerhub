@@ -5,12 +5,12 @@
     "tags": [
       "5",
       "5.2",
-      "5.2.5",
+      "5.2.7",
       "latest",
-      "python39",
-      "5-python39",
-      "5.2-python39",
-      "5.2.5-python39"
+      "python38",
+      "5-python38",
+      "5.2-python38",
+      "5.2.7-python38"
     ],
     "images": [
       {
@@ -18,9 +18,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "10c996f6efa821a8dab8238b87e4ff720398353a",
+        "sha": "a93b111b144ee7db61b7567926dfa3cee51d0960",
         "repo": "https://github.com/plone/plone.docker.git",
-        "path": "5.2/5.2.5/debian/Dockerfile"
+        "path": "5.2/5.2.7/debian/Dockerfile"
       }
     ]
   },
@@ -28,9 +28,26 @@
     "version": "20",
     "name": "plone",
     "tags": [
-      "python38",
-      "5-python38",
-      "5.2-python38",
+      "5.2.6",
+      "5.2.6-python38"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a93b111b144ee7db61b7567926dfa3cee51d0960",
+        "repo": "https://github.com/plone/plone.docker.git",
+        "path": "5.2/5.2.6/debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "plone",
+    "tags": [
+      "5.2.5",
       "5.2.5-python38"
     ],
     "images": [
@@ -39,30 +56,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "10c996f6efa821a8dab8238b87e4ff720398353a",
+        "sha": "a93b111b144ee7db61b7567926dfa3cee51d0960",
         "repo": "https://github.com/plone/plone.docker.git",
-        "path": "5.2/5.2.5/python38/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "plone",
-    "tags": [
-      "python37",
-      "5-python37",
-      "5.2-python37",
-      "5.2.5-python37"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "10c996f6efa821a8dab8238b87e4ff720398353a",
-        "repo": "https://github.com/plone/plone.docker.git",
-        "path": "5.2/5.2.5/python37/Dockerfile"
+        "path": "5.2/5.2.5/debian/Dockerfile"
       }
     ]
   }
