@@ -104,5 +104,69 @@
         "branch": "refs/heads/2018.03-with-sources"
       }
     ]
+  },
+  {
+    "version": "20",
+    "name": "amazonlinux",
+    "tags": [
+      "2022",
+      "devel",
+      "2022.0.20220202.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "55c055505a7ea0a83e47e66d293ba3631329ea05",
+        "repo": "https://github.com/amazonlinux/container-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/al2022"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "39ebc491f771c17a9a9d49cb605977d351449cc7",
+        "repo": "https://github.com/amazonlinux/container-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/al2022-arm64"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "amazonlinux",
+    "tags": [
+      "2022-with-sources",
+      "devel-with-sources",
+      "2022.0.20220202.0-with-sources"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "644870f2e04d8eb9c7e4e0ca3d7e99a111c98105",
+        "repo": "https://github.com/amazonlinux/container-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/al2022-with-sources"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "372ba653bf7ddb8f33751a0e13000969a53afc70",
+        "repo": "https://github.com/amazonlinux/container-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/al2022-arm64-with-sources"
+      }
+    ]
   }
 ]
