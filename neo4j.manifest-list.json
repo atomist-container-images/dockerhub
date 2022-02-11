@@ -4,10 +4,69 @@
     "name": "neo4j",
     "tags": [
       "4.4",
-      "4.4.3",
+      "4.4.4",
       "latest",
       "community",
       "4.4-community",
+      "4.4.4-community"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0b2c95bcf4e2d9c26366890922dfd85d315cb96a",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.4/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0b2c95bcf4e2d9c26366890922dfd85d315cb96a",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.4/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "neo4j",
+    "tags": [
+      "enterprise",
+      "4.4-enterprise",
+      "4.4.4-enterprise"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0b2c95bcf4e2d9c26366890922dfd85d315cb96a",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.4/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0b2c95bcf4e2d9c26366890922dfd85d315cb96a",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.4/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "neo4j",
+    "tags": [
+      "4.4.3",
       "4.4.3-community"
     ],
     "images": [
@@ -36,8 +95,6 @@
     "version": "20",
     "name": "neo4j",
     "tags": [
-      "enterprise",
-      "4.4-enterprise",
       "4.4.3-enterprise"
     ],
     "images": [
@@ -648,8 +705,46 @@
     "name": "neo4j",
     "tags": [
       "4.2",
-      "4.2.14",
+      "4.2.15",
       "4.2-community",
+      "4.2.15-community"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0b2c95bcf4e2d9c26366890922dfd85d315cb96a",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.2.15/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "neo4j",
+    "tags": [
+      "4.2-enterprise",
+      "4.2.15-enterprise"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0b2c95bcf4e2d9c26366890922dfd85d315cb96a",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.2.15/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "neo4j",
+    "tags": [
+      "4.2.14",
       "4.2.14-community"
     ],
     "images": [
@@ -668,7 +763,6 @@
     "version": "20",
     "name": "neo4j",
     "tags": [
-      "4.2-enterprise",
       "4.2.14-enterprise"
     ],
     "images": [
