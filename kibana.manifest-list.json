@@ -3,6 +3,34 @@
     "version": "20",
     "name": "kibana",
     "tags": [
+      "8.0.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "959a48ab03ad9c040da515c9591ca2cb3b1b34fb",
+        "repo": "https://github.com/docker-library/kibana.git",
+        "path": "8/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "959a48ab03ad9c040da515c9591ca2cb3b1b34fb",
+        "repo": "https://github.com/docker-library/kibana.git",
+        "path": "8/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "kibana",
+    "tags": [
       "7.17.0"
     ],
     "images": [

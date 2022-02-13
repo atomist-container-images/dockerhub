@@ -3,6 +3,34 @@
     "version": "20",
     "name": "logstash",
     "tags": [
+      "8.0.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5d522b745c4c034cca48eb3e2f2fec54ff1cf6ba",
+        "repo": "https://github.com/docker-library/logstash.git",
+        "path": "8/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5d522b745c4c034cca48eb3e2f2fec54ff1cf6ba",
+        "repo": "https://github.com/docker-library/logstash.git",
+        "path": "8/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "logstash",
+    "tags": [
       "7.17.0"
     ],
     "images": [
