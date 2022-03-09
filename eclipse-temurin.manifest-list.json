@@ -3,6 +3,27 @@
     "version": "20",
     "name": "eclipse-temurin",
     "tags": [
+      "8-alpine",
+      "8-jdk-alpine",
+      "8u322-b06-jdk-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3cce04581c9f160bacf9052510b43ad9aeef7c8f",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/alpine/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "eclipse-temurin",
+    "tags": [
       "8-focal",
       "8-jdk-focal",
       "8u322-b06-jdk-focal"
@@ -561,6 +582,26 @@
         "sha": "130db1e5356f5a86868b70809c8311b0aad0c756",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/windows/nanoserver-1809/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-alpine",
+      "8u322-b06-jre-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3cce04581c9f160bacf9052510b43ad9aeef7c8f",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/alpine/Dockerfile.releases.full",
         "branch": "refs/heads/main"
       }
     ]
