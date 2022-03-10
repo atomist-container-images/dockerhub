@@ -6,7 +6,7 @@
       "8",
       "8.5",
       "latest",
-      "8.5-20211112"
+      "8.5-20220306"
     ],
     "images": [
       {
@@ -14,10 +14,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6e2df1f70f5c144198756f4be9a30e412e8bb065",
+        "sha": "800ecbd636ec5ebbedc99e46391dbea6e71c2646",
         "repo": "https://github.com/AlmaLinux/docker-images.git",
-        "path": "Dockerfile",
-        "branch": "refs/heads/almalinux-8-x86_64-default"
+        "path": "Dockerfile-x86_64-default",
+        "branch": "refs/heads/al-8.5.4-20220306"
       },
       {
         "platform": {
@@ -25,10 +25,20 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "445a8085003f2b1d2de35218d49bf12944497575",
+        "sha": "800ecbd636ec5ebbedc99e46391dbea6e71c2646",
         "repo": "https://github.com/AlmaLinux/docker-images.git",
-        "path": "Dockerfile",
-        "branch": "refs/heads/almalinux-8-aarch64-default"
+        "path": "Dockerfile-aarch64-default",
+        "branch": "refs/heads/al-8.5.4-20220306"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "800ecbd636ec5ebbedc99e46391dbea6e71c2646",
+        "repo": "https://github.com/AlmaLinux/docker-images.git",
+        "path": "Dockerfile-ppc64le-default",
+        "branch": "refs/heads/al-8.5.4-20220306"
       }
     ]
   },
@@ -38,7 +48,7 @@
     "tags": [
       "minimal",
       "8-minimal",
-      "8.5-minimal-20211112"
+      "8.5-minimal-20220306"
     ],
     "images": [
       {
@@ -46,10 +56,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a5eb1823772e0154c96351879864d0badaf3c918",
+        "sha": "800ecbd636ec5ebbedc99e46391dbea6e71c2646",
         "repo": "https://github.com/AlmaLinux/docker-images.git",
-        "path": "Dockerfile",
-        "branch": "refs/heads/almalinux-8-x86_64-minimal"
+        "path": "Dockerfile-x86_64-minimal",
+        "branch": "refs/heads/al-8.5.4-20220306"
       },
       {
         "platform": {
@@ -57,10 +67,20 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d75f992852621c11016c10ea7d74b6d5d552310",
+        "sha": "800ecbd636ec5ebbedc99e46391dbea6e71c2646",
         "repo": "https://github.com/AlmaLinux/docker-images.git",
-        "path": "Dockerfile",
-        "branch": "refs/heads/almalinux-8-aarch64-minimal"
+        "path": "Dockerfile-aarch64-minimal",
+        "branch": "refs/heads/al-8.5.4-20220306"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "800ecbd636ec5ebbedc99e46391dbea6e71c2646",
+        "repo": "https://github.com/AlmaLinux/docker-images.git",
+        "path": "Dockerfile-ppc64le-minimal",
+        "branch": "refs/heads/al-8.5.4-20220306"
       }
     ]
   }
