@@ -4,8 +4,38 @@
     "name": "rockylinux",
     "tags": [
       "8",
-      "8.5",
-      "latest"
+      "latest",
+      "8.5.20220308"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "82660c9c8d02077321bf6b12bd6aa512dbfce4fc",
+        "repo": "https://github.com/rocky-linux/sig-cloud-instance-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/Rocky-8.5.20220308-x86_64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a73d2de52b19977008c07227b7527c719b7db623",
+        "repo": "https://github.com/rocky-linux/sig-cloud-instance-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/Rocky-8.5.20220308-aarch64"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rockylinux",
+    "tags": [
+      "8.5"
     ],
     "images": [
       {
