@@ -3,11 +3,84 @@
     "version": "20",
     "name": "traefik",
     "tags": [
+      "2.7-windowsservercore-1809",
+      "v2.7-windowsservercore-1809",
+      "epoisses-windowsservercore-1809",
+      "2.7.0-rc1-windowsservercore-1809",
+      "v2.7.0-rc1-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "66e04d219e530aad21ce7790ea3b1e468b67bf9a",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "traefik",
+    "tags": [
+      "2.7",
+      "v2.7",
+      "epoisses",
+      "2.7.0-rc1",
+      "v2.7.0-rc1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "66e04d219e530aad21ce7790ea3b1e468b67bf9a",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "66e04d219e530aad21ce7790ea3b1e468b67bf9a",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "66e04d219e530aad21ce7790ea3b1e468b67bf9a",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "66e04d219e530aad21ce7790ea3b1e468b67bf9a",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "traefik",
+    "tags": [
       "windowsservercore-1809",
       "2.6-windowsservercore-1809",
       "v2.6-windowsservercore-1809",
-      "2.6.1-windowsservercore-1809",
-      "v2.6.1-windowsservercore-1809",
+      "2.6.2-windowsservercore-1809",
+      "v2.6.2-windowsservercore-1809",
       "rocamadour-windowsservercore-1809"
     ],
     "images": [
@@ -16,7 +89,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "19b29d4858c12d74647d59214e0a9417646343ca",
+        "sha": "13aacd8673cad57629756c238fdec92cddd42ddb",
         "repo": "https://github.com/traefik/traefik-library-image.git",
         "path": "windows/1809/Dockerfile"
       }
@@ -28,9 +101,9 @@
     "tags": [
       "2.6",
       "v2.6",
-      "2.6.1",
+      "2.6.2",
       "latest",
-      "v2.6.1",
+      "v2.6.2",
       "rocamadour"
     ],
     "images": [
@@ -39,7 +112,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "19b29d4858c12d74647d59214e0a9417646343ca",
+        "sha": "13aacd8673cad57629756c238fdec92cddd42ddb",
         "repo": "https://github.com/traefik/traefik-library-image.git",
         "path": "alpine/Dockerfile"
       },
@@ -49,7 +122,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "19b29d4858c12d74647d59214e0a9417646343ca",
+        "sha": "13aacd8673cad57629756c238fdec92cddd42ddb",
         "repo": "https://github.com/traefik/traefik-library-image.git",
         "path": "alpine/Dockerfile"
       },
@@ -59,7 +132,16 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "19b29d4858c12d74647d59214e0a9417646343ca",
+        "sha": "13aacd8673cad57629756c238fdec92cddd42ddb",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "13aacd8673cad57629756c238fdec92cddd42ddb",
         "repo": "https://github.com/traefik/traefik-library-image.git",
         "path": "alpine/Dockerfile"
       }

@@ -22,10 +22,28 @@
     "version": "20",
     "name": "sapmachine",
     "tags": [
+      "18",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e1bcdc89b0f3c2c5c7c65b40300c2f26f1010d92",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/official/18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "sapmachine",
+    "tags": [
       "17",
       "lts",
-      "17.0.2",
-      "latest"
+      "17.0.2"
     ],
     "images": [
       {
