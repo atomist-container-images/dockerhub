@@ -3,15 +3,83 @@
     "version": "20",
     "name": "flink",
     "tags": [
-      "1.14",
       "java8",
-      "1.14.4",
+      "1.15-java8",
+      "1.15.0-java8",
+      "scala_2.12-java8",
+      "1.15-scala_2.12-java8",
+      "1.15.0-scala_2.12-java8"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "61ff8a04ee483930d1da5b585c5101d7ffc500a0",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.15/scala_2.12-java8-debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "61ff8a04ee483930d1da5b585c5101d7ffc500a0",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.15/scala_2.12-java8-debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "flink",
+    "tags": [
+      "1.15",
+      "1.15.0",
+      "java11",
       "latest",
-      "1.14-java8",
       "scala_2.12",
+      "1.15-java11",
+      "1.15.0-java11",
+      "1.15-scala_2.12",
+      "1.15.0-scala_2.12",
+      "scala_2.12-java11",
+      "1.15-scala_2.12-java11",
+      "1.15.0-scala_2.12-java11"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "61ff8a04ee483930d1da5b585c5101d7ffc500a0",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.15/scala_2.12-java11-debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "61ff8a04ee483930d1da5b585c5101d7ffc500a0",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.15/scala_2.12-java11-debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "flink",
+    "tags": [
+      "1.14",
+      "1.14.4",
+      "1.14-java8",
       "1.14.4-java8",
       "1.14-scala_2.12",
-      "scala_2.12-java8",
       "1.14.4-scala_2.12",
       "1.14-scala_2.12-java8",
       "1.14.4-scala_2.12-java8"
@@ -42,10 +110,8 @@
     "version": "20",
     "name": "flink",
     "tags": [
-      "java11",
       "1.14-java11",
       "1.14.4-java11",
-      "scala_2.12-java11",
       "1.14-scala_2.12-java11",
       "1.14.4-scala_2.12-java11"
     ],
@@ -75,9 +141,7 @@
     "version": "20",
     "name": "flink",
     "tags": [
-      "scala_2.11",
       "1.14-scala_2.11",
-      "scala_2.11-java8",
       "1.14.4-scala_2.11",
       "1.14-scala_2.11-java8",
       "1.14.4-scala_2.11-java8"
@@ -108,7 +172,6 @@
     "version": "20",
     "name": "flink",
     "tags": [
-      "scala_2.11-java11",
       "1.14-scala_2.11-java11",
       "1.14.4-scala_2.11-java11"
     ],
