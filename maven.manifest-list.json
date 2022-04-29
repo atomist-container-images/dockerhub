@@ -183,74 +183,6 @@
     "version": "20",
     "name": "maven",
     "tags": [
-      "3",
-      "3.8",
-      "3.8.5",
-      "latest",
-      "openjdk",
-      "3-openjdk",
-      "3.8-openjdk",
-      "3-openjdk-17",
-      "3.8.5-openjdk",
-      "3.8-openjdk-17",
-      "3.8.5-openjdk-17"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-17/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-17/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "maven",
-    "tags": [
-      "3-openjdk-17-slim",
-      "3.8-openjdk-17-slim",
-      "3.8.5-openjdk-17-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-17-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-17-slim/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "maven",
-    "tags": [
       "3-openjdk-18",
       "3.8-openjdk-18",
       "3.8.5-openjdk-18"
@@ -527,6 +459,10 @@
     "version": "20",
     "name": "maven",
     "tags": [
+      "3",
+      "3.8",
+      "3.8.5",
+      "latest",
       "eclipse-temurin",
       "3-eclipse-temurin",
       "3.8-eclipse-temurin",
@@ -667,7 +603,6 @@
     "version": "20",
     "name": "maven",
     "tags": [
-      "eclipse-temurin-18-alpine",
       "3-eclipse-temurin-18-alpine",
       "3.8-eclipse-temurin-18-alpine",
       "3.8.5-eclipse-temurin-18-alpine"
@@ -737,6 +672,26 @@
     "version": "20",
     "name": "maven",
     "tags": [
+      "3-eclipse-temurin-8-alpine",
+      "3.8-eclipse-temurin-8-alpine",
+      "3.8.5-eclipse-temurin-8-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3439db2aeb3eb45d1480ba619538aa3f6bb3f0f2",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-8-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "maven",
+    "tags": [
       "ibmjava",
       "3-ibmjava",
       "3-ibmjava-8",
@@ -788,11 +743,8 @@
     "version": "20",
     "name": "maven",
     "tags": [
-      "ibmjava-alpine",
       "3-ibmjava-8-alpine",
-      "3.8-ibmjava-alpine",
       "3.8-ibmjava-8-alpine",
-      "3.8.5-ibmjava-alpine",
       "3.8.5-ibmjava-8-alpine"
     ],
     "images": [
