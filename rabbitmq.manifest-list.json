@@ -3,293 +3,9 @@
     "version": "20",
     "name": "rabbitmq",
     "tags": [
-      "3.10-rc",
-      "3.10.0-rc.6"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "rabbitmq",
-    "tags": [
-      "3.10-rc-management",
-      "3.10.0-rc.6-management"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/ubuntu/management/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "rabbitmq",
-    "tags": [
-      "3.10-rc-alpine",
-      "3.10.0-rc.6-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "1e71ba8632dd3fbad8ea94d25ca45b8f8e3bf871",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "rabbitmq",
-    "tags": [
-      "3.10-rc-management-alpine",
-      "3.10.0-rc.6-management-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "b00aa90cc6b16b7e67e18f336d5fd9ef2bde5165",
-        "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.10-rc/alpine/management/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "rabbitmq",
-    "tags": [
       "3",
-      "3.9",
-      "3.9.16",
+      "3.10",
+      "3.10.0",
       "latest"
     ],
     "images": [
@@ -298,9 +14,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.9/ubuntu/Dockerfile"
+        "path": "3.10/ubuntu/Dockerfile"
       },
       {
         "platform": {
@@ -308,9 +24,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.9/ubuntu/Dockerfile"
+        "path": "3.10/ubuntu/Dockerfile"
       },
       {
         "platform": {
@@ -318,36 +34,36 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.9/ubuntu/Dockerfile"
+        "path": "3.10/ubuntu/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.9/ubuntu/Dockerfile"
+        "path": "3.10/ubuntu/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.9/ubuntu/Dockerfile"
+        "path": "3.10/ubuntu/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
-        "path": "3.9/ubuntu/Dockerfile"
+        "path": "3.10/ubuntu/Dockerfile"
       }
     ]
   },
@@ -357,6 +73,294 @@
     "tags": [
       "management",
       "3-management",
+      "3.10-management",
+      "3.10.0-management"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/ubuntu/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/ubuntu/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/ubuntu/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/ubuntu/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/ubuntu/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/ubuntu/management/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rabbitmq",
+    "tags": [
+      "alpine",
+      "3-alpine",
+      "3.10-alpine",
+      "3.10.0-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "89b0f2b279f66b8bd8352ad0f1046d70dd44451f",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rabbitmq",
+    "tags": [
+      "management-alpine",
+      "3-management-alpine",
+      "3.10-management-alpine",
+      "3.10.0-management-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6e226fe8e99702c8726d5e7d5c5864e69548048d",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.10/alpine/management/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rabbitmq",
+    "tags": [
+      "3.9",
+      "3.9.16"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.9/ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.9/ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.9/ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.9/ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.9/ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
+        "repo": "https://github.com/docker-library/rabbitmq.git",
+        "path": "3.9/ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rabbitmq",
+    "tags": [
       "3.9-management",
       "3.9.16-management"
     ],
@@ -423,8 +427,6 @@
     "version": "20",
     "name": "rabbitmq",
     "tags": [
-      "alpine",
-      "3-alpine",
       "3.9-alpine",
       "3.9.16-alpine"
     ],
@@ -434,7 +436,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       },
@@ -444,7 +446,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       },
@@ -454,7 +456,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       },
@@ -464,7 +466,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       },
@@ -473,7 +475,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       },
@@ -482,7 +484,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       },
@@ -491,7 +493,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6c36dd3afdc25212f4b3a6aa27b5337ea05a2db3",
+        "sha": "7cefe056b5fc2e0cbeb5fac1cd02a75aacefaaf8",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.9/alpine/Dockerfile"
       }
@@ -501,8 +503,6 @@
     "version": "20",
     "name": "rabbitmq",
     "tags": [
-      "management-alpine",
-      "3-management-alpine",
       "3.9-management-alpine",
       "3.9.16-management-alpine"
     ],
@@ -588,7 +588,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/ubuntu/Dockerfile"
       },
@@ -598,7 +598,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/ubuntu/Dockerfile"
       },
@@ -608,7 +608,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/ubuntu/Dockerfile"
       },
@@ -617,7 +617,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/ubuntu/Dockerfile"
       },
@@ -626,7 +626,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/ubuntu/Dockerfile"
       },
@@ -635,7 +635,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/ubuntu/Dockerfile"
       }
@@ -720,7 +720,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       },
@@ -730,7 +730,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       },
@@ -740,7 +740,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       },
@@ -750,7 +750,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       },
@@ -759,7 +759,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       },
@@ -768,7 +768,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       },
@@ -777,7 +777,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "92a2a8b9aae8cb0f7d723d3a6858707e66983289",
+        "sha": "254f0cb93fd7e0c7f7a149a87ba76b11d9b4852f",
         "repo": "https://github.com/docker-library/rabbitmq.git",
         "path": "3.8/alpine/Dockerfile"
       }
