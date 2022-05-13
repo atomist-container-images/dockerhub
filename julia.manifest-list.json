@@ -3,6 +3,7 @@
     "version": "20",
     "name": "julia",
     "tags": [
+      "rc-bullseye",
       "1.8-rc-bullseye",
       "1.8.0-beta3-bullseye"
     ],
@@ -151,6 +152,62 @@
     "version": "20",
     "name": "julia",
     "tags": [
+      "rc"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "julia",
+    "tags": [
+      "rc-buster",
       "1.8-rc-buster",
       "1.8.0-beta3-buster"
     ],
@@ -189,7 +246,9 @@
     "version": "20",
     "name": "julia",
     "tags": [
+      "rc-alpine",
       "1.8-rc-alpine",
+      "rc-alpine3.15",
       "1.8-rc-alpine3.15",
       "1.8.0-beta3-alpine",
       "1.8.0-beta3-alpine3.15"
@@ -210,6 +269,7 @@
     "version": "20",
     "name": "julia",
     "tags": [
+      "rc-alpine3.14",
       "1.8-rc-alpine3.14",
       "1.8.0-beta3-alpine3.14"
     ],
@@ -229,6 +289,7 @@
     "version": "20",
     "name": "julia",
     "tags": [
+      "rc-windowsservercore-ltsc2022",
       "1.8-rc-windowsservercore-ltsc2022",
       "1.8.0-beta3-windowsservercore-ltsc2022"
     ],
@@ -302,6 +363,34 @@
     "version": "20",
     "name": "julia",
     "tags": [
+      "rc-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "24d0e1b138a375b4abd30385bda48d89a4d1432d",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.8-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "julia",
+    "tags": [
+      "rc-windowsservercore-1809",
       "1.8-rc-windowsservercore-1809",
       "1.8.0-beta3-windowsservercore-1809"
     ],
