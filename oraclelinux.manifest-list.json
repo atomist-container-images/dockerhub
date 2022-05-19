@@ -4,7 +4,7 @@
     "name": "oraclelinux",
     "tags": [
       "8",
-      "8.5"
+      "8.6"
     ],
     "images": [
       {
@@ -24,6 +24,36 @@
           "variant": "v8"
         },
         "sha": "2b89de16f2d760fb883964fcec81b1281ae8e6c5",
+        "repo": "https://github.com/oracle/container-images.git",
+        "path": "8/Dockerfile",
+        "branch": "refs/heads/dist-arm64v8"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "oraclelinux",
+    "tags": [
+      "8.5"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b2631b4c3944ae70c9463ae62aaa75a1a4877a16",
+        "repo": "https://github.com/oracle/container-images.git",
+        "path": "8/Dockerfile",
+        "branch": "refs/heads/dist-amd64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ae688d9eef59795cd485bd9d9f43ce9015c3c461",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
