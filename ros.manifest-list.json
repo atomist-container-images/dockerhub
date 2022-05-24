@@ -459,7 +459,6 @@
     "name": "ros",
     "tags": [
       "foxy",
-      "latest",
       "foxy-ros-base",
       "foxy-ros-base-focal"
     ],
@@ -599,6 +598,66 @@
         "sha": "8c7ec280db9c754aa163e84bf70f4cbb902e69fb",
         "repo": "https://github.com/osrf/docker_images.git",
         "path": "ros/galactic/ubuntu/focal/ros1-bridge/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "ros",
+    "tags": [
+      "humble-ros-core",
+      "humble-ros-core-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "20e3ba685bb353a3c00be9ba01c1b7a6823c9472",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/humble/ubuntu/jammy/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "20e3ba685bb353a3c00be9ba01c1b7a6823c9472",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/humble/ubuntu/jammy/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "ros",
+    "tags": [
+      "humble",
+      "latest",
+      "humble-ros-base",
+      "humble-ros-base-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "20e3ba685bb353a3c00be9ba01c1b7a6823c9472",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/humble/ubuntu/jammy/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "20e3ba685bb353a3c00be9ba01c1b7a6823c9472",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/humble/ubuntu/jammy/ros-base/Dockerfile"
       }
     ]
   },
