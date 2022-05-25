@@ -631,10 +631,88 @@
     "tags": [
       "alpine",
       "1-alpine",
-      "alpine3.15",
+      "alpine3.16",
       "1.18-alpine",
-      "1-alpine3.15",
+      "1-alpine3.16",
       "1.18.2-alpine",
+      "1.18-alpine3.16",
+      "1.18.2-alpine3.16"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.18/alpine3.16/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "golang",
+    "tags": [
+      "alpine3.15",
+      "1-alpine3.15",
       "1.18-alpine3.15",
       "1.18.2-alpine3.15"
     ],
@@ -704,84 +782,6 @@
         "sha": "136318870f2f0837098f0ff9d230336546721750",
         "repo": "https://github.com/docker-library/golang.git",
         "path": "1.18/alpine3.15/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "golang",
-    "tags": [
-      "alpine3.14",
-      "1-alpine3.14",
-      "1.18-alpine3.14",
-      "1.18.2-alpine3.14"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.18/alpine3.14/Dockerfile"
       }
     ]
   },
@@ -1509,6 +1509,82 @@
     "tags": [
       "1.17-alpine",
       "1.17.10-alpine",
+      "1.17-alpine3.16",
+      "1.17.10-alpine3.16"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "87e41ab4f1a624599406daa0191a62f09e6ccd0a",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.17/alpine3.16/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "golang",
+    "tags": [
       "1.17-alpine3.15",
       "1.17.10-alpine3.15"
     ],
@@ -1578,82 +1654,6 @@
         "sha": "136318870f2f0837098f0ff9d230336546721750",
         "repo": "https://github.com/docker-library/golang.git",
         "path": "1.17/alpine3.15/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "golang",
-    "tags": [
-      "1.17-alpine3.14",
-      "1.17.10-alpine3.14"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "136318870f2f0837098f0ff9d230336546721750",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.17/alpine3.14/Dockerfile"
       }
     ]
   },
