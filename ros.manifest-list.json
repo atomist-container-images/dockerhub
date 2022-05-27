@@ -665,6 +665,35 @@
     "version": "20",
     "name": "ros",
     "tags": [
+      "humble-perception",
+      "humble-perception-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/humble/ubuntu/jammy/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/humble/ubuntu/jammy/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "ros",
+    "tags": [
       "rolling-ros-core",
       "rolling-ros-core-jammy"
     ],
@@ -674,7 +703,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "86029c8abad4b4e52d95a33af079bdb874fa0b0c",
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
         "repo": "https://github.com/osrf/docker_images.git",
         "path": "ros/rolling/ubuntu/jammy/ros-core/Dockerfile"
       },
@@ -684,7 +713,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "86029c8abad4b4e52d95a33af079bdb874fa0b0c",
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
         "repo": "https://github.com/osrf/docker_images.git",
         "path": "ros/rolling/ubuntu/jammy/ros-core/Dockerfile"
       }
@@ -704,7 +733,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "86029c8abad4b4e52d95a33af079bdb874fa0b0c",
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
         "repo": "https://github.com/osrf/docker_images.git",
         "path": "ros/rolling/ubuntu/jammy/ros-base/Dockerfile"
       },
@@ -714,9 +743,38 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "86029c8abad4b4e52d95a33af079bdb874fa0b0c",
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
         "repo": "https://github.com/osrf/docker_images.git",
         "path": "ros/rolling/ubuntu/jammy/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "ros",
+    "tags": [
+      "rolling-perception",
+      "rolling-perception-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/rolling/ubuntu/jammy/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/rolling/ubuntu/jammy/perception/Dockerfile"
       }
     ]
   }

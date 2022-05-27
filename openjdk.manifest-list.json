@@ -491,14 +491,37 @@
     "tags": [
       "19-alpine",
       "19-ea-alpine",
-      "19-alpine3.15",
+      "19-alpine3.16",
       "19-jdk-alpine",
       "19-ea-5-alpine",
-      "19-ea-alpine3.15",
+      "19-ea-alpine3.16",
       "19-ea-jdk-alpine",
+      "19-jdk-alpine3.16",
+      "19-ea-5-alpine3.16",
+      "19-ea-5-jdk-alpine",
+      "19-ea-jdk-alpine3.16",
+      "19-ea-5-jdk-alpine3.16"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04d037e69a6071859c763903b20b1b39e95b4cad",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "19/jdk/alpine3.16/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "openjdk",
+    "tags": [
+      "19-alpine3.15",
+      "19-ea-alpine3.15",
       "19-jdk-alpine3.15",
       "19-ea-5-alpine3.15",
-      "19-ea-5-jdk-alpine",
       "19-ea-jdk-alpine3.15",
       "19-ea-5-jdk-alpine3.15"
     ],
@@ -511,29 +534,6 @@
         "sha": "c6190d5cbbefd5233c190561fda803f742ae8241",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "19/jdk/alpine3.15/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "openjdk",
-    "tags": [
-      "19-alpine3.14",
-      "19-ea-alpine3.14",
-      "19-jdk-alpine3.14",
-      "19-ea-5-alpine3.14",
-      "19-ea-jdk-alpine3.14",
-      "19-ea-5-jdk-alpine3.14"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "c6190d5cbbefd5233c190561fda803f742ae8241",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "19/jdk/alpine3.14/Dockerfile"
       }
     ]
   },
