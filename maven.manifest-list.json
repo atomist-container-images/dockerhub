@@ -381,9 +381,9 @@
     "version": "20",
     "name": "maven",
     "tags": [
-      "3-eclipse-temurin-16",
-      "3.8-eclipse-temurin-16",
-      "3.8.5-eclipse-temurin-16"
+      "3-eclipse-temurin-11-focal",
+      "3.8-eclipse-temurin-11-focal",
+      "3.8.5-eclipse-temurin-11-focal"
     ],
     "images": [
       {
@@ -391,9 +391,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-16/Dockerfile"
+        "path": "eclipse-temurin-11-focal/Dockerfile"
       },
       {
         "platform": {
@@ -401,9 +401,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-16/Dockerfile"
+        "path": "eclipse-temurin-11-focal/Dockerfile"
       },
       {
         "platform": {
@@ -411,47 +411,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-16/Dockerfile"
+        "path": "eclipse-temurin-11-focal/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-16/Dockerfile"
+        "path": "eclipse-temurin-11-focal/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-16/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "maven",
-    "tags": [
-      "3-eclipse-temurin-16-alpine",
-      "3.8-eclipse-temurin-16-alpine",
-      "3.8.5-eclipse-temurin-16-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-16-alpine/Dockerfile"
+        "path": "eclipse-temurin-11-focal/Dockerfile"
       }
     ]
   },
@@ -538,6 +518,64 @@
         "sha": "925e49a1d0986070208e3c06a11c41f8f2cada82",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "maven",
+    "tags": [
+      "3-eclipse-temurin-17-focal",
+      "3.8-eclipse-temurin-17-focal",
+      "3.8.5-eclipse-temurin-17-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-focal/Dockerfile"
       }
     ]
   },
@@ -685,6 +723,55 @@
         "sha": "3439db2aeb3eb45d1480ba619538aa3f6bb3f0f2",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "maven",
+    "tags": [
+      "3-eclipse-temurin-8-focal",
+      "3.8-eclipse-temurin-8-focal",
+      "3.8.5-eclipse-temurin-8-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-8-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-8-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-8-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "bb633d689109eec148e76ea886690c050842908f",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-8-focal/Dockerfile"
       }
     ]
   },
