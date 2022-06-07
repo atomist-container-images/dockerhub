@@ -170,6 +170,65 @@
     "version": "20",
     "name": "gradle",
     "tags": [
+      "jdk11-focal",
+      "7-jdk11-focal",
+      "7.4-jdk11-focal",
+      "7.4.2-jdk11-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c250821d163836c1abfe6c31f59c466cf76d2f69",
+        "repo": "https://github.com/keeganwitt/docker-gradle.git",
+        "path": "jdk11-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c250821d163836c1abfe6c31f59c466cf76d2f69",
+        "repo": "https://github.com/keeganwitt/docker-gradle.git",
+        "path": "jdk11-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c250821d163836c1abfe6c31f59c466cf76d2f69",
+        "repo": "https://github.com/keeganwitt/docker-gradle.git",
+        "path": "jdk11-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c250821d163836c1abfe6c31f59c466cf76d2f69",
+        "repo": "https://github.com/keeganwitt/docker-gradle.git",
+        "path": "jdk11-focal/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c250821d163836c1abfe6c31f59c466cf76d2f69",
+        "repo": "https://github.com/keeganwitt/docker-gradle.git",
+        "path": "jdk11-focal/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "gradle",
+    "tags": [
       "jdk11-alpine",
       "7-jdk11-alpine",
       "7.4-jdk11-alpine",
@@ -522,7 +581,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8/Dockerfile",
         "branch": "refs/heads/6"
@@ -533,7 +592,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8/Dockerfile",
         "branch": "refs/heads/6"
@@ -544,7 +603,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8/Dockerfile",
         "branch": "refs/heads/6"
@@ -554,7 +613,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8/Dockerfile",
         "branch": "refs/heads/6"
@@ -575,7 +634,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -586,7 +645,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -597,7 +656,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -607,7 +666,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk8-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -631,7 +690,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/6"
@@ -642,7 +701,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/6"
@@ -653,7 +712,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/6"
@@ -663,7 +722,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/6"
@@ -673,7 +732,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/6"
@@ -694,7 +753,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -705,7 +764,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -716,7 +775,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -726,7 +785,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -736,7 +795,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -757,7 +816,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk11-alpine/Dockerfile",
         "branch": "refs/heads/6"
@@ -793,7 +852,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/6"
@@ -804,7 +863,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/6"
@@ -815,7 +874,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/6"
@@ -825,7 +884,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/6"
@@ -835,7 +894,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/6"
@@ -862,7 +921,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -873,7 +932,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -884,7 +943,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -894,7 +953,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -904,7 +963,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17-focal/Dockerfile",
         "branch": "refs/heads/6"
@@ -931,7 +990,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "41ba6e026e80f20f515c41fe925a38912e0e6fcf",
+        "sha": "61f288b37cad7c239861c2183bbd8c16301467a8",
         "repo": "https://github.com/keeganwitt/docker-gradle.git",
         "path": "jdk17-alpine/Dockerfile",
         "branch": "refs/heads/6"
