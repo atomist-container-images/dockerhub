@@ -858,96 +858,6 @@
     "version": "20",
     "name": "node",
     "tags": [
-      "16-stretch",
-      "lts-stretch",
-      "16.15-stretch",
-      "16.15.1-stretch",
-      "gallium-stretch"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "194a775693fd40598a1bafd4858e063c24efeb42",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "16/stretch/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "194a775693fd40598a1bafd4858e063c24efeb42",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "16/stretch/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "194a775693fd40598a1bafd4858e063c24efeb42",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "16/stretch/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "node",
-    "tags": [
-      "16-stretch-slim",
-      "lts-stretch-slim",
-      "16.15-stretch-slim",
-      "16.15.1-stretch-slim",
-      "gallium-stretch-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "194a775693fd40598a1bafd4858e063c24efeb42",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "16/stretch-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "194a775693fd40598a1bafd4858e063c24efeb42",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "16/stretch-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "194a775693fd40598a1bafd4858e063c24efeb42",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "16/stretch-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "node",
-    "tags": [
       "14-alpine3.15",
       "14.19-alpine3.15",
       "14.19.3-alpine3.15",
@@ -1230,6 +1140,10 @@
     "version": "20",
     "name": "node",
     "tags": [
+      "14",
+      "14.19",
+      "14.19.3",
+      "fermium",
       "14-buster",
       "14.19-buster",
       "14.19.3-buster",
@@ -1294,6 +1208,10 @@
     "version": "20",
     "name": "node",
     "tags": [
+      "14-slim",
+      "14.19-slim",
+      "14.19.3-slim",
+      "fermium-slim",
       "14-buster-slim",
       "14.19-buster-slim",
       "14.19.3-buster-slim",
@@ -1350,102 +1268,6 @@
         "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
         "repo": "https://github.com/nodejs/docker-node.git",
         "path": "14/buster-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "node",
-    "tags": [
-      "14",
-      "14.19",
-      "14.19.3",
-      "fermium",
-      "14-stretch",
-      "14.19-stretch",
-      "14.19.3-stretch",
-      "fermium-stretch"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "14/stretch/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "14/stretch/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "14/stretch/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "node",
-    "tags": [
-      "14-slim",
-      "14.19-slim",
-      "14.19.3-slim",
-      "fermium-slim",
-      "14-stretch-slim",
-      "14.19-stretch-slim",
-      "14.19.3-stretch-slim",
-      "fermium-stretch-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "14/stretch-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "14/stretch-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4e8fe34165d79044d7ea909021ccc0de3e3b4c6d",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "14/stretch-slim/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]

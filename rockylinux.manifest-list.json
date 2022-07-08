@@ -4,7 +4,70 @@
     "name": "rockylinux",
     "tags": [
       "8",
+      "8.6",
       "latest",
+      "8.6.20227707"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "09dbe262451ff0e93fe50df95f6811b234d3d509",
+        "repo": "https://github.com/rocky-linux/sig-cloud-instance-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/Rocky-8.6.20220707-Base-x86_64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "411d541689cc277f778ce5a0aa260d5a82dd83f3",
+        "repo": "https://github.com/rocky-linux/sig-cloud-instance-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/Rocky-8.6.20220707-Base-aarch64"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rockylinux",
+    "tags": [
+      "8-minimal",
+      "8.6-minimal",
+      "8.6.20220707-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ef6b5ec9cbad530e1ba673e44dcef9d4c5d5df6a",
+        "repo": "https://github.com/rocky-linux/sig-cloud-instance-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/Rocky-8.6.20220707-Minimal-x86_64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5ba5163c86e3a4ef12601ab1ed7ad7580f9c302b",
+        "repo": "https://github.com/rocky-linux/sig-cloud-instance-images.git",
+        "path": "Dockerfile",
+        "branch": "refs/heads/Rocky-8.6.20220707-Minimal-aarch64"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "rockylinux",
+    "tags": [
       "8.5.20220308"
     ],
     "images": [
