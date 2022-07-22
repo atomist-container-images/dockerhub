@@ -990,6 +990,36 @@
     "version": "20",
     "name": "maven",
     "tags": [
+      "3-amazoncorretto-18",
+      "3.8-amazoncorretto-18",
+      "3.8.6-amazoncorretto-18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0545d94d9c644277672d1675a7116f34ef61a69b",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0545d94d9c644277672d1675a7116f34ef61a69b",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "maven",
+    "tags": [
       "3-amazoncorretto-8",
       "3.8-amazoncorretto-8",
       "3.8.6-amazoncorretto-8"
