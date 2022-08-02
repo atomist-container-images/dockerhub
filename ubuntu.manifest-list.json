@@ -5,7 +5,7 @@
     "tags": [
       "18.04",
       "bionic",
-      "bionic-20220531"
+      "bionic-20220801"
     ],
     "images": [
       {
@@ -13,7 +13,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
+        "sha": "570d5970a8b18bc772ad2c3eb1ce8fd0887d991a",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "bionic/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -24,7 +24,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
+        "sha": "ac66de83cc2f2312bc73edc549ea472542904126",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "bionic/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -35,7 +35,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
+        "sha": "ccdcd5d4a1f938cda92e7cb3999fca58188c333f",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "bionic/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -45,7 +45,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "a07f735b1c72a818c611c251cde86c718ca67869",
+        "sha": "f5d9eb38715af54eb96bc68f0b3a240d676400f9",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "bionic/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -55,7 +55,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
+        "sha": "06e3fd240a6c2783695356ba4773f1688143c600",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "bionic/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -65,7 +65,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f473db4f40c06c30ef120c7d63424b7367f68353",
+        "sha": "ff6467ff309d1e8c1834f45dc088ab9bf71d019b",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "bionic/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -78,7 +78,7 @@
     "tags": [
       "20.04",
       "focal",
-      "focal-20220531"
+      "focal-20220801"
     ],
     "images": [
       {
@@ -86,7 +86,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
+        "sha": "570d5970a8b18bc772ad2c3eb1ce8fd0887d991a",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "focal/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -97,7 +97,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
+        "sha": "ac66de83cc2f2312bc73edc549ea472542904126",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "focal/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -108,7 +108,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
+        "sha": "ccdcd5d4a1f938cda92e7cb3999fca58188c333f",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "focal/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -118,7 +118,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
+        "sha": "06e3fd240a6c2783695356ba4773f1688143c600",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "focal/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -128,7 +128,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1059c5a8ca115a69cd6922322b8e613395557256",
+        "sha": "a7dffe6da7341dbc01c1c373b99493aa2f4f3fb5",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "focal/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -138,82 +138,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f473db4f40c06c30ef120c7d63424b7367f68353",
+        "sha": "ff6467ff309d1e8c1834f45dc088ab9bf71d019b",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "focal/Dockerfile",
-        "branch": "refs/heads/dist-s390x"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "ubuntu",
-    "tags": [
-      "21.10",
-      "impish",
-      "impish-20220531"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
-        "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
-        "path": "impish/Dockerfile",
-        "branch": "refs/heads/dist-amd64"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
-        "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
-        "path": "impish/Dockerfile",
-        "branch": "refs/heads/dist-arm32v7"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
-        "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
-        "path": "impish/Dockerfile",
-        "branch": "refs/heads/dist-arm64v8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
-        "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
-        "path": "impish/Dockerfile",
-        "branch": "refs/heads/dist-ppc64le"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "1059c5a8ca115a69cd6922322b8e613395557256",
-        "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
-        "path": "impish/Dockerfile",
-        "branch": "refs/heads/dist-riscv64"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f473db4f40c06c30ef120c7d63424b7367f68353",
-        "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
-        "path": "impish/Dockerfile",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -226,7 +153,7 @@
       "jammy",
       "latest",
       "rolling",
-      "jammy-20220531"
+      "jammy-20220801"
     ],
     "images": [
       {
@@ -234,7 +161,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
+        "sha": "570d5970a8b18bc772ad2c3eb1ce8fd0887d991a",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "jammy/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -245,7 +172,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
+        "sha": "ac66de83cc2f2312bc73edc549ea472542904126",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "jammy/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -256,7 +183,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
+        "sha": "ccdcd5d4a1f938cda92e7cb3999fca58188c333f",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "jammy/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -266,7 +193,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
+        "sha": "06e3fd240a6c2783695356ba4773f1688143c600",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "jammy/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -276,7 +203,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1059c5a8ca115a69cd6922322b8e613395557256",
+        "sha": "a7dffe6da7341dbc01c1c373b99493aa2f4f3fb5",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "jammy/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -286,7 +213,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f473db4f40c06c30ef120c7d63424b7367f68353",
+        "sha": "ff6467ff309d1e8c1834f45dc088ab9bf71d019b",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "jammy/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -300,7 +227,7 @@
       "22.10",
       "devel",
       "kinetic",
-      "kinetic-20220602"
+      "kinetic-20220801"
     ],
     "images": [
       {
@@ -308,7 +235,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
+        "sha": "570d5970a8b18bc772ad2c3eb1ce8fd0887d991a",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "kinetic/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -319,7 +246,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
+        "sha": "ac66de83cc2f2312bc73edc549ea472542904126",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "kinetic/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -330,7 +257,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
+        "sha": "ccdcd5d4a1f938cda92e7cb3999fca58188c333f",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "kinetic/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -340,7 +267,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
+        "sha": "06e3fd240a6c2783695356ba4773f1688143c600",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "kinetic/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -350,7 +277,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1059c5a8ca115a69cd6922322b8e613395557256",
+        "sha": "a7dffe6da7341dbc01c1c373b99493aa2f4f3fb5",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "kinetic/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -360,7 +287,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f473db4f40c06c30ef120c7d63424b7367f68353",
+        "sha": "ff6467ff309d1e8c1834f45dc088ab9bf71d019b",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "kinetic/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -381,7 +308,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
+        "sha": "570d5970a8b18bc772ad2c3eb1ce8fd0887d991a",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "trusty/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -392,7 +319,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
+        "sha": "ac66de83cc2f2312bc73edc549ea472542904126",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "trusty/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -403,7 +330,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
+        "sha": "ccdcd5d4a1f938cda92e7cb3999fca58188c333f",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "trusty/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -413,7 +340,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "a07f735b1c72a818c611c251cde86c718ca67869",
+        "sha": "f5d9eb38715af54eb96bc68f0b3a240d676400f9",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "trusty/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -423,7 +350,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
+        "sha": "06e3fd240a6c2783695356ba4773f1688143c600",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "trusty/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -444,7 +371,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fbca80af7960ffcca085d509c20f53ced1697ade",
+        "sha": "570d5970a8b18bc772ad2c3eb1ce8fd0887d991a",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "xenial/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -455,7 +382,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41e09223e8fb503726dd236adc31b805c319c599",
+        "sha": "ac66de83cc2f2312bc73edc549ea472542904126",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "xenial/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -466,7 +393,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a9089fd4471ed7b1ee2f897d6bc7f7432ee2610",
+        "sha": "ccdcd5d4a1f938cda92e7cb3999fca58188c333f",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "xenial/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -476,7 +403,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "a07f735b1c72a818c611c251cde86c718ca67869",
+        "sha": "f5d9eb38715af54eb96bc68f0b3a240d676400f9",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "xenial/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -486,7 +413,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5565bdd7bc6cfa11be5d61699d6fb6793c9a9db6",
+        "sha": "06e3fd240a6c2783695356ba4773f1688143c600",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "xenial/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -496,7 +423,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f473db4f40c06c30ef120c7d63424b7367f68353",
+        "sha": "ff6467ff309d1e8c1834f45dc088ab9bf71d019b",
         "repo": "https://github.com/tianon/docker-brew-ubuntu-core.git",
         "path": "xenial/Dockerfile",
         "branch": "refs/heads/dist-s390x"
