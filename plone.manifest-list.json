@@ -5,12 +5,12 @@
     "tags": [
       "5",
       "5.2",
-      "5.2.7",
+      "5.2.9",
       "latest",
       "python38",
       "5-python38",
       "5.2-python38",
-      "5.2.7-python38"
+      "5.2.9-python38"
     ],
     "images": [
       {
@@ -18,9 +18,48 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d17783d696042a3e9c2214c289306493e75f5ddc",
+        "sha": "dfb126db2d9c956d84ff381e7b1ee9f642edf716",
         "repo": "https://github.com/plone/plone.docker.git",
-        "path": "5.2/5.2.7/debian/Dockerfile"
+        "path": "5.2/5.2.9/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "dfb126db2d9c956d84ff381e7b1ee9f642edf716",
+        "repo": "https://github.com/plone/plone.docker.git",
+        "path": "5.2/5.2.9/debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "plone",
+    "tags": [
+      "5.2.8",
+      "5.2.8-python38"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dfb126db2d9c956d84ff381e7b1ee9f642edf716",
+        "repo": "https://github.com/plone/plone.docker.git",
+        "path": "5.2/5.2.8/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "dfb126db2d9c956d84ff381e7b1ee9f642edf716",
+        "repo": "https://github.com/plone/plone.docker.git",
+        "path": "5.2/5.2.8/debian/Dockerfile"
       }
     ]
   }
