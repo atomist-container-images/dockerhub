@@ -4,13 +4,13 @@
     "name": "haskell",
     "tags": [
       "9",
-      "9.2",
-      "9.2.4",
+      "9.4",
+      "9.4.1",
       "buster",
       "latest",
       "9-buster",
-      "9.2-buster",
-      "9.2.4-buster"
+      "9.4-buster",
+      "9.4.1-buster"
     ],
     "images": [
       {
@@ -18,9 +18,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "90dbf04d35f52704c46f3ebc08e8eeef6e9b026b",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
-        "path": "9.2/buster/Dockerfile"
+        "path": "9.4/buster/Dockerfile"
       },
       {
         "platform": {
@@ -28,9 +28,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "90dbf04d35f52704c46f3ebc08e8eeef6e9b026b",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
-        "path": "9.2/buster/Dockerfile"
+        "path": "9.4/buster/Dockerfile"
       }
     ]
   },
@@ -40,10 +40,72 @@
     "tags": [
       "slim",
       "9-slim",
-      "9.2-slim",
-      "9.2.4-slim",
+      "9.4-slim",
+      "9.4.1-slim",
       "slim-buster",
       "9-slim-buster",
+      "9.4-slim-buster",
+      "9.4.1-slim-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.4/slim-buster/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.4/slim-buster/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "haskell",
+    "tags": [
+      "9.2",
+      "9.2.4",
+      "9.2-buster",
+      "9.2.4-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.2/buster/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.2/buster/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "haskell",
+    "tags": [
+      "9.2-slim",
+      "9.2.4-slim",
       "9.2-slim-buster",
       "9.2.4-slim-buster"
     ],
@@ -53,7 +115,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "90dbf04d35f52704c46f3ebc08e8eeef6e9b026b",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.2/slim-buster/Dockerfile"
       },
@@ -63,7 +125,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "90dbf04d35f52704c46f3ebc08e8eeef6e9b026b",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.2/slim-buster/Dockerfile"
       }
@@ -84,7 +146,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "573ee754783f8d5c5674888768378c6832f8d121",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.0/buster/Dockerfile"
       },
@@ -94,7 +156,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "573ee754783f8d5c5674888768378c6832f8d121",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.0/buster/Dockerfile"
       }
@@ -115,7 +177,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "573ee754783f8d5c5674888768378c6832f8d121",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.0/slim-buster/Dockerfile"
       },
@@ -125,7 +187,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "573ee754783f8d5c5674888768378c6832f8d121",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.0/slim-buster/Dockerfile"
       }
@@ -148,7 +210,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "595046aa00340b831927be7edb2f4eaa1a83e4e1",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "8.10/buster/Dockerfile"
       },
@@ -158,7 +220,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "595046aa00340b831927be7edb2f4eaa1a83e4e1",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "8.10/buster/Dockerfile"
       }
@@ -181,7 +243,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "573ee754783f8d5c5674888768378c6832f8d121",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "8.10/slim-buster/Dockerfile"
       },
@@ -191,7 +253,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "573ee754783f8d5c5674888768378c6832f8d121",
+        "sha": "94c169693cc6337c2cd3994da71fb5d9f0b399b0",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "8.10/slim-buster/Dockerfile"
       }
