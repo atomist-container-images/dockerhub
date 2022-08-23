@@ -3,10 +3,10 @@
     "version": "20",
     "name": "mariadb",
     "tags": [
-      "10.9-rc",
-      "10.9.1-rc",
-      "10.9-rc-jammy",
-      "10.9.1-rc-jammy"
+      "10.10-rc",
+      "10.10.1-rc",
+      "10.10-rc-jammy",
+      "10.10.1-rc-jammy"
     ],
     "images": [
       {
@@ -14,7 +14,60 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
+        "repo": "https://github.com/MariaDB/mariadb-docker.git",
+        "path": "10.10/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
+        "repo": "https://github.com/MariaDB/mariadb-docker.git",
+        "path": "10.10/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
+        "repo": "https://github.com/MariaDB/mariadb-docker.git",
+        "path": "10.10/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
+        "repo": "https://github.com/MariaDB/mariadb-docker.git",
+        "path": "10.10/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "mariadb",
+    "tags": [
+      "10",
+      "10.9",
+      "jammy",
+      "10.9.2",
+      "latest",
+      "10-jammy",
+      "10.9-jammy",
+      "10.9.2-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.9/Dockerfile"
       },
@@ -24,7 +77,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.9/Dockerfile"
       },
@@ -33,7 +86,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.9/Dockerfile"
       },
@@ -42,7 +95,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.9/Dockerfile"
       }
@@ -52,14 +105,10 @@
     "version": "20",
     "name": "mariadb",
     "tags": [
-      "10",
       "10.8",
-      "jammy",
-      "10.8.3",
-      "latest",
-      "10-jammy",
+      "10.8.4",
       "10.8-jammy",
-      "10.8.3-jammy"
+      "10.8.4-jammy"
     ],
     "images": [
       {
@@ -67,7 +116,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.8/Dockerfile"
       },
@@ -77,7 +126,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.8/Dockerfile"
       },
@@ -86,7 +135,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.8/Dockerfile"
       },
@@ -95,7 +144,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.8/Dockerfile"
       }
@@ -106,9 +155,9 @@
     "name": "mariadb",
     "tags": [
       "10.7",
-      "10.7.4",
+      "10.7.5",
       "10.7-focal",
-      "10.7.4-focal"
+      "10.7.5-focal"
     ],
     "images": [
       {
@@ -116,7 +165,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c6d3396be642bbc73cd14b93e62c615e242f5a0d",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.7/Dockerfile"
       },
@@ -126,7 +175,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c6d3396be642bbc73cd14b93e62c615e242f5a0d",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.7/Dockerfile"
       },
@@ -135,7 +184,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c6d3396be642bbc73cd14b93e62c615e242f5a0d",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.7/Dockerfile"
       },
@@ -144,7 +193,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "c6d3396be642bbc73cd14b93e62c615e242f5a0d",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.7/Dockerfile"
       }
@@ -155,9 +204,9 @@
     "name": "mariadb",
     "tags": [
       "10.6",
-      "10.6.8",
+      "10.6.9",
       "10.6-focal",
-      "10.6.8-focal"
+      "10.6.9-focal"
     ],
     "images": [
       {
@@ -165,7 +214,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.6/Dockerfile"
       },
@@ -175,7 +224,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.6/Dockerfile"
       },
@@ -184,7 +233,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.6/Dockerfile"
       },
@@ -193,7 +242,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.6/Dockerfile"
       }
@@ -204,9 +253,9 @@
     "name": "mariadb",
     "tags": [
       "10.5",
-      "10.5.16",
+      "10.5.17",
       "10.5-focal",
-      "10.5.16-focal"
+      "10.5.17-focal"
     ],
     "images": [
       {
@@ -214,7 +263,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.5/Dockerfile"
       },
@@ -224,7 +273,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.5/Dockerfile"
       },
@@ -233,7 +282,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.5/Dockerfile"
       },
@@ -242,7 +291,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.5/Dockerfile"
       }
@@ -253,9 +302,9 @@
     "name": "mariadb",
     "tags": [
       "10.4",
-      "10.4.25",
+      "10.4.26",
       "10.4-focal",
-      "10.4.25-focal"
+      "10.4.26-focal"
     ],
     "images": [
       {
@@ -263,7 +312,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.4/Dockerfile"
       },
@@ -273,7 +322,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.4/Dockerfile"
       },
@@ -282,7 +331,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.4/Dockerfile"
       }
@@ -293,9 +342,9 @@
     "name": "mariadb",
     "tags": [
       "10.3",
-      "10.3.35",
+      "10.3.36",
       "10.3-focal",
-      "10.3.35-focal"
+      "10.3.36-focal"
     ],
     "images": [
       {
@@ -303,7 +352,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.3/Dockerfile"
       },
@@ -313,7 +362,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.3/Dockerfile"
       },
@@ -322,49 +371,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
+        "sha": "97e6715fb9f86010de510eef718f7341e3011c25",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
         "path": "10.3/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "mariadb",
-    "tags": [
-      "10.2",
-      "10.2.44",
-      "10.2-bionic",
-      "10.2.44-bionic"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
-        "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "10.2/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
-        "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "10.2/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "c0d07be9ad5eb3bc212c6805cc8031308c56e9b6",
-        "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "10.2/Dockerfile"
       }
     ]
   }
