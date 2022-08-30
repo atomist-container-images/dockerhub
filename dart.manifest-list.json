@@ -5,13 +5,15 @@
     "tags": [
       "2",
       "sdk",
-      "2.17",
+      "2.18",
+      "beta",
       "2-sdk",
-      "2.17.7",
+      "2.18.0",
       "latest",
       "stable",
-      "2.17-sdk",
-      "2.17.7-sdk",
+      "2.18-sdk",
+      "beta-sdk",
+      "2.18.0-sdk",
       "stable-sdk"
     ],
     "images": [
@@ -20,7 +22,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "47d7684d1457999b7684219dd201069fbb14cc23",
+        "sha": "125ecd635f7bcb68a6f1b9824942b0f820c91134",
         "repo": "https://github.com/dart-lang/dart-docker.git",
         "path": "stable/bullseye/Dockerfile",
         "branch": "refs/heads/main"
@@ -31,7 +33,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "47d7684d1457999b7684219dd201069fbb14cc23",
+        "sha": "125ecd635f7bcb68a6f1b9824942b0f820c91134",
         "repo": "https://github.com/dart-lang/dart-docker.git",
         "path": "stable/bullseye/Dockerfile",
         "branch": "refs/heads/main"
@@ -42,53 +44,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "47d7684d1457999b7684219dd201069fbb14cc23",
+        "sha": "125ecd635f7bcb68a6f1b9824942b0f820c91134",
         "repo": "https://github.com/dart-lang/dart-docker.git",
         "path": "stable/bullseye/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "20",
-    "name": "dart",
-    "tags": [
-      "beta",
-      "beta-sdk",
-      "2.18.0-271.8.beta",
-      "2.18.0-271.8.beta-sdk"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "47d7684d1457999b7684219dd201069fbb14cc23",
-        "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "beta/bullseye/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "47d7684d1457999b7684219dd201069fbb14cc23",
-        "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "beta/bullseye/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "47d7684d1457999b7684219dd201069fbb14cc23",
-        "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "beta/bullseye/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
