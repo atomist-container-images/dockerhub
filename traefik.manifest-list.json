@@ -3,6 +3,79 @@
     "version": "20",
     "name": "traefik",
     "tags": [
+      "2.9-windowsservercore-1809",
+      "v2.9-windowsservercore-1809",
+      "beaufort-windowsservercore-1809",
+      "2.9.0-rc2-windowsservercore-1809",
+      "v2.9.0-rc2-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "01bff12b347ebd9cc1f1dad13b01cd987fea2880",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "traefik",
+    "tags": [
+      "2.9",
+      "v2.9",
+      "beaufort",
+      "2.9.0-rc2",
+      "v2.9.0-rc2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "01bff12b347ebd9cc1f1dad13b01cd987fea2880",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "01bff12b347ebd9cc1f1dad13b01cd987fea2880",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "01bff12b347ebd9cc1f1dad13b01cd987fea2880",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "01bff12b347ebd9cc1f1dad13b01cd987fea2880",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "20",
+    "name": "traefik",
+    "tags": [
       "windowsservercore-1809",
       "2.8-windowsservercore-1809",
       "v2.8-windowsservercore-1809",
