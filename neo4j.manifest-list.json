@@ -1,13 +1,72 @@
 [
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.4",
-      "4.4.11",
+      "4.4.12",
       "latest",
       "community",
       "4.4-community",
+      "4.4.12-community"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b9b3c369b2a7d34880ac81681c7d148f733ccc22",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.12/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b9b3c369b2a7d34880ac81681c7d148f733ccc22",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.12/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "22",
+    "name": "neo4j",
+    "tags": [
+      "enterprise",
+      "4.4-enterprise",
+      "4.4.12-enterprise"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b9b3c369b2a7d34880ac81681c7d148f733ccc22",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.12/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b9b3c369b2a7d34880ac81681c7d148f733ccc22",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.4.12/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "22",
+    "name": "neo4j",
+    "tags": [
+      "4.4.11",
       "4.4.11-community"
     ],
     "images": [
@@ -33,11 +92,9 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
-      "enterprise",
-      "4.4-enterprise",
       "4.4.11-enterprise"
     ],
     "images": [
@@ -63,7 +120,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.4.10",
@@ -92,7 +149,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.4.10-enterprise"
@@ -120,7 +177,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.4.9",
@@ -149,7 +206,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.4.9-enterprise"
@@ -177,12 +234,50 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3",
-      "4.3.18",
+      "4.3.19",
       "4.3-community",
+      "4.3.19-community"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "43be1e819ac0ce8289da79285de07722a850072f",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.3.19/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "22",
+    "name": "neo4j",
+    "tags": [
+      "4.3-enterprise",
+      "4.3.19-enterprise"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "43be1e819ac0ce8289da79285de07722a850072f",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "4.3.19/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "22",
+    "name": "neo4j",
+    "tags": [
+      "4.3.18",
       "4.3.18-community"
     ],
     "images": [
@@ -198,10 +293,9 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
-      "4.3-enterprise",
       "4.3.18-enterprise"
     ],
     "images": [
@@ -217,7 +311,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3.17",
@@ -236,7 +330,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3.17-enterprise"
@@ -254,7 +348,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3.16",
@@ -273,7 +367,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3.16-enterprise"
@@ -291,7 +385,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3.15",
@@ -310,7 +404,7 @@
     ]
   },
   {
-    "version": "25",
+    "version": "22",
     "name": "neo4j",
     "tags": [
       "4.3.15-enterprise"
