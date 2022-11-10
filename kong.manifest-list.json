@@ -3,11 +3,13 @@
     "version": "26",
     "name": "kong",
     "tags": [
+      "3",
       "3.0",
-      "3.0.0",
+      "3.0.1",
       "alpine",
       "latest",
-      "3.0.0-alpine"
+      "3.0-alpine",
+      "3.0.1-alpine"
     ],
     "images": [
       {
@@ -15,10 +17,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a2610d900717a4a6c8ee98bc421d0d4599b126f",
+        "sha": "b2057cd3432726c2122873a3740e31a68a03cecd",
         "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/3.0.0"
+        "path": "Dockerfile.apk",
+        "branch": "refs/tags/3.0.1"
       },
       {
         "platform": {
@@ -26,10 +28,10 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5a2610d900717a4a6c8ee98bc421d0d4599b126f",
+        "sha": "b2057cd3432726c2122873a3740e31a68a03cecd",
         "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/3.0.0"
+        "path": "Dockerfile.apk",
+        "branch": "refs/tags/3.0.1"
       }
     ]
   },
@@ -39,7 +41,7 @@
     "tags": [
       "ubuntu",
       "3.0-ubuntu",
-      "3.0.0-ubuntu"
+      "3.0.1-ubuntu"
     ],
     "images": [
       {
@@ -47,10 +49,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a2610d900717a4a6c8ee98bc421d0d4599b126f",
+        "sha": "b2057cd3432726c2122873a3740e31a68a03cecd",
         "repo": "https://github.com/Kong/docker-kong.git",
         "path": "ubuntu/Dockerfile",
-        "branch": "refs/tags/3.0.0"
+        "branch": "refs/tags/3.0.1"
       },
       {
         "platform": {
@@ -58,10 +60,10 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5a2610d900717a4a6c8ee98bc421d0d4599b126f",
+        "sha": "b2057cd3432726c2122873a3740e31a68a03cecd",
         "repo": "https://github.com/Kong/docker-kong.git",
         "path": "ubuntu/Dockerfile",
-        "branch": "refs/tags/3.0.0"
+        "branch": "refs/tags/3.0.1"
       }
     ]
   },
@@ -125,67 +127,6 @@
         "repo": "https://github.com/Kong/docker-kong.git",
         "path": "ubuntu/Dockerfile",
         "branch": "refs/tags/2.8.3"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "kong",
-    "tags": [
-      "2.8.1",
-      "2.8.1-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "8a361ad78d4f84b67e893588fd3a6108bea67fe7",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/2.8.1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "8a361ad78d4f84b67e893588fd3a6108bea67fe7",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/2.8.1"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "kong",
-    "tags": [
-      "2.8.1-ubuntu"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "8a361ad78d4f84b67e893588fd3a6108bea67fe7",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "ubuntu/Dockerfile",
-        "branch": "refs/tags/2.8.1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "8a361ad78d4f84b67e893588fd3a6108bea67fe7",
-        "repo": "https://github.com/Kong/docker-kong.git",
-        "path": "ubuntu/Dockerfile",
-        "branch": "refs/tags/2.8.1"
       }
     ]
   },
