@@ -96,6 +96,89 @@
     "version": "26",
     "name": "alpine",
     "tags": [
+      "3.17",
+      "3.17.0_rc1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "aarch64/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "armhf/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "armv7/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "ppc64le/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "s390x/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "x86/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "53c24f10dcfbf718a18d30d1238dde68ac6c260d",
+        "repo": "https://github.com/alpinelinux/docker-alpine.git",
+        "path": "x86_64/Dockerfile",
+        "branch": "refs/heads/v3.17"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "alpine",
+    "tags": [
       "3",
       "3.16",
       "3.16.3",
