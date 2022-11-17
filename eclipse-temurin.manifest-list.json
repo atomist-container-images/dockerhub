@@ -385,6 +385,48 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
+      "8-ubi9-minimal",
+      "8-jdk-ubi9-minimal",
+      "8u352-b08-jdk-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
       "8-windowsservercore-ltsc2022",
       "8-jdk-windowsservercore-ltsc2022",
       "8u352-b08-jdk-windowsservercore-ltsc2022"
@@ -942,6 +984,47 @@
         "sha": "fa65b46d19f4db0e1c8736c3d7b2a8392dd58b1b",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/centos/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-ubi9-minimal",
+      "8u352-b08-jre-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
         "branch": "refs/heads/main"
       }
     ]
@@ -1578,6 +1661,58 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
+      "11-ubi9-minimal",
+      "11-jdk-ubi9-minimal",
+      "11.0.17_8-jdk-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
       "11-windowsservercore-ltsc2022",
       "11-jdk-windowsservercore-ltsc2022",
       "11.0.17_8-jdk-windowsservercore-ltsc2022"
@@ -2175,6 +2310,57 @@
         "sha": "fa65b46d19f4db0e1c8736c3d7b2a8392dd58b1b",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/centos/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre-ubi9-minimal",
+      "11.0.17_8-jre-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
         "branch": "refs/heads/main"
       }
     ]
@@ -2811,6 +2997,58 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
+      "17-ubi9-minimal",
+      "17-jdk-ubi9-minimal",
+      "17.0.5_8-jdk-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
       "17-windowsservercore-ltsc2022",
       "17-jdk-windowsservercore-ltsc2022",
       "17.0.5_8-jdk-windowsservercore-ltsc2022"
@@ -3408,6 +3646,57 @@
         "sha": "d3c9617e83eb706aff74c095fd531fe31e359674",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/centos/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jre-ubi9-minimal",
+      "17.0.5_8-jre-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
         "branch": "refs/heads/main"
       }
     ]
@@ -4125,6 +4414,58 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
+      "19-ubi9-minimal",
+      "19-jdk-ubi9-minimal",
+      "19.0.1_10-jdk-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jdk/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
       "19-windowsservercore-ltsc2022",
       "19-jdk-windowsservercore-ltsc2022",
       "19.0.1_10-jdk-windowsservercore-ltsc2022"
@@ -4722,6 +5063,57 @@
         "sha": "e37c219c8f2aef0c0028a627b1e372a046138dea",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "19/jre/centos/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "19-jre-ubi9-minimal",
+      "19.0.1_10-jre-ubi9-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "910222e9f290871048016f4e0afd0c203d4a80d5",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "19/jre/ubi/ubi9-minimal/Dockerfile.releases.full",
         "branch": "refs/heads/main"
       }
     ]
