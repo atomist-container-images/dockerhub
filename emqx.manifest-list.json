@@ -4,7 +4,7 @@
     "name": "emqx",
     "tags": [
       "4.3",
-      "4.3.15"
+      "4.3.22"
     ],
     "images": [
       {
@@ -12,7 +12,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "be51f664546d862443a73c367e48d49eef2393a5",
+        "sha": "851c0845da8078770fb01ff958733f4989e3a8bc",
         "repo": "https://github.com/emqx/emqx-docker.git",
         "path": "4.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -23,7 +23,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "be51f664546d862443a73c367e48d49eef2393a5",
+        "sha": "851c0845da8078770fb01ff958733f4989e3a8bc",
         "repo": "https://github.com/emqx/emqx-docker.git",
         "path": "4.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -36,8 +36,7 @@
     "tags": [
       "4",
       "4.4",
-      "4.4.4",
-      "latest"
+      "4.4.11"
     ],
     "images": [
       {
@@ -45,7 +44,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "be51f664546d862443a73c367e48d49eef2393a5",
+        "sha": "851c0845da8078770fb01ff958733f4989e3a8bc",
         "repo": "https://github.com/emqx/emqx-docker.git",
         "path": "4.4/Dockerfile",
         "branch": "refs/heads/main"
@@ -56,9 +55,42 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "be51f664546d862443a73c367e48d49eef2393a5",
+        "sha": "851c0845da8078770fb01ff958733f4989e3a8bc",
         "repo": "https://github.com/emqx/emqx-docker.git",
         "path": "4.4/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "emqx",
+    "tags": [
+      "5",
+      "5.0",
+      "5.0.11",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "851c0845da8078770fb01ff958733f4989e3a8bc",
+        "repo": "https://github.com/emqx/emqx-docker.git",
+        "path": "5.0/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "851c0845da8078770fb01ff958733f4989e3a8bc",
+        "repo": "https://github.com/emqx/emqx-docker.git",
+        "path": "5.0/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
