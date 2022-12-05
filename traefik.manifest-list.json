@@ -3,6 +3,79 @@
     "version": "26",
     "name": "traefik",
     "tags": [
+      "3.0-windowsservercore-1809",
+      "v3.0-windowsservercore-1809",
+      "beaufort-windowsservercore-1809",
+      "3.0.0-beta1-windowsservercore-1809",
+      "v3.0.0-beta1-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "9a48eeaee4f96e6998ffec9403ac5e7078b2ae7b",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
+      "3.0",
+      "v3.0",
+      "beaufort",
+      "3.0.0-beta1",
+      "v3.0.0-beta1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9a48eeaee4f96e6998ffec9403ac5e7078b2ae7b",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "9a48eeaee4f96e6998ffec9403ac5e7078b2ae7b",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9a48eeaee4f96e6998ffec9403ac5e7078b2ae7b",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "9a48eeaee4f96e6998ffec9403ac5e7078b2ae7b",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
       "windowsservercore-1809",
       "2.9-windowsservercore-1809",
       "v2.9-windowsservercore-1809",
