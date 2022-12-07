@@ -3,91 +3,6 @@
     "version": "26",
     "name": "busybox",
     "tags": [
-      "uclibc",
-      "1-uclibc",
-      "1.34-uclibc",
-      "1.34.1-uclibc",
-      "stable-uclibc"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-amd64"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "081219704c8d5add75f02134100b5f5394fbc973",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-arm32v5"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-arm32v7"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-arm64v8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-i386"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "90bc45635d07aeef1b636bca7f8242df676cc5b9",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-mips64le"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "ba908cb4bf94c3ff5e259475b6426eafb8039a00",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
-        "branch": "refs/heads/dist-riscv64"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "busybox",
-    "tags": [
       "glibc",
       "1-glibc",
       "1.34-glibc",
@@ -100,7 +15,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -110,7 +25,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "081219704c8d5add75f02134100b5f5394fbc973",
+        "sha": "44350d7e6cb14808b40ef84aac7c5bdb8f93462d",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -121,7 +36,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -132,7 +47,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -142,7 +57,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -152,7 +67,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "90bc45635d07aeef1b636bca7f8242df676cc5b9",
+        "sha": "a020aef7981547a9efbd46ed4fa543076db978ec",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -162,7 +77,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "22edb3d8ef2c9c644e3df08fc6ab6e5911cae999",
+        "sha": "509581849a07a77f52a8356b181b9d242c87b945",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -172,10 +87,95 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5eb4b7e578808112beb56d7d69a148eaa942d778",
+        "sha": "45d0107c21b3d79824cbff6b442290da17e37ac1",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-s390x"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "busybox",
+    "tags": [
+      "uclibc",
+      "1-uclibc",
+      "1.34-uclibc",
+      "1.34.1-uclibc",
+      "stable-uclibc"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-amd64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "44350d7e6cb14808b40ef84aac7c5bdb8f93462d",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-arm32v5"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-arm32v7"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-arm64v8"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-i386"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "a020aef7981547a9efbd46ed4fa543076db978ec",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-mips64le"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "fce0e67b610ae4706e91f464210218194f1e6e8a",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "stable/uclibc/Dockerfile",
+        "branch": "refs/heads/dist-riscv64"
       }
     ]
   },
@@ -195,7 +195,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -206,7 +206,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "eb1b7e0fcf35906c5ace281774f340838f79e8e9",
+        "sha": "497a3a967c09c327b84664445b43761384d55da0",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm32v6"
@@ -217,7 +217,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -228,7 +228,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -238,7 +238,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -248,7 +248,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "22edb3d8ef2c9c644e3df08fc6ab6e5911cae999",
+        "sha": "509581849a07a77f52a8356b181b9d242c87b945",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -258,7 +258,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5eb4b7e578808112beb56d7d69a148eaa942d778",
+        "sha": "45d0107c21b3d79824cbff6b442290da17e37ac1",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -281,9 +281,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
+        "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -291,9 +291,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "081219704c8d5add75f02134100b5f5394fbc973",
+        "sha": "44350d7e6cb14808b40ef84aac7c5bdb8f93462d",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
+        "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -302,7 +302,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "eb1b7e0fcf35906c5ace281774f340838f79e8e9",
+        "sha": "497a3a967c09c327b84664445b43761384d55da0",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm32v6"
@@ -313,9 +313,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
+        "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -324,9 +324,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
+        "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -334,9 +334,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
+        "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -344,9 +344,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "90bc45635d07aeef1b636bca7f8242df676cc5b9",
+        "sha": "a020aef7981547a9efbd46ed4fa543076db978ec",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "stable/uclibc/Dockerfile",
+        "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -354,7 +354,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "22edb3d8ef2c9c644e3df08fc6ab6e5911cae999",
+        "sha": "509581849a07a77f52a8356b181b9d242c87b945",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -364,7 +364,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "ba908cb4bf94c3ff5e259475b6426eafb8039a00",
+        "sha": "fce0e67b610ae4706e91f464210218194f1e6e8a",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -374,9 +374,102 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5eb4b7e578808112beb56d7d69a148eaa942d778",
+        "sha": "45d0107c21b3d79824cbff6b442290da17e37ac1",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "stable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-s390x"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "busybox",
+    "tags": [
+      "1.35-glibc",
+      "1.35.0-glibc",
+      "unstable-glibc"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-amd64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "44350d7e6cb14808b40ef84aac7c5bdb8f93462d",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-arm32v5"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-arm32v7"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-arm64v8"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-i386"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "a020aef7981547a9efbd46ed4fa543076db978ec",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-mips64le"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "509581849a07a77f52a8356b181b9d242c87b945",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
+        "branch": "refs/heads/dist-ppc64le"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "45d0107c21b3d79824cbff6b442290da17e37ac1",
+        "repo": "https://github.com/docker-library/busybox.git",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -395,7 +488,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -405,7 +498,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "081219704c8d5add75f02134100b5f5394fbc973",
+        "sha": "44350d7e6cb14808b40ef84aac7c5bdb8f93462d",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -416,7 +509,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -427,7 +520,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -437,7 +530,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -447,7 +540,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "90bc45635d07aeef1b636bca7f8242df676cc5b9",
+        "sha": "a020aef7981547a9efbd46ed4fa543076db978ec",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -457,103 +550,10 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "ba908cb4bf94c3ff5e259475b6426eafb8039a00",
+        "sha": "fce0e67b610ae4706e91f464210218194f1e6e8a",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "busybox",
-    "tags": [
-      "1.35-glibc",
-      "1.35.0-glibc",
-      "unstable-glibc"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-amd64"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "081219704c8d5add75f02134100b5f5394fbc973",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-arm32v5"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-arm32v7"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-arm64v8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-i386"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "90bc45635d07aeef1b636bca7f8242df676cc5b9",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-mips64le"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "22edb3d8ef2c9c644e3df08fc6ab6e5911cae999",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-ppc64le"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "5eb4b7e578808112beb56d7d69a148eaa942d778",
-        "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/glibc/Dockerfile",
-        "branch": "refs/heads/dist-s390x"
       }
     ]
   },
@@ -571,7 +571,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -582,7 +582,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "eb1b7e0fcf35906c5ace281774f340838f79e8e9",
+        "sha": "497a3a967c09c327b84664445b43761384d55da0",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm32v6"
@@ -593,7 +593,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -604,7 +604,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -614,7 +614,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -624,7 +624,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "22edb3d8ef2c9c644e3df08fc6ab6e5911cae999",
+        "sha": "509581849a07a77f52a8356b181b9d242c87b945",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -634,7 +634,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5eb4b7e578808112beb56d7d69a148eaa942d778",
+        "sha": "45d0107c21b3d79824cbff6b442290da17e37ac1",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -655,9 +655,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6304ea45c8e95574e40443c76f626c37e8af913f",
+        "sha": "4bcc936d8c90dfcf40b4c2728bb8150c2ee5cb82",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/uclibc/Dockerfile",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -665,9 +665,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "081219704c8d5add75f02134100b5f5394fbc973",
+        "sha": "44350d7e6cb14808b40ef84aac7c5bdb8f93462d",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/uclibc/Dockerfile",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -676,7 +676,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "eb1b7e0fcf35906c5ace281774f340838f79e8e9",
+        "sha": "497a3a967c09c327b84664445b43761384d55da0",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/musl/Dockerfile",
         "branch": "refs/heads/dist-arm32v6"
@@ -687,9 +687,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "749772a485c7dbfe5da09c2dcccd389311a9b231",
+        "sha": "b5f1e9a8c6d4ff6fec6b6be528064c1d975c77cd",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/uclibc/Dockerfile",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -698,9 +698,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2d6416693220b51b176bbd0d214ab4f104809ee7",
+        "sha": "740de92d37b1589809bdf8c17d94ee7be7acf255",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/uclibc/Dockerfile",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -708,9 +708,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "989baf1ae8a35afe3cbd4c6b44193f357565ea49",
+        "sha": "8ef0783a61092fc34718de7db1579cf2e694b432",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/uclibc/Dockerfile",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -718,9 +718,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "90bc45635d07aeef1b636bca7f8242df676cc5b9",
+        "sha": "a020aef7981547a9efbd46ed4fa543076db978ec",
         "repo": "https://github.com/docker-library/busybox.git",
-        "path": "unstable/uclibc/Dockerfile",
+        "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -728,7 +728,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "22edb3d8ef2c9c644e3df08fc6ab6e5911cae999",
+        "sha": "509581849a07a77f52a8356b181b9d242c87b945",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -738,7 +738,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "ba908cb4bf94c3ff5e259475b6426eafb8039a00",
+        "sha": "fce0e67b610ae4706e91f464210218194f1e6e8a",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/uclibc/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -748,7 +748,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5eb4b7e578808112beb56d7d69a148eaa942d778",
+        "sha": "45d0107c21b3d79824cbff6b442290da17e37ac1",
         "repo": "https://github.com/docker-library/busybox.git",
         "path": "unstable/glibc/Dockerfile",
         "branch": "refs/heads/dist-s390x"
