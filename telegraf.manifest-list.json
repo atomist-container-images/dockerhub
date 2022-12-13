@@ -3,64 +3,6 @@
     "version": "26",
     "name": "telegraf",
     "tags": [
-      "1.22",
-      "1.22.4"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "telegraf/1.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "telegraf/1.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "telegraf/1.22/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "telegraf",
-    "tags": [
-      "1.22-alpine",
-      "1.22.4-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "telegraf/1.22/alpine/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "telegraf",
-    "tags": [
       "1.23",
       "1.23.4"
     ],
@@ -70,7 +12,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.23/Dockerfile"
       },
@@ -80,7 +22,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.23/Dockerfile"
       },
@@ -90,7 +32,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.23/Dockerfile"
       }
@@ -109,7 +51,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.23/alpine/Dockerfile"
       }
@@ -120,8 +62,7 @@
     "name": "telegraf",
     "tags": [
       "1.24",
-      "1.24.4",
-      "latest"
+      "1.24.4"
     ],
     "images": [
       {
@@ -129,7 +70,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.24/Dockerfile"
       },
@@ -139,7 +80,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.24/Dockerfile"
       },
@@ -149,7 +90,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.24/Dockerfile"
       }
@@ -159,7 +100,6 @@
     "version": "26",
     "name": "telegraf",
     "tags": [
-      "alpine",
       "1.24-alpine",
       "1.24.4-alpine"
     ],
@@ -169,9 +109,69 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5cd2070b7c644434fea9b6f1a22ad7b77a041e98",
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "telegraf/1.24/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "telegraf",
+    "tags": [
+      "1.25",
+      "1.25.0",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "telegraf/1.25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "telegraf/1.25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "telegraf/1.25/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "telegraf",
+    "tags": [
+      "alpine",
+      "1.25-alpine",
+      "1.25.0-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dbc42012042db536190ddd0686327a3a9e59a0e3",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "telegraf/1.25/alpine/Dockerfile"
       }
     ]
   }
