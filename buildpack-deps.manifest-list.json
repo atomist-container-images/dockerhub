@@ -1707,6 +1707,204 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
+      "23.04-curl",
+      "lunar-curl"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/curl/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "23.04-scm",
+      "lunar-scm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/scm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "23.04",
+      "lunar"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "31e15bc4a2352c20998e5da6bd8aaa727fd19d06",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/lunar/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
       "16.04-curl",
       "xenial-curl"
     ],
