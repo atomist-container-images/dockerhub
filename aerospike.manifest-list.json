@@ -3,7 +3,7 @@
     "version": "26",
     "name": "aerospike",
     "tags": [
-      "ee-6.1.0.3"
+      "ee-6.2.0.2"
     ],
     "images": [
       {
@@ -11,9 +11,19 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "01871453aad7390a02a51dee11efe8e6a55f95cf",
-        "repo": "https://github.com/aerospike/aerospike-server-enterprise.docker.git",
-        "path": "Dockerfile"
+        "sha": "26089140713466195470d5d246fdd2bda5b82180",
+        "repo": "https://github.com/aerospike/aerospike-server.docker.git",
+        "path": "enterprise/debian11/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "26089140713466195470d5d246fdd2bda5b82180",
+        "repo": "https://github.com/aerospike/aerospike-server.docker.git",
+        "path": "enterprise/debian11/Dockerfile"
       }
     ]
   },
@@ -21,7 +31,7 @@
     "version": "26",
     "name": "aerospike",
     "tags": [
-      "ce-6.1.0.3"
+      "ce-6.2.0.2"
     ],
     "images": [
       {
@@ -29,9 +39,19 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4557452ca88bcad1929e91bd303b522a1c242b12",
+        "sha": "26089140713466195470d5d246fdd2bda5b82180",
         "repo": "https://github.com/aerospike/aerospike-server.docker.git",
-        "path": "Dockerfile"
+        "path": "community/debian11/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "26089140713466195470d5d246fdd2bda5b82180",
+        "repo": "https://github.com/aerospike/aerospike-server.docker.git",
+        "path": "community/debian11/Dockerfile"
       }
     ]
   }
