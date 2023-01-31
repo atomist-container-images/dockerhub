@@ -5,7 +5,7 @@
     "tags": [
       "18.04",
       "bionic",
-      "bionic-20221215"
+      "bionic-20230126"
     ],
     "images": [
       {
@@ -13,10 +13,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "0ae8196fe7299a6f6954b5f0208f57f170f12c35",
+        "sha": "4dd8c0973fccaf8699bac0a666f007b9d05c95fd",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-bionic-amd64-20221215"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-bionic-amd64-20230126"
       },
       {
         "platform": {
@@ -24,10 +24,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "fc35e16b9d749ca7a871fcd2f645b386fa71b6cb",
+        "sha": "05dec6c92df08be939ff9cf56af47cb6b8573377",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-bionic-arm32v7-20221215"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-bionic-arm32v7-20230126"
       },
       {
         "platform": {
@@ -35,40 +35,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "32b1fddbbf6c7e947f7b274a994baaaf07a68e9c",
+        "sha": "d9ffb2e569ccbb6a58e8fce586e0ae6c1a5fea44",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-bionic-arm64v8-20221215"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-bionic-arm64v8-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "ebbc2f991f317253eb13eaf945c847da1cb6af9a",
+        "sha": "ab92ac32e100c9d93794f963adf4959b8bf831a3",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-bionic-i386-20221215"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-bionic-i386-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7931788b86ded196e4c06b1ad1c41f1fde6427c3",
+        "sha": "0524daa8c593ad5af2f128c0436b2084ecad9b2a",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-bionic-ppc64le-20221215"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-bionic-ppc64le-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "cadeacee3d51e4e2f404ccee25af2e63b5113413",
+        "sha": "d4936be051d9ec0c6ba8043f8016117bf08b02d4",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-bionic-s390x-20221215"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-bionic-s390x-20230126"
       }
     ]
   },
@@ -78,7 +78,7 @@
     "tags": [
       "20.04",
       "focal",
-      "focal-20221130"
+      "focal-20230126"
     ],
     "images": [
       {
@@ -86,10 +86,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "0373f3064197249345734f2db985a32bced5c541",
+        "sha": "51f5b41f106b8b1e926fcfd2382813801c571233",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-focal-amd64-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-focal-amd64-20230126"
       },
       {
         "platform": {
@@ -97,10 +97,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "81dc4df06dbf5fad8cccdddb277d514bf43d9034",
+        "sha": "da5d23437a37b5120c76d71d436c8effdb4677c0",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-focal-arm32v7-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-focal-arm32v7-20230126"
       },
       {
         "platform": {
@@ -108,40 +108,30 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "02ec3ef23a737c2a4c4e4c6e9a834fb27a1164b8",
+        "sha": "4d9885922479ec41460ac912af03787a944e53af",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-focal-arm64v8-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-focal-arm64v8-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "cb43bd8646a2c6162e9e0bba50c058b4a0ac8dcd",
+        "sha": "187ae5c5d5c627944fc79f8d829ee057a3238f97",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-focal-ppc64le-20221130"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "a7b605fa2684ea17e870f70032d5893e692d6706",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-focal-riscv64-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-focal-ppc64le-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "62382b7f773dadf5e6792db3dbff6c710a173044",
+        "sha": "344179c85e33d6671b4eb09a812dfa3dd0c50173",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-focal-s390x-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-focal-s390x-20230126"
       }
     ]
   },
@@ -152,7 +142,7 @@
       "22.04",
       "jammy",
       "latest",
-      "jammy-20221130"
+      "jammy-20230126"
     ],
     "images": [
       {
@@ -160,10 +150,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5107d90663ceb24789a9fa19136b0753c5651aa0",
+        "sha": "c59419b8a85cb1d938e73e83af8f8e6ff4110444",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-jammy-amd64-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-jammy-amd64-20230126"
       },
       {
         "platform": {
@@ -171,10 +161,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "4a4466b1434ca1dbb1033d94e38995ab5c72a112",
+        "sha": "749c1ce830611a34de60af692e95b24304e3940d",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-jammy-arm32v7-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-jammy-arm32v7-20230126"
       },
       {
         "platform": {
@@ -182,40 +172,30 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "eb7f65f09243f390184188ecb3aab4793bb82e8f",
+        "sha": "331413876d90316fa4756fcdd4a1379fd12a65b4",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-jammy-arm64v8-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-jammy-arm64v8-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "903c9e8cf696ecb44a08eca81be7edabefaa3626",
+        "sha": "b2ec7435265bb1f582be647d6e4fc8b49bbc99c0",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-jammy-ppc64le-20221130"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "54418794ae38f4130f0a702648fe99f9d4425629",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-jammy-riscv64-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-jammy-ppc64le-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ede0c55ef3f98b25dad368d68b11cc4f14b1531c",
+        "sha": "23e6cd3536d0f63292799c8b56a53efd6ccc1161",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-jammy-s390x-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-jammy-s390x-20230126"
       }
     ]
   },
@@ -226,7 +206,7 @@
       "22.10",
       "kinetic",
       "rolling",
-      "kinetic-20221130"
+      "kinetic-20230126"
     ],
     "images": [
       {
@@ -234,10 +214,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "28c4e64ea84b6e9bcd1352e81cf71dbb47f259cc",
+        "sha": "a806765a4285f4a19789ade917f91d2b878955d8",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-kinetic-amd64-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-kinetic-amd64-20230126"
       },
       {
         "platform": {
@@ -245,10 +225,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "392b20114f8d424158b272d1ebfe7c3656d77275",
+        "sha": "f4babcd0bcf63c1f4df6c6c908ca0551d039b6ff",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-kinetic-arm32v7-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-kinetic-arm32v7-20230126"
       },
       {
         "platform": {
@@ -256,40 +236,30 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c1fd684841258d615ee03f4868f15474b3d36214",
+        "sha": "1fb846bdd6806009d4a9e29f8a08779934ecde49",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-kinetic-arm64v8-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-kinetic-arm64v8-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "bc31cbb8717a7574ade0e40b3d78cd3d10cb91cf",
+        "sha": "c9ac87ff916919b2192628f9f3ea5b5257c055fa",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-kinetic-ppc64le-20221130"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "3248ff073441def10b68462b81b8aa3fa57d7650",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-kinetic-riscv64-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-kinetic-ppc64le-20230126"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "068be1f48e24f93d41b0e4d1e809a22648951523",
+        "sha": "ae53d315f94fd8d80340bbdabc51cabc250112d3",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-kinetic-s390x-20221130"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-kinetic-s390x-20230126"
       }
     ]
   },
@@ -300,7 +270,7 @@
       "23.04",
       "devel",
       "lunar",
-      "lunar-20221216"
+      "lunar-20230124.1"
     ],
     "images": [
       {
@@ -308,10 +278,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "cbaec25db5166d7e31cf418cc5efb5000ffaaf88",
+        "sha": "407671a226ede7401c411693e77fb4b8bf0adf75",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-lunar-amd64-20221216"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-lunar-amd64-20230124.1"
       },
       {
         "platform": {
@@ -319,10 +289,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "402a37bfba58a3caf3b820aaa86e2b271456c5b2",
+        "sha": "c171ab00df277c914ee204eb6f3e606531c96cc7",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-lunar-arm32v7-20221216"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-lunar-arm32v7-20230124.1"
       },
       {
         "platform": {
@@ -330,176 +300,30 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4e26cd0eecdcfc7c8f726ce0804349f5a09bf008",
+        "sha": "d6b38a4498f731b47b397d2577c260e5e008aaab",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-lunar-arm64v8-20221216"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-lunar-arm64v8-20230124.1"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1a838295bbd880fd11cf11bedafc53aac396ee20",
+        "sha": "f769ef4a8e68765641a9a48fa8b36c53fac7ced5",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-lunar-ppc64le-20221216"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "8d8abd90a5bda61cf99b4a10cade4842f137885f",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-lunar-riscv64-20221216"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-lunar-ppc64le-20230124.1"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "33a457dd8bd6c5ec62687005c9992a7e8b4ce96f",
+        "sha": "5c2bbbc8cb1b4259eee70b4b288e2042aaa3ff91",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-lunar-s390x-20221216"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ubuntu",
-    "tags": [
-      "14.04",
-      "trusty",
-      "trusty-20191217"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "131f6d8ad3ff6875f210766c88b463f96992b5ab",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-trusty-amd64-20191217"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "75fd9b0829b2fc4168fc12b75c9d2ff5510724ce",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-trusty-arm32v7-20191217"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "bd6b4509cbaabd25736c269525eda41e2d12d9ad",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-trusty-arm64v8-20191217"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "b6ec6352405f6689a544732923c014cc3668b924",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-trusty-i386-20191217"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f6019f3397b8b562e7efeee5d6b3548940f2e9e6",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-trusty-ppc64le-20191217"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ubuntu",
-    "tags": [
-      "16.04",
-      "xenial",
-      "xenial-20210804"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "45e83e2e11f641ba2fea381e705ededbd2778f16",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-xenial-amd64-20210804"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9538366978d441ad37408673403e65b5e14e7c1b",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-xenial-arm32v7-20210804"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1ae28ca9d4afd84f711e1720126af5da852dca30",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-xenial-arm64v8-20210804"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "5faefc5ffa1e4decefd218129c59828335daa00d",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-xenial-i386-20210804"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "84a7f1fb1092f5f6735a63cf802aaafef1e676bd",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-xenial-ppc64le-20210804"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "0408c8840b2a53c2baff135ffcca48301ccc6281",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "Dockerfile",
-        "branch": "refs/tags/dist-xenial-s390x-20210804"
+        "path": "oci/index.json",
+        "branch": "refs/tags/dist-lunar-s390x-20230124.1"
       }
     ]
   }
