@@ -3,69 +3,9 @@
     "version": "26",
     "name": "maven",
     "tags": [
-      "3-openjdk-18",
-      "3.8-openjdk-18",
-      "3.8.7-openjdk-18"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-18/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-18/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "maven",
-    "tags": [
-      "3-openjdk-18-slim",
-      "3.8-openjdk-18-slim",
-      "3.8.7-openjdk-18-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-18-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "openjdk-18-slim/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "maven",
-    "tags": [
       "3-eclipse-temurin-11",
-      "3.8-eclipse-temurin-11",
-      "3.8.7-eclipse-temurin-11"
+      "3.9-eclipse-temurin-11",
+      "3.9.0-eclipse-temurin-11"
     ],
     "images": [
       {
@@ -73,7 +13,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11/Dockerfile"
       },
@@ -83,7 +23,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11/Dockerfile"
       },
@@ -93,7 +33,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11/Dockerfile"
       },
@@ -102,7 +42,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11/Dockerfile"
       },
@@ -111,7 +51,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11/Dockerfile"
       }
@@ -122,8 +62,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-11-alpine",
-      "3.8-eclipse-temurin-11-alpine",
-      "3.8.7-eclipse-temurin-11-alpine"
+      "3.9-eclipse-temurin-11-alpine",
+      "3.9.0-eclipse-temurin-11-alpine"
     ],
     "images": [
       {
@@ -131,7 +71,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11-alpine/Dockerfile"
       }
@@ -142,8 +82,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-11-focal",
-      "3.8-eclipse-temurin-11-focal",
-      "3.8.7-eclipse-temurin-11-focal"
+      "3.9-eclipse-temurin-11-focal",
+      "3.9.0-eclipse-temurin-11-focal"
     ],
     "images": [
       {
@@ -151,7 +91,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11-focal/Dockerfile"
       },
@@ -161,7 +101,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11-focal/Dockerfile"
       },
@@ -171,7 +111,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11-focal/Dockerfile"
       },
@@ -180,7 +120,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11-focal/Dockerfile"
       },
@@ -189,7 +129,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-11-focal/Dockerfile"
       }
@@ -200,16 +140,16 @@
     "name": "maven",
     "tags": [
       "3",
-      "3.8",
-      "3.8.7",
+      "3.9",
+      "3.9.0",
       "latest",
       "eclipse-temurin",
       "3-eclipse-temurin",
-      "3.8-eclipse-temurin",
+      "3.9-eclipse-temurin",
       "3-eclipse-temurin-17",
-      "3.8.7-eclipse-temurin",
-      "3.8-eclipse-temurin-17",
-      "3.8.7-eclipse-temurin-17"
+      "3.9.0-eclipse-temurin",
+      "3.9-eclipse-temurin-17",
+      "3.9.0-eclipse-temurin-17"
     ],
     "images": [
       {
@@ -217,7 +157,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17/Dockerfile"
       },
@@ -227,7 +167,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17/Dockerfile"
       },
@@ -237,7 +177,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17/Dockerfile"
       },
@@ -246,7 +186,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17/Dockerfile"
       },
@@ -255,7 +195,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17/Dockerfile"
       }
@@ -266,8 +206,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-17-alpine",
-      "3.8-eclipse-temurin-17-alpine",
-      "3.8.7-eclipse-temurin-17-alpine"
+      "3.9-eclipse-temurin-17-alpine",
+      "3.9.0-eclipse-temurin-17-alpine"
     ],
     "images": [
       {
@@ -275,7 +215,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-alpine/Dockerfile"
       }
@@ -286,8 +226,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-17-focal",
-      "3.8-eclipse-temurin-17-focal",
-      "3.8.7-eclipse-temurin-17-focal"
+      "3.9-eclipse-temurin-17-focal",
+      "3.9.0-eclipse-temurin-17-focal"
     ],
     "images": [
       {
@@ -295,7 +235,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-focal/Dockerfile"
       },
@@ -305,7 +245,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-focal/Dockerfile"
       },
@@ -315,7 +255,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-focal/Dockerfile"
       },
@@ -324,7 +264,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-focal/Dockerfile"
       },
@@ -333,7 +273,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-17-focal/Dockerfile"
       }
@@ -344,8 +284,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-19",
-      "3.8-eclipse-temurin-19",
-      "3.8.7-eclipse-temurin-19"
+      "3.9-eclipse-temurin-19",
+      "3.9.0-eclipse-temurin-19"
     ],
     "images": [
       {
@@ -353,7 +293,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19/Dockerfile"
       },
@@ -363,7 +303,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19/Dockerfile"
       },
@@ -373,7 +313,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19/Dockerfile"
       },
@@ -382,7 +322,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19/Dockerfile"
       },
@@ -391,7 +331,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19/Dockerfile"
       }
@@ -402,8 +342,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-19-alpine",
-      "3.8-eclipse-temurin-19-alpine",
-      "3.8.7-eclipse-temurin-19-alpine"
+      "3.9-eclipse-temurin-19-alpine",
+      "3.9.0-eclipse-temurin-19-alpine"
     ],
     "images": [
       {
@@ -411,7 +351,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19-alpine/Dockerfile"
       }
@@ -422,8 +362,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-19-focal",
-      "3.8-eclipse-temurin-19-focal",
-      "3.8.7-eclipse-temurin-19-focal"
+      "3.9-eclipse-temurin-19-focal",
+      "3.9.0-eclipse-temurin-19-focal"
     ],
     "images": [
       {
@@ -431,7 +371,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19-focal/Dockerfile"
       },
@@ -441,7 +381,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19-focal/Dockerfile"
       },
@@ -451,7 +391,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19-focal/Dockerfile"
       },
@@ -460,7 +400,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19-focal/Dockerfile"
       },
@@ -469,7 +409,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-19-focal/Dockerfile"
       }
@@ -480,8 +420,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-8",
-      "3.8-eclipse-temurin-8",
-      "3.8.7-eclipse-temurin-8"
+      "3.9-eclipse-temurin-8",
+      "3.9.0-eclipse-temurin-8"
     ],
     "images": [
       {
@@ -489,7 +429,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8/Dockerfile"
       },
@@ -499,7 +439,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8/Dockerfile"
       },
@@ -509,7 +449,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8/Dockerfile"
       },
@@ -518,7 +458,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8/Dockerfile"
       }
@@ -529,8 +469,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-8-alpine",
-      "3.8-eclipse-temurin-8-alpine",
-      "3.8.7-eclipse-temurin-8-alpine"
+      "3.9-eclipse-temurin-8-alpine",
+      "3.9.0-eclipse-temurin-8-alpine"
     ],
     "images": [
       {
@@ -538,7 +478,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8-alpine/Dockerfile"
       }
@@ -549,8 +489,8 @@
     "name": "maven",
     "tags": [
       "3-eclipse-temurin-8-focal",
-      "3.8-eclipse-temurin-8-focal",
-      "3.8.7-eclipse-temurin-8-focal"
+      "3.9-eclipse-temurin-8-focal",
+      "3.9.0-eclipse-temurin-8-focal"
     ],
     "images": [
       {
@@ -558,7 +498,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8-focal/Dockerfile"
       },
@@ -568,7 +508,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8-focal/Dockerfile"
       },
@@ -578,7 +518,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8-focal/Dockerfile"
       },
@@ -587,7 +527,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "eclipse-temurin-8-focal/Dockerfile"
       }
@@ -600,10 +540,10 @@
       "ibmjava",
       "3-ibmjava",
       "3-ibmjava-8",
-      "3.8-ibmjava",
-      "3.8-ibmjava-8",
-      "3.8.7-ibmjava",
-      "3.8.7-ibmjava-8"
+      "3.9-ibmjava",
+      "3.9-ibmjava-8",
+      "3.9.0-ibmjava",
+      "3.9.0-ibmjava-8"
     ],
     "images": [
       {
@@ -611,7 +551,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibmjava-8/Dockerfile"
       },
@@ -620,7 +560,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibmjava-8/Dockerfile"
       },
@@ -629,7 +569,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibmjava-8/Dockerfile"
       },
@@ -638,7 +578,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibmjava-8/Dockerfile"
       }
@@ -649,8 +589,8 @@
     "name": "maven",
     "tags": [
       "3-ibm-semeru-11-focal",
-      "3.8-ibm-semeru-11-focal",
-      "3.8.7-ibm-semeru-11-focal"
+      "3.9-ibm-semeru-11-focal",
+      "3.9.0-ibm-semeru-11-focal"
     ],
     "images": [
       {
@@ -658,7 +598,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-11-focal/Dockerfile"
       },
@@ -668,7 +608,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-11-focal/Dockerfile"
       },
@@ -677,7 +617,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-11-focal/Dockerfile"
       },
@@ -686,7 +626,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-11-focal/Dockerfile"
       }
@@ -697,8 +637,8 @@
     "name": "maven",
     "tags": [
       "3-ibm-semeru-17-focal",
-      "3.8-ibm-semeru-17-focal",
-      "3.8.7-ibm-semeru-17-focal"
+      "3.9-ibm-semeru-17-focal",
+      "3.9.0-ibm-semeru-17-focal"
     ],
     "images": [
       {
@@ -706,7 +646,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-17-focal/Dockerfile"
       },
@@ -716,7 +656,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-17-focal/Dockerfile"
       },
@@ -725,7 +665,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-17-focal/Dockerfile"
       },
@@ -734,7 +674,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "ibm-semeru-17-focal/Dockerfile"
       }
@@ -746,11 +686,11 @@
     "tags": [
       "amazoncorretto",
       "3-amazoncorretto",
-      "3.8-amazoncorretto",
+      "3.9-amazoncorretto",
       "3-amazoncorretto-11",
-      "3.8.7-amazoncorretto",
-      "3.8-amazoncorretto-11",
-      "3.8.7-amazoncorretto-11"
+      "3.9.0-amazoncorretto",
+      "3.9-amazoncorretto-11",
+      "3.9.0-amazoncorretto-11"
     ],
     "images": [
       {
@@ -758,7 +698,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-11/Dockerfile"
       },
@@ -768,7 +708,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-11/Dockerfile"
       }
@@ -779,8 +719,8 @@
     "name": "maven",
     "tags": [
       "3-amazoncorretto-17",
-      "3.8-amazoncorretto-17",
-      "3.8.7-amazoncorretto-17"
+      "3.9-amazoncorretto-17",
+      "3.9.0-amazoncorretto-17"
     ],
     "images": [
       {
@@ -788,7 +728,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-17/Dockerfile"
       },
@@ -798,7 +738,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-17/Dockerfile"
       }
@@ -809,8 +749,8 @@
     "name": "maven",
     "tags": [
       "3-amazoncorretto-19",
-      "3.8-amazoncorretto-19",
-      "3.8.7-amazoncorretto-19"
+      "3.9-amazoncorretto-19",
+      "3.9.0-amazoncorretto-19"
     ],
     "images": [
       {
@@ -818,7 +758,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-19/Dockerfile"
       },
@@ -828,7 +768,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-19/Dockerfile"
       }
@@ -839,8 +779,8 @@
     "name": "maven",
     "tags": [
       "3-amazoncorretto-8",
-      "3.8-amazoncorretto-8",
-      "3.8.7-amazoncorretto-8"
+      "3.9-amazoncorretto-8",
+      "3.9.0-amazoncorretto-8"
     ],
     "images": [
       {
@@ -848,7 +788,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-8/Dockerfile"
       },
@@ -858,7 +798,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-8/Dockerfile"
       }
@@ -869,8 +809,8 @@
     "name": "maven",
     "tags": [
       "3-sapmachine-11",
-      "3.8-sapmachine-11",
-      "3.8.7-sapmachine-11"
+      "3.9-sapmachine-11",
+      "3.9.0-sapmachine-11"
     ],
     "images": [
       {
@@ -878,7 +818,26 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-11/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-11/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "sapmachine-11/Dockerfile"
       }
@@ -890,11 +849,11 @@
     "tags": [
       "sapmachine",
       "3-sapmachine",
-      "3.8-sapmachine",
+      "3.9-sapmachine",
       "3-sapmachine-17",
-      "3.8.7-sapmachine",
-      "3.8-sapmachine-17",
-      "3.8.7-sapmachine-17"
+      "3.9.0-sapmachine",
+      "3.9-sapmachine-17",
+      "3.9.0-sapmachine-17"
     ],
     "images": [
       {
@@ -902,7 +861,26 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "34e7d27260ee61c6866922c523e04b53ba098337",
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-17/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-17/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "32760466401d45fabb8166b5dcf9003b07598918",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "sapmachine-17/Dockerfile"
       }
