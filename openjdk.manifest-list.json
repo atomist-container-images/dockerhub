@@ -829,17 +829,13 @@
     "name": "openjdk",
     "tags": [
       "20-oracle",
-      "20-ea-oracle",
+      "20-rc-oracle",
       "20-jdk-oracle",
-      "20-ea-35-oracle",
       "20-oraclelinux8",
-      "20-ea-jdk-oracle",
-      "20-ea-oraclelinux8",
-      "20-ea-35-jdk-oracle",
+      "20-rc-jdk-oracle",
+      "20-rc-oraclelinux8",
       "20-jdk-oraclelinux8",
-      "20-ea-35-oraclelinux8",
-      "20-ea-jdk-oraclelinux8",
-      "20-ea-35-jdk-oraclelinux8"
+      "20-rc-jdk-oraclelinux8"
     ],
     "images": [
       {
@@ -847,7 +843,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -857,7 +853,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       }
@@ -867,7 +863,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "20-ea-35-jdk"
+      "20-rc-jdk"
     ],
     "images": [
       {
@@ -875,7 +871,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -885,7 +881,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -894,7 +890,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -903,7 +899,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -913,7 +909,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "20-ea-35"
+      "20-rc"
     ],
     "images": [
       {
@@ -921,7 +917,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -931,7 +927,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -940,7 +936,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -949,99 +945,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "20-ea-jdk"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/oraclelinux8/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/oraclelinux8/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "20-ea"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/oraclelinux8/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/oraclelinux8/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1059,7 +963,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -1069,7 +973,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -1078,7 +982,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1087,7 +991,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1105,7 +1009,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -1115,7 +1019,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux8/Dockerfile"
       },
@@ -1124,7 +1028,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1133,7 +1037,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1144,11 +1048,9 @@
     "name": "openjdk",
     "tags": [
       "20-oraclelinux7",
-      "20-ea-oraclelinux7",
+      "20-rc-oraclelinux7",
       "20-jdk-oraclelinux7",
-      "20-ea-35-oraclelinux7",
-      "20-ea-jdk-oraclelinux7",
-      "20-ea-35-jdk-oraclelinux7"
+      "20-rc-jdk-oraclelinux7"
     ],
     "images": [
       {
@@ -1156,7 +1058,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux7/Dockerfile"
       },
@@ -1166,7 +1068,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/oraclelinux7/Dockerfile"
       }
@@ -1177,11 +1079,9 @@
     "name": "openjdk",
     "tags": [
       "20-bullseye",
-      "20-ea-bullseye",
+      "20-rc-bullseye",
       "20-jdk-bullseye",
-      "20-ea-35-bullseye",
-      "20-ea-jdk-bullseye",
-      "20-ea-35-jdk-bullseye"
+      "20-rc-jdk-bullseye"
     ],
     "images": [
       {
@@ -1189,7 +1089,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/bullseye/Dockerfile"
       },
@@ -1199,7 +1099,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/bullseye/Dockerfile"
       }
@@ -1210,17 +1110,13 @@
     "name": "openjdk",
     "tags": [
       "20-slim",
-      "20-ea-slim",
+      "20-rc-slim",
       "20-jdk-slim",
-      "20-ea-35-slim",
-      "20-ea-jdk-slim",
+      "20-rc-jdk-slim",
       "20-slim-bullseye",
-      "20-ea-35-jdk-slim",
-      "20-ea-slim-bullseye",
+      "20-rc-slim-bullseye",
       "20-jdk-slim-bullseye",
-      "20-ea-35-slim-bullseye",
-      "20-ea-jdk-slim-bullseye",
-      "20-ea-35-jdk-slim-bullseye"
+      "20-rc-jdk-slim-bullseye"
     ],
     "images": [
       {
@@ -1228,7 +1124,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/slim-bullseye/Dockerfile"
       },
@@ -1238,7 +1134,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/slim-bullseye/Dockerfile"
       }
@@ -1249,11 +1145,9 @@
     "name": "openjdk",
     "tags": [
       "20-buster",
-      "20-ea-buster",
+      "20-rc-buster",
       "20-jdk-buster",
-      "20-ea-35-buster",
-      "20-ea-jdk-buster",
-      "20-ea-35-jdk-buster"
+      "20-rc-jdk-buster"
     ],
     "images": [
       {
@@ -1261,7 +1155,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/buster/Dockerfile"
       },
@@ -1271,7 +1165,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/buster/Dockerfile"
       }
@@ -1282,11 +1176,9 @@
     "name": "openjdk",
     "tags": [
       "20-slim-buster",
-      "20-ea-slim-buster",
+      "20-rc-slim-buster",
       "20-jdk-slim-buster",
-      "20-ea-35-slim-buster",
-      "20-ea-jdk-slim-buster",
-      "20-ea-35-jdk-slim-buster"
+      "20-rc-jdk-slim-buster"
     ],
     "images": [
       {
@@ -1294,7 +1186,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/slim-buster/Dockerfile"
       },
@@ -1304,7 +1196,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/slim-buster/Dockerfile"
       }
@@ -1315,11 +1207,9 @@
     "name": "openjdk",
     "tags": [
       "20-windowsservercore-ltsc2022",
-      "20-ea-windowsservercore-ltsc2022",
+      "20-rc-windowsservercore-ltsc2022",
       "20-jdk-windowsservercore-ltsc2022",
-      "20-ea-35-windowsservercore-ltsc2022",
-      "20-ea-jdk-windowsservercore-ltsc2022",
-      "20-ea-35-jdk-windowsservercore-ltsc2022"
+      "20-rc-jdk-windowsservercore-ltsc2022"
     ],
     "images": [
       {
@@ -1327,7 +1217,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       }
@@ -1337,7 +1227,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "20-ea-35-jdk-windowsservercore"
+      "20-rc-jdk-windowsservercore"
     ],
     "images": [
       {
@@ -1345,7 +1235,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1354,7 +1244,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1364,7 +1254,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "20-ea-35-windowsservercore"
+      "20-rc-windowsservercore"
     ],
     "images": [
       {
@@ -1372,7 +1262,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1381,61 +1271,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "20-ea-jdk-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "20-ea-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1453,7 +1289,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1462,7 +1298,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1480,7 +1316,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1489,7 +1325,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1500,11 +1336,9 @@
     "name": "openjdk",
     "tags": [
       "20-windowsservercore-1809",
-      "20-ea-windowsservercore-1809",
+      "20-rc-windowsservercore-1809",
       "20-jdk-windowsservercore-1809",
-      "20-ea-35-windowsservercore-1809",
-      "20-ea-jdk-windowsservercore-1809",
-      "20-ea-35-jdk-windowsservercore-1809"
+      "20-rc-jdk-windowsservercore-1809"
     ],
     "images": [
       {
@@ -1512,7 +1346,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1523,11 +1357,9 @@
     "name": "openjdk",
     "tags": [
       "20-nanoserver-1809",
-      "20-ea-nanoserver-1809",
+      "20-rc-nanoserver-1809",
       "20-jdk-nanoserver-1809",
-      "20-ea-35-nanoserver-1809",
-      "20-ea-jdk-nanoserver-1809",
-      "20-ea-35-jdk-nanoserver-1809"
+      "20-rc-jdk-nanoserver-1809"
     ],
     "images": [
       {
@@ -1535,7 +1367,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
       }
@@ -1545,7 +1377,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "20-ea-35-jdk-nanoserver"
+      "20-rc-jdk-nanoserver"
     ],
     "images": [
       {
@@ -1553,7 +1385,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
       }
@@ -1563,7 +1395,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "20-ea-35-nanoserver"
+      "20-rc-nanoserver"
     ],
     "images": [
       {
@@ -1571,43 +1403,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "20-ea-jdk-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "20-ea-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
       }
@@ -1625,7 +1421,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
       }
@@ -1643,7 +1439,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "65b377582250dd8cc6429d89963d3bf60a1edf47",
+        "sha": "e8f4b960d194f603f78a9371867cb7c87654b900",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "20/jdk/windows/nanoserver-1809/Dockerfile"
       }
