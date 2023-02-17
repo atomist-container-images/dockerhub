@@ -3,11 +3,10 @@
     "version": "26",
     "name": "erlang",
     "tags": [
-      "25",
-      "25.2",
-      "25.2.2",
-      "latest",
-      "25.2.2.0"
+      "26",
+      "26.0-rc1",
+      "26.0-rc1.0",
+      "26.0-rc1.0.0"
     ],
     "images": [
       {
@@ -15,7 +14,248 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "erlang",
+    "tags": [
+      "26-slim",
+      "26.0-rc1-slim",
+      "26.0-rc1.0-slim",
+      "26.0-rc1.0.0-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/slim/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "erlang",
+    "tags": [
+      "26-alpine",
+      "26.0-rc1-alpine",
+      "26.0-rc1.0-alpine",
+      "26.0-rc1.0.0-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
+        "repo": "https://github.com/erlang/docker-erlang-otp.git",
+        "path": "26/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "erlang",
+    "tags": [
+      "25",
+      "25.2",
+      "25.2.3",
+      "latest",
+      "25.2.3.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -24,7 +264,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -34,7 +274,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -44,7 +284,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -53,7 +293,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -62,7 +302,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -71,7 +311,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       },
@@ -80,7 +320,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/Dockerfile"
       }
@@ -93,8 +333,8 @@
       "slim",
       "25-slim",
       "25.2-slim",
-      "25.2.2-slim",
-      "25.2.2.0-slim"
+      "25.2.3-slim",
+      "25.2.3.0-slim"
     ],
     "images": [
       {
@@ -102,7 +342,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -111,7 +351,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -121,7 +361,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -131,7 +371,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -140,7 +380,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -149,7 +389,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -158,7 +398,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       },
@@ -167,7 +407,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/slim/Dockerfile"
       }
@@ -180,8 +420,8 @@
       "alpine",
       "25-alpine",
       "25.2-alpine",
-      "25.2.2-alpine",
-      "25.2.2.0-alpine"
+      "25.2.3-alpine",
+      "25.2.3.0-alpine"
     ],
     "images": [
       {
@@ -189,7 +429,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/alpine/Dockerfile"
       },
@@ -199,7 +439,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/alpine/Dockerfile"
       },
@@ -209,7 +449,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/alpine/Dockerfile"
       },
@@ -218,7 +458,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/alpine/Dockerfile"
       },
@@ -227,7 +467,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/alpine/Dockerfile"
       },
@@ -236,7 +476,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b6f02e74925e25f4fef924ff97625f9f839fc0d7",
+        "sha": "3e60071a7f14aefe202b602aec0893678d0a0069",
         "repo": "https://github.com/erlang/docker-erlang-otp.git",
         "path": "25/alpine/Dockerfile"
       }
