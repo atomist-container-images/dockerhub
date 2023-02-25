@@ -3,9 +3,57 @@
     "version": "26",
     "name": "consul",
     "tags": [
-      "1.14",
-      "1.14.4",
+      "1.15",
+      "1.15.0",
       "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5536496885820968b7a72b45cb599665156b6e0c",
+        "repo": "https://github.com/hashicorp/docker-consul.git",
+        "path": "0.X/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "5536496885820968b7a72b45cb599665156b6e0c",
+        "repo": "https://github.com/hashicorp/docker-consul.git",
+        "path": "0.X/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5536496885820968b7a72b45cb599665156b6e0c",
+        "repo": "https://github.com/hashicorp/docker-consul.git",
+        "path": "0.X/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "5536496885820968b7a72b45cb599665156b6e0c",
+        "repo": "https://github.com/hashicorp/docker-consul.git",
+        "path": "0.X/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "consul",
+    "tags": [
+      "1.14",
+      "1.14.4"
     ],
     "images": [
       {
@@ -91,54 +139,6 @@
           "architecture": "386"
         },
         "sha": "763f155f091b9aac1015adc9f7a28818ee1eb3f0",
-        "repo": "https://github.com/hashicorp/docker-consul.git",
-        "path": "0.X/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "consul",
-    "tags": [
-      "1.12",
-      "1.12.9"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "49a5ec3b58813906bab24a055d23194736905b63",
-        "repo": "https://github.com/hashicorp/docker-consul.git",
-        "path": "0.X/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "49a5ec3b58813906bab24a055d23194736905b63",
-        "repo": "https://github.com/hashicorp/docker-consul.git",
-        "path": "0.X/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "49a5ec3b58813906bab24a055d23194736905b63",
-        "repo": "https://github.com/hashicorp/docker-consul.git",
-        "path": "0.X/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "49a5ec3b58813906bab24a055d23194736905b63",
         "repo": "https://github.com/hashicorp/docker-consul.git",
         "path": "0.X/Dockerfile"
       }
