@@ -151,6 +151,79 @@
     "version": "26",
     "name": "traefik",
     "tags": [
+      "2.10-windowsservercore-1809",
+      "v2.10-windowsservercore-1809",
+      "2.10.0-rc1-windowsservercore-1809",
+      "v2.10.0-rc1-windowsservercore-1809",
+      "saintmarcelin-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "5288f2536e6a30aecac3e7685748639257d0ddcb",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
+      "2.10",
+      "v2.10",
+      "2.10.0-rc1",
+      "v2.10.0-rc1",
+      "saintmarcelin"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5288f2536e6a30aecac3e7685748639257d0ddcb",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "5288f2536e6a30aecac3e7685748639257d0ddcb",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5288f2536e6a30aecac3e7685748639257d0ddcb",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5288f2536e6a30aecac3e7685748639257d0ddcb",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
       "1.7-windowsservercore-1809",
       "v1.7-windowsservercore-1809",
       "1.7.34-windowsservercore-1809",
