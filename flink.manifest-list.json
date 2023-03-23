@@ -4,9 +4,79 @@
     "name": "flink",
     "tags": [
       "java8",
+      "1.17-java8",
+      "1.17.0-java8",
+      "scala_2.12-java8",
+      "1.17-scala_2.12-java8",
+      "1.17.0-scala_2.12-java8"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "1cb66d334bd1a1a9a7627c47478a31afed542aab",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.17/scala_2.12-java8-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "1cb66d334bd1a1a9a7627c47478a31afed542aab",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.17/scala_2.12-java8-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "flink",
+    "tags": [
+      "1.17",
+      "1.17.0",
+      "java11",
+      "latest",
+      "scala_2.12",
+      "1.17-java11",
+      "1.17.0-java11",
+      "1.17-scala_2.12",
+      "1.17.0-scala_2.12",
+      "scala_2.12-java11",
+      "1.17-scala_2.12-java11",
+      "1.17.0-scala_2.12-java11"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "1cb66d334bd1a1a9a7627c47478a31afed542aab",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.17/scala_2.12-java11-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "1cb66d334bd1a1a9a7627c47478a31afed542aab",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "1.17/scala_2.12-java11-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "flink",
+    "tags": [
       "1.16-java8",
       "1.16.1-java8",
-      "scala_2.12-java8",
       "1.16-scala_2.12-java8",
       "1.16.1-scala_2.12-java8"
     ],
@@ -38,14 +108,10 @@
     "tags": [
       "1.16",
       "1.16.1",
-      "java11",
-      "latest",
-      "scala_2.12",
       "1.16-java11",
       "1.16.1-java11",
       "1.16-scala_2.12",
       "1.16.1-scala_2.12",
-      "scala_2.12-java11",
       "1.16-scala_2.12-java11",
       "1.16.1-scala_2.12-java11"
     ],
