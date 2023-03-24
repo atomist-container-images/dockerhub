@@ -81,8 +81,7 @@
     "name": "sapmachine",
     "tags": [
       "19",
-      "19.0.2",
-      "latest"
+      "19.0.2"
     ],
     "images": [
       {
@@ -112,6 +111,44 @@
         "sha": "c515da6c71d27d6bbf8fca4c0e782a50e9f8319c",
         "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
         "path": "dockerfiles/official/19/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
+      "20",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b0f930a0c42d3e856e6ee459c569c69336a5b00a",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/official/20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b0f930a0c42d3e856e6ee459c569c69336a5b00a",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/official/20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "b0f930a0c42d3e856e6ee459c569c69336a5b00a",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/official/20/Dockerfile"
       }
     ]
   }
