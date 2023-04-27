@@ -3,11 +3,81 @@
     "version": "26",
     "name": "gcc",
     "tags": [
+      "13",
+      "13.1",
+      "13.1.0",
+      "latest",
+      "bookworm",
+      "13-bookworm",
+      "13.1-bookworm",
+      "13.1.0-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "13/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "13/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "13/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "13/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "13/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "13/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gcc",
+    "tags": [
       "12",
       "12.2",
       "12.2.0",
-      "latest",
-      "bullseye",
       "12-bullseye",
       "12.2-bullseye",
       "12.2.0-bullseye"
@@ -148,9 +218,9 @@
       "10",
       "10.4",
       "10.4.0",
-      "10-buster",
-      "10.4-buster",
-      "10.4.0-buster"
+      "10-bullseye",
+      "10.4-bullseye",
+      "10.4.0-bullseye"
     ],
     "images": [
       {
@@ -158,7 +228,16 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1e3174f36d64a3ce1373a7004a7f0d4f98de307b",
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "10/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
         "repo": "https://github.com/docker-library/gcc.git",
         "path": "10/Dockerfile"
       },
@@ -168,7 +247,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "1e3174f36d64a3ce1373a7004a7f0d4f98de307b",
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
         "repo": "https://github.com/docker-library/gcc.git",
         "path": "10/Dockerfile"
       },
@@ -178,7 +257,25 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1e3174f36d64a3ce1373a7004a7f0d4f98de307b",
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "10/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "10/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
         "repo": "https://github.com/docker-library/gcc.git",
         "path": "10/Dockerfile"
       }
@@ -191,9 +288,9 @@
       "9",
       "9.5",
       "9.5.0",
-      "9-buster",
-      "9.5-buster",
-      "9.5.0-buster"
+      "9-bullseye",
+      "9.5-bullseye",
+      "9.5.0-bullseye"
     ],
     "images": [
       {
@@ -201,7 +298,16 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6c40a41a202b2996b26b52e94762fe9aa8830766",
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "9/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
         "repo": "https://github.com/docker-library/gcc.git",
         "path": "9/Dockerfile"
       },
@@ -211,7 +317,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6c40a41a202b2996b26b52e94762fe9aa8830766",
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
         "repo": "https://github.com/docker-library/gcc.git",
         "path": "9/Dockerfile"
       },
@@ -221,7 +327,25 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6c40a41a202b2996b26b52e94762fe9aa8830766",
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "9/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "9/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "00b26e718cb2a42fca77676383917c1e5c15b6ca",
         "repo": "https://github.com/docker-library/gcc.git",
         "path": "9/Dockerfile"
       }
