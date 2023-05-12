@@ -3,27 +3,6 @@
     "version": "26",
     "name": "bonita",
     "tags": [
-      "7.12",
-      "2021.1",
-      "7.12.1"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "bfdd527629063b73f053320e50e1f6bfcd135d0a",
-        "repo": "https://github.com/bonitasoft/bonita-distrib.git",
-        "path": "docker/Dockerfile",
-        "branch": "refs/heads/docker/2021.1"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "bonita",
-    "tags": [
       "7.13",
       "2021.2",
       "7.13.0",
@@ -71,7 +50,6 @@
       "7.15",
       "2022.2",
       "7.15.0",
-      "latest",
       "2022.2-u0"
     ],
     "images": [
@@ -81,6 +59,29 @@
           "architecture": "amd64"
         },
         "sha": "21c0e51634e836feaf910e8e3d6e95de200e1814",
+        "repo": "https://github.com/bonitasoft/bonita-distrib.git",
+        "path": "docker/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "bonita",
+    "tags": [
+      "8.0",
+      "8.0.0",
+      "2023.1",
+      "latest",
+      "2023.1-u0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0848e9716e3ff36a15f03e8ffe5bfd25c273cc5b",
         "repo": "https://github.com/bonitasoft/bonita-distrib.git",
         "path": "docker/Dockerfile",
         "branch": "refs/heads/master"
