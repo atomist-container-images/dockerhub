@@ -351,9 +351,30 @@
       "alpine",
       "1-alpine",
       "1.9-alpine",
+      "alpine3.18",
+      "1-alpine3.18",
+      "1.9.0-alpine",
+      "1.9-alpine3.18",
+      "1.9.0-alpine3.18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "1486d832edaa15eee0703c413aace5d70efd8704",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.9/alpine3.18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
       "alpine3.17",
       "1-alpine3.17",
-      "1.9.0-alpine",
       "1.9-alpine3.17",
       "1.9.0-alpine3.17"
     ],
@@ -366,27 +387,6 @@
         "sha": "e7b78511fdae10bb6bb32737be3e8503c8a1b87a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.9/alpine3.17/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "julia",
-    "tags": [
-      "alpine3.16",
-      "1-alpine3.16",
-      "1.9-alpine3.16",
-      "1.9.0-alpine3.16"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "e7b78511fdae10bb6bb32737be3e8503c8a1b87a",
-        "repo": "https://github.com/docker-library/julia.git",
-        "path": "1.9/alpine3.16/Dockerfile"
       }
     ]
   },
@@ -772,6 +772,25 @@
     "tags": [
       "1.6-alpine",
       "1.6.7-alpine",
+      "1.6-alpine3.18",
+      "1.6.7-alpine3.18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "1486d832edaa15eee0703c413aace5d70efd8704",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.6/alpine3.18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
       "1.6-alpine3.17",
       "1.6.7-alpine3.17"
     ],
@@ -784,25 +803,6 @@
         "sha": "67a1817cca70fb1a601ecb38517c44e1e9982292",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.6/alpine3.17/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "julia",
-    "tags": [
-      "1.6-alpine3.16",
-      "1.6.7-alpine3.16"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "67a1817cca70fb1a601ecb38517c44e1e9982292",
-        "repo": "https://github.com/docker-library/julia.git",
-        "path": "1.6/alpine3.16/Dockerfile"
       }
     ]
   },
