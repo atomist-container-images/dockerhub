@@ -606,6 +606,94 @@
     "version": "26",
     "name": "ros",
     "tags": [
+      "iron-ros-core",
+      "iron-ros-core-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "iron",
+      "iron-ros-base",
+      "iron-ros-base-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "iron-perception",
+      "iron-perception-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
       "rolling-ros-core",
       "rolling-ros-core-jammy"
     ],
