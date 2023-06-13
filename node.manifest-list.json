@@ -165,6 +165,141 @@
       "20.3.0",
       "latest",
       "current",
+      "bookworm",
+      "20-bookworm",
+      "20.3-bookworm",
+      "20.3.0-bookworm",
+      "current-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "slim",
+      "20-slim",
+      "20.3-slim",
+      "20.3.0-slim",
+      "current-slim",
+      "bookworm-slim",
+      "20-bookworm-slim",
+      "20.3-bookworm-slim",
+      "20.3.0-bookworm-slim",
+      "current-bookworm-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
       "bullseye",
       "20-bullseye",
       "20.3-bullseye",
@@ -230,11 +365,6 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "slim",
-      "20-slim",
-      "20.3-slim",
-      "20.3.0-slim",
-      "current-slim",
       "bullseye-slim",
       "20-bullseye-slim",
       "20.3-bullseye-slim",
@@ -552,9 +682,144 @@
       "18.16",
       "18.16.0",
       "hydrogen",
+      "18-bookworm",
+      "lts-bookworm",
+      "lts-hydrogen",
+      "18.16-bookworm",
+      "18.16.0-bookworm",
+      "hydrogen-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "18-slim",
+      "lts-slim",
+      "18.16-slim",
+      "18.16.0-slim",
+      "hydrogen-slim",
+      "18-bookworm-slim",
+      "lts-bookworm-slim",
+      "18.16-bookworm-slim",
+      "18.16.0-bookworm-slim",
+      "hydrogen-bookworm-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "18/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
       "18-bullseye",
       "lts-bullseye",
-      "lts-hydrogen",
       "18.16-bullseye",
       "18.16.0-bullseye",
       "hydrogen-bullseye"
@@ -618,11 +883,6 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "18-slim",
-      "lts-slim",
-      "18.16-slim",
-      "18.16.0-slim",
-      "hydrogen-slim",
       "18-bullseye-slim",
       "lts-bullseye-slim",
       "18.16-bullseye-slim",
@@ -924,6 +1184,134 @@
         "sha": "d951a7ff95eac09985446409589d6ea75ac42f96",
         "repo": "https://github.com/nodejs/docker-node.git",
         "path": "16/alpine3.18/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "16-bookworm",
+      "16.20-bookworm",
+      "16.20.0-bookworm",
+      "gallium-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "16-bookworm-slim",
+      "16.20-bookworm-slim",
+      "16.20.0-bookworm-slim",
+      "gallium-bookworm-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "92f7975318fe8d49e83653bf93a27e4af4a4872c",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "16/bookworm-slim/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
