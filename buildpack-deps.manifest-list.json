@@ -3,7 +3,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "testing-curl",
+      "curl",
+      "stable-curl",
       "bookworm-curl"
     ],
     "images": [
@@ -87,7 +88,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "testing-scm",
+      "scm",
+      "stable-scm",
       "bookworm-scm"
     ],
     "images": [
@@ -171,7 +173,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "testing",
+      "latest",
+      "stable",
       "bookworm"
     ],
     "images": [
@@ -255,9 +258,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "curl",
-      "stable-curl",
-      "bullseye-curl"
+      "bullseye-curl",
+      "oldstable-curl"
     ],
     "images": [
       {
@@ -340,9 +342,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "scm",
-      "stable-scm",
-      "bullseye-scm"
+      "bullseye-scm",
+      "oldstable-scm"
     ],
     "images": [
       {
@@ -425,9 +426,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "latest",
-      "stable",
-      "bullseye"
+      "bullseye",
+      "oldstable"
     ],
     "images": [
       {
@@ -511,7 +511,7 @@
     "name": "buildpack-deps",
     "tags": [
       "buster-curl",
-      "oldstable-curl"
+      "oldoldstable-curl"
     ],
     "images": [
       {
@@ -559,7 +559,7 @@
     "name": "buildpack-deps",
     "tags": [
       "buster-scm",
-      "oldstable-scm"
+      "oldoldstable-scm"
     ],
     "images": [
       {
@@ -607,7 +607,7 @@
     "name": "buildpack-deps",
     "tags": [
       "buster",
-      "oldstable"
+      "oldoldstable"
     ],
     "images": [
       {
