@@ -264,8 +264,6 @@
       "26",
       "26.0",
       "26.0.2",
-      "apache",
-      "latest",
       "26-apache",
       "26.0-apache",
       "26.0.2-apache"
@@ -351,7 +349,6 @@
     "version": "26",
     "name": "nextcloud",
     "tags": [
-      "fpm",
       "26-fpm",
       "26.0-fpm",
       "26.0.2-fpm"
@@ -437,7 +434,6 @@
     "version": "26",
     "name": "nextcloud",
     "tags": [
-      "fpm-alpine",
       "26-fpm-alpine",
       "26.0-fpm-alpine",
       "26.0.2-fpm-alpine"
@@ -508,6 +504,260 @@
         "sha": "22d28e45cdcdb553239af45c7b1566d628f72bc6",
         "repo": "https://github.com/nextcloud/docker.git",
         "path": "26/fpm-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "nextcloud",
+    "tags": [
+      "27",
+      "27.0",
+      "27.0.0",
+      "apache",
+      "latest",
+      "27-apache",
+      "27.0-apache",
+      "27.0.0-apache"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/apache/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "nextcloud",
+    "tags": [
+      "fpm",
+      "27-fpm",
+      "27.0-fpm",
+      "27.0.0-fpm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "nextcloud",
+    "tags": [
+      "fpm-alpine",
+      "27-fpm-alpine",
+      "27.0-fpm-alpine",
+      "27.0.0-fpm-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "ceb2893af1c4ee9bec07082c82f5b638bb47cff7",
+        "repo": "https://github.com/nextcloud/docker.git",
+        "path": "27/fpm-alpine/Dockerfile"
       }
     ]
   }
