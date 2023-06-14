@@ -3,18 +3,12 @@
     "version": "26",
     "name": "tomcat",
     "tags": [
-      "11.0",
-      "11.0.0",
-      "11.0.0-M6",
-      "11.0-jdk17",
-      "11.0.0-jdk17",
-      "11.0.0-M6-jdk17",
-      "11.0-jdk17-temurin",
-      "11.0.0-jdk17-temurin",
-      "11.0.0-M6-jdk17-temurin",
-      "11.0-jdk17-temurin-jammy",
-      "11.0.0-jdk17-temurin-jammy",
-      "11.0.0-M6-jdk17-temurin-jammy"
+      "11.0-jdk21-openjdk",
+      "11.0.0-jdk21-openjdk",
+      "11.0.0-M7-jdk21-openjdk",
+      "11.0-jdk21-openjdk-bookworm",
+      "11.0.0-jdk21-openjdk-bookworm",
+      "11.0.0-M7-jdk21-openjdk-bookworm"
     ],
     "images": [
       {
@@ -22,19 +16,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk17/temurin-jammy/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk17/temurin-jammy/Dockerfile"
+        "path": "11.0/jdk21/openjdk-bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -42,27 +26,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk17/temurin-jammy/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk17/temurin-jammy/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk17/temurin-jammy/Dockerfile"
+        "path": "11.0/jdk21/openjdk-bookworm/Dockerfile"
       }
     ]
   },
@@ -70,15 +36,12 @@
     "version": "26",
     "name": "tomcat",
     "tags": [
-      "11.0-jre17",
-      "11.0.0-jre17",
-      "11.0.0-M6-jre17",
-      "11.0-jre17-temurin",
-      "11.0.0-jre17-temurin",
-      "11.0.0-M6-jre17-temurin",
-      "11.0-jre17-temurin-jammy",
-      "11.0.0-jre17-temurin-jammy",
-      "11.0.0-M6-jre17-temurin-jammy"
+      "11.0-jdk21-openjdk-slim",
+      "11.0.0-jdk21-openjdk-slim",
+      "11.0.0-M7-jdk21-openjdk-slim",
+      "11.0-jdk21-openjdk-slim-bookworm",
+      "11.0.0-jdk21-openjdk-slim-bookworm",
+      "11.0.0-M7-jdk21-openjdk-slim-bookworm"
     ],
     "images": [
       {
@@ -86,19 +49,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jre17/temurin-jammy/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jre17/temurin-jammy/Dockerfile"
+        "path": "11.0/jdk21/openjdk-slim-bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -106,27 +59,79 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jre17/temurin-jammy/Dockerfile"
+        "path": "11.0/jdk21/openjdk-slim-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "jdk21-openjdk",
+      "10-jdk21-openjdk",
+      "10.1-jdk21-openjdk",
+      "10.1.10-jdk21-openjdk",
+      "jdk21-openjdk-bookworm",
+      "10-jdk21-openjdk-bookworm",
+      "10.1-jdk21-openjdk-bookworm",
+      "10.1.10-jdk21-openjdk-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jdk21/openjdk-bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
-          "architecture": "ppc64le"
+          "architecture": "arm64",
+          "variant": "v8"
         },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jre17/temurin-jammy/Dockerfile"
+        "path": "10.1/jdk21/openjdk-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "jdk21-openjdk-slim",
+      "10-jdk21-openjdk-slim",
+      "10.1-jdk21-openjdk-slim",
+      "10.1.10-jdk21-openjdk-slim",
+      "jdk21-openjdk-slim-bookworm",
+      "10-jdk21-openjdk-slim-bookworm",
+      "10.1-jdk21-openjdk-slim-bookworm",
+      "10.1.10-jdk21-openjdk-slim-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jdk21/openjdk-slim-bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
-          "architecture": "s390x"
+          "architecture": "arm64",
+          "variant": "v8"
         },
-        "sha": "67e71978df0c16df45ab4364a10d9239fc7869d3",
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jre17/temurin-jammy/Dockerfile"
+        "path": "10.1/jdk21/openjdk-slim-bookworm/Dockerfile"
       }
     ]
   },
@@ -399,6 +404,132 @@
         "sha": "cec66ee6d87cce2308d454b47bb7addbb9ace087",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre11/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jdk21-openjdk",
+      "9.0-jdk21-openjdk",
+      "9.0.76-jdk21-openjdk",
+      "9-jdk21-openjdk-bookworm",
+      "9.0-jdk21-openjdk-bookworm",
+      "9.0.76-jdk21-openjdk-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jdk21-openjdk-bullseye",
+      "9.0-jdk21-openjdk-bullseye",
+      "9.0.76-jdk21-openjdk-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jdk21-openjdk-slim",
+      "9.0-jdk21-openjdk-slim",
+      "9.0.76-jdk21-openjdk-slim",
+      "9-jdk21-openjdk-slim-bookworm",
+      "9.0-jdk21-openjdk-slim-bookworm",
+      "9.0.76-jdk21-openjdk-slim-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-slim-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-slim-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jdk21-openjdk-slim-bullseye",
+      "9.0-jdk21-openjdk-slim-bullseye",
+      "9.0.76-jdk21-openjdk-slim-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-slim-bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/openjdk-slim-bullseye/Dockerfile"
       }
     ]
   },
@@ -1197,6 +1328,132 @@
         "sha": "1c6875e85a440757bf983b3beb6234f23cc06e8c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/corretto-al2/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jdk21-openjdk",
+      "8.5-jdk21-openjdk",
+      "8.5.90-jdk21-openjdk",
+      "8-jdk21-openjdk-bookworm",
+      "8.5-jdk21-openjdk-bookworm",
+      "8.5.90-jdk21-openjdk-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jdk21-openjdk-bullseye",
+      "8.5-jdk21-openjdk-bullseye",
+      "8.5.90-jdk21-openjdk-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jdk21-openjdk-slim",
+      "8.5-jdk21-openjdk-slim",
+      "8.5.90-jdk21-openjdk-slim",
+      "8-jdk21-openjdk-slim-bookworm",
+      "8.5-jdk21-openjdk-slim-bookworm",
+      "8.5.90-jdk21-openjdk-slim-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-slim-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-slim-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jdk21-openjdk-slim-bullseye",
+      "8.5-jdk21-openjdk-slim-bullseye",
+      "8.5.90-jdk21-openjdk-slim-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-slim-bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16a2137a26ae88227d8bac176182235ad69c82b3",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/openjdk-slim-bullseye/Dockerfile"
       }
     ]
   },
