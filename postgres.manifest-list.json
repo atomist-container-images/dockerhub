@@ -4,6 +4,89 @@
     "name": "postgres",
     "tags": [
       "16beta1",
+      "16beta1-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "16/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
       "16beta1-bullseye"
     ],
     "images": [
@@ -241,6 +324,91 @@
       "15",
       "15.3",
       "latest",
+      "bookworm",
+      "15-bookworm",
+      "15.3-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "15/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
       "bullseye",
       "15-bullseye",
       "15.3-bullseye"
@@ -485,6 +653,90 @@
     "tags": [
       "14",
       "14.8",
+      "14-bookworm",
+      "14.8-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "14/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
       "14-bullseye",
       "14.8-bullseye"
     ],
@@ -725,6 +977,90 @@
     "tags": [
       "13",
       "13.11",
+      "13-bookworm",
+      "13.11-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "13/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
       "13-bullseye",
       "13.11-bullseye"
     ],
@@ -965,6 +1301,90 @@
     "tags": [
       "12",
       "12.15",
+      "12-bookworm",
+      "12.15-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "12/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
       "12-bullseye",
       "12.15-bullseye"
     ],
@@ -1196,6 +1616,90 @@
         "sha": "5ea98fe00be95fbbe642732d62af3b4dbc83f442",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.17/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
+      "11-bookworm",
+      "11.20-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3fda89cc5c2e588f46ae4f1ac117114c8e6814f1",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "11/bookworm/Dockerfile"
       }
     ]
   },
