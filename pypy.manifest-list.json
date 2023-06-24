@@ -6,11 +6,985 @@
       "bookworm",
       "3-bookworm",
       "3-7-bookworm",
-      "3.9-bookworm",
+      "3.10-bookworm",
       "3-7.3-bookworm",
+      "3.10-7-bookworm",
+      "3-7.3.12-bookworm",
+      "3.10-7.3-bookworm",
+      "3.10-7.3.12-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "slim-bookworm",
+      "3-slim-bookworm",
+      "3-7-slim-bookworm",
+      "3.10-slim-bookworm",
+      "3-7.3-slim-bookworm",
+      "3.10-7-slim-bookworm",
+      "3-7.3.12-slim-bookworm",
+      "3.10-7.3-slim-bookworm",
+      "3.10-7.3.12-slim-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/slim-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/slim-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/slim-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "bullseye",
+      "3-bullseye",
+      "3-7-bullseye",
+      "3.10-bullseye",
+      "3-7.3-bullseye",
+      "3.10-7-bullseye",
+      "3-7.3.12-bullseye",
+      "3.10-7.3-bullseye",
+      "3.10-7.3.12-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-7.3.12"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-7.3"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-7"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-7.3.12"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-7.3"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-7"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "slim",
+      "3-slim",
+      "3-7-slim",
+      "3.10-slim",
+      "3-7.3-slim",
+      "3.10-7-slim",
+      "3-7.3.12-slim",
+      "3.10-7.3-slim",
+      "slim-bullseye",
+      "3-slim-bullseye",
+      "3.10-7.3.12-slim",
+      "3-7-slim-bullseye",
+      "3.10-slim-bullseye",
+      "3-7.3-slim-bullseye",
+      "3.10-7-slim-bullseye",
+      "3-7.3.12-slim-bullseye",
+      "3.10-7.3-slim-bullseye",
+      "3.10-7.3.12-slim-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/slim-bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/slim-bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/slim-bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "windowsservercore-ltsc2022",
+      "3-windowsservercore-ltsc2022",
+      "3-7-windowsservercore-ltsc2022",
+      "3.10-windowsservercore-ltsc2022",
+      "3-7.3-windowsservercore-ltsc2022",
+      "3.10-7-windowsservercore-ltsc2022",
+      "3-7.3.12-windowsservercore-ltsc2022",
+      "3.10-7.3-windowsservercore-ltsc2022",
+      "3.10-7.3.12-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-7.3.12-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-7.3-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-7-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.10-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-7.3.12-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-7.3-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-7-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "windowsservercore-1809",
+      "3-windowsservercore-1809",
+      "3-7-windowsservercore-1809",
+      "3.10-windowsservercore-1809",
+      "3-7.3-windowsservercore-1809",
+      "3.10-7-windowsservercore-1809",
+      "3-7.3.12-windowsservercore-1809",
+      "3.10-7.3-windowsservercore-1809",
+      "3.10-7.3.12-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "c40535e566fdd8a081584412826c59e1fa40a256",
+        "repo": "https://github.com/docker-library/pypy.git",
+        "path": "3.10/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "pypy",
+    "tags": [
+      "3.9-bookworm",
       "3.9-7-bookworm",
       "3.9-7.3-bookworm",
-      "3-7.3.12-bookworm",
       "3.9-7.3.12-bookworm"
     ],
     "images": [
@@ -48,14 +1022,9 @@
     "version": "26",
     "name": "pypy",
     "tags": [
-      "slim-bookworm",
-      "3-slim-bookworm",
-      "3-7-slim-bookworm",
       "3.9-slim-bookworm",
-      "3-7.3-slim-bookworm",
       "3.9-7-slim-bookworm",
       "3.9-7.3-slim-bookworm",
-      "3-7.3.12-slim-bookworm",
       "3.9-7.3.12-slim-bookworm"
     ],
     "images": [
@@ -93,14 +1062,9 @@
     "version": "26",
     "name": "pypy",
     "tags": [
-      "bullseye",
-      "3-bullseye",
-      "3-7-bullseye",
       "3.9-bullseye",
-      "3-7.3-bullseye",
       "3.9-7-bullseye",
       "3.9-7.3-bullseye",
-      "3-7.3.12-bullseye",
       "3.9-7.3.12-bullseye"
     ],
     "images": [
@@ -358,298 +1322,13 @@
     "version": "26",
     "name": "pypy",
     "tags": [
-      "3-7.3.12"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3-7.3"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3-7"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "latest"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "slim",
-      "3-slim",
-      "3-7-slim",
       "3.9-slim",
-      "3-7.3-slim",
       "3.9-7-slim",
       "3.9-7.3-slim",
-      "3-7.3.12-slim",
-      "slim-bullseye",
-      "3-slim-bullseye",
       "3.9-7.3.12-slim",
-      "3-7-slim-bullseye",
       "3.9-slim-bullseye",
-      "3-7.3-slim-bullseye",
       "3.9-7-slim-bullseye",
       "3.9-7.3-slim-bullseye",
-      "3-7.3.12-slim-bullseye",
       "3.9-7.3.12-slim-bullseye"
     ],
     "images": [
@@ -687,14 +1366,9 @@
     "version": "26",
     "name": "pypy",
     "tags": [
-      "windowsservercore-ltsc2022",
-      "3-windowsservercore-ltsc2022",
-      "3-7-windowsservercore-ltsc2022",
       "3.9-windowsservercore-ltsc2022",
-      "3-7.3-windowsservercore-ltsc2022",
       "3.9-7-windowsservercore-ltsc2022",
       "3.9-7.3-windowsservercore-ltsc2022",
-      "3-7.3.12-windowsservercore-ltsc2022",
       "3.9-7.3.12-windowsservercore-ltsc2022"
     ],
     "images": [
@@ -821,149 +1495,9 @@
     "version": "26",
     "name": "pypy",
     "tags": [
-      "3-7.3.12-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3-7.3-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3-7-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "windowsservercore-1809",
-      "3-windowsservercore-1809",
-      "3-7-windowsservercore-1809",
       "3.9-windowsservercore-1809",
-      "3-7.3-windowsservercore-1809",
       "3.9-7-windowsservercore-1809",
       "3.9-7.3-windowsservercore-1809",
-      "3-7.3.12-windowsservercore-1809",
       "3.9-7.3.12-windowsservercore-1809"
     ],
     "images": [
@@ -975,540 +1509,6 @@
         "sha": "4a2918a33ab52da23ce6cd3b0754ba54521cf1e0",
         "repo": "https://github.com/docker-library/pypy.git",
         "path": "3.9/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-bookworm",
-      "3.8-7-bookworm",
-      "3.8-7.3-bookworm",
-      "3.8-7.3.11-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-slim-bookworm",
-      "3.8-7-slim-bookworm",
-      "3.8-7.3-slim-bookworm",
-      "3.8-7.3.11-slim-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/slim-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/slim-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/slim-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-bullseye",
-      "3.8-7-bullseye",
-      "3.8-7.3-bullseye",
-      "3.8-7.3.11-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-7.3.11"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-7.3"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-7"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-slim",
-      "3.8-7-slim",
-      "3.8-7.3-slim",
-      "3.8-7.3.11-slim",
-      "3.8-slim-bullseye",
-      "3.8-7-slim-bullseye",
-      "3.8-7.3-slim-bullseye",
-      "3.8-7.3.11-slim-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/slim-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/slim-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a9efe06150ce464f288617c8e3ec765bb93250e",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/slim-bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-windowsservercore-ltsc2022",
-      "3.8-7-windowsservercore-ltsc2022",
-      "3.8-7.3-windowsservercore-ltsc2022",
-      "3.8-7.3.11-windowsservercore-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-7.3.11-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-7.3-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-7-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "pypy",
-    "tags": [
-      "3.8-windowsservercore-1809",
-      "3.8-7-windowsservercore-1809",
-      "3.8-7.3-windowsservercore-1809",
-      "3.8-7.3.11-windowsservercore-1809"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "86944b577ee5ad8fe08db64900a9151abd5a8e3b",
-        "repo": "https://github.com/docker-library/pypy.git",
-        "path": "3.8/windows/windowsservercore-1809/Dockerfile"
       }
     ]
   },
