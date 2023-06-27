@@ -8,7 +8,10 @@
       "latest",
       "8-al2-jdk",
       "8u372-al2",
-      "8-al2-full"
+      "8-al2-full",
+      "8-al2-generic",
+      "8-al2-generic-jdk",
+      "8u372-al2-generic"
     ],
     "images": [
       {
@@ -16,9 +19,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "8/jdk/al2/Dockerfile",
+        "path": "8/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -27,9 +30,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "8/jdk/al2/Dockerfile",
+        "path": "8/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -48,7 +51,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -59,7 +62,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -79,7 +82,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -90,7 +93,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -101,10 +104,8 @@
     "version": "26",
     "name": "amazoncorretto",
     "tags": [
-      "8-alpine3.14",
-      "8-alpine3.14-jdk",
-      "8u372-alpine3.14",
-      "8-alpine3.14-full"
+      "8-al2-native-RC-jre",
+      "8u372-al2-native-RC-jre"
     ],
     "images": [
       {
@@ -112,9 +113,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "8/jdk/alpine/3.14/Dockerfile",
+        "path": "8/jre/al2/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -123,9 +124,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "8/jdk/alpine/3.14/Dockerfile",
+        "path": "8/jre/al2/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -134,8 +135,8 @@
     "version": "26",
     "name": "amazoncorretto",
     "tags": [
-      "8-alpine3.14-jre",
-      "8u372-alpine3.14-jre"
+      "8-al2-native-RC-jdk",
+      "8u372-al2-native-RC-jdk"
     ],
     "images": [
       {
@@ -143,9 +144,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "8/jre/alpine/3.14/Dockerfile",
+        "path": "8/jdk/al2/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -154,9 +155,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "8/jre/alpine/3.14/Dockerfile",
+        "path": "8/jdk/al2/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -176,7 +177,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -187,7 +188,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -207,7 +208,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jre/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -218,7 +219,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jre/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -240,7 +241,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -251,7 +252,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -271,7 +272,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jre/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -282,7 +283,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jre/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -308,7 +309,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -319,7 +320,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -341,7 +342,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jre/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -352,7 +353,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "8/jre/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -367,7 +368,10 @@
       "11.0.19",
       "11-al2-jdk",
       "11-al2-full",
-      "11.0.19-al2"
+      "11.0.19-al2",
+      "11-al2-generic",
+      "11-al2-generic-jdk",
+      "11.0.19-al2-generic"
     ],
     "images": [
       {
@@ -375,9 +379,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "11/jdk/al2/Dockerfile",
+        "path": "11/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -386,9 +390,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "11/jdk/al2/Dockerfile",
+        "path": "11/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -407,7 +411,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -418,7 +422,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -438,7 +442,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/headless/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -449,7 +453,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/headless/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -469,7 +473,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/headful/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -480,7 +484,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/headful/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -491,10 +495,8 @@
     "version": "26",
     "name": "amazoncorretto",
     "tags": [
-      "11-alpine3.14",
-      "11-alpine3.14-jdk",
-      "11-alpine3.14-full",
-      "11.0.19-alpine3.14"
+      "11-al2-native-RC-headless",
+      "11.0.19-al2-native-RC-headless"
     ],
     "images": [
       {
@@ -502,9 +504,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "11/jdk/alpine/3.14/Dockerfile",
+        "path": "11/headless/al2/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -513,9 +515,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "11/jdk/alpine/3.14/Dockerfile",
+        "path": "11/headless/al2/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "amazoncorretto",
+    "tags": [
+      "11-al2-native-RC-jdk",
+      "11.0.19-al2-native-RC-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
+        "repo": "https://github.com/corretto/corretto-docker.git",
+        "path": "11/jdk/al2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
+        "repo": "https://github.com/corretto/corretto-docker.git",
+        "path": "11/jdk/al2/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -535,7 +568,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -546,7 +579,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -568,7 +601,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -579,7 +612,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -605,7 +638,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -616,7 +649,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "11/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -631,7 +664,10 @@
       "17.0.7",
       "17-al2-jdk",
       "17.0.7-al2",
-      "17-al2-full"
+      "17-al2-full",
+      "17-al2-generic",
+      "17-al2-generic-jdk",
+      "17.0.7-al2-generic"
     ],
     "images": [
       {
@@ -639,9 +675,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "17/jdk/al2/Dockerfile",
+        "path": "17/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -650,9 +686,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "17/jdk/al2/Dockerfile",
+        "path": "17/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -671,7 +707,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -682,7 +718,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -702,7 +738,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/headless/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -713,7 +749,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/headless/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -733,7 +769,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/headful/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -744,7 +780,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/headful/al2023/Dockerfile",
         "branch": "refs/heads/main"
@@ -755,10 +791,8 @@
     "version": "26",
     "name": "amazoncorretto",
     "tags": [
-      "17-alpine3.14",
-      "17-alpine3.14-jdk",
-      "17.0.7-alpine3.14",
-      "17-alpine3.14-full"
+      "17-al2-native-RC-headless",
+      "17.0.7-al2-native-RC-headless"
     ],
     "images": [
       {
@@ -766,9 +800,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "17/jdk/alpine/3.14/Dockerfile",
+        "path": "17/headless/al2/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -777,9 +811,71 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "17/jdk/alpine/3.14/Dockerfile",
+        "path": "17/headless/al2/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "amazoncorretto",
+    "tags": [
+      "17-al2-native-RC-headful",
+      "17.0.7-al2-native-RC-headful"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
+        "repo": "https://github.com/corretto/corretto-docker.git",
+        "path": "17/headful/al2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
+        "repo": "https://github.com/corretto/corretto-docker.git",
+        "path": "17/headful/al2/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "amazoncorretto",
+    "tags": [
+      "17-al2-native-RC-jdk",
+      "17.0.7-al2-native-RC-jdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
+        "repo": "https://github.com/corretto/corretto-docker.git",
+        "path": "17/jdk/al2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
+        "repo": "https://github.com/corretto/corretto-docker.git",
+        "path": "17/jdk/al2/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -799,7 +895,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -810,7 +906,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -832,7 +928,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -843,7 +939,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -869,7 +965,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -880,7 +976,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "17/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -895,7 +991,10 @@
       "20.0.1",
       "20-al2-jdk",
       "20.0.1-al2",
-      "20-al2-full"
+      "20-al2-full",
+      "20-al2-generic",
+      "20-al2-generic-jdk",
+      "20.0.1-al2-generic"
     ],
     "images": [
       {
@@ -903,9 +1002,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "20/jdk/al2/Dockerfile",
+        "path": "20/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -914,42 +1013,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "20/jdk/al2/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "amazoncorretto",
-    "tags": [
-      "20-alpine3.14",
-      "20-alpine3.14-jdk",
-      "20.0.1-alpine3.14",
-      "20-alpine3.14-full"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
-        "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "20/jdk/alpine/3.14/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
-        "repo": "https://github.com/corretto/corretto-docker.git",
-        "path": "20/jdk/alpine/3.14/Dockerfile",
+        "path": "20/jdk/al2-generic/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -969,7 +1035,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "20/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -980,7 +1046,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "20/jdk/alpine/3.15/Dockerfile",
         "branch": "refs/heads/main"
@@ -1002,7 +1068,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "20/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -1013,7 +1079,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "20/jdk/alpine/3.16/Dockerfile",
         "branch": "refs/heads/main"
@@ -1039,7 +1105,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "20/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
@@ -1050,7 +1116,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ef6f5a60332e35d72fee88ce86e195f62efa6ab4",
+        "sha": "b3911c583ac27a9b5801eba2373a9dd8fe10a3a0",
         "repo": "https://github.com/corretto/corretto-docker.git",
         "path": "20/jdk/alpine/3.17/Dockerfile",
         "branch": "refs/heads/main"
