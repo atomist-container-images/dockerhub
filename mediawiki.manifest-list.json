@@ -3,9 +3,8 @@
     "version": "26",
     "name": "mediawiki",
     "tags": [
-      "lts",
-      "1.39",
-      "1.39.4",
+      "1.40",
+      "1.40.0",
       "latest",
       "stable"
     ],
@@ -15,7 +14,116 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/apache/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mediawiki",
+    "tags": [
+      "1.40-fpm",
+      "1.40.0-fpm",
+      "stable-fpm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mediawiki",
+    "tags": [
+      "1.40-fpm-alpine",
+      "1.40.0-fpm-alpine",
+      "stable-fpm-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
+        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
+        "path": "1.40/fpm-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mediawiki",
+    "tags": [
+      "lts",
+      "1.39",
+      "1.39.4",
+      "legacy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.39/apache/Dockerfile"
       }
@@ -28,7 +136,7 @@
       "lts-fpm",
       "1.39-fpm",
       "1.39.4-fpm",
-      "stable-fpm"
+      "legacy-fpm"
     ],
     "images": [
       {
@@ -36,7 +144,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.39/fpm/Dockerfile"
       }
@@ -49,114 +157,6 @@
       "lts-fpm-alpine",
       "1.39-fpm-alpine",
       "1.39.4-fpm-alpine",
-      "stable-fpm-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.39/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.39/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.39/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.39/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.39/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.39/fpm-alpine/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mediawiki",
-    "tags": [
-      "1.38",
-      "1.38.7",
-      "legacy"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/apache/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mediawiki",
-    "tags": [
-      "1.38-fpm",
-      "1.38.7-fpm",
-      "legacy-fpm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
-        "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mediawiki",
-    "tags": [
-      "1.38-fpm-alpine",
-      "1.38.7-fpm-alpine",
       "legacy-fpm-alpine"
     ],
     "images": [
@@ -165,9 +165,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm-alpine/Dockerfile"
+        "path": "1.39/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -175,9 +175,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm-alpine/Dockerfile"
+        "path": "1.39/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -185,9 +185,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm-alpine/Dockerfile"
+        "path": "1.39/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -195,27 +195,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm-alpine/Dockerfile"
+        "path": "1.39/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm-alpine/Dockerfile"
+        "path": "1.39/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
-        "path": "1.38/fpm-alpine/Dockerfile"
+        "path": "1.39/fpm-alpine/Dockerfile"
       }
     ]
   },
@@ -233,7 +233,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/apache/Dockerfile"
       }
@@ -253,7 +253,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm/Dockerfile"
       }
@@ -273,7 +273,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm-alpine/Dockerfile"
       },
@@ -283,7 +283,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm-alpine/Dockerfile"
       },
@@ -293,7 +293,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm-alpine/Dockerfile"
       },
@@ -303,7 +303,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm-alpine/Dockerfile"
       },
@@ -312,7 +312,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm-alpine/Dockerfile"
       },
@@ -321,7 +321,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1baa2905a338f333ca3f48176bca13f34329bf6b",
+        "sha": "d81c6d202933880f4e2ebebe691be34e8b991c61",
         "repo": "https://github.com/wikimedia/mediawiki-docker.git",
         "path": "1.35/fpm-alpine/Dockerfile"
       }
