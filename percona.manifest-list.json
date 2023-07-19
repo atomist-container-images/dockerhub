@@ -33,14 +33,13 @@
       "5",
       "5.7",
       "ps-5",
-      "5.7.35",
+      "5.7.39",
       "centos",
-      "latest",
       "ps-5.7",
       "5-centos",
-      "ps-5.7.35",
+      "ps-5.7.39",
       "5.7-centos",
-      "5.7.35-centos"
+      "5.7.39-centos"
     ],
     "images": [
       {
@@ -48,7 +47,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f1697b98ebb86a8d684c4192fa382b00ae1860ff",
+        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
         "repo": "https://github.com/percona/percona-docker.git",
         "path": "percona-server-5.7/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
@@ -83,8 +82,8 @@
     "version": "26",
     "name": "percona",
     "tags": [
-      "psmdb-5.0",
-      "psmdb-5.0.10"
+      "psmdb-6.0",
+      "psmdb-6.0.6"
     ],
     "images": [
       {
@@ -92,7 +91,27 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "0003693083fc3b6a904fd83a63096705aff46cca",
+        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+        "repo": "https://github.com/percona/percona-docker.git",
+        "path": "percona-server-mongodb-6.0/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "percona",
+    "tags": [
+      "psmdb-5.0",
+      "psmdb-5.0.18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
         "repo": "https://github.com/percona/percona-docker.git",
         "path": "percona-server-mongodb-5.0/Dockerfile",
         "branch": "refs/heads/main"
@@ -104,7 +123,7 @@
     "name": "percona",
     "tags": [
       "psmdb-4.4",
-      "psmdb-4.4.15"
+      "psmdb-4.4.22"
     ],
     "images": [
       {
@@ -112,7 +131,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "93dc9be5c30c1da42e8f2dad03da5e17e6bc89a9",
+        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
         "repo": "https://github.com/percona/percona-docker.git",
         "path": "percona-server-mongodb-4.4/Dockerfile",
         "branch": "refs/heads/main"
@@ -124,7 +143,7 @@
     "name": "percona",
     "tags": [
       "psmdb-4.2",
-      "psmdb-4.2.21"
+      "psmdb-4.2.24"
     ],
     "images": [
       {
@@ -132,49 +151,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ee35507eeade832e18041d39ac67637202733e49",
+        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
         "repo": "https://github.com/percona/percona-docker.git",
         "path": "percona-server-mongodb-4.2/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "percona",
-    "tags": [
-      "psmdb-4.0",
-      "psmdb-4.0.27"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ef97f5cd2c747905dc6d724c245cce9f3e2ce0a1",
-        "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-4.0/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "percona",
-    "tags": [
-      "psmdb-3.6",
-      "psmdb-3.6.23"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b32c7e632fe0d8b058ce32c0430a1783cfd557a0",
-        "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-3.6/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
