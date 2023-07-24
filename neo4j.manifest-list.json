@@ -7,10 +7,18 @@
       "5.10",
       "5.10.0",
       "latest",
+      "bullseye",
       "community",
+      "5-bullseye",
       "5-community",
+      "5.10-bullseye",
       "5.10-community",
-      "5.10.0-community"
+      "5.10.0-bullseye",
+      "5.10.0-community",
+      "community-bullseye",
+      "5-community-bullseye",
+      "5.10-community-bullseye",
+      "5.10.0-community-bullseye"
     ],
     "images": [
       {
@@ -18,9 +26,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "53020c7673630cd8a216a4731096f08ebb8a4e30",
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.10.0/debian/community/Dockerfile"
+        "path": "5.10.0/bullseye/community/Dockerfile"
       },
       {
         "platform": {
@@ -28,9 +36,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "53020c7673630cd8a216a4731096f08ebb8a4e30",
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.10.0/debian/community/Dockerfile"
+        "path": "5.10.0/bullseye/community/Dockerfile"
       }
     ]
   },
@@ -41,7 +49,11 @@
       "enterprise",
       "5-enterprise",
       "5.10-enterprise",
-      "5.10.0-enterprise"
+      "5.10.0-enterprise",
+      "enterprise-bullseye",
+      "5-enterprise-bullseye",
+      "5.10-enterprise-bullseye",
+      "5.10.0-enterprise-bullseye"
     ],
     "images": [
       {
@@ -49,9 +61,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "53020c7673630cd8a216a4731096f08ebb8a4e30",
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.10.0/debian/enterprise/Dockerfile"
+        "path": "5.10.0/bullseye/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -59,9 +71,75 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "53020c7673630cd8a216a4731096f08ebb8a4e30",
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.10.0/debian/enterprise/Dockerfile"
+        "path": "5.10.0/bullseye/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "ubi8",
+      "5-ubi8",
+      "5.10-ubi8",
+      "5.10.0-ubi8",
+      "community-ubi8",
+      "5-community-ubi8",
+      "5.10-community-ubi8",
+      "5.10.0-community-ubi8"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.10.0/ubi8/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.10.0/ubi8/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "enterprise-ubi8",
+      "5-enterprise-ubi8",
+      "5.10-enterprise-ubi8",
+      "5.10.0-enterprise-ubi8"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.10.0/ubi8/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "08626d7514acb1cb0f6eab0993f26385165d701f",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.10.0/ubi8/enterprise/Dockerfile"
       }
     ]
   },
