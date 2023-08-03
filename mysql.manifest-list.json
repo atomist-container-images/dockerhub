@@ -4,11 +4,44 @@
     "name": "mysql",
     "tags": [
       "8",
-      "8.0",
-      "8.0.34",
+      "8.1",
+      "8.1.0",
       "latest",
       "oracle",
       "8-oracle",
+      "8.1-oracle",
+      "innovation",
+      "8.1.0-oracle",
+      "innovation-oracle"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eb1850601849ef7ef77a23f017a20debc95d597c",
+        "repo": "https://github.com/docker-library/mysql.git",
+        "path": "innovation/Dockerfile.oracle"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eb1850601849ef7ef77a23f017a20debc95d597c",
+        "repo": "https://github.com/docker-library/mysql.git",
+        "path": "innovation/Dockerfile.oracle"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mysql",
+    "tags": [
+      "8.0",
+      "8.0.34",
       "8.0-oracle",
       "8.0.34-oracle"
     ],
@@ -38,8 +71,6 @@
     "version": "26",
     "name": "mysql",
     "tags": [
-      "debian",
-      "8-debian",
       "8.0-debian",
       "8.0.34-debian"
     ],
@@ -61,10 +92,10 @@
     "tags": [
       "5",
       "5.7",
-      "5.7.42",
+      "5.7.43",
       "5-oracle",
       "5.7-oracle",
-      "5.7.42-oracle"
+      "5.7.43-oracle"
     ],
     "images": [
       {
@@ -72,29 +103,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2baf92d30620d7d123141b98988b0d42d2156351",
+        "sha": "c13cda9c2c9d836af9b3331e8681f8cc8e0a7803",
         "repo": "https://github.com/docker-library/mysql.git",
         "path": "5.7/Dockerfile.oracle"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mysql",
-    "tags": [
-      "5-debian",
-      "5.7-debian",
-      "5.7.42-debian"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "611aa464a96f69e5d4d4172b14ca829ded162b42",
-        "repo": "https://github.com/docker-library/mysql.git",
-        "path": "5.7/Dockerfile.debian"
       }
     ]
   }
