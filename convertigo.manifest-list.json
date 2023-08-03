@@ -4,7 +4,7 @@
     "name": "convertigo",
     "tags": [
       "8.2",
-      "8.2.1",
+      "8.2.2",
       "latest"
     ],
     "images": [
@@ -13,7 +13,27 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b80c43731b90df528878a6c3bb75ccd4afd8d96e",
+        "sha": "6cfd8957e427702eefefcd2bfe9adc374543b808",
+        "repo": "https://github.com/convertigo/convertigo.git",
+        "path": "docker/default/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6cfd8957e427702eefefcd2bfe9adc374543b808",
+        "repo": "https://github.com/convertigo/convertigo.git",
+        "path": "docker/default/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6cfd8957e427702eefefcd2bfe9adc374543b808",
         "repo": "https://github.com/convertigo/convertigo.git",
         "path": "docker/default/Dockerfile"
       }
