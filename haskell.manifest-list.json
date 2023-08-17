@@ -4,11 +4,77 @@
     "name": "haskell",
     "tags": [
       "9",
-      "9.4",
-      "9.4.5",
+      "9.6",
+      "9.6.2",
       "buster",
       "latest",
       "9-buster",
+      "9.6-buster",
+      "9.6.2-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d33bf51b985814e1d38b5d3fd301531ff16d7d21",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.6/buster/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d33bf51b985814e1d38b5d3fd301531ff16d7d21",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.6/buster/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "slim",
+      "9-slim",
+      "9.6-slim",
+      "9.6.2-slim",
+      "slim-buster",
+      "9-slim-buster",
+      "9.6-slim-buster",
+      "9.6.2-slim-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d33bf51b985814e1d38b5d3fd301531ff16d7d21",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.6/slim-buster/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d33bf51b985814e1d38b5d3fd301531ff16d7d21",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.6/slim-buster/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "9.4",
+      "9.4.5",
       "9.4-buster",
       "9.4.5-buster"
     ],
@@ -38,12 +104,8 @@
     "version": "26",
     "name": "haskell",
     "tags": [
-      "slim",
-      "9-slim",
       "9.4-slim",
       "9.4.5-slim",
-      "slim-buster",
-      "9-slim-buster",
       "9.4-slim-buster",
       "9.4.5-slim-buster"
     ],
