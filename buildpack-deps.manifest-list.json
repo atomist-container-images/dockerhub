@@ -933,6 +933,258 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
+      "trixie-curl",
+      "testing-curl"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "f4fae1079681a664db5a84c0b83621dd7c115996",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/curl/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "trixie-scm",
+      "testing-scm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/scm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "trixie",
+      "testing"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "443a8d3c6e53dbd17c55070de7de850f865ba6eb",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
       "20.04-curl",
       "focal-curl"
     ],
