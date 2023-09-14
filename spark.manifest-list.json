@@ -3,9 +3,127 @@
     "version": "26",
     "name": "spark",
     "tags": [
-      "3.4.1",
+      "3.5.0",
       "latest",
       "python3",
+      "3.5.0-python3",
+      "3.5.0-scala2.12-java11-python3-ubuntu"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-python3-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-python3-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "spark",
+    "tags": [
+      "r",
+      "3.5.0-r",
+      "3.5.0-scala2.12-java11-r-ubuntu"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-r-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-r-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "spark",
+    "tags": [
+      "scala",
+      "3.5.0-scala",
+      "3.5.0-scala2.12-java11-ubuntu"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "spark",
+    "tags": [
+      "3.5.0-scala2.12-java11-python3-r-ubuntu"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-python3-r-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "028efd4637fb2cf791d5bd9ea70b2fca472de4b7",
+        "repo": "https://github.com/apache/spark-docker.git",
+        "path": "3.5.0/scala2.12-java11-python3-r-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "spark",
+    "tags": [
+      "3.4.1",
       "3.4.1-python3",
       "3.4.1-scala2.12-java11-python3-ubuntu"
     ],
@@ -35,7 +153,6 @@
     "version": "26",
     "name": "spark",
     "tags": [
-      "r",
       "3.4.1-r",
       "3.4.1-scala2.12-java11-r-ubuntu"
     ],
@@ -65,7 +182,6 @@
     "version": "26",
     "name": "spark",
     "tags": [
-      "scala",
       "3.4.1-scala",
       "3.4.1-scala2.12-java11-ubuntu"
     ],
