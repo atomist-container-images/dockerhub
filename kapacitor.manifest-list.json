@@ -3,67 +3,8 @@
     "version": "26",
     "name": "kapacitor",
     "tags": [
-      "1.5",
-      "1.5.9"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "kapacitor/1.5/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "kapacitor/1.5/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "kapacitor/1.5/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "kapacitor",
-    "tags": [
-      "1.5-alpine",
-      "1.5.9-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
-        "repo": "https://github.com/influxdata/influxdata-docker.git",
-        "path": "kapacitor/1.5/alpine/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "kapacitor",
-    "tags": [
       "1.6",
-      "1.6.6",
-      "latest"
+      "1.6.6"
     ],
     "images": [
       {
@@ -71,7 +12,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
+        "sha": "4d8ee693af190b1d7338658239e39bf2fe54c53f",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "kapacitor/1.6/Dockerfile"
       },
@@ -81,7 +22,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
+        "sha": "4d8ee693af190b1d7338658239e39bf2fe54c53f",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "kapacitor/1.6/Dockerfile"
       }
@@ -91,7 +32,6 @@
     "version": "26",
     "name": "kapacitor",
     "tags": [
-      "alpine",
       "1.6-alpine",
       "1.6.6-alpine"
     ],
@@ -101,9 +41,59 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "409aa55a78db9cbe9e4e0c94b1e67785d63ffd32",
+        "sha": "4d8ee693af190b1d7338658239e39bf2fe54c53f",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "kapacitor/1.6/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "kapacitor",
+    "tags": [
+      "1.7",
+      "1.7.0",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4d8ee693af190b1d7338658239e39bf2fe54c53f",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "kapacitor/1.7/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "4d8ee693af190b1d7338658239e39bf2fe54c53f",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "kapacitor/1.7/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "kapacitor",
+    "tags": [
+      "alpine",
+      "1.7-alpine",
+      "1.7.0-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4d8ee693af190b1d7338658239e39bf2fe54c53f",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "kapacitor/1.7/alpine/Dockerfile"
       }
     ]
   }
