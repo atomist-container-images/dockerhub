@@ -935,6 +935,38 @@
     "version": "26",
     "name": "maven",
     "tags": [
+      "3-amazoncorretto-21",
+      "3.9-amazoncorretto-21",
+      "3.9.4-amazoncorretto-21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "7741c2848c3ea3ad6b4180d94b90d669d419c893",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "7741c2848c3ea3ad6b4180d94b90d669d419c893",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-21/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
       "3-amazoncorretto-21-debian",
       "3.9-amazoncorretto-21-debian",
       "3.9.4-amazoncorretto-21-debian",
@@ -1149,6 +1181,48 @@
         "sha": "d7319e0caa2961b402073e8054bc63e8dc48d969",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "sapmachine-17/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
+      "3-sapmachine-21",
+      "3.9-sapmachine-21",
+      "3.9.4-sapmachine-21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c6ea9b77dab964547324ce49b61ea542fc55f5b5",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c6ea9b77dab964547324ce49b61ea542fc55f5b5",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c6ea9b77dab964547324ce49b61ea542fc55f5b5",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
