@@ -34,10 +34,8 @@
     "version": "26",
     "name": "emqx",
     "tags": [
-      "5",
       "5.1",
-      "5.1.6",
-      "latest"
+      "5.1.6"
     ],
     "images": [
       {
@@ -59,6 +57,39 @@
         "sha": "dfa1507bc031b4f24ffa29f838dbad1868e35d01",
         "repo": "https://github.com/emqx/emqx-docker.git",
         "path": "5.1/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "emqx",
+    "tags": [
+      "5",
+      "5.2",
+      "5.2.1",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eb71b6a3cca1505e14d4b0e6fcd50a43330125bb",
+        "repo": "https://github.com/emqx/emqx-docker.git",
+        "path": "5.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eb71b6a3cca1505e14d4b0e6fcd50a43330125bb",
+        "repo": "https://github.com/emqx/emqx-docker.git",
+        "path": "5.2/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
