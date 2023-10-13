@@ -3,12 +3,18 @@
     "version": "26",
     "name": "tomcat",
     "tags": [
-      "11.0-jdk21-openjdk",
-      "11.0.0-jdk21-openjdk",
-      "11.0.0-M11-jdk21-openjdk",
-      "11.0-jdk21-openjdk-bookworm",
-      "11.0.0-jdk21-openjdk-bookworm",
-      "11.0.0-M11-jdk21-openjdk-bookworm"
+      "11.0",
+      "11.0.0",
+      "11.0-jdk21",
+      "11.0.0-M12",
+      "11.0.0-jdk21",
+      "11.0.0-M12-jdk21",
+      "11.0-jdk21-temurin",
+      "11.0.0-jdk21-temurin",
+      "11.0-jdk21-temurin-jammy",
+      "11.0.0-M12-jdk21-temurin",
+      "11.0.0-jdk21-temurin-jammy",
+      "11.0.0-M12-jdk21-temurin-jammy"
     ],
     "images": [
       {
@@ -16,9 +22,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b512285a7e12128f0da031b6b24f1a4c026e3306",
+        "sha": "a05ba2589539f88093aa53fc94cead6a17c97aa6",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk21/openjdk-bookworm/Dockerfile"
+        "path": "11.0/jdk21/temurin-jammy/Dockerfile"
       },
       {
         "platform": {
@@ -26,9 +32,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b512285a7e12128f0da031b6b24f1a4c026e3306",
+        "sha": "a05ba2589539f88093aa53fc94cead6a17c97aa6",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk21/openjdk-bookworm/Dockerfile"
+        "path": "11.0/jdk21/temurin-jammy/Dockerfile"
       }
     ]
   },
@@ -36,12 +42,15 @@
     "version": "26",
     "name": "tomcat",
     "tags": [
-      "11.0-jdk21-openjdk-slim",
-      "11.0.0-jdk21-openjdk-slim",
-      "11.0.0-M11-jdk21-openjdk-slim",
-      "11.0-jdk21-openjdk-slim-bookworm",
-      "11.0.0-jdk21-openjdk-slim-bookworm",
-      "11.0.0-M11-jdk21-openjdk-slim-bookworm"
+      "11.0-jre21",
+      "11.0.0-jre21",
+      "11.0.0-M12-jre21",
+      "11.0-jre21-temurin",
+      "11.0.0-jre21-temurin",
+      "11.0-jre21-temurin-jammy",
+      "11.0.0-M12-jre21-temurin",
+      "11.0.0-jre21-temurin-jammy",
+      "11.0.0-M12-jre21-temurin-jammy"
     ],
     "images": [
       {
@@ -49,9 +58,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b512285a7e12128f0da031b6b24f1a4c026e3306",
+        "sha": "a05ba2589539f88093aa53fc94cead6a17c97aa6",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk21/openjdk-slim-bookworm/Dockerfile"
+        "path": "11.0/jre21/temurin-jammy/Dockerfile"
       },
       {
         "platform": {
@@ -59,79 +68,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b512285a7e12128f0da031b6b24f1a4c026e3306",
+        "sha": "a05ba2589539f88093aa53fc94cead6a17c97aa6",
         "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "11.0/jdk21/openjdk-slim-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "jdk21-openjdk",
-      "10-jdk21-openjdk",
-      "10.1-jdk21-openjdk",
-      "10.1.13-jdk21-openjdk",
-      "jdk21-openjdk-bookworm",
-      "10-jdk21-openjdk-bookworm",
-      "10.1-jdk21-openjdk-bookworm",
-      "10.1.13-jdk21-openjdk-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "10.1/jdk21/openjdk-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "10.1/jdk21/openjdk-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "jdk21-openjdk-slim",
-      "10-jdk21-openjdk-slim",
-      "10.1-jdk21-openjdk-slim",
-      "10.1.13-jdk21-openjdk-slim",
-      "jdk21-openjdk-slim-bookworm",
-      "10-jdk21-openjdk-slim-bookworm",
-      "10.1-jdk21-openjdk-slim-bookworm",
-      "10.1.13-jdk21-openjdk-slim-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "10.1/jdk21/openjdk-slim-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "10.1/jdk21/openjdk-slim-bookworm/Dockerfile"
+        "path": "11.0/jre21/temurin-jammy/Dockerfile"
       }
     ]
   },
@@ -141,20 +80,20 @@
     "tags": [
       "10",
       "10.1",
-      "jdk17",
+      "jdk21",
       "latest",
-      "10.1.13",
-      "10-jdk17",
-      "10.1-jdk17",
-      "10.1.13-jdk17",
-      "jdk17-temurin",
-      "10-jdk17-temurin",
-      "10.1-jdk17-temurin",
-      "jdk17-temurin-jammy",
-      "10.1.13-jdk17-temurin",
-      "10-jdk17-temurin-jammy",
-      "10.1-jdk17-temurin-jammy",
-      "10.1.13-jdk17-temurin-jammy"
+      "10.1.14",
+      "10-jdk21",
+      "10.1-jdk21",
+      "10.1.14-jdk21",
+      "jdk21-temurin",
+      "10-jdk21-temurin",
+      "10.1-jdk21-temurin",
+      "jdk21-temurin-jammy",
+      "10.1.14-jdk21-temurin",
+      "10-jdk21-temurin-jammy",
+      "10.1-jdk21-temurin-jammy",
+      "10.1.14-jdk21-temurin-jammy"
     ],
     "images": [
       {
@@ -162,7 +101,85 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "2fa4e03c16759c4578b3dcb6ce97d7265ed777ba",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jdk21/temurin-jammy/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2fa4e03c16759c4578b3dcb6ce97d7265ed777ba",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jdk21/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "jre21",
+      "10-jre21",
+      "10.1-jre21",
+      "10.1.14-jre21",
+      "jre21-temurin",
+      "10-jre21-temurin",
+      "10.1-jre21-temurin",
+      "jre21-temurin-jammy",
+      "10.1.14-jre21-temurin",
+      "10-jre21-temurin-jammy",
+      "10.1-jre21-temurin-jammy",
+      "10.1.14-jre21-temurin-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2fa4e03c16759c4578b3dcb6ce97d7265ed777ba",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre21/temurin-jammy/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2fa4e03c16759c4578b3dcb6ce97d7265ed777ba",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "10.1/jre21/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "jdk17",
+      "10-jdk17",
+      "10.1-jdk17",
+      "10.1.14-jdk17",
+      "jdk17-temurin",
+      "10-jdk17-temurin",
+      "10.1-jdk17-temurin",
+      "jdk17-temurin-jammy",
+      "10.1.14-jdk17-temurin",
+      "10-jdk17-temurin-jammy",
+      "10.1-jdk17-temurin-jammy",
+      "10.1.14-jdk17-temurin-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk17/temurin-jammy/Dockerfile"
       },
@@ -172,7 +189,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk17/temurin-jammy/Dockerfile"
       },
@@ -182,7 +199,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk17/temurin-jammy/Dockerfile"
       },
@@ -191,7 +208,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk17/temurin-jammy/Dockerfile"
       },
@@ -200,7 +217,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk17/temurin-jammy/Dockerfile"
       }
@@ -213,15 +230,15 @@
       "jre17",
       "10-jre17",
       "10.1-jre17",
-      "10.1.13-jre17",
+      "10.1.14-jre17",
       "jre17-temurin",
       "10-jre17-temurin",
       "10.1-jre17-temurin",
       "jre17-temurin-jammy",
-      "10.1.13-jre17-temurin",
+      "10.1.14-jre17-temurin",
       "10-jre17-temurin-jammy",
       "10.1-jre17-temurin-jammy",
-      "10.1.13-jre17-temurin-jammy"
+      "10.1.14-jre17-temurin-jammy"
     ],
     "images": [
       {
@@ -229,7 +246,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre17/temurin-jammy/Dockerfile"
       },
@@ -239,7 +256,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre17/temurin-jammy/Dockerfile"
       },
@@ -249,7 +266,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre17/temurin-jammy/Dockerfile"
       },
@@ -258,7 +275,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre17/temurin-jammy/Dockerfile"
       },
@@ -267,7 +284,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre17/temurin-jammy/Dockerfile"
       }
@@ -280,15 +297,15 @@
       "jdk11",
       "10-jdk11",
       "10.1-jdk11",
-      "10.1.13-jdk11",
+      "10.1.14-jdk11",
       "jdk11-temurin",
       "10-jdk11-temurin",
       "10.1-jdk11-temurin",
       "jdk11-temurin-jammy",
-      "10.1.13-jdk11-temurin",
+      "10.1.14-jdk11-temurin",
       "10-jdk11-temurin-jammy",
       "10.1-jdk11-temurin-jammy",
-      "10.1.13-jdk11-temurin-jammy"
+      "10.1.14-jdk11-temurin-jammy"
     ],
     "images": [
       {
@@ -296,7 +313,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk11/temurin-jammy/Dockerfile"
       },
@@ -306,7 +323,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk11/temurin-jammy/Dockerfile"
       },
@@ -316,7 +333,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk11/temurin-jammy/Dockerfile"
       },
@@ -325,7 +342,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk11/temurin-jammy/Dockerfile"
       },
@@ -334,7 +351,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jdk11/temurin-jammy/Dockerfile"
       }
@@ -347,15 +364,15 @@
       "jre11",
       "10-jre11",
       "10.1-jre11",
-      "10.1.13-jre11",
+      "10.1.14-jre11",
       "jre11-temurin",
       "10-jre11-temurin",
       "10.1-jre11-temurin",
       "jre11-temurin-jammy",
-      "10.1.13-jre11-temurin",
+      "10.1.14-jre11-temurin",
       "10-jre11-temurin-jammy",
       "10.1-jre11-temurin-jammy",
-      "10.1.13-jre11-temurin-jammy"
+      "10.1.14-jre11-temurin-jammy"
     ],
     "images": [
       {
@@ -363,7 +380,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre11/temurin-jammy/Dockerfile"
       },
@@ -373,7 +390,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre11/temurin-jammy/Dockerfile"
       },
@@ -383,7 +400,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre11/temurin-jammy/Dockerfile"
       },
@@ -392,7 +409,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre11/temurin-jammy/Dockerfile"
       },
@@ -401,135 +418,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "4505ae69aa030beba88a68fe410866ee375a8fc0",
+        "sha": "db586de2afc6dccc248d2f108654e954d50da15c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "10.1/jre11/temurin-jammy/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "9-jdk21-openjdk",
-      "9.0-jdk21-openjdk",
-      "9.0.80-jdk21-openjdk",
-      "9-jdk21-openjdk-bookworm",
-      "9.0-jdk21-openjdk-bookworm",
-      "9.0.80-jdk21-openjdk-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "9-jdk21-openjdk-bullseye",
-      "9.0-jdk21-openjdk-bullseye",
-      "9.0.80-jdk21-openjdk-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "9-jdk21-openjdk-slim",
-      "9.0-jdk21-openjdk-slim",
-      "9.0.80-jdk21-openjdk-slim",
-      "9-jdk21-openjdk-slim-bookworm",
-      "9.0-jdk21-openjdk-slim-bookworm",
-      "9.0.80-jdk21-openjdk-slim-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-slim-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-slim-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "9-jdk21-openjdk-slim-bullseye",
-      "9.0-jdk21-openjdk-slim-bullseye",
-      "9.0.80-jdk21-openjdk-slim-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-slim-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "9.0/jdk21/openjdk-slim-bullseye/Dockerfile"
       }
     ]
   },
@@ -539,16 +430,16 @@
     "tags": [
       "9",
       "9.0",
-      "9.0.80",
-      "9-jdk17",
-      "9.0-jdk17",
-      "9.0.80-jdk17",
-      "9-jdk17-temurin",
-      "9.0-jdk17-temurin",
-      "9.0.80-jdk17-temurin",
-      "9-jdk17-temurin-jammy",
-      "9.0-jdk17-temurin-jammy",
-      "9.0.80-jdk17-temurin-jammy"
+      "9.0.81",
+      "9-jdk21",
+      "9.0-jdk21",
+      "9.0.81-jdk21",
+      "9-jdk21-temurin",
+      "9.0-jdk21-temurin",
+      "9.0.81-jdk21-temurin",
+      "9-jdk21-temurin-jammy",
+      "9.0-jdk21-temurin-jammy",
+      "9.0.81-jdk21-temurin-jammy"
     ],
     "images": [
       {
@@ -556,7 +447,112 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "c6f2ca4467405fb3743452b648f63cae1c516791",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/temurin-jammy/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c6f2ca4467405fb3743452b648f63cae1c516791",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jre21",
+      "9.0-jre21",
+      "9.0.81-jre21",
+      "9-jre21-temurin",
+      "9.0-jre21-temurin",
+      "9.0.81-jre21-temurin",
+      "9-jre21-temurin-jammy",
+      "9.0-jre21-temurin-jammy",
+      "9.0.81-jre21-temurin-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c6f2ca4467405fb3743452b648f63cae1c516791",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre21/temurin-jammy/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c6f2ca4467405fb3743452b648f63cae1c516791",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jre21/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jdk21-corretto",
+      "9.0-jdk21-corretto",
+      "9-jdk21-corretto-al2",
+      "9.0.81-jdk21-corretto",
+      "9.0-jdk21-corretto-al2",
+      "9.0.81-jdk21-corretto-al2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/corretto-al2/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "9.0/jdk21/corretto-al2/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "9-jdk17",
+      "9.0-jdk17",
+      "9.0.81-jdk17",
+      "9-jdk17-temurin",
+      "9.0-jdk17-temurin",
+      "9.0.81-jdk17-temurin",
+      "9-jdk17-temurin-jammy",
+      "9.0-jdk17-temurin-jammy",
+      "9.0.81-jdk17-temurin-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-jammy/Dockerfile"
       },
@@ -566,7 +562,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-jammy/Dockerfile"
       },
@@ -576,7 +572,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-jammy/Dockerfile"
       },
@@ -585,7 +581,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-jammy/Dockerfile"
       },
@@ -594,7 +590,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-jammy/Dockerfile"
       }
@@ -606,13 +602,13 @@
     "tags": [
       "9-jre17",
       "9.0-jre17",
-      "9.0.80-jre17",
+      "9.0.81-jre17",
       "9-jre17-temurin",
       "9.0-jre17-temurin",
-      "9.0.80-jre17-temurin",
+      "9.0.81-jre17-temurin",
       "9-jre17-temurin-jammy",
       "9.0-jre17-temurin-jammy",
-      "9.0.80-jre17-temurin-jammy"
+      "9.0.81-jre17-temurin-jammy"
     ],
     "images": [
       {
@@ -620,7 +616,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-jammy/Dockerfile"
       },
@@ -630,7 +626,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-jammy/Dockerfile"
       },
@@ -640,7 +636,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-jammy/Dockerfile"
       },
@@ -649,7 +645,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-jammy/Dockerfile"
       },
@@ -658,7 +654,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-jammy/Dockerfile"
       }
@@ -670,7 +666,7 @@
     "tags": [
       "9-jdk17-temurin-focal",
       "9.0-jdk17-temurin-focal",
-      "9.0.80-jdk17-temurin-focal"
+      "9.0.81-jdk17-temurin-focal"
     ],
     "images": [
       {
@@ -678,7 +674,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-focal/Dockerfile"
       },
@@ -688,7 +684,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-focal/Dockerfile"
       },
@@ -698,7 +694,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-focal/Dockerfile"
       },
@@ -707,7 +703,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-focal/Dockerfile"
       },
@@ -716,7 +712,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/temurin-focal/Dockerfile"
       }
@@ -728,7 +724,7 @@
     "tags": [
       "9-jre17-temurin-focal",
       "9.0-jre17-temurin-focal",
-      "9.0.80-jre17-temurin-focal"
+      "9.0.81-jre17-temurin-focal"
     ],
     "images": [
       {
@@ -736,7 +732,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-focal/Dockerfile"
       },
@@ -746,7 +742,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-focal/Dockerfile"
       },
@@ -756,7 +752,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-focal/Dockerfile"
       },
@@ -765,7 +761,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-focal/Dockerfile"
       },
@@ -774,7 +770,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre17/temurin-focal/Dockerfile"
       }
@@ -787,9 +783,9 @@
       "9-jdk17-corretto",
       "9.0-jdk17-corretto",
       "9-jdk17-corretto-al2",
-      "9.0.80-jdk17-corretto",
+      "9.0.81-jdk17-corretto",
       "9.0-jdk17-corretto-al2",
-      "9.0.80-jdk17-corretto-al2"
+      "9.0.81-jdk17-corretto-al2"
     ],
     "images": [
       {
@@ -797,7 +793,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/corretto-al2/Dockerfile"
       },
@@ -807,7 +803,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk17/corretto-al2/Dockerfile"
       }
@@ -819,13 +815,13 @@
     "tags": [
       "9-jdk11",
       "9.0-jdk11",
-      "9.0.80-jdk11",
+      "9.0.81-jdk11",
       "9-jdk11-temurin",
       "9.0-jdk11-temurin",
-      "9.0.80-jdk11-temurin",
+      "9.0.81-jdk11-temurin",
       "9-jdk11-temurin-jammy",
       "9.0-jdk11-temurin-jammy",
-      "9.0.80-jdk11-temurin-jammy"
+      "9.0.81-jdk11-temurin-jammy"
     ],
     "images": [
       {
@@ -833,7 +829,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-jammy/Dockerfile"
       },
@@ -843,7 +839,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-jammy/Dockerfile"
       },
@@ -853,7 +849,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-jammy/Dockerfile"
       },
@@ -862,7 +858,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-jammy/Dockerfile"
       },
@@ -871,7 +867,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-jammy/Dockerfile"
       }
@@ -883,13 +879,13 @@
     "tags": [
       "9-jre11",
       "9.0-jre11",
-      "9.0.80-jre11",
+      "9.0.81-jre11",
       "9-jre11-temurin",
       "9.0-jre11-temurin",
-      "9.0.80-jre11-temurin",
+      "9.0.81-jre11-temurin",
       "9-jre11-temurin-jammy",
       "9.0-jre11-temurin-jammy",
-      "9.0.80-jre11-temurin-jammy"
+      "9.0.81-jre11-temurin-jammy"
     ],
     "images": [
       {
@@ -897,7 +893,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-jammy/Dockerfile"
       },
@@ -907,7 +903,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-jammy/Dockerfile"
       },
@@ -917,7 +913,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-jammy/Dockerfile"
       },
@@ -926,7 +922,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-jammy/Dockerfile"
       },
@@ -935,7 +931,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-jammy/Dockerfile"
       }
@@ -947,7 +943,7 @@
     "tags": [
       "9-jdk11-temurin-focal",
       "9.0-jdk11-temurin-focal",
-      "9.0.80-jdk11-temurin-focal"
+      "9.0.81-jdk11-temurin-focal"
     ],
     "images": [
       {
@@ -955,7 +951,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-focal/Dockerfile"
       },
@@ -965,7 +961,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-focal/Dockerfile"
       },
@@ -975,7 +971,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-focal/Dockerfile"
       },
@@ -984,7 +980,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-focal/Dockerfile"
       },
@@ -993,7 +989,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/temurin-focal/Dockerfile"
       }
@@ -1005,7 +1001,7 @@
     "tags": [
       "9-jre11-temurin-focal",
       "9.0-jre11-temurin-focal",
-      "9.0.80-jre11-temurin-focal"
+      "9.0.81-jre11-temurin-focal"
     ],
     "images": [
       {
@@ -1013,7 +1009,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-focal/Dockerfile"
       },
@@ -1023,7 +1019,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-focal/Dockerfile"
       },
@@ -1033,7 +1029,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-focal/Dockerfile"
       },
@@ -1042,7 +1038,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-focal/Dockerfile"
       },
@@ -1051,7 +1047,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre11/temurin-focal/Dockerfile"
       }
@@ -1064,9 +1060,9 @@
       "9-jdk11-corretto",
       "9.0-jdk11-corretto",
       "9-jdk11-corretto-al2",
-      "9.0.80-jdk11-corretto",
+      "9.0.81-jdk11-corretto",
       "9.0-jdk11-corretto-al2",
-      "9.0.80-jdk11-corretto-al2"
+      "9.0.81-jdk11-corretto-al2"
     ],
     "images": [
       {
@@ -1074,7 +1070,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/corretto-al2/Dockerfile"
       },
@@ -1084,7 +1080,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk11/corretto-al2/Dockerfile"
       }
@@ -1096,13 +1092,13 @@
     "tags": [
       "9-jdk8",
       "9.0-jdk8",
-      "9.0.80-jdk8",
+      "9.0.81-jdk8",
       "9-jdk8-temurin",
       "9.0-jdk8-temurin",
-      "9.0.80-jdk8-temurin",
+      "9.0.81-jdk8-temurin",
       "9-jdk8-temurin-jammy",
       "9.0-jdk8-temurin-jammy",
-      "9.0.80-jdk8-temurin-jammy"
+      "9.0.81-jdk8-temurin-jammy"
     ],
     "images": [
       {
@@ -1110,7 +1106,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-jammy/Dockerfile"
       },
@@ -1120,7 +1116,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-jammy/Dockerfile"
       },
@@ -1130,7 +1126,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-jammy/Dockerfile"
       },
@@ -1139,7 +1135,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-jammy/Dockerfile"
       }
@@ -1151,13 +1147,13 @@
     "tags": [
       "9-jre8",
       "9.0-jre8",
-      "9.0.80-jre8",
+      "9.0.81-jre8",
       "9-jre8-temurin",
       "9.0-jre8-temurin",
-      "9.0.80-jre8-temurin",
+      "9.0.81-jre8-temurin",
       "9-jre8-temurin-jammy",
       "9.0-jre8-temurin-jammy",
-      "9.0.80-jre8-temurin-jammy"
+      "9.0.81-jre8-temurin-jammy"
     ],
     "images": [
       {
@@ -1165,7 +1161,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-jammy/Dockerfile"
       },
@@ -1175,7 +1171,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-jammy/Dockerfile"
       },
@@ -1185,7 +1181,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-jammy/Dockerfile"
       },
@@ -1194,7 +1190,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-jammy/Dockerfile"
       }
@@ -1206,7 +1202,7 @@
     "tags": [
       "9-jdk8-temurin-focal",
       "9.0-jdk8-temurin-focal",
-      "9.0.80-jdk8-temurin-focal"
+      "9.0.81-jdk8-temurin-focal"
     ],
     "images": [
       {
@@ -1214,7 +1210,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-focal/Dockerfile"
       },
@@ -1224,7 +1220,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-focal/Dockerfile"
       },
@@ -1234,7 +1230,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-focal/Dockerfile"
       },
@@ -1243,7 +1239,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/temurin-focal/Dockerfile"
       }
@@ -1255,7 +1251,7 @@
     "tags": [
       "9-jre8-temurin-focal",
       "9.0-jre8-temurin-focal",
-      "9.0.80-jre8-temurin-focal"
+      "9.0.81-jre8-temurin-focal"
     ],
     "images": [
       {
@@ -1263,7 +1259,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-focal/Dockerfile"
       },
@@ -1273,7 +1269,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-focal/Dockerfile"
       },
@@ -1283,7 +1279,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-focal/Dockerfile"
       },
@@ -1292,7 +1288,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jre8/temurin-focal/Dockerfile"
       }
@@ -1305,9 +1301,9 @@
       "9-jdk8-corretto",
       "9.0-jdk8-corretto",
       "9-jdk8-corretto-al2",
-      "9.0.80-jdk8-corretto",
+      "9.0.81-jdk8-corretto",
       "9.0-jdk8-corretto-al2",
-      "9.0.80-jdk8-corretto-al2"
+      "9.0.81-jdk8-corretto-al2"
     ],
     "images": [
       {
@@ -1315,7 +1311,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/corretto-al2/Dockerfile"
       },
@@ -1325,135 +1321,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ad1ce61765fcc0421e91cf8ee0370c79eeaa7d79",
+        "sha": "f9bbf1387bda2a3aa1aa1021f607250b40621408",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "9.0/jdk8/corretto-al2/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "8-jdk21-openjdk",
-      "8.5-jdk21-openjdk",
-      "8.5.93-jdk21-openjdk",
-      "8-jdk21-openjdk-bookworm",
-      "8.5-jdk21-openjdk-bookworm",
-      "8.5.93-jdk21-openjdk-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "8-jdk21-openjdk-bullseye",
-      "8.5-jdk21-openjdk-bullseye",
-      "8.5.93-jdk21-openjdk-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "8-jdk21-openjdk-slim",
-      "8.5-jdk21-openjdk-slim",
-      "8.5.93-jdk21-openjdk-slim",
-      "8-jdk21-openjdk-slim-bookworm",
-      "8.5-jdk21-openjdk-slim-bookworm",
-      "8.5.93-jdk21-openjdk-slim-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-slim-bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-slim-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "tomcat",
-    "tags": [
-      "8-jdk21-openjdk-slim-bullseye",
-      "8.5-jdk21-openjdk-slim-bullseye",
-      "8.5.93-jdk21-openjdk-slim-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-slim-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
-        "repo": "https://github.com/docker-library/tomcat.git",
-        "path": "8.5/jdk21/openjdk-slim-bullseye/Dockerfile"
       }
     ]
   },
@@ -1463,16 +1333,16 @@
     "tags": [
       "8",
       "8.5",
-      "8.5.93",
-      "8-jdk17",
-      "8.5-jdk17",
-      "8.5.93-jdk17",
-      "8-jdk17-temurin",
-      "8.5-jdk17-temurin",
-      "8.5.93-jdk17-temurin",
-      "8-jdk17-temurin-jammy",
-      "8.5-jdk17-temurin-jammy",
-      "8.5.93-jdk17-temurin-jammy"
+      "8.5.94",
+      "8-jdk21",
+      "8.5-jdk21",
+      "8.5.94-jdk21",
+      "8-jdk21-temurin",
+      "8.5-jdk21-temurin",
+      "8.5.94-jdk21-temurin",
+      "8-jdk21-temurin-jammy",
+      "8.5-jdk21-temurin-jammy",
+      "8.5.94-jdk21-temurin-jammy"
     ],
     "images": [
       {
@@ -1480,7 +1350,112 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "2b0adfec11340b151c2b2385c7dc6de27677e10b",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/temurin-jammy/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2b0adfec11340b151c2b2385c7dc6de27677e10b",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jre21",
+      "8.5-jre21",
+      "8.5.94-jre21",
+      "8-jre21-temurin",
+      "8.5-jre21-temurin",
+      "8.5.94-jre21-temurin",
+      "8-jre21-temurin-jammy",
+      "8.5-jre21-temurin-jammy",
+      "8.5.94-jre21-temurin-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2b0adfec11340b151c2b2385c7dc6de27677e10b",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre21/temurin-jammy/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2b0adfec11340b151c2b2385c7dc6de27677e10b",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jre21/temurin-jammy/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jdk21-corretto",
+      "8.5-jdk21-corretto",
+      "8-jdk21-corretto-al2",
+      "8.5.94-jdk21-corretto",
+      "8.5-jdk21-corretto-al2",
+      "8.5.94-jdk21-corretto-al2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/corretto-al2/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
+        "repo": "https://github.com/docker-library/tomcat.git",
+        "path": "8.5/jdk21/corretto-al2/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "tomcat",
+    "tags": [
+      "8-jdk17",
+      "8.5-jdk17",
+      "8.5.94-jdk17",
+      "8-jdk17-temurin",
+      "8.5-jdk17-temurin",
+      "8.5.94-jdk17-temurin",
+      "8-jdk17-temurin-jammy",
+      "8.5-jdk17-temurin-jammy",
+      "8.5.94-jdk17-temurin-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-jammy/Dockerfile"
       },
@@ -1490,7 +1465,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-jammy/Dockerfile"
       },
@@ -1500,7 +1475,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-jammy/Dockerfile"
       },
@@ -1509,7 +1484,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-jammy/Dockerfile"
       },
@@ -1518,7 +1493,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-jammy/Dockerfile"
       }
@@ -1530,13 +1505,13 @@
     "tags": [
       "8-jre17",
       "8.5-jre17",
-      "8.5.93-jre17",
+      "8.5.94-jre17",
       "8-jre17-temurin",
       "8.5-jre17-temurin",
-      "8.5.93-jre17-temurin",
+      "8.5.94-jre17-temurin",
       "8-jre17-temurin-jammy",
       "8.5-jre17-temurin-jammy",
-      "8.5.93-jre17-temurin-jammy"
+      "8.5.94-jre17-temurin-jammy"
     ],
     "images": [
       {
@@ -1544,7 +1519,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-jammy/Dockerfile"
       },
@@ -1554,7 +1529,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-jammy/Dockerfile"
       },
@@ -1564,7 +1539,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-jammy/Dockerfile"
       },
@@ -1573,7 +1548,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-jammy/Dockerfile"
       },
@@ -1582,7 +1557,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-jammy/Dockerfile"
       }
@@ -1594,7 +1569,7 @@
     "tags": [
       "8-jdk17-temurin-focal",
       "8.5-jdk17-temurin-focal",
-      "8.5.93-jdk17-temurin-focal"
+      "8.5.94-jdk17-temurin-focal"
     ],
     "images": [
       {
@@ -1602,7 +1577,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-focal/Dockerfile"
       },
@@ -1612,7 +1587,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-focal/Dockerfile"
       },
@@ -1622,7 +1597,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-focal/Dockerfile"
       },
@@ -1631,7 +1606,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-focal/Dockerfile"
       },
@@ -1640,7 +1615,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/temurin-focal/Dockerfile"
       }
@@ -1652,7 +1627,7 @@
     "tags": [
       "8-jre17-temurin-focal",
       "8.5-jre17-temurin-focal",
-      "8.5.93-jre17-temurin-focal"
+      "8.5.94-jre17-temurin-focal"
     ],
     "images": [
       {
@@ -1660,7 +1635,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-focal/Dockerfile"
       },
@@ -1670,7 +1645,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-focal/Dockerfile"
       },
@@ -1680,7 +1655,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-focal/Dockerfile"
       },
@@ -1689,7 +1664,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-focal/Dockerfile"
       },
@@ -1698,7 +1673,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre17/temurin-focal/Dockerfile"
       }
@@ -1711,9 +1686,9 @@
       "8-jdk17-corretto",
       "8.5-jdk17-corretto",
       "8-jdk17-corretto-al2",
-      "8.5.93-jdk17-corretto",
+      "8.5.94-jdk17-corretto",
       "8.5-jdk17-corretto-al2",
-      "8.5.93-jdk17-corretto-al2"
+      "8.5.94-jdk17-corretto-al2"
     ],
     "images": [
       {
@@ -1721,7 +1696,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/corretto-al2/Dockerfile"
       },
@@ -1731,7 +1706,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk17/corretto-al2/Dockerfile"
       }
@@ -1743,13 +1718,13 @@
     "tags": [
       "8-jdk11",
       "8.5-jdk11",
-      "8.5.93-jdk11",
+      "8.5.94-jdk11",
       "8-jdk11-temurin",
       "8.5-jdk11-temurin",
-      "8.5.93-jdk11-temurin",
+      "8.5.94-jdk11-temurin",
       "8-jdk11-temurin-jammy",
       "8.5-jdk11-temurin-jammy",
-      "8.5.93-jdk11-temurin-jammy"
+      "8.5.94-jdk11-temurin-jammy"
     ],
     "images": [
       {
@@ -1757,7 +1732,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-jammy/Dockerfile"
       },
@@ -1767,7 +1742,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-jammy/Dockerfile"
       },
@@ -1777,7 +1752,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-jammy/Dockerfile"
       },
@@ -1786,7 +1761,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-jammy/Dockerfile"
       },
@@ -1795,7 +1770,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-jammy/Dockerfile"
       }
@@ -1807,13 +1782,13 @@
     "tags": [
       "8-jre11",
       "8.5-jre11",
-      "8.5.93-jre11",
+      "8.5.94-jre11",
       "8-jre11-temurin",
       "8.5-jre11-temurin",
-      "8.5.93-jre11-temurin",
+      "8.5.94-jre11-temurin",
       "8-jre11-temurin-jammy",
       "8.5-jre11-temurin-jammy",
-      "8.5.93-jre11-temurin-jammy"
+      "8.5.94-jre11-temurin-jammy"
     ],
     "images": [
       {
@@ -1821,7 +1796,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-jammy/Dockerfile"
       },
@@ -1831,7 +1806,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-jammy/Dockerfile"
       },
@@ -1841,7 +1816,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-jammy/Dockerfile"
       },
@@ -1850,7 +1825,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-jammy/Dockerfile"
       },
@@ -1859,7 +1834,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-jammy/Dockerfile"
       }
@@ -1871,7 +1846,7 @@
     "tags": [
       "8-jdk11-temurin-focal",
       "8.5-jdk11-temurin-focal",
-      "8.5.93-jdk11-temurin-focal"
+      "8.5.94-jdk11-temurin-focal"
     ],
     "images": [
       {
@@ -1879,7 +1854,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-focal/Dockerfile"
       },
@@ -1889,7 +1864,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-focal/Dockerfile"
       },
@@ -1899,7 +1874,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-focal/Dockerfile"
       },
@@ -1908,7 +1883,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-focal/Dockerfile"
       },
@@ -1917,7 +1892,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/temurin-focal/Dockerfile"
       }
@@ -1929,7 +1904,7 @@
     "tags": [
       "8-jre11-temurin-focal",
       "8.5-jre11-temurin-focal",
-      "8.5.93-jre11-temurin-focal"
+      "8.5.94-jre11-temurin-focal"
     ],
     "images": [
       {
@@ -1937,7 +1912,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-focal/Dockerfile"
       },
@@ -1947,7 +1922,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-focal/Dockerfile"
       },
@@ -1957,7 +1932,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-focal/Dockerfile"
       },
@@ -1966,7 +1941,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-focal/Dockerfile"
       },
@@ -1975,7 +1950,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre11/temurin-focal/Dockerfile"
       }
@@ -1988,9 +1963,9 @@
       "8-jdk11-corretto",
       "8.5-jdk11-corretto",
       "8-jdk11-corretto-al2",
-      "8.5.93-jdk11-corretto",
+      "8.5.94-jdk11-corretto",
       "8.5-jdk11-corretto-al2",
-      "8.5.93-jdk11-corretto-al2"
+      "8.5.94-jdk11-corretto-al2"
     ],
     "images": [
       {
@@ -1998,7 +1973,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/corretto-al2/Dockerfile"
       },
@@ -2008,7 +1983,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk11/corretto-al2/Dockerfile"
       }
@@ -2020,13 +1995,13 @@
     "tags": [
       "8-jdk8",
       "8.5-jdk8",
-      "8.5.93-jdk8",
+      "8.5.94-jdk8",
       "8-jdk8-temurin",
       "8.5-jdk8-temurin",
-      "8.5.93-jdk8-temurin",
+      "8.5.94-jdk8-temurin",
       "8-jdk8-temurin-jammy",
       "8.5-jdk8-temurin-jammy",
-      "8.5.93-jdk8-temurin-jammy"
+      "8.5.94-jdk8-temurin-jammy"
     ],
     "images": [
       {
@@ -2034,7 +2009,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-jammy/Dockerfile"
       },
@@ -2044,7 +2019,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-jammy/Dockerfile"
       },
@@ -2054,7 +2029,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-jammy/Dockerfile"
       },
@@ -2063,7 +2038,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-jammy/Dockerfile"
       }
@@ -2075,13 +2050,13 @@
     "tags": [
       "8-jre8",
       "8.5-jre8",
-      "8.5.93-jre8",
+      "8.5.94-jre8",
       "8-jre8-temurin",
       "8.5-jre8-temurin",
-      "8.5.93-jre8-temurin",
+      "8.5.94-jre8-temurin",
       "8-jre8-temurin-jammy",
       "8.5-jre8-temurin-jammy",
-      "8.5.93-jre8-temurin-jammy"
+      "8.5.94-jre8-temurin-jammy"
     ],
     "images": [
       {
@@ -2089,7 +2064,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-jammy/Dockerfile"
       },
@@ -2099,7 +2074,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-jammy/Dockerfile"
       },
@@ -2109,7 +2084,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-jammy/Dockerfile"
       },
@@ -2118,7 +2093,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-jammy/Dockerfile"
       }
@@ -2130,7 +2105,7 @@
     "tags": [
       "8-jdk8-temurin-focal",
       "8.5-jdk8-temurin-focal",
-      "8.5.93-jdk8-temurin-focal"
+      "8.5.94-jdk8-temurin-focal"
     ],
     "images": [
       {
@@ -2138,7 +2113,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-focal/Dockerfile"
       },
@@ -2148,7 +2123,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-focal/Dockerfile"
       },
@@ -2158,7 +2133,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-focal/Dockerfile"
       },
@@ -2167,7 +2142,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/temurin-focal/Dockerfile"
       }
@@ -2179,7 +2154,7 @@
     "tags": [
       "8-jre8-temurin-focal",
       "8.5-jre8-temurin-focal",
-      "8.5.93-jre8-temurin-focal"
+      "8.5.94-jre8-temurin-focal"
     ],
     "images": [
       {
@@ -2187,7 +2162,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-focal/Dockerfile"
       },
@@ -2197,7 +2172,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-focal/Dockerfile"
       },
@@ -2207,7 +2182,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-focal/Dockerfile"
       },
@@ -2216,7 +2191,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jre8/temurin-focal/Dockerfile"
       }
@@ -2229,9 +2204,9 @@
       "8-jdk8-corretto",
       "8.5-jdk8-corretto",
       "8-jdk8-corretto-al2",
-      "8.5.93-jdk8-corretto",
+      "8.5.94-jdk8-corretto",
       "8.5-jdk8-corretto-al2",
-      "8.5.93-jdk8-corretto-al2"
+      "8.5.94-jdk8-corretto-al2"
     ],
     "images": [
       {
@@ -2239,7 +2214,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/corretto-al2/Dockerfile"
       },
@@ -2249,7 +2224,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "faaf983ea7148aa8697d9adb6b24d1d0f9e5e1a7",
+        "sha": "3e4ccf4f0918276c3a9a43156f070c6a9b16254c",
         "repo": "https://github.com/docker-library/tomcat.git",
         "path": "8.5/jdk8/corretto-al2/Dockerfile"
       }
