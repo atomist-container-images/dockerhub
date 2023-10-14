@@ -304,10 +304,10 @@
       "eclipse-temurin",
       "3-eclipse-temurin",
       "3.9-eclipse-temurin",
-      "3-eclipse-temurin-20",
+      "3-eclipse-temurin-21",
       "3.9.4-eclipse-temurin",
-      "3.9-eclipse-temurin-20",
-      "3.9.4-eclipse-temurin-20"
+      "3.9-eclipse-temurin-21",
+      "3.9.4-eclipse-temurin-21"
     ],
     "images": [
       {
@@ -315,9 +315,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7319e0caa2961b402073e8054bc63e8dc48d969",
+        "sha": "134517fbdef9e977dc3b545533953ac5a493390b",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-20/Dockerfile",
+        "path": "eclipse-temurin-21/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -326,9 +326,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7319e0caa2961b402073e8054bc63e8dc48d969",
+        "sha": "134517fbdef9e977dc3b545533953ac5a493390b",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-20/Dockerfile",
+        "path": "eclipse-temurin-21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -337,9 +337,9 @@
     "version": "26",
     "name": "maven",
     "tags": [
-      "3-eclipse-temurin-20-alpine",
-      "3.9-eclipse-temurin-20-alpine",
-      "3.9.4-eclipse-temurin-20-alpine"
+      "3-eclipse-temurin-21-alpine",
+      "3.9-eclipse-temurin-21-alpine",
+      "3.9.4-eclipse-temurin-21-alpine"
     ],
     "images": [
       {
@@ -347,9 +347,20 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7319e0caa2961b402073e8054bc63e8dc48d969",
+        "sha": "134517fbdef9e977dc3b545533953ac5a493390b",
         "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "eclipse-temurin-20-alpine/Dockerfile",
+        "path": "eclipse-temurin-21-alpine/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "134517fbdef9e977dc3b545533953ac5a493390b",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-21-alpine/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1175,11 +1186,7 @@
     "version": "26",
     "name": "maven",
     "tags": [
-      "sapmachine",
-      "3-sapmachine",
-      "3.9-sapmachine",
       "3-sapmachine-17",
-      "3.9.4-sapmachine",
       "3.9-sapmachine-17",
       "3.9.4-sapmachine-17"
     ],
@@ -1221,7 +1228,11 @@
     "version": "26",
     "name": "maven",
     "tags": [
+      "sapmachine",
+      "3-sapmachine",
+      "3.9-sapmachine",
       "3-sapmachine-21",
+      "3.9.4-sapmachine",
       "3.9-sapmachine-21",
       "3.9.4-sapmachine-21"
     ],
