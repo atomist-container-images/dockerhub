@@ -3,6 +3,34 @@
     "version": "26",
     "name": "elasticsearch",
     "tags": [
+      "8.10.3"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2d1506e4c1ad26c8e180b33e84feefa179cdac22",
+        "repo": "https://github.com/docker-library/elasticsearch.git",
+        "path": "8.10.3/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2d1506e4c1ad26c8e180b33e84feefa179cdac22",
+        "repo": "https://github.com/docker-library/elasticsearch.git",
+        "path": "8.10.3/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elasticsearch",
+    "tags": [
       "8.10.4"
     ],
     "images": [
