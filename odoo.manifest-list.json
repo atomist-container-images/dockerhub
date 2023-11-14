@@ -3,8 +3,8 @@
     "version": "26",
     "name": "odoo",
     "tags": [
-      "16",
-      "16.0",
+      "17",
+      "17.0",
       "latest"
     ],
     "images": [
@@ -13,7 +13,45 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3864188c94c33dace7d4b5f6767e00a4328fe08c",
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
+        "repo": "https://github.com/odoo/docker.git",
+        "path": "17.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
+        "repo": "https://github.com/odoo/docker.git",
+        "path": "17.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
+        "repo": "https://github.com/odoo/docker.git",
+        "path": "17.0/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "odoo",
+    "tags": [
+      "16",
+      "16.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
         "repo": "https://github.com/odoo/docker.git",
         "path": "16.0/Dockerfile"
       },
@@ -23,7 +61,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3864188c94c33dace7d4b5f6767e00a4328fe08c",
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
         "repo": "https://github.com/odoo/docker.git",
         "path": "16.0/Dockerfile"
       },
@@ -32,7 +70,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "3864188c94c33dace7d4b5f6767e00a4328fe08c",
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
         "repo": "https://github.com/odoo/docker.git",
         "path": "16.0/Dockerfile"
       }
@@ -51,28 +89,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3864188c94c33dace7d4b5f6767e00a4328fe08c",
+        "sha": "37a68eedff8ad776107bd51f0494514d4e4fb7be",
         "repo": "https://github.com/odoo/docker.git",
         "path": "15.0/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "odoo",
-    "tags": [
-      "14",
-      "14.0"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "3864188c94c33dace7d4b5f6767e00a4328fe08c",
-        "repo": "https://github.com/odoo/docker.git",
-        "path": "14.0/Dockerfile"
       }
     ]
   }
