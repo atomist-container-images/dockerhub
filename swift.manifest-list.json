@@ -307,6 +307,27 @@
     "version": "26",
     "name": "swift",
     "tags": [
+      "windowsservercore-ltsc2022",
+      "5.9-windowsservercore-ltsc2022",
+      "5.9.1-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "3fc609343f771e31c17140ed90d6cb2023e6e701",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.9/windows/LTSC2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
       "5.8",
       "5.8.1",
       "5.8-jammy",
