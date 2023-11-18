@@ -4,13 +4,13 @@
     "name": "redmine",
     "tags": [
       "5",
-      "5.0",
-      "5.0.6",
+      "5.1",
+      "5.1.0",
       "latest",
       "bookworm",
       "5-bookworm",
-      "5.0-bookworm",
-      "5.0.6-bookworm"
+      "5.1-bookworm",
+      "5.1.0-bookworm"
     ],
     "images": [
       {
@@ -18,18 +18,18 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -37,9 +37,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -47,36 +47,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/Dockerfile"
+        "path": "5.1/bookworm/Dockerfile"
       }
     ]
   },
@@ -86,9 +95,173 @@
     "tags": [
       "alpine",
       "5-alpine",
-      "5.0-alpine",
+      "5.1-alpine",
       "alpine3.18",
       "5-alpine3.18",
+      "5.1.0-alpine",
+      "5.1-alpine3.18",
+      "5.1.0-alpine3.18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "16d3e00e73ce4ab0173b931f04dce5117d696211",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.1/alpine3.18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "redmine",
+    "tags": [
+      "5.0",
+      "5.0.6",
+      "5.0-bookworm",
+      "5.0.6-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
+        "repo": "https://github.com/docker-library/redmine.git",
+        "path": "5.0/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "redmine",
+    "tags": [
+      "5.0-alpine",
       "5.0.6-alpine",
       "5.0-alpine3.18",
       "5.0.6-alpine3.18"
@@ -99,9 +272,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       },
       {
         "platform": {
@@ -109,9 +282,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       },
       {
         "platform": {
@@ -119,9 +292,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       },
       {
         "platform": {
@@ -129,36 +302,36 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "329d3b89cc5ef11e7363f3eaff0f046e249aadee",
+        "sha": "dce1e4913a56091ef1ccd05d1e9df88fa75bce64",
         "repo": "https://github.com/docker-library/redmine.git",
-        "path": "5.0/alpine/Dockerfile"
+        "path": "5.0/alpine3.18/Dockerfile"
       }
     ]
   }
