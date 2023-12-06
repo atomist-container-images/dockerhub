@@ -3,10 +3,10 @@
     "version": "26",
     "name": "haproxy",
     "tags": [
-      "2.9-dev",
-      "2.9-dev12",
-      "2.9-dev-bullseye",
-      "2.9-dev12-bullseye"
+      "3.0-dev",
+      "3.0-dev0",
+      "3.0-dev-bullseye",
+      "3.0-dev0-bullseye"
     ],
     "images": [
       {
@@ -14,7 +14,173 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haproxy",
+    "tags": [
+      "3.0-dev-alpine",
+      "3.0-dev0-alpine",
+      "3.0-dev-alpine3.18",
+      "3.0-dev0-alpine3.18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e3fc1f8a671d2362e20ce2895fe284bef3934926",
+        "repo": "https://github.com/docker-library/haproxy.git",
+        "path": "3.0/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haproxy",
+    "tags": [
+      "2.9",
+      "2.9.0",
+      "latest",
+      "bullseye",
+      "2.9-bullseye",
+      "2.9.0-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -23,7 +189,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -33,7 +199,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -43,7 +209,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -52,7 +218,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -61,7 +227,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -70,7 +236,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       },
@@ -79,7 +245,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/Dockerfile"
       }
@@ -89,10 +255,12 @@
     "version": "26",
     "name": "haproxy",
     "tags": [
-      "2.9-dev-alpine",
-      "2.9-dev12-alpine",
-      "2.9-dev-alpine3.18",
-      "2.9-dev12-alpine3.18"
+      "alpine",
+      "2.9-alpine",
+      "alpine3.18",
+      "2.9.0-alpine",
+      "2.9-alpine3.18",
+      "2.9.0-alpine3.18"
     ],
     "images": [
       {
@@ -100,7 +268,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       },
@@ -110,7 +278,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       },
@@ -120,7 +288,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       },
@@ -130,7 +298,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       },
@@ -139,7 +307,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       },
@@ -148,7 +316,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       },
@@ -157,7 +325,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f7d1d26511f3cf69eee01dbbea741130e2a2f8c3",
+        "sha": "a2cdec0b128a2c128a6e81c93b67ec502b2131f3",
         "repo": "https://github.com/docker-library/haproxy.git",
         "path": "2.9/alpine/Dockerfile"
       }
@@ -170,8 +338,6 @@
       "2.8",
       "lts",
       "2.8.4",
-      "latest",
-      "bullseye",
       "2.8-bullseye",
       "lts-bullseye",
       "2.8.4-bullseye"
@@ -257,9 +423,7 @@
     "version": "26",
     "name": "haproxy",
     "tags": [
-      "alpine",
       "2.8-alpine",
-      "alpine3.18",
       "lts-alpine",
       "2.8.4-alpine",
       "2.8-alpine3.18",
