@@ -3,6 +3,28 @@
     "version": "26",
     "name": "traefik",
     "tags": [
+      "3.0-windowsservercore-ltsc2022",
+      "v3.0-windowsservercore-ltsc2022",
+      "beaufort-windowsservercore-ltsc2022",
+      "3.0.0-beta5-windowsservercore-ltsc2022",
+      "v3.0.0-beta5-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "66250e268eb9c8d592cc85e153d388dca705c7ee",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/servercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
       "3.0-windowsservercore-1809",
       "v3.0-windowsservercore-1809",
       "beaufort-windowsservercore-1809",
@@ -69,6 +91,124 @@
         "sha": "66250e268eb9c8d592cc85e153d388dca705c7ee",
         "repo": "https://github.com/traefik/traefik-library-image.git",
         "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
+      "2.11-windowsservercore-ltsc2022",
+      "v2.11-windowsservercore-ltsc2022",
+      "mimolette-windowsservercore-ltsc2022",
+      "2.11.0-rc1-windowsservercore-ltsc2022",
+      "v2.11.0-rc1-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/servercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
+      "2.11-windowsservercore-1809",
+      "v2.11-windowsservercore-1809",
+      "mimolette-windowsservercore-1809",
+      "2.11.0-rc1-windowsservercore-1809",
+      "v2.11.0-rc1-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
+      "2.11",
+      "v2.11",
+      "mimolette",
+      "2.11.0-rc1",
+      "v2.11.0-rc1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "febb0c2358cbb1033a6d0d0a447d52cbe11ded54",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "traefik",
+    "tags": [
+      "windowsservercore-ltsc2022",
+      "2.10-windowsservercore-ltsc2022",
+      "v2.10-windowsservercore-ltsc2022",
+      "2.10.7-windowsservercore-ltsc2022",
+      "v2.10.7-windowsservercore-ltsc2022",
+      "saintmarcelin-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "274d14183ad37ff987c85fb0f85e9f862025c297",
+        "repo": "https://github.com/traefik/traefik-library-image.git",
+        "path": "windows/servercore-ltsc2022/Dockerfile"
       }
     ]
   },
