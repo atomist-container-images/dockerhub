@@ -3,37 +3,6 @@
     "version": "26",
     "name": "emqx",
     "tags": [
-      "5.0",
-      "5.0.26"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "5fa7e9eac34517170ade58660cb65e5a5870c783",
-        "repo": "https://github.com/emqx/emqx-docker.git",
-        "path": "5.0/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "5fa7e9eac34517170ade58660cb65e5a5870c783",
-        "repo": "https://github.com/emqx/emqx-docker.git",
-        "path": "5.0/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "emqx",
-    "tags": [
       "5.1",
       "5.1.6"
     ],
@@ -96,10 +65,8 @@
     "version": "26",
     "name": "emqx",
     "tags": [
-      "5",
       "5.3",
-      "5.3.2",
-      "latest"
+      "5.3.2"
     ],
     "images": [
       {
@@ -121,6 +88,39 @@
         "sha": "1572ca48b4bc890edfc157b00be271d9a1b878d4",
         "repo": "https://github.com/emqx/emqx-docker.git",
         "path": "5.3/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "emqx",
+    "tags": [
+      "5",
+      "5.4",
+      "5.4.0",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "753e8c47442682d4b96dbd280f0a6d44ca09a5fa",
+        "repo": "https://github.com/emqx/emqx-docker.git",
+        "path": "5.4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "753e8c47442682d4b96dbd280f0a6d44ca09a5fa",
+        "repo": "https://github.com/emqx/emqx-docker.git",
+        "path": "5.4/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
