@@ -5,12 +5,12 @@
     "tags": [
       "alpine",
       "2-alpine",
-      "alpine3.18",
+      "alpine3.19",
       "2.10-alpine",
-      "2-alpine3.18",
-      "2.10.7-alpine",
-      "2.10-alpine3.18",
-      "2.10.7-alpine3.18"
+      "2-alpine3.19",
+      "2.10.8-alpine",
+      "2.10-alpine3.19",
+      "2.10.8-alpine3.19"
     ],
     "images": [
       {
@@ -18,9 +18,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
-        "path": "2.10.x/alpine3.18/Dockerfile",
+        "path": "2.10.x/alpine3.19/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -29,9 +29,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
-        "path": "2.10.x/alpine3.18/Dockerfile",
+        "path": "2.10.x/alpine3.19/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -40,9 +40,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
-        "path": "2.10.x/alpine3.18/Dockerfile",
+        "path": "2.10.x/alpine3.19/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -51,9 +51,19 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
-        "path": "2.10.x/alpine3.18/Dockerfile",
+        "path": "2.10.x/alpine3.19/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
+        "repo": "https://github.com/nats-io/nats-docker.git",
+        "path": "2.10.x/alpine3.19/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -68,8 +78,8 @@
       "2-scratch",
       "2.10-linux",
       "2.10-scratch",
-      "2.10.7-linux",
-      "2.10.7-scratch"
+      "2.10.8-linux",
+      "2.10.8-scratch"
     ],
     "images": [
       {
@@ -77,7 +87,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -88,7 +98,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -99,7 +109,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -110,7 +120,17 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
+        "repo": "https://github.com/nats-io/nats-docker.git",
+        "path": "2.10.x/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -121,7 +141,7 @@
     "version": "26",
     "name": "nats",
     "tags": [
-      "2.10.7"
+      "2.10.8"
     ],
     "images": [
       {
@@ -129,7 +149,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -140,7 +160,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -151,7 +171,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -162,7 +182,17 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
+        "repo": "https://github.com/nats-io/nats-docker.git",
+        "path": "2.10.x/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -172,7 +202,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -191,7 +221,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -202,7 +232,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -213,7 +243,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -224,7 +254,17 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
+        "repo": "https://github.com/nats-io/nats-docker.git",
+        "path": "2.10.x/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -234,7 +274,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -253,7 +293,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -264,7 +304,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -275,7 +315,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -286,7 +326,17 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
+        "repo": "https://github.com/nats-io/nats-docker.git",
+        "path": "2.10.x/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -296,7 +346,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -306,7 +356,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -317,7 +367,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -328,7 +378,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -339,7 +389,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -358,7 +408,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -369,7 +419,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -380,7 +430,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -391,7 +441,17 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
+        "repo": "https://github.com/nats-io/nats-docker.git",
+        "path": "2.10.x/scratch/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -401,7 +461,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -411,7 +471,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -422,7 +482,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -433,7 +493,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -444,7 +504,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -458,7 +518,7 @@
       "windowsservercore-1809",
       "2-windowsservercore-1809",
       "2.10-windowsservercore-1809",
-      "2.10.7-windowsservercore-1809"
+      "2.10.8-windowsservercore-1809"
     ],
     "images": [
       {
@@ -466,7 +526,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -477,7 +537,7 @@
     "version": "26",
     "name": "nats",
     "tags": [
-      "2.10.7-windowsservercore"
+      "2.10.8-windowsservercore"
     ],
     "images": [
       {
@@ -485,7 +545,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -504,7 +564,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -523,7 +583,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -542,7 +602,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -556,7 +616,7 @@
       "nanoserver-1809",
       "2-nanoserver-1809",
       "2.10-nanoserver-1809",
-      "2.10.7-nanoserver-1809"
+      "2.10.8-nanoserver-1809"
     ],
     "images": [
       {
@@ -564,7 +624,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -575,7 +635,7 @@
     "version": "26",
     "name": "nats",
     "tags": [
-      "2.10.7-nanoserver"
+      "2.10.8-nanoserver"
     ],
     "images": [
       {
@@ -583,7 +643,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -602,7 +662,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -621,7 +681,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -640,7 +700,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.10.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -662,7 +722,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/alpine3.18/Dockerfile",
         "branch": "refs/heads/main"
@@ -673,7 +733,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/alpine3.18/Dockerfile",
         "branch": "refs/heads/main"
@@ -684,7 +744,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/alpine3.18/Dockerfile",
         "branch": "refs/heads/main"
@@ -695,7 +755,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/alpine3.18/Dockerfile",
         "branch": "refs/heads/main"
@@ -717,7 +777,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -728,7 +788,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -739,7 +799,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -750,7 +810,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -769,7 +829,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -780,7 +840,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -791,7 +851,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -802,7 +862,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -821,7 +881,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -832,7 +892,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -843,7 +903,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -854,7 +914,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/scratch/Dockerfile",
         "branch": "refs/heads/main"
@@ -874,7 +934,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -893,7 +953,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -912,7 +972,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/windowsservercore-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -932,7 +992,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -951,7 +1011,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
@@ -970,7 +1030,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d81b2574b90e4ac611a4cb4e212639e207ca02de",
+        "sha": "75b79822ed20804361fa5781ef02c9e40bbe7172",
         "repo": "https://github.com/nats-io/nats-docker.git",
         "path": "2.9.x/nanoserver-1809/Dockerfile",
         "branch": "refs/heads/main"
