@@ -697,6 +697,58 @@
     "version": "26",
     "name": "maven",
     "tags": [
+      "3-ibm-semeru-21-jammy",
+      "3.9-ibm-semeru-21-jammy",
+      "3.9.6-ibm-semeru-21-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "77c76c589cdec3bd22e5dc18c8d7da20d486b604",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "ibm-semeru-21-jammy/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "77c76c589cdec3bd22e5dc18c8d7da20d486b604",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "ibm-semeru-21-jammy/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "77c76c589cdec3bd22e5dc18c8d7da20d486b604",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "ibm-semeru-21-jammy/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "77c76c589cdec3bd22e5dc18c8d7da20d486b604",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "ibm-semeru-21-jammy/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
       "amazoncorretto",
       "3-amazoncorretto",
       "3.9-amazoncorretto",
