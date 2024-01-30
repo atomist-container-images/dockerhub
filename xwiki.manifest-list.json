@@ -3,19 +3,118 @@
     "version": "26",
     "name": "xwiki",
     "tags": [
+      "16",
+      "16.0",
+      "16.0.0",
+      "latest",
+      "stable",
+      "mysql-tomcat",
+      "stable-mysql",
+      "16-mysql-tomcat",
+      "16.0-mysql-tomcat",
+      "16.0.0-mysql-tomcat",
+      "stable-mysql-tomcat"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "cfd12b26da4688edebf4f3b3fe7b26781306bbee",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "16/mysql-tomcat/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "cfd12b26da4688edebf4f3b3fe7b26781306bbee",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "16/mysql-tomcat/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "xwiki",
+    "tags": [
+      "postgres-tomcat",
+      "stable-postgres",
+      "16-postgres-tomcat",
+      "16.0-postgres-tomcat",
+      "16.0.0-postgres-tomcat",
+      "stable-postgres-tomcat"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "cfd12b26da4688edebf4f3b3fe7b26781306bbee",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "16/postgres-tomcat/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "cfd12b26da4688edebf4f3b3fe7b26781306bbee",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "16/postgres-tomcat/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "xwiki",
+    "tags": [
+      "mariadb-tomcat",
+      "stable-mariadb",
+      "16-mariadb-tomcat",
+      "16.0-mariadb-tomcat",
+      "16.0.0-mariadb-tomcat",
+      "stable-mariadb-tomcat"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "cfd12b26da4688edebf4f3b3fe7b26781306bbee",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "16/mariadb-tomcat/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "cfd12b26da4688edebf4f3b3fe7b26781306bbee",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "16/mariadb-tomcat/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "xwiki",
+    "tags": [
       "15",
       "lts",
       "15.10",
-      "latest",
-      "stable",
       "15.10.5",
       "lts-mysql",
-      "mysql-tomcat",
-      "stable-mysql",
       "15-mysql-tomcat",
       "lts-mysql-tomcat",
       "15.10-mysql-tomcat",
-      "stable-mysql-tomcat",
       "15.10.5-mysql-tomcat"
     ],
     "images": [
@@ -45,12 +144,9 @@
     "name": "xwiki",
     "tags": [
       "lts-postgres",
-      "postgres-tomcat",
-      "stable-postgres",
       "15-postgres-tomcat",
       "lts-postgres-tomcat",
       "15.10-postgres-tomcat",
-      "stable-postgres-tomcat",
       "15.10.5-postgres-tomcat"
     ],
     "images": [
@@ -80,12 +176,9 @@
     "name": "xwiki",
     "tags": [
       "lts-mariadb",
-      "mariadb-tomcat",
-      "stable-mariadb",
       "15-mariadb-tomcat",
       "lts-mariadb-tomcat",
       "15.10-mariadb-tomcat",
-      "stable-mariadb-tomcat",
       "15.10.5-mariadb-tomcat"
     ],
     "images": [
