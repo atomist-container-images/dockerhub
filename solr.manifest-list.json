@@ -4,8 +4,8 @@
     "name": "solr",
     "tags": [
       "9",
-      "9.4",
-      "9.4.1",
+      "9.5",
+      "9.5.0",
       "latest"
     ],
     "images": [
@@ -14,9 +14,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.4/Dockerfile",
+        "path": "9.5/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -25,9 +25,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.4/Dockerfile",
+        "path": "9.5/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -36,9 +36,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.4/Dockerfile",
+        "path": "9.5/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -46,9 +46,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.4/Dockerfile",
+        "path": "9.5/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -56,9 +56,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.4/Dockerfile",
+        "path": "9.5/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -69,6 +69,130 @@
     "tags": [
       "slim",
       "9-slim",
+      "9.5-slim",
+      "9.5.0-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.5-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.5-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.5-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.5-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.5-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "solr",
+    "tags": [
+      "9.4",
+      "9.4.1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.4/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "solr",
+    "tags": [
       "9.4-slim",
       "9.4.1-slim"
     ],
@@ -78,7 +202,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.4-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -89,7 +213,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.4-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -100,7 +224,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.4-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -110,7 +234,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.4-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -120,7 +244,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.4-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -140,7 +264,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -151,7 +275,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -162,7 +286,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -172,7 +296,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -182,7 +306,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3/Dockerfile",
         "branch": "refs/heads/main"
@@ -202,7 +326,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -213,7 +337,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -224,7 +348,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -234,7 +358,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -244,7 +368,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.3-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -264,7 +388,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.2/Dockerfile",
         "branch": "refs/heads/main"
@@ -275,7 +399,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.2/Dockerfile",
         "branch": "refs/heads/main"
@@ -286,7 +410,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.2/Dockerfile",
         "branch": "refs/heads/main"
@@ -296,7 +420,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.2/Dockerfile",
         "branch": "refs/heads/main"
@@ -306,7 +430,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.2/Dockerfile",
         "branch": "refs/heads/main"
@@ -326,7 +450,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.1/Dockerfile",
         "branch": "refs/heads/main"
@@ -337,7 +461,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.1/Dockerfile",
         "branch": "refs/heads/main"
@@ -348,7 +472,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.1/Dockerfile",
         "branch": "refs/heads/main"
@@ -358,7 +482,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.1/Dockerfile",
         "branch": "refs/heads/main"
@@ -368,7 +492,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.1/Dockerfile",
         "branch": "refs/heads/main"
@@ -388,7 +512,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.0/Dockerfile",
         "branch": "refs/heads/main"
@@ -399,7 +523,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.0/Dockerfile",
         "branch": "refs/heads/main"
@@ -410,7 +534,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.0/Dockerfile",
         "branch": "refs/heads/main"
@@ -420,7 +544,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.0/Dockerfile",
         "branch": "refs/heads/main"
@@ -430,7 +554,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.0/Dockerfile",
         "branch": "refs/heads/main"
@@ -451,7 +575,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11/Dockerfile",
         "branch": "refs/heads/main"
@@ -462,7 +586,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11/Dockerfile",
         "branch": "refs/heads/main"
@@ -473,7 +597,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11/Dockerfile",
         "branch": "refs/heads/main"
@@ -483,7 +607,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11/Dockerfile",
         "branch": "refs/heads/main"
@@ -493,7 +617,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11/Dockerfile",
         "branch": "refs/heads/main"
@@ -514,7 +638,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -525,7 +649,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -536,7 +660,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -546,7 +670,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11-slim/Dockerfile",
         "branch": "refs/heads/main"
@@ -556,7 +680,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7156fa15807945939cd2a5525bbb63219da07b1e",
+        "sha": "a17dd804fead2a6581f8e4c116451ed268f32126",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "8.11-slim/Dockerfile",
         "branch": "refs/heads/main"
