@@ -4,10 +4,43 @@
     "name": "kong",
     "tags": [
       "3",
-      "3.5",
-      "3.5.0",
+      "3.6",
+      "3.6.0",
       "latest",
       "ubuntu",
+      "3.6-ubuntu",
+      "3.6.0-ubuntu"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d393c74fa0d05df0e2493f8e44885e468a368d2",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "ubuntu/Dockerfile",
+        "branch": "refs/tags/3.6.0"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d393c74fa0d05df0e2493f8e44885e468a368d2",
+        "repo": "https://github.com/Kong/docker-kong.git",
+        "path": "ubuntu/Dockerfile",
+        "branch": "refs/tags/3.6.0"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "kong",
+    "tags": [
+      "3.5",
+      "3.5.0",
       "3.5-ubuntu",
       "3.5.0-ubuntu"
     ],
