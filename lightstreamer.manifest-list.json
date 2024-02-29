@@ -351,10 +351,10 @@
     "tags": [
       "7-jdk8",
       "7.4-jdk8",
-      "7.4.1-jdk8",
+      "7.4.2-jdk8",
       "7-jdk8-temurin",
       "7.4-jdk8-temurin",
-      "7.4.1-jdk8-temurin"
+      "7.4.2-jdk8-temurin"
     ],
     "images": [
       {
@@ -362,7 +362,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "e19e4c7d1e6cac1eb3d4c6fb35e4e413e28dc53e",
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
         "repo": "https://github.com/Lightstreamer/Docker.git",
         "path": "7.4/jdk8/Dockerfile"
       },
@@ -372,7 +372,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "e19e4c7d1e6cac1eb3d4c6fb35e4e413e28dc53e",
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
         "repo": "https://github.com/Lightstreamer/Docker.git",
         "path": "7.4/jdk8/Dockerfile"
       }
@@ -384,10 +384,10 @@
     "tags": [
       "7-jdk11",
       "7.4-jdk11",
-      "7.4.1-jdk11",
+      "7.4.2-jdk11",
       "7-jdk11-temurin",
       "7.4-jdk11-temurin",
-      "7.4.1-jdk11-temurin"
+      "7.4.2-jdk11-temurin"
     ],
     "images": [
       {
@@ -395,7 +395,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "e19e4c7d1e6cac1eb3d4c6fb35e4e413e28dc53e",
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
         "repo": "https://github.com/Lightstreamer/Docker.git",
         "path": "7.4/jdk11/Dockerfile"
       },
@@ -405,7 +405,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "e19e4c7d1e6cac1eb3d4c6fb35e4e413e28dc53e",
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
         "repo": "https://github.com/Lightstreamer/Docker.git",
         "path": "7.4/jdk11/Dockerfile"
       }
@@ -415,16 +415,12 @@
     "version": "26",
     "name": "lightstreamer",
     "tags": [
-      "7",
-      "7.4",
-      "7.4.1",
-      "latest",
       "7-jdk17",
       "7.4-jdk17",
-      "7.4.1-jdk17",
+      "7.4.2-jdk17",
       "7-jdk17-temurin",
       "7.4-jdk17-temurin",
-      "7.4.1-jdk17-temurin"
+      "7.4.2-jdk17-temurin"
     ],
     "images": [
       {
@@ -432,7 +428,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "e19e4c7d1e6cac1eb3d4c6fb35e4e413e28dc53e",
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
         "repo": "https://github.com/Lightstreamer/Docker.git",
         "path": "7.4/jdk17/Dockerfile"
       },
@@ -442,9 +438,46 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "e19e4c7d1e6cac1eb3d4c6fb35e4e413e28dc53e",
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
         "repo": "https://github.com/Lightstreamer/Docker.git",
         "path": "7.4/jdk17/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "lightstreamer",
+    "tags": [
+      "7",
+      "7.4",
+      "7.4.2",
+      "latest",
+      "7-jdk21",
+      "7.4-jdk21",
+      "7.4.2-jdk21",
+      "7-jdk21-temurin",
+      "7.4-jdk21-temurin",
+      "7.4.2-jdk21-temurin"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
+        "repo": "https://github.com/Lightstreamer/Docker.git",
+        "path": "7.4/jdk21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a5a40050110b2aa65c8ddf1e93db23938e557f1c",
+        "repo": "https://github.com/Lightstreamer/Docker.git",
+        "path": "7.4/jdk21/Dockerfile"
       }
     ]
   }
