@@ -3,10 +3,9 @@
     "version": "26",
     "name": "julia",
     "tags": [
-      "bookworm",
-      "1-bookworm",
-      "1.10-bookworm",
-      "1.10.1-bookworm"
+      "rc-bookworm",
+      "1.11-rc-bookworm",
+      "1.11.0-alpha1-bookworm"
     ],
     "images": [
       {
@@ -14,7 +13,460 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "1.11.0-alpha1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "1.11-rc"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc-bullseye",
+      "1.11-rc-bullseye",
+      "1.11.0-alpha1-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc-alpine",
+      "rc-alpine3.19",
+      "1.11-rc-alpine",
+      "1.11-rc-alpine3.19",
+      "1.11.0-alpha1-alpine",
+      "1.11.0-alpha1-alpine3.19"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/alpine3.19/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc-alpine3.18",
+      "1.11-rc-alpine3.18",
+      "1.11.0-alpha1-alpine3.18"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/alpine3.18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc-windowsservercore-ltsc2022",
+      "1.11-rc-windowsservercore-ltsc2022",
+      "1.11.0-alpha1-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "1.11.0-alpha1-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "1.11-rc-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "rc-windowsservercore-1809",
+      "1.11-rc-windowsservercore-1809",
+      "1.11.0-alpha1-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "433c7947c2af4ccd9788e9cae7230429d63d8669",
+        "repo": "https://github.com/docker-library/julia.git",
+        "path": "1.11-rc/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "julia",
+    "tags": [
+      "bookworm",
+      "1-bookworm",
+      "1.10-bookworm",
+      "1.10.2-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -24,7 +476,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -33,7 +485,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       }
@@ -43,7 +495,7 @@
     "version": "26",
     "name": "julia",
     "tags": [
-      "1.10.1"
+      "1.10.2"
     ],
     "images": [
       {
@@ -51,7 +503,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -61,7 +513,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -70,7 +522,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -79,7 +531,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -88,7 +540,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -106,7 +558,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -116,7 +568,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -125,7 +577,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -134,7 +586,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -143,7 +595,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -161,7 +613,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -171,7 +623,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -180,7 +632,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -189,7 +641,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -198,7 +650,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -216,7 +668,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -226,7 +678,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -235,7 +687,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bookworm/Dockerfile"
       },
@@ -244,7 +696,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -253,7 +705,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -266,7 +718,7 @@
       "bullseye",
       "1-bullseye",
       "1.10-bullseye",
-      "1.10.1-bullseye"
+      "1.10.2-bullseye"
     ],
     "images": [
       {
@@ -274,7 +726,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bullseye/Dockerfile"
       },
@@ -284,7 +736,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bullseye/Dockerfile"
       },
@@ -293,7 +745,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/bullseye/Dockerfile"
       }
@@ -308,9 +760,9 @@
       "alpine3.19",
       "1.10-alpine",
       "1-alpine3.19",
-      "1.10.1-alpine",
+      "1.10.2-alpine",
       "1.10-alpine3.19",
-      "1.10.1-alpine3.19"
+      "1.10.2-alpine3.19"
     ],
     "images": [
       {
@@ -318,7 +770,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/alpine3.19/Dockerfile"
       }
@@ -331,7 +783,7 @@
       "alpine3.18",
       "1-alpine3.18",
       "1.10-alpine3.18",
-      "1.10.1-alpine3.18"
+      "1.10.2-alpine3.18"
     ],
     "images": [
       {
@@ -339,7 +791,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/alpine3.18/Dockerfile"
       }
@@ -352,7 +804,7 @@
       "windowsservercore-ltsc2022",
       "1-windowsservercore-ltsc2022",
       "1.10-windowsservercore-ltsc2022",
-      "1.10.1-windowsservercore-ltsc2022"
+      "1.10.2-windowsservercore-ltsc2022"
     ],
     "images": [
       {
@@ -360,7 +812,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       }
@@ -370,7 +822,7 @@
     "version": "26",
     "name": "julia",
     "tags": [
-      "1.10.1-windowsservercore"
+      "1.10.2-windowsservercore"
     ],
     "images": [
       {
@@ -378,7 +830,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -387,7 +839,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -405,7 +857,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -414,7 +866,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -432,7 +884,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -441,7 +893,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -459,7 +911,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -468,7 +920,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
@@ -481,7 +933,7 @@
       "windowsservercore-1809",
       "1-windowsservercore-1809",
       "1.10-windowsservercore-1809",
-      "1.10.1-windowsservercore-1809"
+      "1.10.2-windowsservercore-1809"
     ],
     "images": [
       {
@@ -489,7 +941,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "488218e5607ad811decac17862f06147d916c480",
+        "sha": "8412fce8b8c25f568f809f9312e83a17e89f763a",
         "repo": "https://github.com/docker-library/julia.git",
         "path": "1.10/windows/windowsservercore-1809/Dockerfile"
       }
