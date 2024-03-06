@@ -3,10 +3,333 @@
     "version": "26",
     "name": "swift",
     "tags": [
+      "5.10",
+      "jammy",
+      "5.10.0",
+      "latest",
+      "5.10-jammy",
+      "5.10.0-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/22.04/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/22.04/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "slim",
+      "5.10-slim",
+      "jammy-slim",
+      "5.10.0-slim",
+      "5.10-jammy-slim",
+      "5.10.0-jammy-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/22.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/22.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "focal-slim",
+      "5.10-focal-slim",
+      "5.10.0-focal-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/20.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/20.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "focal",
+      "5.10-focal",
+      "5.10.0-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/20.04/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/20.04/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "amazonlinux2",
+      "5.10-amazonlinux2",
+      "5.10.0-amazonlinux2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/amazonlinux/2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/amazonlinux/2/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "amazonlinux2-slim",
+      "5.10-amazonlinux2-slim",
+      "5.10.0-amazonlinux2-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/amazonlinux/2/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/amazonlinux/2/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "centos7",
+      "5.10-centos7",
+      "5.10.0-centos7"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/centos/7/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "centos7-slim",
+      "5.10-centos7-slim",
+      "5.10.0-centos7-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/centos/7/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "rhel-ubi9",
+      "5.10-rhel-ubi9",
+      "5.10.0-rhel-ubi9"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/rhel-ubi/9/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/rhel-ubi/9/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "rhel-ubi9-slim",
+      "5.10-rhel-ubi9-slim",
+      "5.10.0-rhel-ubi9-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/rhel-ubi/9/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/rhel-ubi/9/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "windowsservercore-ltsc2022",
+      "5.10-windowsservercore-ltsc2022",
+      "5.10.0-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "ea035798755cce4ec41e0c6dbdd320904cef0421",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/windows/LTSC2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
       "5.9",
       "5.9.2",
-      "jammy",
-      "latest",
       "5.9-jammy",
       "5.9.2-jammy"
     ],
@@ -38,10 +361,8 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "slim",
       "5.9-slim",
       "5.9.2-slim",
-      "jammy-slim",
       "5.9-jammy-slim",
       "5.9.2-jammy-slim"
     ],
@@ -73,7 +394,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "focal-slim",
       "5.9-focal-slim",
       "5.9.2-focal-slim"
     ],
@@ -105,7 +425,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "focal",
       "5.9-focal",
       "5.9.2-focal"
     ],
@@ -137,7 +456,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "amazonlinux2",
       "5.9-amazonlinux2",
       "5.9.2-amazonlinux2"
     ],
@@ -169,7 +487,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "amazonlinux2-slim",
       "5.9-amazonlinux2-slim",
       "5.9.2-amazonlinux2-slim"
     ],
@@ -201,7 +518,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "centos7",
       "5.9-centos7",
       "5.9.2-centos7"
     ],
@@ -222,7 +538,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "centos7-slim",
       "5.9-centos7-slim",
       "5.9.2-centos7-slim"
     ],
@@ -243,7 +558,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "rhel-ubi9",
       "5.9-rhel-ubi9",
       "5.9.2-rhel-ubi9"
     ],
@@ -275,7 +589,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "rhel-ubi9-slim",
       "5.9-rhel-ubi9-slim",
       "5.9.2-rhel-ubi9-slim"
     ],
@@ -307,7 +620,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "windowsservercore-ltsc2022",
       "5.9-windowsservercore-ltsc2022",
       "5.9.2-windowsservercore-ltsc2022"
     ],
