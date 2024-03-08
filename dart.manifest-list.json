@@ -6,14 +6,12 @@
       "3",
       "3.3",
       "sdk",
-      "beta",
       "3-sdk",
-      "3.3.0",
+      "3.3.1",
       "latest",
       "stable",
       "3.3-sdk",
-      "beta-sdk",
-      "3.3.0-sdk",
+      "3.3.1-sdk",
       "stable-sdk"
     ],
     "images": [
@@ -22,7 +20,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6c1fea64056a95f494b59ac87d283f96d3f62ab3",
+        "sha": "0388515d459bab5a5bd614c44be25ebde75a70ed",
         "repo": "https://github.com/dart-lang/dart-docker.git",
         "path": "stable/bookworm/Dockerfile",
         "branch": "refs/heads/main"
@@ -33,7 +31,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6c1fea64056a95f494b59ac87d283f96d3f62ab3",
+        "sha": "0388515d459bab5a5bd614c44be25ebde75a70ed",
         "repo": "https://github.com/dart-lang/dart-docker.git",
         "path": "stable/bookworm/Dockerfile",
         "branch": "refs/heads/main"
@@ -44,9 +42,53 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6c1fea64056a95f494b59ac87d283f96d3f62ab3",
+        "sha": "0388515d459bab5a5bd614c44be25ebde75a70ed",
         "repo": "https://github.com/dart-lang/dart-docker.git",
         "path": "stable/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "dart",
+    "tags": [
+      "beta",
+      "beta-sdk",
+      "3.4.0-99.1.beta",
+      "3.4.0-99.1.beta-sdk"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0388515d459bab5a5bd614c44be25ebde75a70ed",
+        "repo": "https://github.com/dart-lang/dart-docker.git",
+        "path": "beta/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "0388515d459bab5a5bd614c44be25ebde75a70ed",
+        "repo": "https://github.com/dart-lang/dart-docker.git",
+        "path": "beta/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0388515d459bab5a5bd614c44be25ebde75a70ed",
+        "repo": "https://github.com/dart-lang/dart-docker.git",
+        "path": "beta/bookworm/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
