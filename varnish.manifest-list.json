@@ -3,8 +3,8 @@
     "version": "26",
     "name": "varnish",
     "tags": [
-      "7.4",
-      "7.4.2",
+      "7.5",
+      "7.5.0",
       "fresh",
       "latest"
     ],
@@ -72,8 +72,8 @@
     "name": "varnish",
     "tags": [
       "alpine",
-      "7.4-alpine",
-      "7.4.2-alpine",
+      "7.5-alpine",
+      "7.5.0-alpine",
       "fresh-alpine"
     ],
     "images": [
@@ -139,9 +139,9 @@
     "version": "26",
     "name": "varnish",
     "tags": [
-      "7.3",
+      "7.4",
       "old",
-      "7.3.1"
+      "7.4.3"
     ],
     "images": [
       {
@@ -206,9 +206,9 @@
     "version": "26",
     "name": "varnish",
     "tags": [
-      "7.3-alpine",
+      "7.4-alpine",
       "old-alpine",
-      "7.3.1-alpine"
+      "7.4.3-alpine"
     ],
     "images": [
       {
@@ -274,7 +274,7 @@
     "name": "varnish",
     "tags": [
       "6.0",
-      "6.0.12",
+      "6.0.13",
       "stable"
     ],
     "images": [
@@ -331,6 +331,333 @@
           "architecture": "s390x"
         },
         "sha": "185f6f8ec644d59c896861944a1385c09e2abfbe",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "7.4.2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "7.4.2-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "fresh/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "7.3",
+      "7.3.1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "7.3-alpine",
+      "7.3.1-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "5644d31e8fa5bc78e764e8604ffa17c47528f5e3",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "6.0.12"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "0c295b528f28a98650fb2580eab6d34b30b165c4",
         "repo": "https://github.com/varnish/docker-varnish.git",
         "path": "stable/debian/Dockerfile"
       }
