@@ -383,43 +383,8 @@
     "version": "26",
     "name": "rust",
     "tags": [
-      "alpine3.18",
-      "1-alpine3.18",
-      "1.78-alpine3.18",
-      "1.78.0-alpine3.18"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "cc31986e1dfe94671c639231ecf0503942c121d9",
-        "repo": "https://github.com/rust-lang/docker-rust.git",
-        "path": "1.78.0/alpine3.18/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "cc31986e1dfe94671c639231ecf0503942c121d9",
-        "repo": "https://github.com/rust-lang/docker-rust.git",
-        "path": "1.78.0/alpine3.18/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "rust",
-    "tags": [
-      "alpine",
-      "1-alpine",
       "alpine3.19",
-      "1.78-alpine",
       "1-alpine3.19",
-      "1.78.0-alpine",
       "1.78-alpine3.19",
       "1.78.0-alpine3.19"
     ],
@@ -442,6 +407,41 @@
         "sha": "cc31986e1dfe94671c639231ecf0503942c121d9",
         "repo": "https://github.com/rust-lang/docker-rust.git",
         "path": "1.78.0/alpine3.19/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "rust",
+    "tags": [
+      "alpine",
+      "1-alpine",
+      "alpine3.20",
+      "1.78-alpine",
+      "1-alpine3.20",
+      "1.78.0-alpine",
+      "1.78-alpine3.20",
+      "1.78.0-alpine3.20"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2c6ff15ac68eb3ca95d05c491a48127936b40bd",
+        "repo": "https://github.com/rust-lang/docker-rust.git",
+        "path": "1.78.0/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2c6ff15ac68eb3ca95d05c491a48127936b40bd",
+        "repo": "https://github.com/rust-lang/docker-rust.git",
+        "path": "1.78.0/alpine3.20/Dockerfile"
       }
     ]
   }
