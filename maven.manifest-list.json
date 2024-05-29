@@ -1430,5 +1430,47 @@
         "branch": "refs/heads/main"
       }
     ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
+      "3-sapmachine-22",
+      "3.9-sapmachine-22",
+      "3.9.7-sapmachine-22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "cec36dcb2ace0c70dddad6a12cde5d305a6dfe06",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-22/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "cec36dcb2ace0c70dddad6a12cde5d305a6dfe06",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-22/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "cec36dcb2ace0c70dddad6a12cde5d305a6dfe06",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-22/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
   }
 ]
