@@ -3,6 +3,333 @@
     "version": "26",
     "name": "postgres",
     "tags": [
+      "17beta1",
+      "17beta1-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
+      "17beta1-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "41402ac3d12b84453127eaac54b45b300bf30d9a",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
+      "17beta1-alpine",
+      "17beta1-alpine3.20"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.20/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
+      "17beta1-alpine3.19"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
+        "repo": "https://github.com/docker-library/postgres.git",
+        "path": "17/alpine3.19/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "postgres",
+    "tags": [
       "16",
       "16.3",
       "latest",
@@ -189,7 +516,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -199,7 +526,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -209,7 +536,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -219,7 +546,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -228,7 +555,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -237,7 +564,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -246,7 +573,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       },
@@ -255,7 +582,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.20/Dockerfile"
       }
@@ -275,7 +602,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       },
@@ -285,7 +612,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       },
@@ -295,7 +622,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       },
@@ -305,7 +632,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       },
@@ -314,7 +641,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       },
@@ -323,7 +650,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       },
@@ -332,7 +659,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d08757ccb56ee047efd76c41dbc148e2e2c4f68f",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "16/alpine3.19/Dockerfile"
       }
@@ -523,7 +850,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -533,7 +860,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -543,7 +870,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -553,7 +880,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -562,7 +889,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -571,7 +898,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -580,7 +907,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       },
@@ -589,7 +916,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.20/Dockerfile"
       }
@@ -608,7 +935,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       },
@@ -618,7 +945,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       },
@@ -628,7 +955,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       },
@@ -638,7 +965,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       },
@@ -647,7 +974,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       },
@@ -656,7 +983,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       },
@@ -665,7 +992,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "8a0b96710d917d1c3b32a5fe5b66687ad83827da",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "15/alpine3.19/Dockerfile"
       }
@@ -856,7 +1183,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -866,7 +1193,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -876,7 +1203,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -886,7 +1213,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -895,7 +1222,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -904,7 +1231,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -913,7 +1240,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       },
@@ -922,7 +1249,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.20/Dockerfile"
       }
@@ -941,7 +1268,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       },
@@ -951,7 +1278,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       },
@@ -961,7 +1288,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       },
@@ -971,7 +1298,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       },
@@ -980,7 +1307,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       },
@@ -989,7 +1316,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       },
@@ -998,7 +1325,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "662dbe5225f4d404364bdcf5e49dd5d88357ed31",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "14/alpine3.19/Dockerfile"
       }
@@ -1189,7 +1516,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1199,7 +1526,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1209,7 +1536,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1219,7 +1546,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1228,7 +1555,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1237,7 +1564,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1246,7 +1573,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       },
@@ -1255,7 +1582,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.20/Dockerfile"
       }
@@ -1274,7 +1601,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       },
@@ -1284,7 +1611,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       },
@@ -1294,7 +1621,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       },
@@ -1304,7 +1631,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       },
@@ -1313,7 +1640,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       },
@@ -1322,7 +1649,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       },
@@ -1331,7 +1658,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f3ab8c6db63e2986453e0a4fae2c5f372dd4f05e",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "13/alpine3.19/Dockerfile"
       }
@@ -1522,7 +1849,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1532,7 +1859,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1542,7 +1869,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1552,7 +1879,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1561,7 +1888,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1570,7 +1897,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1579,7 +1906,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       },
@@ -1588,7 +1915,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "930acaf01ff536090a3bb304cf823a8cc777b658",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.20/Dockerfile"
       }
@@ -1607,7 +1934,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       },
@@ -1617,7 +1944,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       },
@@ -1627,7 +1954,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       },
@@ -1637,7 +1964,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       },
@@ -1646,7 +1973,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       },
@@ -1655,7 +1982,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       },
@@ -1664,7 +1991,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "ccf4f2289a1e59ddf74a5d1e6eb7693b7f464b54",
+        "sha": "3a7be2f3213ce6e0f13f6a01b927d86aa53d9539",
         "repo": "https://github.com/docker-library/postgres.git",
         "path": "12/alpine3.19/Dockerfile"
       }
