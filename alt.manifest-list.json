@@ -79,5 +79,45 @@
         "branch": "refs/heads/sisyphus"
       }
     ]
+  },
+  {
+    "version": "26",
+    "name": "alt",
+    "tags": [
+      "p11"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "342757f6f3ca8c82bb6a4169ceef071ff3a8a879",
+        "repo": "https://github.com/alt-cloud/docker-brew-alt.git",
+        "path": "x86_64/Dockerfile",
+        "branch": "refs/heads/p11"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "342757f6f3ca8c82bb6a4169ceef071ff3a8a879",
+        "repo": "https://github.com/alt-cloud/docker-brew-alt.git",
+        "path": "i586/Dockerfile",
+        "branch": "refs/heads/p11"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "342757f6f3ca8c82bb6a4169ceef071ff3a8a879",
+        "repo": "https://github.com/alt-cloud/docker-brew-alt.git",
+        "path": "aarch64/Dockerfile",
+        "branch": "refs/heads/p11"
+      }
+    ]
   }
 ]
