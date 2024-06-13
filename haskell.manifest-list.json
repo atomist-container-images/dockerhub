@@ -4,11 +4,73 @@
     "name": "haskell",
     "tags": [
       "9",
-      "9.8",
-      "9.8.2",
       "buster",
       "latest",
       "9-buster",
+      "9.10-buster",
+      "9.10.1-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ca3084159e14e2a753fe633789347a9d8633e5ea",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.10/buster/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ca3084159e14e2a753fe633789347a9d8633e5ea",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.10/buster/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "slim",
+      "9-slim",
+      "slim-buster",
+      "9-slim-buster",
+      "9.10-slim-buster",
+      "9.10.1-slim-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ca3084159e14e2a753fe633789347a9d8633e5ea",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.10/slim-buster/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ca3084159e14e2a753fe633789347a9d8633e5ea",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.10/slim-buster/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "9.8",
+      "9.8.2",
       "9.8-buster",
       "9.8.2-buster"
     ],
@@ -38,12 +100,8 @@
     "version": "26",
     "name": "haskell",
     "tags": [
-      "slim",
-      "9-slim",
       "9.8-slim",
       "9.8.2-slim",
-      "slim-buster",
-      "9-slim-buster",
       "9.8-slim-buster",
       "9.8.2-slim-buster"
     ],
