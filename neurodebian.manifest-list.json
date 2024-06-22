@@ -3,64 +3,6 @@
     "version": "26",
     "name": "neurodebian",
     "tags": [
-      "bionic",
-      "nd18.04"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
-        "repo": "https://github.com/neurodebian/dockerfiles.git",
-        "path": "dockerfiles/bionic/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
-        "repo": "https://github.com/neurodebian/dockerfiles.git",
-        "path": "dockerfiles/bionic/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "neurodebian",
-    "tags": [
-      "bionic-non-free",
-      "nd18.04-non-free"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
-        "repo": "https://github.com/neurodebian/dockerfiles.git",
-        "path": "dockerfiles/bionic-non-free/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
-        "repo": "https://github.com/neurodebian/dockerfiles.git",
-        "path": "dockerfiles/bionic-non-free/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "neurodebian",
-    "tags": [
       "focal",
       "nd20.04"
     ],
@@ -70,7 +12,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/focal/Dockerfile"
       },
@@ -80,7 +22,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/focal/Dockerfile"
       }
@@ -99,7 +41,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/focal-non-free/Dockerfile"
       },
@@ -109,7 +51,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/focal-non-free/Dockerfile"
       }
@@ -128,7 +70,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/jammy/Dockerfile"
       },
@@ -138,7 +80,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/jammy/Dockerfile"
       }
@@ -157,7 +99,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/jammy-non-free/Dockerfile"
       },
@@ -167,9 +109,67 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/jammy-non-free/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neurodebian",
+    "tags": [
+      "noble",
+      "nd24.04"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/noble/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/noble/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neurodebian",
+    "tags": [
+      "noble-non-free",
+      "nd24.04-non-free"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/noble-non-free/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/noble-non-free/Dockerfile"
       }
     ]
   },
@@ -186,7 +186,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/buster/Dockerfile"
       },
@@ -196,7 +196,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/buster/Dockerfile"
       },
@@ -205,7 +205,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/buster/Dockerfile"
       }
@@ -224,7 +224,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/buster-non-free/Dockerfile"
       },
@@ -234,7 +234,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/buster-non-free/Dockerfile"
       },
@@ -243,7 +243,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/buster-non-free/Dockerfile"
       }
@@ -254,7 +254,6 @@
     "name": "neurodebian",
     "tags": [
       "nd110",
-      "latest",
       "bullseye"
     ],
     "images": [
@@ -263,7 +262,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bullseye/Dockerfile"
       },
@@ -273,7 +272,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bullseye/Dockerfile"
       },
@@ -282,7 +281,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bullseye/Dockerfile"
       }
@@ -292,7 +291,6 @@
     "version": "26",
     "name": "neurodebian",
     "tags": [
-      "non-free",
       "nd110-non-free",
       "bullseye-non-free"
     ],
@@ -302,7 +300,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bullseye-non-free/Dockerfile"
       },
@@ -312,7 +310,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bullseye-non-free/Dockerfile"
       },
@@ -321,7 +319,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bullseye-non-free/Dockerfile"
       }
@@ -332,6 +330,7 @@
     "name": "neurodebian",
     "tags": [
       "nd120",
+      "latest",
       "bookworm"
     ],
     "images": [
@@ -340,7 +339,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bookworm/Dockerfile"
       },
@@ -350,7 +349,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bookworm/Dockerfile"
       },
@@ -359,7 +358,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bookworm/Dockerfile"
       }
@@ -369,6 +368,7 @@
     "version": "26",
     "name": "neurodebian",
     "tags": [
+      "non-free",
       "nd120-non-free",
       "bookworm-non-free"
     ],
@@ -378,7 +378,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bookworm-non-free/Dockerfile"
       },
@@ -388,7 +388,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bookworm-non-free/Dockerfile"
       },
@@ -397,9 +397,85 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/bookworm-non-free/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neurodebian",
+    "tags": [
+      "nd130",
+      "trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neurodebian",
+    "tags": [
+      "nd130-non-free",
+      "trixie-non-free"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/trixie-non-free/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/trixie-non-free/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
+        "repo": "https://github.com/neurodebian/dockerfiles.git",
+        "path": "dockerfiles/trixie-non-free/Dockerfile"
       }
     ]
   },
@@ -416,7 +492,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/sid/Dockerfile"
       },
@@ -426,7 +502,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/sid/Dockerfile"
       },
@@ -435,7 +511,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/sid/Dockerfile"
       }
@@ -454,7 +530,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/sid-non-free/Dockerfile"
       },
@@ -464,7 +540,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/sid-non-free/Dockerfile"
       },
@@ -473,7 +549,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "1da9308291ad33a33447519ec1835bb3e37acebc",
+        "sha": "a0af1d460705d7efc9d6de9483f1ce4aa48ad152",
         "repo": "https://github.com/neurodebian/dockerfiles.git",
         "path": "dockerfiles/sid-non-free/Dockerfile"
       }
