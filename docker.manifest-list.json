@@ -3,264 +3,296 @@
     "version": "26",
     "name": "docker",
     "tags": [
-      "rc-cli",
-      "27-rc-cli",
-      "27.0.0-rc.2-cli",
-      "27.0.0-rc.2-cli-alpine3.20"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/cli/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "rc",
-      "27-rc",
-      "rc-dind",
-      "27-rc-dind",
-      "27.0.0-rc.2",
-      "27.0.0-rc.2-dind",
-      "27.0.0-rc.2-alpine3.20",
-      "27.0.0-rc.2-dind-alpine3.20"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "3e5de599c6193c52ef2f37c1ae94c933188b6113",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/dind/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "3e5de599c6193c52ef2f37c1ae94c933188b6113",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/dind/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "3e5de599c6193c52ef2f37c1ae94c933188b6113",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/dind/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "3e5de599c6193c52ef2f37c1ae94c933188b6113",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/dind/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "rc-dind-rootless",
-      "27-rc-dind-rootless",
-      "27.0.0-rc.2-dind-rootless"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "3e5de599c6193c52ef2f37c1ae94c933188b6113",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/dind-rootless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "3e5de599c6193c52ef2f37c1ae94c933188b6113",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/dind-rootless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "rc-windowsservercore-ltsc2022",
-      "27-rc-windowsservercore-ltsc2022",
-      "27.0.0-rc.2-windowsservercore-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "27.0.0-rc.2-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "27-rc-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "rc-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "rc-windowsservercore-1809",
-      "27-rc-windowsservercore-1809",
-      "27.0.0-rc.2-windowsservercore-1809"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "255b5d8fce6d3f1b4013f1e2a98c2ef1e17b5e14",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "27-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
       "cli",
+      "27-cli",
+      "27.0-cli",
+      "27.0.1-cli",
+      "27.0.1-cli-alpine3.20"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/cli/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "27",
+      "27.0",
+      "dind",
+      "27.0.1",
+      "latest",
+      "27-dind",
+      "27.0-dind",
+      "27.0.1-dind",
+      "27.0.1-alpine3.20",
+      "27.0.1-dind-alpine3.20"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/dind/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/dind/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/dind/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/dind/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "dind-rootless",
+      "27-dind-rootless",
+      "27.0-dind-rootless",
+      "27.0.1-dind-rootless"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/dind-rootless/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/dind-rootless/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "windowsservercore-ltsc2022",
+      "27-windowsservercore-ltsc2022",
+      "27.0-windowsservercore-ltsc2022",
+      "27.0.1-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "27.0.1-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "27.0-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "27-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
+      "windowsservercore-1809",
+      "27-windowsservercore-1809",
+      "27.0-windowsservercore-1809",
+      "27.0.1-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "b317cabfb873fef32ac8cad0cd58d6e6c32a63a4",
+        "repo": "https://github.com/docker-library/docker.git",
+        "path": "27/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "docker",
+    "tags": [
       "26-cli",
       "26.1-cli",
       "26.1.4-cli",
@@ -272,7 +304,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/cli/Dockerfile"
       },
@@ -282,7 +314,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/cli/Dockerfile"
       },
@@ -292,7 +324,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/cli/Dockerfile"
       },
@@ -302,7 +334,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/cli/Dockerfile"
       }
@@ -314,9 +346,7 @@
     "tags": [
       "26",
       "26.1",
-      "dind",
       "26.1.4",
-      "latest",
       "26-dind",
       "26.1-dind",
       "26.1.4-dind",
@@ -329,7 +359,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6ce7fe78a5a66dadf37e9226d8485e94e894814f",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/dind/Dockerfile"
       },
@@ -339,7 +369,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "6ce7fe78a5a66dadf37e9226d8485e94e894814f",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/dind/Dockerfile"
       },
@@ -349,7 +379,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6ce7fe78a5a66dadf37e9226d8485e94e894814f",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/dind/Dockerfile"
       },
@@ -359,7 +389,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6ce7fe78a5a66dadf37e9226d8485e94e894814f",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/dind/Dockerfile"
       }
@@ -369,7 +399,6 @@
     "version": "26",
     "name": "docker",
     "tags": [
-      "dind-rootless",
       "26-dind-rootless",
       "26.1-dind-rootless",
       "26.1.4-dind-rootless"
@@ -400,7 +429,6 @@
     "version": "26",
     "name": "docker",
     "tags": [
-      "windowsservercore-ltsc2022",
       "26-windowsservercore-ltsc2022",
       "26.1-windowsservercore-ltsc2022",
       "26.1.4-windowsservercore-ltsc2022"
@@ -411,7 +439,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-ltsc2022/Dockerfile"
       }
@@ -429,7 +457,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -438,7 +466,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-1809/Dockerfile"
       }
@@ -456,7 +484,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -465,7 +493,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-1809/Dockerfile"
       }
@@ -483,7 +511,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -492,7 +520,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-1809/Dockerfile"
       }
@@ -502,34 +530,6 @@
     "version": "26",
     "name": "docker",
     "tags": [
-      "windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "26/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
-        "repo": "https://github.com/docker-library/docker.git",
-        "path": "26/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "docker",
-    "tags": [
-      "windowsservercore-1809",
       "26-windowsservercore-1809",
       "26.1-windowsservercore-1809",
       "26.1.4-windowsservercore-1809"
@@ -540,7 +540,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "879ff3423d08c1ff2a45bc4388833f18692f305c",
+        "sha": "ab4a58f46763f976f9eb9d0c3379c389c0211928",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "26/windows/windowsservercore-1809/Dockerfile"
       }
@@ -561,7 +561,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/cli/Dockerfile"
       },
@@ -571,7 +571,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/cli/Dockerfile"
       },
@@ -581,7 +581,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/cli/Dockerfile"
       },
@@ -591,7 +591,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/cli/Dockerfile"
       }
@@ -619,7 +619,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a40d64fc2cc3b417f9408d3b1c539ec860780e86",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/dind/Dockerfile"
       },
@@ -629,7 +629,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "a40d64fc2cc3b417f9408d3b1c539ec860780e86",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/dind/Dockerfile"
       },
@@ -639,7 +639,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "a40d64fc2cc3b417f9408d3b1c539ec860780e86",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/dind/Dockerfile"
       },
@@ -649,7 +649,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a40d64fc2cc3b417f9408d3b1c539ec860780e86",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/dind/Dockerfile"
       }
@@ -699,7 +699,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-ltsc2022/Dockerfile"
       }
@@ -717,7 +717,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -726,7 +726,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-1809/Dockerfile"
       }
@@ -744,7 +744,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -753,7 +753,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-1809/Dockerfile"
       }
@@ -771,7 +771,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -780,7 +780,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-1809/Dockerfile"
       }
@@ -800,7 +800,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "b3aeddeb388be54934fac1e8f0faebfc4c2b16b2",
+        "sha": "0de39b0b5c83f4f2d849f2e41b91a2eec7645f83",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "25/windows/windowsservercore-1809/Dockerfile"
       }
@@ -821,7 +821,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/cli/Dockerfile"
       },
@@ -831,7 +831,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/cli/Dockerfile"
       },
@@ -841,7 +841,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/cli/Dockerfile"
       },
@@ -851,7 +851,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/cli/Dockerfile"
       }
@@ -879,7 +879,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "485fefe743baed5a2dd9e5d22b685c14eda4c61e",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/dind/Dockerfile"
       },
@@ -889,7 +889,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "485fefe743baed5a2dd9e5d22b685c14eda4c61e",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/dind/Dockerfile"
       },
@@ -899,7 +899,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "485fefe743baed5a2dd9e5d22b685c14eda4c61e",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/dind/Dockerfile"
       },
@@ -909,7 +909,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "485fefe743baed5a2dd9e5d22b685c14eda4c61e",
+        "sha": "12a00d721d4d84bd69ffd4a69f1f2851751ac2d9",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/dind/Dockerfile"
       }
@@ -959,7 +959,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-ltsc2022/Dockerfile"
       }
@@ -977,7 +977,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -986,7 +986,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1004,7 +1004,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1013,7 +1013,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1031,7 +1031,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-ltsc2022/Dockerfile"
       },
@@ -1040,7 +1040,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-1809/Dockerfile"
       }
@@ -1060,7 +1060,7 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "79288b23bee933f8fd1c89083f4433c8e133c835",
+        "sha": "581ac7f48197b1b82993873d04de0a6c6431df22",
         "repo": "https://github.com/docker-library/docker.git",
         "path": "24/windows/windowsservercore-1809/Dockerfile"
       }
