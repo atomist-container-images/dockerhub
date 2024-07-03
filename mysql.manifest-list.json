@@ -3,23 +3,20 @@
     "version": "26",
     "name": "mysql",
     "tags": [
-      "8",
-      "8.4",
-      "lts",
-      "8.4.0",
+      "9",
+      "9.0",
+      "9.0.0",
       "latest",
       "oracle",
-      "8-oracle",
-      "8.4-oracle",
+      "9-oracle",
+      "9.0-oracle",
       "innovation",
-      "lts-oracle",
-      "8.4.0-oracle",
+      "9.0.0-oracle",
       "oraclelinux9",
-      "8-oraclelinux9",
-      "8.4-oraclelinux9",
-      "lts-oraclelinux9",
+      "9-oraclelinux9",
+      "9.0-oraclelinux9",
       "innovation-oracle",
-      "8.4.0-oraclelinux9",
+      "9.0.0-oraclelinux9",
       "innovation-oraclelinux9"
     ],
     "images": [
@@ -28,7 +25,46 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "319db566ac7fef45c22f3df15ee5e194a7c43259",
+        "sha": "3d11822710789e82f64f08c578162a5b804d2f2f",
+        "repo": "https://github.com/docker-library/mysql.git",
+        "path": "innovation/Dockerfile.oracle"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d11822710789e82f64f08c578162a5b804d2f2f",
+        "repo": "https://github.com/docker-library/mysql.git",
+        "path": "innovation/Dockerfile.oracle"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mysql",
+    "tags": [
+      "8",
+      "8.4",
+      "lts",
+      "8.4.1",
+      "8-oracle",
+      "8.4-oracle",
+      "lts-oracle",
+      "8.4.1-oracle",
+      "8-oraclelinux9",
+      "8.4-oraclelinux9",
+      "lts-oraclelinux9",
+      "8.4.1-oraclelinux9"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "efa7479ffbb00139f6f1f0b0fe70985f20ee0456",
         "repo": "https://github.com/docker-library/mysql.git",
         "path": "8.4/Dockerfile.oracle"
       },
@@ -38,7 +74,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "319db566ac7fef45c22f3df15ee5e194a7c43259",
+        "sha": "efa7479ffbb00139f6f1f0b0fe70985f20ee0456",
         "repo": "https://github.com/docker-library/mysql.git",
         "path": "8.4/Dockerfile.oracle"
       }
@@ -49,11 +85,11 @@
     "name": "mysql",
     "tags": [
       "8.0",
-      "8.0.37",
+      "8.0.38",
       "8.0-oracle",
-      "8.0.37-oracle",
+      "8.0.38-oracle",
       "8.0-oraclelinux9",
-      "8.0.37-oraclelinux9"
+      "8.0.38-oraclelinux9"
     ],
     "images": [
       {
@@ -61,7 +97,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "319db566ac7fef45c22f3df15ee5e194a7c43259",
+        "sha": "db7daba00da79773c594b94bd91c9deeca1c9c88",
         "repo": "https://github.com/docker-library/mysql.git",
         "path": "8.0/Dockerfile.oracle"
       },
@@ -71,7 +107,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "319db566ac7fef45c22f3df15ee5e194a7c43259",
+        "sha": "db7daba00da79773c594b94bd91c9deeca1c9c88",
         "repo": "https://github.com/docker-library/mysql.git",
         "path": "8.0/Dockerfile.oracle"
       }
@@ -83,8 +119,8 @@
     "tags": [
       "8.0-debian",
       "8.0-bookworm",
-      "8.0.37-debian",
-      "8.0.37-bookworm"
+      "8.0.38-debian",
+      "8.0.38-bookworm"
     ],
     "images": [
       {
@@ -92,7 +128,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "319db566ac7fef45c22f3df15ee5e194a7c43259",
+        "sha": "db7daba00da79773c594b94bd91c9deeca1c9c88",
         "repo": "https://github.com/docker-library/mysql.git",
         "path": "8.0/Dockerfile.debian"
       }
