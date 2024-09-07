@@ -312,15 +312,6 @@
       {
         "platform": {
           "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "93d6db0797f91ab674535553b7e0e762941a02d0",
-        "repo": "https://github.com/docker-library/buildpack-deps.git",
-        "path": "debian/bullseye/curl/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
           "architecture": "ppc64le"
         },
         "sha": "93d6db0797f91ab674535553b7e0e762941a02d0",
@@ -396,15 +387,6 @@
       {
         "platform": {
           "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae",
-        "repo": "https://github.com/docker-library/buildpack-deps.git",
-        "path": "debian/bullseye/scm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
           "architecture": "ppc64le"
         },
         "sha": "d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae",
@@ -472,15 +454,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae",
-        "repo": "https://github.com/docker-library/buildpack-deps.git",
-        "path": "debian/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
         },
         "sha": "d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae",
         "repo": "https://github.com/docker-library/buildpack-deps.git",
@@ -1619,6 +1592,204 @@
         "sha": "60dc5f9555c521de086b2f5770514faf69ee2cc4",
         "repo": "https://github.com/docker-library/buildpack-deps.git",
         "path": "ubuntu/noble/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "24.10-curl",
+      "oracular-curl"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/curl/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "24.10-scm",
+      "oracular-scm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/scm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "24.10",
+      "oracular"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "f24f02bc0fda57d7f0e30b205df4a38114712b0a",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "ubuntu/oracular/Dockerfile"
       }
     ]
   }
