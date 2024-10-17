@@ -573,6 +573,37 @@
     "version": "26",
     "name": "swift",
     "tags": [
+      "5.10-noble-slim",
+      "5.10.1-noble-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "38e4244ebab3d6a4e702fb30449827d6c28ee1fd",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/24.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "38e4244ebab3d6a4e702fb30449827d6c28ee1fd",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "5.10/ubuntu/24.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
       "5.10-bookworm",
       "5.10.1-bookworm"
     ],
