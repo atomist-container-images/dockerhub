@@ -3,6 +3,108 @@
     "version": "26",
     "name": "almalinux",
     "tags": [
+      "10-kitten",
+      "10-kitten-20241024"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/amd64/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/arm64/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/ppc64le/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/s390x/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "almalinux",
+    "tags": [
+      "10-kitten-minimal",
+      "10-kitten-minimal-20241024"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/amd64/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/arm64/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/ppc64le/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "a1cecc826bfdd29e027ffdbfb73793cd64afe3f3",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/s390x/Dockerfile",
+        "branch": "refs/heads/10-kitten"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "almalinux",
+    "tags": [
       "8",
       "8.10",
       "8.10-20240923"
