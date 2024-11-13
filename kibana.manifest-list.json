@@ -3,6 +3,36 @@
     "version": "26",
     "name": "kibana",
     "tags": [
+      "8.16.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "fee99c955058383955d074689a499ffa0ebcf245",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "kibana/Dockerfile",
+        "branch": "refs/heads/8.16"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "fee99c955058383955d074689a499ffa0ebcf245",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "kibana/Dockerfile",
+        "branch": "refs/heads/8.16"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "kibana",
+    "tags": [
       "8.15.3"
     ],
     "images": [
