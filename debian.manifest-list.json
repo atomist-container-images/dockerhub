@@ -7,7 +7,7 @@
       "12.8",
       "latest",
       "bookworm",
-      "bookworm-20241111"
+      "bookworm-20241202"
     ],
     "images": [
       {
@@ -15,9 +15,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -25,9 +25,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -36,9 +36,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -47,9 +47,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -57,9 +57,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -67,9 +67,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -77,9 +77,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -87,9 +87,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/Dockerfile",
+        "path": "bookworm/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -106,7 +106,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -116,7 +116,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -127,7 +127,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -138,7 +138,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -148,7 +148,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -158,7 +158,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -168,7 +168,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -178,7 +178,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bookworm/backports/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -192,7 +192,7 @@
       "12-slim",
       "12.8-slim",
       "bookworm-slim",
-      "bookworm-20241111-slim"
+      "bookworm-20241202-slim"
     ],
     "images": [
       {
@@ -200,9 +200,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -210,9 +210,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -221,9 +221,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -232,9 +232,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -242,9 +242,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -252,9 +252,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -262,9 +262,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -272,9 +272,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bookworm/slim/Dockerfile",
+        "path": "bookworm/slim/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -286,7 +286,7 @@
       "11",
       "11.11",
       "bullseye",
-      "bullseye-20241111"
+      "bullseye-20241202"
     ],
     "images": [
       {
@@ -294,9 +294,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/Dockerfile",
+        "path": "bullseye/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -305,9 +305,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/Dockerfile",
+        "path": "bullseye/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -316,9 +316,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/Dockerfile",
+        "path": "bullseye/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -326,9 +326,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/Dockerfile",
+        "path": "bullseye/oci/index.json",
         "branch": "refs/heads/dist-i386"
       }
     ]
@@ -345,7 +345,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bullseye/backports/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -356,7 +356,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bullseye/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -367,7 +367,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bullseye/backports/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -377,7 +377,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "bullseye/backports/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -391,7 +391,7 @@
       "11-slim",
       "11.11-slim",
       "bullseye-slim",
-      "bullseye-20241111-slim"
+      "bullseye-20241202-slim"
     ],
     "images": [
       {
@@ -399,9 +399,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/slim/Dockerfile",
+        "path": "bullseye/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -410,9 +410,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/slim/Dockerfile",
+        "path": "bullseye/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -421,9 +421,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/slim/Dockerfile",
+        "path": "bullseye/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -431,9 +431,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "bullseye/slim/Dockerfile",
+        "path": "bullseye/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       }
     ]
@@ -443,7 +443,7 @@
     "name": "debian",
     "tags": [
       "experimental",
-      "experimental-20241111"
+      "experimental-20241202"
     ],
     "images": [
       {
@@ -451,7 +451,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -461,7 +461,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -472,7 +472,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -483,7 +483,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -493,7 +493,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -503,7 +503,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -513,7 +513,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -523,7 +523,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -533,7 +533,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "experimental/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -545,7 +545,7 @@
     "name": "debian",
     "tags": [
       "oldstable",
-      "oldstable-20241111"
+      "oldstable-20241202"
     ],
     "images": [
       {
@@ -553,9 +553,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/Dockerfile",
+        "path": "oldstable/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -564,9 +564,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/Dockerfile",
+        "path": "oldstable/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -575,9 +575,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/Dockerfile",
+        "path": "oldstable/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -585,9 +585,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/Dockerfile",
+        "path": "oldstable/oci/index.json",
         "branch": "refs/heads/dist-i386"
       }
     ]
@@ -604,7 +604,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "oldstable/backports/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -615,7 +615,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "oldstable/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -626,7 +626,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "oldstable/backports/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -636,7 +636,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "oldstable/backports/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -648,7 +648,7 @@
     "name": "debian",
     "tags": [
       "oldstable-slim",
-      "oldstable-20241111-slim"
+      "oldstable-20241202-slim"
     ],
     "images": [
       {
@@ -656,9 +656,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/slim/Dockerfile",
+        "path": "oldstable/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -667,9 +667,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/slim/Dockerfile",
+        "path": "oldstable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -678,9 +678,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/slim/Dockerfile",
+        "path": "oldstable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -688,9 +688,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "oldstable/slim/Dockerfile",
+        "path": "oldstable/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       }
     ]
@@ -700,7 +700,7 @@
     "name": "debian",
     "tags": [
       "rc-buggy",
-      "rc-buggy-20241111"
+      "rc-buggy-20241202"
     ],
     "images": [
       {
@@ -708,7 +708,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -718,7 +718,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -729,7 +729,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -740,7 +740,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -750,7 +750,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -760,7 +760,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -770,7 +770,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -780,7 +780,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -790,7 +790,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "rc-buggy/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -802,7 +802,7 @@
     "name": "debian",
     "tags": [
       "sid",
-      "sid-20241111"
+      "sid-20241202"
     ],
     "images": [
       {
@@ -810,9 +810,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -820,9 +820,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -831,9 +831,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -842,9 +842,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -852,9 +852,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -862,9 +862,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -872,9 +872,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -882,9 +882,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -892,9 +892,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/Dockerfile",
+        "path": "sid/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -904,7 +904,7 @@
     "name": "debian",
     "tags": [
       "sid-slim",
-      "sid-20241111-slim"
+      "sid-20241202-slim"
     ],
     "images": [
       {
@@ -912,9 +912,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -922,9 +922,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -933,9 +933,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -944,9 +944,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -954,9 +954,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -964,9 +964,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -974,9 +974,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -984,9 +984,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -994,9 +994,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "sid/slim/Dockerfile",
+        "path": "sid/slim/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1006,7 +1006,7 @@
     "name": "debian",
     "tags": [
       "stable",
-      "stable-20241111"
+      "stable-20241202"
     ],
     "images": [
       {
@@ -1014,9 +1014,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1024,9 +1024,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1035,9 +1035,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1046,9 +1046,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1056,9 +1056,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1066,9 +1066,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1076,9 +1076,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1086,9 +1086,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/Dockerfile",
+        "path": "stable/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1105,7 +1105,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -1115,7 +1115,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -1126,7 +1126,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -1137,7 +1137,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -1147,7 +1147,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -1157,7 +1157,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -1167,7 +1167,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -1177,7 +1177,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "stable/backports/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -1189,7 +1189,7 @@
     "name": "debian",
     "tags": [
       "stable-slim",
-      "stable-20241111-slim"
+      "stable-20241202-slim"
     ],
     "images": [
       {
@@ -1197,9 +1197,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1207,9 +1207,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1218,9 +1218,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1229,9 +1229,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1239,9 +1239,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1249,9 +1249,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1259,9 +1259,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1269,9 +1269,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "stable/slim/Dockerfile",
+        "path": "stable/slim/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1281,7 +1281,7 @@
     "name": "debian",
     "tags": [
       "testing",
-      "testing-20241111"
+      "testing-20241202"
     ],
     "images": [
       {
@@ -1289,9 +1289,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1299,9 +1299,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1310,9 +1310,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1321,9 +1321,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1331,9 +1331,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1341,9 +1341,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1351,9 +1351,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1361,9 +1361,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -1371,9 +1371,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/Dockerfile",
+        "path": "testing/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1390,7 +1390,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -1400,7 +1400,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -1411,7 +1411,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -1422,7 +1422,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -1432,7 +1432,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -1442,7 +1442,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -1452,7 +1452,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -1462,7 +1462,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -1472,7 +1472,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "testing/backports/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -1484,7 +1484,7 @@
     "name": "debian",
     "tags": [
       "testing-slim",
-      "testing-20241111-slim"
+      "testing-20241202-slim"
     ],
     "images": [
       {
@@ -1492,9 +1492,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1502,9 +1502,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1513,9 +1513,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1524,9 +1524,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1534,9 +1534,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1544,9 +1544,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1554,9 +1554,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1564,9 +1564,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -1574,9 +1574,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "testing/slim/Dockerfile",
+        "path": "testing/slim/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1586,7 +1586,7 @@
     "name": "debian",
     "tags": [
       "trixie",
-      "trixie-20241111"
+      "trixie-20241202"
     ],
     "images": [
       {
@@ -1594,9 +1594,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1604,9 +1604,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1615,9 +1615,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1626,9 +1626,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1636,9 +1636,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1646,9 +1646,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1656,9 +1656,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1666,9 +1666,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -1676,9 +1676,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/Dockerfile",
+        "path": "trixie/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1695,7 +1695,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -1705,7 +1705,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v5"
@@ -1716,7 +1716,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-arm32v7"
@@ -1727,7 +1727,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -1737,7 +1737,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-i386"
@@ -1747,7 +1747,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-mips64le"
@@ -1757,7 +1757,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-ppc64le"
@@ -1767,7 +1767,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-riscv64"
@@ -1777,7 +1777,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
         "path": "trixie/backports/Dockerfile",
         "branch": "refs/heads/dist-s390x"
@@ -1789,7 +1789,7 @@
     "name": "debian",
     "tags": [
       "trixie-slim",
-      "trixie-20241111-slim"
+      "trixie-20241202-slim"
     ],
     "images": [
       {
@@ -1797,9 +1797,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1807,9 +1807,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1818,9 +1818,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1829,9 +1829,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1839,9 +1839,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1849,9 +1849,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1859,9 +1859,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1869,9 +1869,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -1879,9 +1879,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "trixie/slim/Dockerfile",
+        "path": "trixie/slim/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1891,7 +1891,7 @@
     "name": "debian",
     "tags": [
       "unstable",
-      "unstable-20241111"
+      "unstable-20241202"
     ],
     "images": [
       {
@@ -1899,9 +1899,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -1909,9 +1909,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -1920,9 +1920,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -1931,9 +1931,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -1941,9 +1941,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -1951,9 +1951,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -1961,9 +1961,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -1971,9 +1971,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -1981,9 +1981,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/Dockerfile",
+        "path": "unstable/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
@@ -1993,7 +1993,7 @@
     "name": "debian",
     "tags": [
       "unstable-slim",
-      "unstable-20241111-slim"
+      "unstable-20241202-slim"
     ],
     "images": [
       {
@@ -2001,9 +2001,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "aa3cbd18893993192c9d6b1e02150fe4e476412d",
+        "sha": "f5527c9b022448b28981cf274721d9749d8fc5c4",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-amd64"
       },
       {
@@ -2011,9 +2011,9 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "13e93947b6ff85e2960b71771215c42c1fcfb980",
+        "sha": "8b7cc2d94892b9ea74a8f2b3741c166653b6510b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v5"
       },
       {
@@ -2022,9 +2022,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "e85f1844113ab151422351f7e90b0001d145174b",
+        "sha": "ed656a79d29fee904c47247d5c1a3d741b9de893",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm32v7"
       },
       {
@@ -2033,9 +2033,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dde41269a09feb7d5b046133bdd54c918ecbf1ca",
+        "sha": "329d4b79ed0518216a736352ba8323539f65e068",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-arm64v8"
       },
       {
@@ -2043,9 +2043,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "08e9e080bffc8ce700267b4793d781fe3ac0973f",
+        "sha": "5fb54c26d20d6e4054ec6dfea11ea9e2a833700f",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-i386"
       },
       {
@@ -2053,9 +2053,9 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "e6ca38f427c90c7661c8088bcf2a8a6617dca532",
+        "sha": "6b068a983a93c158f4e2132af1a7cf9f98031ce8",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-mips64le"
       },
       {
@@ -2063,9 +2063,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0e51dc28f6353ab38bd3f5fdaf7466963fc43b70",
+        "sha": "b0535a7dfec652b35b9cc1b62f4362f84183b258",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-ppc64le"
       },
       {
@@ -2073,9 +2073,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "094e0d67afb88a98434f98cd7133616b59280a5f",
+        "sha": "de237cba9d3f5eabc963f1d67fe8e19b95c96072",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-riscv64"
       },
       {
@@ -2083,9 +2083,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f1207fa5b6bf6c66852e4c3c8ab47028327818b8",
+        "sha": "0ac241a341c334da5e25bda1c123a1b13acb8d2b",
         "repo": "https://github.com/debuerreotype/docker-debian-artifacts.git",
-        "path": "unstable/slim/Dockerfile",
+        "path": "unstable/slim/oci/index.json",
         "branch": "refs/heads/dist-s390x"
       }
     ]
