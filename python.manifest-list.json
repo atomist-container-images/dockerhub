@@ -437,6 +437,82 @@
     "tags": [
       "3.14-rc-alpine",
       "3.14.0a2-alpine",
+      "3.14-rc-alpine3.21",
+      "3.14.0a2-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.14-rc/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "python",
+    "tags": [
       "3.14-rc-alpine3.20",
       "3.14.0a2-alpine3.20"
     ],
@@ -506,82 +582,6 @@
         "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
         "repo": "https://github.com/docker-library/python.git",
         "path": "3.14-rc/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "python",
-    "tags": [
-      "3.14-rc-alpine3.19",
-      "3.14.0a2-alpine3.19"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "ed43478490eb6c7717ffcf14c70fbd8086e20329",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.14-rc/alpine3.19/Dockerfile"
       }
     ]
   },
@@ -1309,10 +1309,88 @@
     "tags": [
       "alpine",
       "3-alpine",
-      "alpine3.20",
+      "alpine3.21",
       "3.13-alpine",
-      "3-alpine3.20",
+      "3-alpine3.21",
       "3.13.1-alpine",
+      "3.13-alpine3.21",
+      "3.13.1-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.13/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "python",
+    "tags": [
+      "alpine3.20",
+      "3-alpine3.20",
       "3.13-alpine3.20",
       "3.13.1-alpine3.20"
     ],
@@ -1382,84 +1460,6 @@
         "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
         "repo": "https://github.com/docker-library/python.git",
         "path": "3.13/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "python",
-    "tags": [
-      "alpine3.19",
-      "3-alpine3.19",
-      "3.13-alpine3.19",
-      "3.13.1-alpine3.19"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "da7ef3c71d3ecd87a43018a372b3e3590d88dd98",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.13/alpine3.19/Dockerfile"
       }
     ]
   },
@@ -2051,6 +2051,82 @@
     "tags": [
       "3.12-alpine",
       "3.12.8-alpine",
+      "3.12-alpine3.21",
+      "3.12.8-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.12/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "python",
+    "tags": [
       "3.12-alpine3.20",
       "3.12.8-alpine3.20"
     ],
@@ -2120,82 +2196,6 @@
         "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
         "repo": "https://github.com/docker-library/python.git",
         "path": "3.12/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "python",
-    "tags": [
-      "3.12-alpine3.19",
-      "3.12.8-alpine3.19"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "23c83c5a82646e123df33d056f7dfbe1d78cfc8b",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.12/alpine3.19/Dockerfile"
       }
     ]
   },
@@ -2693,6 +2693,82 @@
     "tags": [
       "3.11-alpine",
       "3.11.11-alpine",
+      "3.11-alpine3.21",
+      "3.11.11-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.11/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "python",
+    "tags": [
       "3.11-alpine3.20",
       "3.11.11-alpine3.20"
     ],
@@ -2762,82 +2838,6 @@
         "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
         "repo": "https://github.com/docker-library/python.git",
         "path": "3.11/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "python",
-    "tags": [
-      "3.11-alpine3.19",
-      "3.11.11-alpine3.19"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "ded42cf92d68bb878c8a1a9a4f3c86bad6023f4e",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.11/alpine3.19/Dockerfile"
       }
     ]
   },
@@ -3243,6 +3243,91 @@
     "tags": [
       "3.10-alpine",
       "3.10.16-alpine",
+      "3.10-alpine3.21",
+      "3.10.16-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.10/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "python",
+    "tags": [
       "3.10-alpine3.20",
       "3.10.16-alpine3.20"
     ],
@@ -3321,82 +3406,6 @@
         "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
         "repo": "https://github.com/docker-library/python.git",
         "path": "3.10/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "python",
-    "tags": [
-      "3.10-alpine3.19",
-      "3.10.16-alpine3.19"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "ed65ea91248f1ac8cb1b25e68324f389822e5ccc",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.10/alpine3.19/Dockerfile"
       }
     ]
   },
@@ -3838,6 +3847,91 @@
     "tags": [
       "3.9-alpine",
       "3.9.21-alpine",
+      "3.9-alpine3.21",
+      "3.9.21-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "3d7b328b66525fe2e82af7063af10c176b6ee8cd",
+        "repo": "https://github.com/docker-library/python.git",
+        "path": "3.9/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "python",
+    "tags": [
       "3.9-alpine3.20",
       "3.9.21-alpine3.20"
     ],
@@ -3916,82 +4010,6 @@
         "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
         "repo": "https://github.com/docker-library/python.git",
         "path": "3.9/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "python",
-    "tags": [
-      "3.9-alpine3.19",
-      "3.9.21-alpine3.19"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "ebae24f3ea4df70859757829ac383e1dd8de3d2f",
-        "repo": "https://github.com/docker-library/python.git",
-        "path": "3.9/alpine3.19/Dockerfile"
       }
     ]
   }
