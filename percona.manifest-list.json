@@ -8,10 +8,10 @@
       "ps-8",
       "ps-8.0",
       "8-centos",
-      "8.0.36-28",
+      "8.0.39-30",
       "8.0-centos",
-      "ps-8.0.36-28",
-      "8.0.36-28-centos"
+      "ps-8.0.39-30",
+      "8.0.39-30-centos"
     ],
     "images": [
       {
@@ -19,9 +19,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "02252c71b5fcf2d2235f7ec0d81940d4f2c45b64",
+        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
         "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-8.0/Dockerfile",
+        "path": "percona-server-8.0/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
       }
     ]
@@ -30,16 +30,8 @@
     "version": "26",
     "name": "percona",
     "tags": [
-      "5",
-      "5.7",
-      "ps-5",
-      "5.7.44",
-      "centos",
-      "ps-5.7",
-      "5-centos",
-      "ps-5.7.44",
-      "5.7-centos",
-      "5.7.44-centos"
+      "psmdb-7.0",
+      "psmdb-7.0.15"
     ],
     "images": [
       {
@@ -47,33 +39,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b89efa5f100edacc0ef660cef37975acfaf67326",
+        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
         "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-5.7/Dockerfile-dockerhub",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "percona",
-    "tags": [
-      "5.6",
-      "ps-5.6",
-      "5.6.51-2",
-      "5.6-centos",
-      "ps-5.6.51-2",
-      "5.6.51-2-centos"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "4510d49bcce5cfce58a42c198d55399b144add83",
-        "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-5.6/Dockerfile-dockerhub",
+        "path": "percona-server-mongodb-7.0/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
       }
     ]
@@ -83,7 +51,7 @@
     "name": "percona",
     "tags": [
       "psmdb-6.0",
-      "psmdb-6.0.6"
+      "psmdb-6.0.19"
     ],
     "images": [
       {
@@ -91,9 +59,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
         "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-6.0/Dockerfile",
+        "path": "percona-server-mongodb-6.0/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
       }
     ]
@@ -103,7 +71,7 @@
     "name": "percona",
     "tags": [
       "psmdb-5.0",
-      "psmdb-5.0.18"
+      "psmdb-5.0.29"
     ],
     "images": [
       {
@@ -111,49 +79,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
+        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
         "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-5.0/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "percona",
-    "tags": [
-      "psmdb-4.4",
-      "psmdb-4.4.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
-        "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-4.4/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "percona",
-    "tags": [
-      "psmdb-4.2",
-      "psmdb-4.2.24"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "80ab68b2d84c7c17c8cbc07edb35e35399fd0a54",
-        "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-4.2/Dockerfile",
+        "path": "percona-server-mongodb-5.0/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
       }
     ]
