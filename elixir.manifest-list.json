@@ -3,10 +3,566 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "1.17",
-      "1.17.3",
+      "1.18",
+      "1.18.0",
       "latest",
       "otp-27",
+      "1.18-otp-27",
+      "1.18.0-otp-27"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "slim",
+      "1.18-slim",
+      "1.18.0-slim",
+      "otp-27-slim",
+      "1.18-otp-27-slim",
+      "1.18.0-otp-27-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/slim/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "alpine",
+      "1.18-alpine",
+      "1.18.0-alpine",
+      "otp-27-alpine",
+      "1.18-otp-27-alpine",
+      "1.18.0-otp-27-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "otp-25",
+      "1.18-otp-25",
+      "1.18.0-otp-25"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "otp-25-alpine",
+      "1.18-otp-25-alpine",
+      "1.18.0-otp-25-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "otp-25-slim",
+      "1.18-otp-25-slim",
+      "1.18.0-otp-25-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-25-slim/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "otp-26",
+      "1.18-otp-26",
+      "1.18.0-otp-26"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "otp-26-alpine",
+      "1.18-otp-26-alpine",
+      "1.18.0-otp-26-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "otp-26-slim",
+      "1.18-otp-26-slim",
+      "1.18.0-otp-26-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-slim/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "531465b9ab849e81416564c4bfe114f7b6dec824",
+        "repo": "https://github.com/erlef/docker-elixir.git",
+        "path": "1.18/otp-26-slim/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elixir",
+    "tags": [
+      "1.17",
+      "1.17.3",
       "1.17-otp-27",
       "1.17.3-otp-27"
     ],
@@ -73,10 +629,8 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "slim",
       "1.17-slim",
       "1.17.3-slim",
-      "otp-27-slim",
       "1.17-otp-27-slim",
       "1.17.3-otp-27-slim"
     ],
@@ -143,10 +697,8 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "alpine",
       "1.17-alpine",
       "1.17.3-alpine",
-      "otp-27-alpine",
       "1.17-otp-27-alpine",
       "1.17.3-otp-27-alpine"
     ],
@@ -213,7 +765,6 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "otp-25",
       "1.17-otp-25",
       "1.17.3-otp-25"
     ],
@@ -255,24 +806,6 @@
         "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.17/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.17/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.17/otp-25/Dockerfile"
       }
     ]
   },
@@ -280,7 +813,6 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "otp-25-alpine",
       "1.17-otp-25-alpine",
       "1.17.3-otp-25-alpine"
     ],
@@ -322,24 +854,6 @@
         "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.17/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.17/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.17/otp-25-alpine/Dockerfile"
       }
     ]
   },
@@ -347,7 +861,6 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "otp-25-slim",
       "1.17-otp-25-slim",
       "1.17.3-otp-25-slim"
     ],
@@ -389,24 +902,6 @@
         "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.17/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.17/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "70cad0543fc1781daa678c2a8c44bc87a1c38767",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.17/otp-25-slim/Dockerfile"
       }
     ]
   },
@@ -414,7 +909,6 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "otp-26",
       "1.17-otp-26",
       "1.17.3-otp-26"
     ],
@@ -481,7 +975,6 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "otp-26-alpine",
       "1.17-otp-26-alpine",
       "1.17.3-otp-26-alpine"
     ],
@@ -548,7 +1041,6 @@
     "version": "26",
     "name": "elixir",
     "tags": [
-      "otp-26-slim",
       "1.17-otp-26-slim",
       "1.17.3-otp-26-slim"
     ],
@@ -860,24 +1352,6 @@
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.16/otp-24/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-24/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-24/Dockerfile"
       }
     ]
   },
@@ -922,24 +1396,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-24-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-24-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -992,24 +1448,6 @@
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.16/otp-24-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-24-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-24-slim/Dockerfile"
       }
     ]
   },
@@ -1054,24 +1492,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -1124,24 +1544,6 @@
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.16/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-25-alpine/Dockerfile"
       }
     ]
   },
@@ -1186,24 +1588,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.16/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -1460,24 +1844,6 @@
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.15/otp-24/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-24/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-24/Dockerfile"
       }
     ]
   },
@@ -1522,24 +1888,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-24-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-24-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -1592,24 +1940,6 @@
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.15/otp-24-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-24-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-24-slim/Dockerfile"
       }
     ]
   },
@@ -1654,24 +1984,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -1724,24 +2036,6 @@
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.15/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-25-alpine/Dockerfile"
       }
     ]
   },
@@ -1786,24 +2080,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.15/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "f749dfb8a5b1e6945b2369e143107b9ad3b16664",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2060,24 +2336,6 @@
         "sha": "af8772135e126d906a96b347d83af796c55bd181",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.14/otp-24/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-24/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-24/Dockerfile"
       }
     ]
   },
@@ -2122,24 +2380,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-24-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-24-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "af8772135e126d906a96b347d83af796c55bd181",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2192,24 +2432,6 @@
         "sha": "af8772135e126d906a96b347d83af796c55bd181",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.14/otp-24-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-24-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-24-slim/Dockerfile"
       }
     ]
   },
@@ -2254,24 +2476,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "af8772135e126d906a96b347d83af796c55bd181",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2324,24 +2528,6 @@
         "sha": "af8772135e126d906a96b347d83af796c55bd181",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.14/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-25-alpine/Dockerfile"
       }
     ]
   },
@@ -2386,24 +2572,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "af8772135e126d906a96b347d83af796c55bd181",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.14/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "af8772135e126d906a96b347d83af796c55bd181",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2458,24 +2626,6 @@
         "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.13/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/Dockerfile"
       }
     ]
   },
@@ -2522,24 +2672,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2594,24 +2726,6 @@
         "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.13/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "328f4c09d39b06502a90fa0c5bb30d6972593fac",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/alpine/Dockerfile"
       }
     ]
   },
@@ -2656,24 +2770,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/otp-25/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2726,24 +2822,6 @@
         "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.13/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/otp-25-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/otp-25-alpine/Dockerfile"
       }
     ]
   },
@@ -2788,24 +2866,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.13/otp-25-slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "253f56764ed34d41e4279cb741d84dcb4b284a55",
         "repo": "https://github.com/erlef/docker-elixir.git",
@@ -2860,24 +2920,6 @@
         "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.12/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.12/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.12/Dockerfile"
       }
     ]
   },
@@ -2928,24 +2970,6 @@
         "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
         "repo": "https://github.com/erlef/docker-elixir.git",
         "path": "1.12/slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.12/slim/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.12/slim/Dockerfile"
       }
     ]
   },
@@ -2992,24 +3016,6 @@
         "platform": {
           "os": "linux",
           "architecture": "386"
-        },
-        "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.12/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
-        "repo": "https://github.com/erlef/docker-elixir.git",
-        "path": "1.12/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
         },
         "sha": "a7a9a8ecd02b6e31e93cfa13d8c18de0328f6e1a",
         "repo": "https://github.com/erlef/docker-elixir.git",
