@@ -3,11 +3,7 @@
     "version": "26",
     "name": "friendica",
     "tags": [
-      "apache",
-      "latest",
-      "stable",
       "2024.08",
-      "stable-apache",
       "2024.08-apache"
     ],
     "images": [
@@ -59,8 +55,6 @@
     "version": "26",
     "name": "friendica",
     "tags": [
-      "fpm",
-      "stable-fpm",
       "2024.08-fpm"
     ],
     "images": [
@@ -112,8 +106,6 @@
     "version": "26",
     "name": "friendica",
     "tags": [
-      "fpm-alpine",
-      "stable-fpm-alpine",
       "2024.08-fpm-alpine"
     ],
     "images": [
@@ -206,10 +198,12 @@
     "version": "26",
     "name": "friendica",
     "tags": [
-      "rc",
-      "rc-apache",
-      "2024.09-rc",
-      "2024.09-rc-apache"
+      "apache",
+      "latest",
+      "stable",
+      "2024.12",
+      "stable-apache",
+      "2024.12-apache"
     ],
     "images": [
       {
@@ -217,9 +211,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/apache/Dockerfile",
+        "path": "2024.12/apache/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -228,9 +222,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/apache/Dockerfile",
+        "path": "2024.12/apache/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -239,9 +233,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/apache/Dockerfile",
+        "path": "2024.12/apache/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -249,9 +243,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/apache/Dockerfile",
+        "path": "2024.12/apache/Dockerfile",
         "branch": "refs/heads/stable"
       }
     ]
@@ -260,8 +254,9 @@
     "version": "26",
     "name": "friendica",
     "tags": [
-      "rc-fpm",
-      "2024.09-rc-fpm"
+      "fpm",
+      "stable-fpm",
+      "2024.12-fpm"
     ],
     "images": [
       {
@@ -269,9 +264,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm/Dockerfile",
+        "path": "2024.12/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -280,9 +275,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm/Dockerfile",
+        "path": "2024.12/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -291,9 +286,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm/Dockerfile",
+        "path": "2024.12/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -301,9 +296,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm/Dockerfile",
+        "path": "2024.12/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       }
     ]
@@ -312,8 +307,9 @@
     "version": "26",
     "name": "friendica",
     "tags": [
-      "rc-fpm-alpine",
-      "2024.09-rc-fpm-alpine"
+      "fpm-alpine",
+      "stable-fpm-alpine",
+      "2024.12-fpm-alpine"
     ],
     "images": [
       {
@@ -321,9 +317,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -332,9 +328,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -343,9 +339,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -354,9 +350,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -364,9 +360,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -374,9 +370,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -384,9 +380,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -394,9 +390,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "93be4ea89aed395905abfb12856b0c7b47a2204a",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.09-rc/fpm-alpine/Dockerfile",
+        "path": "2024.12/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       }
     ]
@@ -407,8 +403,8 @@
     "tags": [
       "dev",
       "dev-apache",
-      "2024.12-dev",
-      "2024.12-dev-apache"
+      "2025.02-dev",
+      "2025.02-dev-apache"
     ],
     "images": [
       {
@@ -416,9 +412,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/apache/Dockerfile",
+        "path": "2025.02-dev/apache/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -427,9 +423,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/apache/Dockerfile",
+        "path": "2025.02-dev/apache/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -438,9 +434,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/apache/Dockerfile",
+        "path": "2025.02-dev/apache/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -448,9 +444,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/apache/Dockerfile",
+        "path": "2025.02-dev/apache/Dockerfile",
         "branch": "refs/heads/stable"
       }
     ]
@@ -460,7 +456,7 @@
     "name": "friendica",
     "tags": [
       "dev-fpm",
-      "2024.12-dev-fpm"
+      "2025.02-dev-fpm"
     ],
     "images": [
       {
@@ -468,9 +464,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm/Dockerfile",
+        "path": "2025.02-dev/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -479,9 +475,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm/Dockerfile",
+        "path": "2025.02-dev/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -490,9 +486,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm/Dockerfile",
+        "path": "2025.02-dev/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -500,9 +496,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm/Dockerfile",
+        "path": "2025.02-dev/fpm/Dockerfile",
         "branch": "refs/heads/stable"
       }
     ]
@@ -512,7 +508,7 @@
     "name": "friendica",
     "tags": [
       "dev-fpm-alpine",
-      "2024.12-dev-fpm-alpine"
+      "2025.02-dev-fpm-alpine"
     ],
     "images": [
       {
@@ -520,9 +516,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -531,9 +527,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -542,9 +538,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -553,9 +549,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -563,9 +559,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -573,9 +569,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -583,9 +579,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       },
       {
@@ -593,9 +589,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "365f4797cc665d6d70ab536ab19b9567adb9c919",
+        "sha": "898e27d3d9b97479037f64a8cc8963a7bcab63a2",
         "repo": "https://github.com/friendica/docker.git",
-        "path": "2024.12-dev/fpm-alpine/Dockerfile",
+        "path": "2025.02-dev/fpm-alpine/Dockerfile",
         "branch": "refs/heads/stable"
       }
     ]
