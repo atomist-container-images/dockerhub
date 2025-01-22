@@ -3,9 +3,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "8-alpine",
-      "8-jdk-alpine",
-      "8u432-b06-jdk-alpine"
+      "8-alpine-3.20",
+      "8-jdk-alpine-3.20",
+      "8u432-b06-jdk-alpine-3.20"
     ],
     "images": [
       {
@@ -13,9 +13,33 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "8/jdk/alpine/Dockerfile",
+        "path": "8/jdk/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-alpine",
+      "8-jdk-alpine",
+      "8-alpine-3.21",
+      "8-jdk-alpine-3.21",
+      "8u432-b06-jdk-alpine",
+      "8u432-b06-jdk-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -34,7 +58,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -45,7 +69,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -56,7 +80,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -66,7 +90,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -87,7 +111,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -98,7 +122,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -109,7 +133,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -119,7 +143,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -140,7 +164,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -151,7 +175,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -162,7 +186,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -172,7 +196,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -191,7 +215,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -202,7 +226,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -213,7 +237,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -223,9 +247,19 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -262,7 +296,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -273,7 +307,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -284,7 +318,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -294,9 +328,19 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -333,7 +377,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -344,7 +388,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -355,7 +399,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -365,9 +409,19 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -406,7 +460,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -417,7 +471,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -427,7 +481,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -438,9 +492,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "8-windowsservercore-ltsc2022",
-      "8-jdk-windowsservercore-ltsc2022",
-      "8u432-b06-jdk-windowsservercore-ltsc2022"
+      "8-windowsservercore-ltsc2025",
+      "8-jdk-windowsservercore-ltsc2025",
+      "8u432-b06-jdk-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -448,9 +502,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -462,6 +516,16 @@
       "8u432-b06-jdk-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -496,6 +560,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -525,6 +599,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -546,9 +630,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "8-nanoserver-ltsc2022",
-      "8-jdk-nanoserver-ltsc2022",
-      "8u432-b06-jdk-nanoserver-ltsc2022"
+      "8-nanoserver-ltsc2025",
+      "8-jdk-nanoserver-ltsc2025",
+      "8u432-b06-jdk-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -556,9 +640,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "8/jdk/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -570,6 +654,16 @@
       "8u432-b06-jdk-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -604,6 +698,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -633,6 +737,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -646,6 +760,48 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jdk/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-windowsservercore-ltsc2022",
+      "8-jdk-windowsservercore-ltsc2022",
+      "8u432-b06-jdk-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-nanoserver-ltsc2022",
+      "8-jdk-nanoserver-ltsc2022",
+      "8u432-b06-jdk-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jdk/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -696,8 +852,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre-alpine",
-      "8u432-b06-jre-alpine"
+      "8-jre-alpine-3.20",
+      "8u432-b06-jre-alpine-3.20"
     ],
     "images": [
       {
@@ -705,9 +861,31 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "8/jre/alpine/Dockerfile",
+        "path": "8/jre/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-alpine",
+      "8-jre-alpine-3.21",
+      "8u432-b06-jre-alpine",
+      "8u432-b06-jre-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -725,7 +903,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -736,7 +914,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -747,7 +925,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -757,7 +935,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -777,7 +955,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -788,7 +966,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -799,7 +977,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -809,7 +987,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -829,7 +1007,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -840,7 +1018,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -851,7 +1029,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -861,7 +1039,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -880,7 +1058,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -891,7 +1069,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -902,7 +1080,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -912,9 +1090,19 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -951,7 +1139,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -962,7 +1150,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -973,7 +1161,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -983,9 +1171,19 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -1023,7 +1221,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1034,7 +1232,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1044,7 +1242,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1055,8 +1253,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre-windowsservercore-ltsc2022",
-      "8u432-b06-jre-windowsservercore-ltsc2022"
+      "8-jre-windowsservercore-ltsc2025",
+      "8u432-b06-jre-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -1064,9 +1262,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "8/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1078,6 +1276,16 @@
       "8u432-b06-jre-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -1112,6 +1320,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -1133,8 +1351,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "8-jre-nanoserver-ltsc2022",
-      "8u432-b06-jre-nanoserver-ltsc2022"
+      "8-jre-nanoserver-ltsc2025",
+      "8u432-b06-jre-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -1142,9 +1360,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "8/jre/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "8/jre/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1156,6 +1374,16 @@
       "8u432-b06-jre-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -1190,6 +1418,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/windows/nanoserver-ltsc2022/Dockerfile",
@@ -1203,6 +1441,46 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "8/jre/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-windowsservercore-ltsc2022",
+      "8u432-b06-jre-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "8-jre-nanoserver-ltsc2022",
+      "8u432-b06-jre-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "8/jre/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1251,9 +1529,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "11-alpine",
-      "11-jdk-alpine",
-      "11.0.25_9-jdk-alpine"
+      "11-alpine-3.20",
+      "11-jdk-alpine-3.20",
+      "11.0.25_9-jdk-alpine-3.20"
     ],
     "images": [
       {
@@ -1261,9 +1539,33 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "11/jdk/alpine/Dockerfile",
+        "path": "11/jdk/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-alpine",
+      "11-jdk-alpine",
+      "11-alpine-3.21",
+      "11-jdk-alpine-3.21",
+      "11.0.25_9-jdk-alpine",
+      "11.0.25_9-jdk-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1282,7 +1584,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1293,7 +1595,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1304,7 +1606,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1314,7 +1616,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1324,7 +1626,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1345,7 +1647,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -1356,7 +1658,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -1367,7 +1669,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -1377,7 +1679,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -1387,7 +1689,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -1408,7 +1710,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1419,7 +1721,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1430,7 +1732,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1440,7 +1742,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1450,7 +1752,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1469,7 +1771,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1480,7 +1782,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1491,7 +1793,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1501,7 +1803,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1511,9 +1813,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -1550,7 +1862,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1561,7 +1873,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1572,7 +1884,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1582,7 +1894,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1592,9 +1904,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -1631,7 +1953,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1642,7 +1964,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1653,7 +1975,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1663,7 +1985,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -1673,9 +1995,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -1714,7 +2046,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1725,7 +2057,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1735,7 +2067,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1745,7 +2077,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -1756,9 +2088,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "11-windowsservercore-ltsc2022",
-      "11-jdk-windowsservercore-ltsc2022",
-      "11.0.25_9-jdk-windowsservercore-ltsc2022"
+      "11-windowsservercore-ltsc2025",
+      "11-jdk-windowsservercore-ltsc2025",
+      "11.0.25_9-jdk-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -1766,9 +2098,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1780,6 +2112,16 @@
       "11.0.25_9-jdk-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -1814,6 +2156,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -1843,6 +2195,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -1864,9 +2226,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "11-nanoserver-ltsc2022",
-      "11-jdk-nanoserver-ltsc2022",
-      "11.0.25_9-jdk-nanoserver-ltsc2022"
+      "11-nanoserver-ltsc2025",
+      "11-jdk-nanoserver-ltsc2025",
+      "11.0.25_9-jdk-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -1874,9 +2236,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "11/jdk/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1888,6 +2250,16 @@
       "11.0.25_9-jdk-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -1922,6 +2294,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -1951,6 +2333,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -1964,6 +2356,48 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jdk/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-windowsservercore-ltsc2022",
+      "11-jdk-windowsservercore-ltsc2022",
+      "11.0.25_9-jdk-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-nanoserver-ltsc2022",
+      "11-jdk-nanoserver-ltsc2022",
+      "11.0.25_9-jdk-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jdk/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -2014,8 +2448,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre-alpine",
-      "11.0.25_9-jre-alpine"
+      "11-jre-alpine-3.20",
+      "11.0.25_9-jre-alpine-3.20"
     ],
     "images": [
       {
@@ -2023,9 +2457,31 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "11/jre/alpine/Dockerfile",
+        "path": "11/jre/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre-alpine",
+      "11-jre-alpine-3.21",
+      "11.0.25_9-jre-alpine",
+      "11.0.25_9-jre-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -2043,7 +2499,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2054,7 +2510,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2065,7 +2521,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2075,7 +2531,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2085,7 +2541,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2105,7 +2561,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2116,7 +2572,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2127,7 +2583,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2137,7 +2593,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2147,7 +2603,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2167,7 +2623,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2178,7 +2634,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2189,7 +2645,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2199,7 +2655,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2209,7 +2665,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2228,7 +2684,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2239,7 +2695,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2250,7 +2706,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2260,7 +2716,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2270,9 +2726,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -2309,7 +2775,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2320,7 +2786,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2331,7 +2797,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2341,7 +2807,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2351,9 +2817,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -2391,7 +2867,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2402,7 +2878,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2412,7 +2888,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2422,7 +2898,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2433,8 +2909,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre-windowsservercore-ltsc2022",
-      "11.0.25_9-jre-windowsservercore-ltsc2022"
+      "11-jre-windowsservercore-ltsc2025",
+      "11.0.25_9-jre-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -2442,9 +2918,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "11/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -2456,6 +2932,16 @@
       "11.0.25_9-jre-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -2490,6 +2976,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -2511,8 +3007,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "11-jre-nanoserver-ltsc2022",
-      "11.0.25_9-jre-nanoserver-ltsc2022"
+      "11-jre-nanoserver-ltsc2025",
+      "11.0.25_9-jre-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -2520,9 +3016,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "11/jre/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "11/jre/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -2534,6 +3030,16 @@
       "11.0.25_9-jre-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -2568,6 +3074,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/windows/nanoserver-ltsc2022/Dockerfile",
@@ -2581,6 +3097,46 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "11/jre/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre-windowsservercore-ltsc2022",
+      "11.0.25_9-jre-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "11-jre-nanoserver-ltsc2022",
+      "11.0.25_9-jre-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "11/jre/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -2629,9 +3185,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "17-alpine",
-      "17-jdk-alpine",
-      "17.0.13_11-jdk-alpine"
+      "17-alpine-3.20",
+      "17-jdk-alpine-3.20",
+      "17.0.13_11-jdk-alpine-3.20"
     ],
     "images": [
       {
@@ -2639,9 +3195,33 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "17/jdk/alpine/Dockerfile",
+        "path": "17/jdk/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-alpine",
+      "17-jdk-alpine",
+      "17-alpine-3.21",
+      "17-jdk-alpine-3.21",
+      "17.0.13_11-jdk-alpine",
+      "17.0.13_11-jdk-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -2660,7 +3240,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2671,7 +3251,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2682,7 +3262,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2692,7 +3272,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2702,7 +3282,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -2723,7 +3303,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2734,7 +3314,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2745,7 +3325,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2755,7 +3335,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2765,7 +3345,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -2786,7 +3366,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2797,7 +3377,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2808,7 +3388,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2818,7 +3398,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2828,7 +3408,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2838,7 +3418,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2857,7 +3437,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2868,7 +3448,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2879,7 +3459,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2889,7 +3469,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2899,7 +3479,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2909,9 +3489,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -2948,7 +3538,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2959,7 +3549,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2970,7 +3560,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2980,7 +3570,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -2990,7 +3580,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3000,9 +3590,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -3039,7 +3639,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3050,7 +3650,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3061,7 +3661,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3071,7 +3671,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3081,7 +3681,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3091,9 +3691,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -3132,7 +3742,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3143,7 +3753,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3153,7 +3763,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3163,7 +3773,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3174,9 +3784,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "17-windowsservercore-ltsc2022",
-      "17-jdk-windowsservercore-ltsc2022",
-      "17.0.13_11-jdk-windowsservercore-ltsc2022"
+      "17-windowsservercore-ltsc2025",
+      "17-jdk-windowsservercore-ltsc2025",
+      "17.0.13_11-jdk-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -3184,9 +3794,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -3198,6 +3808,16 @@
       "17.0.13_11-jdk-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -3232,6 +3852,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -3261,6 +3891,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -3282,9 +3922,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "17-nanoserver-ltsc2022",
-      "17-jdk-nanoserver-ltsc2022",
-      "17.0.13_11-jdk-nanoserver-ltsc2022"
+      "17-nanoserver-ltsc2025",
+      "17-jdk-nanoserver-ltsc2025",
+      "17.0.13_11-jdk-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -3292,9 +3932,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "17/jdk/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -3306,6 +3946,16 @@
       "17.0.13_11-jdk-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -3340,6 +3990,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -3369,6 +4029,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -3382,6 +4052,48 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jdk/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-windowsservercore-ltsc2022",
+      "17-jdk-windowsservercore-ltsc2022",
+      "17.0.13_11-jdk-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-nanoserver-ltsc2022",
+      "17-jdk-nanoserver-ltsc2022",
+      "17.0.13_11-jdk-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jdk/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -3432,8 +4144,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "17-jre-alpine",
-      "17.0.13_11-jre-alpine"
+      "17-jre-alpine-3.20",
+      "17.0.13_11-jre-alpine-3.20"
     ],
     "images": [
       {
@@ -3441,9 +4153,31 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "17/jre/alpine/Dockerfile",
+        "path": "17/jre/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jre-alpine",
+      "17-jre-alpine-3.21",
+      "17.0.13_11-jre-alpine",
+      "17.0.13_11-jre-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -3461,7 +4195,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3472,7 +4206,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3483,7 +4217,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3493,7 +4227,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3503,7 +4237,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/focal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3523,7 +4257,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -3534,7 +4268,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -3545,7 +4279,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -3555,7 +4289,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -3565,7 +4299,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -3585,7 +4319,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3596,7 +4330,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3607,7 +4341,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3617,7 +4351,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3627,7 +4361,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3637,7 +4371,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3656,7 +4390,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3667,7 +4401,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3678,7 +4412,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3688,7 +4422,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3698,7 +4432,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3708,9 +4442,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -3747,7 +4491,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3758,7 +4502,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3769,7 +4513,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3779,7 +4523,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3789,7 +4533,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -3799,9 +4543,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -3839,7 +4593,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3850,7 +4604,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3860,7 +4614,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3870,7 +4624,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -3881,8 +4635,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "17-jre-windowsservercore-ltsc2022",
-      "17.0.13_11-jre-windowsservercore-ltsc2022"
+      "17-jre-windowsservercore-ltsc2025",
+      "17.0.13_11-jre-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -3890,9 +4644,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "17/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "17/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -3904,6 +4658,16 @@
       "17.0.13_11-jre-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -3938,6 +4702,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -3959,8 +4733,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "17-jre-nanoserver-ltsc2022",
-      "17.0.13_11-jre-nanoserver-ltsc2022"
+      "17-jre-nanoserver-ltsc2025",
+      "17.0.13_11-jre-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -3968,9 +4742,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "17/jre/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "17/jre/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -3982,6 +4756,16 @@
       "17.0.13_11-jre-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -4016,6 +4800,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/windows/nanoserver-ltsc2022/Dockerfile",
@@ -4029,6 +4823,46 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "17/jre/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jre-windowsservercore-ltsc2022",
+      "17.0.13_11-jre-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "17-jre-nanoserver-ltsc2022",
+      "17.0.13_11-jre-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "17/jre/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -4077,9 +4911,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "21-alpine",
-      "21-jdk-alpine",
-      "21.0.5_11-jdk-alpine"
+      "21-alpine-3.20",
+      "21-jdk-alpine-3.20",
+      "21.0.5_11-jdk-alpine-3.20"
     ],
     "images": [
       {
@@ -4087,9 +4921,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jdk/alpine/Dockerfile",
+        "path": "21/jdk/alpine/3.20/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -4098,9 +4932,44 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jdk/alpine/Dockerfile",
+        "path": "21/jdk/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "21-alpine",
+      "21-jdk-alpine",
+      "21-alpine-3.21",
+      "21-jdk-alpine-3.21",
+      "21.0.5_11-jdk-alpine",
+      "21.0.5_11-jdk-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/alpine/3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -4119,7 +4988,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4130,7 +4999,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4140,7 +5009,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4150,7 +5019,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4171,7 +5040,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4182,7 +5051,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4192,7 +5061,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4202,7 +5071,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4212,7 +5081,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4231,7 +5100,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4242,7 +5111,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4252,7 +5121,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4262,7 +5131,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4272,9 +5141,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -4311,7 +5190,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4322,7 +5201,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4332,7 +5211,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4342,7 +5221,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4352,9 +5231,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -4391,7 +5280,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4402,7 +5291,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4412,7 +5301,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4422,7 +5311,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4432,9 +5321,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -4471,7 +5370,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4482,7 +5381,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4492,7 +5391,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4502,7 +5401,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4512,9 +5411,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -4553,7 +5462,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -4564,7 +5473,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -4574,7 +5483,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -4584,7 +5493,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -4595,9 +5504,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "21-windowsservercore-ltsc2022",
-      "21-jdk-windowsservercore-ltsc2022",
-      "21.0.5_11-jdk-windowsservercore-ltsc2022"
+      "21-windowsservercore-ltsc2025",
+      "21-jdk-windowsservercore-ltsc2025",
+      "21.0.5_11-jdk-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -4605,9 +5514,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -4619,6 +5528,16 @@
       "21.0.5_11-jdk-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -4653,6 +5572,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -4682,6 +5611,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -4703,9 +5642,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "21-nanoserver-ltsc2022",
-      "21-jdk-nanoserver-ltsc2022",
-      "21.0.5_11-jdk-nanoserver-ltsc2022"
+      "21-nanoserver-ltsc2025",
+      "21-jdk-nanoserver-ltsc2025",
+      "21.0.5_11-jdk-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -4713,9 +5652,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jdk/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "21/jdk/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -4727,6 +5666,16 @@
       "21.0.5_11-jdk-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -4761,6 +5710,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -4790,6 +5749,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -4803,6 +5772,48 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jdk/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "21-windowsservercore-ltsc2022",
+      "21-jdk-windowsservercore-ltsc2022",
+      "21.0.5_11-jdk-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "21-nanoserver-ltsc2022",
+      "21-jdk-nanoserver-ltsc2022",
+      "21.0.5_11-jdk-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jdk/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -4853,8 +5864,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "21-jre-alpine",
-      "21.0.5_11-jre-alpine"
+      "21-jre-alpine-3.20",
+      "21.0.5_11-jre-alpine-3.20"
     ],
     "images": [
       {
@@ -4862,9 +5873,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jre/alpine/Dockerfile",
+        "path": "21/jre/alpine/3.20/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -4873,9 +5884,42 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jre/alpine/Dockerfile",
+        "path": "21/jre/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "21-jre-alpine",
+      "21-jre-alpine-3.21",
+      "21.0.5_11-jre-alpine",
+      "21.0.5_11-jre-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/alpine/3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -4893,7 +5937,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4904,7 +5948,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4914,7 +5958,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4924,7 +5968,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/jammy/Dockerfile",
         "branch": "refs/heads/main"
@@ -4944,7 +5988,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4955,7 +5999,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4965,7 +6009,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4975,7 +6019,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -4985,7 +6029,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5004,7 +6048,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5015,7 +6059,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5025,7 +6069,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5035,7 +6079,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5045,9 +6089,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -5084,7 +6138,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5095,7 +6149,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5105,7 +6159,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5115,7 +6169,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5125,9 +6179,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -5165,7 +6229,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5176,7 +6240,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5186,7 +6250,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5196,7 +6260,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5207,8 +6271,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "21-jre-windowsservercore-ltsc2022",
-      "21.0.5_11-jre-windowsservercore-ltsc2022"
+      "21-jre-windowsservercore-ltsc2025",
+      "21.0.5_11-jre-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -5216,9 +6280,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "21/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -5230,6 +6294,16 @@
       "21.0.5_11-jre-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -5264,6 +6338,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -5285,8 +6369,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "21-jre-nanoserver-ltsc2022",
-      "21.0.5_11-jre-nanoserver-ltsc2022"
+      "21-jre-nanoserver-ltsc2025",
+      "21.0.5_11-jre-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -5294,9 +6378,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "21/jre/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "21/jre/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -5308,6 +6392,16 @@
       "21.0.5_11-jre-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -5342,6 +6436,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/windows/nanoserver-ltsc2022/Dockerfile",
@@ -5355,6 +6459,46 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "21/jre/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "21-jre-windowsservercore-ltsc2022",
+      "21.0.5_11-jre-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "21-jre-nanoserver-ltsc2022",
+      "21.0.5_11-jre-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "21/jre/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -5403,9 +6547,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "23-alpine",
-      "23-jdk-alpine",
-      "23.0.1_11-jdk-alpine"
+      "23-alpine-3.20",
+      "23-jdk-alpine-3.20",
+      "23.0.1_11-jdk-alpine-3.20"
     ],
     "images": [
       {
@@ -5413,9 +6557,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jdk/alpine/Dockerfile",
+        "path": "23/jdk/alpine/3.20/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -5424,9 +6568,44 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jdk/alpine/Dockerfile",
+        "path": "23/jdk/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "23-alpine",
+      "23-jdk-alpine",
+      "23-alpine-3.21",
+      "23-jdk-alpine-3.21",
+      "23.0.1_11-jdk-alpine",
+      "23.0.1_11-jdk-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/alpine/3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -5445,7 +6624,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5456,7 +6635,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5466,7 +6645,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5476,7 +6655,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5486,7 +6665,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5505,7 +6684,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5516,7 +6695,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5526,7 +6705,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5536,7 +6715,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5546,9 +6725,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -5585,7 +6774,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5596,7 +6785,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5606,7 +6795,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5616,7 +6805,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5626,9 +6815,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -5665,7 +6864,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5676,7 +6875,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5686,7 +6885,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5696,7 +6895,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -5706,9 +6905,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -5747,7 +6956,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5758,7 +6967,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5768,7 +6977,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5778,7 +6987,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -5789,9 +6998,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "23-windowsservercore-ltsc2022",
-      "23-jdk-windowsservercore-ltsc2022",
-      "23.0.1_11-jdk-windowsservercore-ltsc2022"
+      "23-windowsservercore-ltsc2025",
+      "23-jdk-windowsservercore-ltsc2025",
+      "23.0.1_11-jdk-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -5799,9 +7008,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -5813,6 +7022,16 @@
       "23.0.1_11-jdk-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -5847,6 +7066,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -5876,6 +7105,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -5897,9 +7136,9 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "23-nanoserver-ltsc2022",
-      "23-jdk-nanoserver-ltsc2022",
-      "23.0.1_11-jdk-nanoserver-ltsc2022"
+      "23-nanoserver-ltsc2025",
+      "23-jdk-nanoserver-ltsc2025",
+      "23.0.1_11-jdk-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -5907,9 +7146,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jdk/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "23/jdk/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -5921,6 +7160,16 @@
       "23.0.1_11-jdk-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -5955,6 +7204,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -5984,6 +7243,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/windows/nanoserver-ltsc2022/Dockerfile",
@@ -5997,6 +7266,48 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jdk/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "23-windowsservercore-ltsc2022",
+      "23-jdk-windowsservercore-ltsc2022",
+      "23.0.1_11-jdk-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "23-nanoserver-ltsc2022",
+      "23-jdk-nanoserver-ltsc2022",
+      "23.0.1_11-jdk-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jdk/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -6047,8 +7358,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "23-jre-alpine",
-      "23.0.1_11-jre-alpine"
+      "23-jre-alpine-3.20",
+      "23.0.1_11-jre-alpine-3.20"
     ],
     "images": [
       {
@@ -6056,9 +7367,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jre/alpine/Dockerfile",
+        "path": "23/jre/alpine/3.20/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -6067,9 +7378,42 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jre/alpine/Dockerfile",
+        "path": "23/jre/alpine/3.20/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "23-jre-alpine",
+      "23-jre-alpine-3.21",
+      "23.0.1_11-jre-alpine",
+      "23.0.1_11-jre-alpine-3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/alpine/3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/alpine/3.21/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -6087,7 +7431,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6098,7 +7442,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6108,7 +7452,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6118,7 +7462,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6128,7 +7472,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6147,7 +7491,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6158,7 +7502,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6168,7 +7512,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6178,7 +7522,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6188,9 +7532,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -6227,7 +7581,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6238,7 +7592,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6248,7 +7602,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6258,7 +7612,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
         "branch": "refs/heads/main"
@@ -6268,9 +7622,19 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubuntu/noble/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -6308,7 +7672,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -6319,7 +7683,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -6329,7 +7693,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -6339,7 +7703,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/ubi/ubi9-minimal/Dockerfile",
         "branch": "refs/heads/main"
@@ -6350,8 +7714,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "23-jre-windowsservercore-ltsc2022",
-      "23.0.1_11-jre-windowsservercore-ltsc2022"
+      "23-jre-windowsservercore-ltsc2025",
+      "23.0.1_11-jre-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -6359,9 +7723,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "path": "23/jre/windows/windowsservercore-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -6373,6 +7737,16 @@
       "23.0.1_11-jre-windowsservercore"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -6407,6 +7781,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/windowsservercore-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/windows/windowsservercore-ltsc2022/Dockerfile",
@@ -6428,8 +7812,8 @@
     "version": "26",
     "name": "eclipse-temurin",
     "tags": [
-      "23-jre-nanoserver-ltsc2022",
-      "23.0.1_11-jre-nanoserver-ltsc2022"
+      "23-jre-nanoserver-ltsc2025",
+      "23.0.1_11-jre-nanoserver-ltsc2025"
     ],
     "images": [
       {
@@ -6437,9 +7821,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
         "repo": "https://github.com/adoptium/containers.git",
-        "path": "23/jre/windows/nanoserver-ltsc2022/Dockerfile",
+        "path": "23/jre/windows/nanoserver-ltsc2025/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -6451,6 +7835,16 @@
       "23.0.1_11-jre-nanoserver"
     ],
     "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
       {
         "platform": {
           "os": "windows",
@@ -6485,6 +7879,16 @@
           "os": "windows",
           "architecture": "amd64"
         },
+        "sha": "a48d4a514dd752611cea7d0b6a3e9da4282550f8",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/nanoserver-ltsc2025/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/windows/nanoserver-ltsc2022/Dockerfile",
@@ -6498,6 +7902,46 @@
         "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
         "repo": "https://github.com/adoptium/containers.git",
         "path": "23/jre/windows/nanoserver-1809/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "23-jre-windowsservercore-ltsc2022",
+      "23.0.1_11-jre-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/windowsservercore-ltsc2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "eclipse-temurin",
+    "tags": [
+      "23-jre-nanoserver-ltsc2022",
+      "23.0.1_11-jre-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "d7a5038edcd8ab08b0babaeae09d0c097453a023",
+        "repo": "https://github.com/adoptium/containers.git",
+        "path": "23/jre/windows/nanoserver-ltsc2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
