@@ -3,763 +3,1129 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "1.24-rc-bookworm",
-      "1.24rc3-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24rc3"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-bullseye",
-      "1.24rc3-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-alpine",
-      "1.24rc3-alpine",
-      "1.24-rc-alpine3.21",
-      "1.24rc3-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.21/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-alpine3.20",
-      "1.24rc3-alpine3.20"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-windowsservercore-ltsc2025",
-      "1.24rc3-windowsservercore-ltsc2025"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24rc3-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-windowsservercore-ltsc2022",
-      "1.24rc3-windowsservercore-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-windowsservercore-1809",
-      "1.24rc3-windowsservercore-1809"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-nanoserver-ltsc2025",
-      "1.24rc3-nanoserver-ltsc2025"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-ltsc2025/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24rc3-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-nanoserver-ltsc2022",
-      "1.24rc3-nanoserver-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.24-rc-nanoserver-1809",
-      "1.24rc3-nanoserver-1809"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "92805c5efacbd31643efec2585e53c1eea3a7fdf",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.24-rc/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
       "bookworm",
       "1-bookworm",
+      "1.24-bookworm",
+      "1.24.0-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1.24.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "bullseye",
+      "1-bullseye",
+      "1.24-bullseye",
+      "1.24.0-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bullseye/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "alpine",
+      "1-alpine",
+      "alpine3.21",
+      "1.24-alpine",
+      "1-alpine3.21",
+      "1.24.0-alpine",
+      "1.24-alpine3.21",
+      "1.24.0-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.21/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "alpine3.20",
+      "1-alpine3.20",
+      "1.24-alpine3.20",
+      "1.24.0-alpine3.20"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/alpine3.20/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "windowsservercore-ltsc2025",
+      "1-windowsservercore-ltsc2025",
+      "1.24-windowsservercore-ltsc2025",
+      "1.24.0-windowsservercore-ltsc2025"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1.24.0-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1.24-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1-windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "windowsservercore"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "windowsservercore-ltsc2022",
+      "1-windowsservercore-ltsc2022",
+      "1.24-windowsservercore-ltsc2022",
+      "1.24.0-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "windowsservercore-1809",
+      "1-windowsservercore-1809",
+      "1.24-windowsservercore-1809",
+      "1.24.0-windowsservercore-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/windowsservercore-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "nanoserver-ltsc2025",
+      "1-nanoserver-ltsc2025",
+      "1.24-nanoserver-ltsc2025",
+      "1.24.0-nanoserver-ltsc2025"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2025/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1.24.0-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1.24-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "1-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2022/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "nanoserver-ltsc2022",
+      "1-nanoserver-ltsc2022",
+      "1.24-nanoserver-ltsc2022",
+      "1.24.0-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
+      "nanoserver-1809",
+      "1-nanoserver-1809",
+      "1.24-nanoserver-1809",
+      "1.24.0-nanoserver-1809"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "04edff02d63505fdac6f0c8b1857b25529713441",
+        "repo": "https://github.com/docker-library/golang.git",
+        "path": "1.24/windows/nanoserver-1809/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "golang",
+    "tags": [
       "1.23-bookworm",
       "1.23.6-bookworm"
     ],
@@ -1037,210 +1403,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "1"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "latest"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "bullseye",
-      "1-bullseye",
       "1.23-bullseye",
       "1.23.6-bullseye"
     ],
@@ -1289,11 +1451,7 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "alpine",
-      "1-alpine",
-      "alpine3.21",
       "1.23-alpine",
-      "1-alpine3.21",
       "1.23.6-alpine",
       "1.23-alpine3.21",
       "1.23.6-alpine3.21"
@@ -1380,8 +1538,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "alpine3.20",
-      "1-alpine3.20",
       "1.23-alpine3.20",
       "1.23.6-alpine3.20"
     ],
@@ -1467,8 +1623,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "windowsservercore-ltsc2025",
-      "1-windowsservercore-ltsc2025",
       "1.23-windowsservercore-ltsc2025",
       "1.23.6-windowsservercore-ltsc2025"
     ],
@@ -1560,80 +1714,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "1-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "windowsservercore-ltsc2022",
-      "1-windowsservercore-ltsc2022",
       "1.23-windowsservercore-ltsc2022",
       "1.23.6-windowsservercore-ltsc2022"
     ],
@@ -1653,8 +1733,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "windowsservercore-1809",
-      "1-windowsservercore-1809",
       "1.23-windowsservercore-1809",
       "1.23.6-windowsservercore-1809"
     ],
@@ -1674,8 +1752,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "nanoserver-ltsc2025",
-      "1-nanoserver-ltsc2025",
       "1.23-nanoserver-ltsc2025",
       "1.23.6-nanoserver-ltsc2025"
     ],
@@ -1767,80 +1843,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "1-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/nanoserver-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/nanoserver-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/nanoserver-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/nanoserver-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.23/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "nanoserver-ltsc2022",
-      "1-nanoserver-ltsc2022",
       "1.23-nanoserver-ltsc2022",
       "1.23.6-nanoserver-ltsc2022"
     ],
@@ -1860,8 +1862,6 @@
     "version": "26",
     "name": "golang",
     "tags": [
-      "nanoserver-1809",
-      "1-nanoserver-1809",
       "1.23-nanoserver-1809",
       "1.23.6-nanoserver-1809"
     ],
@@ -1874,761 +1874,6 @@
         "sha": "63766bb47bd5e6718d7d75fbd821a36704d219f8",
         "repo": "https://github.com/docker-library/golang.git",
         "path": "1.23/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-bookworm",
-      "1.22.12-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22.12"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bookworm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-bullseye",
-      "1.22.12-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-alpine",
-      "1.22.12-alpine",
-      "1.22-alpine3.21",
-      "1.22.12-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.21/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-alpine3.20",
-      "1.22.12-alpine3.20"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/alpine3.20/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-windowsservercore-ltsc2025",
-      "1.22.12-windowsservercore-ltsc2025"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2025/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22.12-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-windowsservercore-ltsc2022",
-      "1.22.12-windowsservercore-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-windowsservercore-1809",
-      "1.22.12-windowsservercore-1809"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/windowsservercore-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-nanoserver-ltsc2025",
-      "1.22.12-nanoserver-ltsc2025"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-ltsc2025/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22.12-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-nanoserver"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-ltsc2022/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-1809/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-nanoserver-ltsc2022",
-      "1.22.12-nanoserver-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "golang",
-    "tags": [
-      "1.22-nanoserver-1809",
-      "1.22.12-nanoserver-1809"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "9a51d2eb6fa7d5804857586aff248405f19b1e34",
-        "repo": "https://github.com/docker-library/golang.git",
-        "path": "1.22/windows/nanoserver-1809/Dockerfile"
       }
     ]
   }
