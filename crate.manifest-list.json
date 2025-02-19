@@ -3,8 +3,8 @@
     "version": "26",
     "name": "crate",
     "tags": [
-      "5.9",
-      "5.9.9",
+      "5.10",
+      "5.10.1",
       "latest"
     ],
     "images": [
@@ -13,7 +13,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5972d59d5a2521ad29ae2f3edd9edad2697e36be",
+        "sha": "a67533302803d0ae05db2e45130f61763f3b4ba4",
         "repo": "https://github.com/crate/docker-crate.git",
         "path": "Dockerfile"
       },
@@ -23,7 +23,36 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5972d59d5a2521ad29ae2f3edd9edad2697e36be",
+        "sha": "a67533302803d0ae05db2e45130f61763f3b4ba4",
+        "repo": "https://github.com/crate/docker-crate.git",
+        "path": "Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "crate",
+    "tags": [
+      "5.9",
+      "5.9.10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dfde86f302893f16d6bdfb029ca3895444b9d6e8",
+        "repo": "https://github.com/crate/docker-crate.git",
+        "path": "Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "dfde86f302893f16d6bdfb029ca3895444b9d6e8",
         "repo": "https://github.com/crate/docker-crate.git",
         "path": "Dockerfile"
       }
