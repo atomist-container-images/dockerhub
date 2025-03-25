@@ -4,6 +4,125 @@
     "name": "sonarqube",
     "tags": [
       "developer",
+      "2025.2-developer",
+      "2025.2.0-developer"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/developer/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/developer/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "enterprise",
+      "2025.2-enterprise",
+      "2025.2.0-enterprise"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "datacenter-app",
+      "2025.2-datacenter-app",
+      "2025.2.0-datacenter-app"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/datacenter/app/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/datacenter/app/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "datacenter-search",
+      "2025.2-datacenter-search",
+      "2025.2.0-datacenter-search"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/datacenter/search/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "2025/datacenter/search/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
       "2025.1-developer",
       "2025-lta-developer",
       "2025.1.1-developer"
@@ -14,7 +133,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/developer/Dockerfile"
       },
@@ -24,7 +143,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/developer/Dockerfile"
       }
@@ -34,7 +153,6 @@
     "version": "26",
     "name": "sonarqube",
     "tags": [
-      "enterprise",
       "2025.1-enterprise",
       "2025-lta-enterprise",
       "2025.1.1-enterprise"
@@ -45,7 +163,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/enterprise/Dockerfile"
       },
@@ -55,7 +173,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/enterprise/Dockerfile"
       }
@@ -65,7 +183,6 @@
     "version": "26",
     "name": "sonarqube",
     "tags": [
-      "datacenter-app",
       "2025.1-datacenter-app",
       "2025-lta-datacenter-app",
       "2025.1.1-datacenter-app"
@@ -76,7 +193,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/datacenter/app/Dockerfile"
       },
@@ -86,7 +203,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/datacenter/app/Dockerfile"
       }
@@ -96,7 +213,6 @@
     "version": "26",
     "name": "sonarqube",
     "tags": [
-      "datacenter-search",
       "2025.1-datacenter-search",
       "2025-lta-datacenter-search",
       "2025.1.1-datacenter-search"
@@ -107,7 +223,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/datacenter/search/Dockerfile"
       },
@@ -117,7 +233,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "2025.1/datacenter/search/Dockerfile"
       }
@@ -169,7 +285,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/community/Dockerfile"
       },
@@ -179,7 +295,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/community/Dockerfile"
       }
@@ -200,7 +316,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/developer/Dockerfile"
       },
@@ -210,7 +326,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/developer/Dockerfile"
       }
@@ -231,7 +347,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/enterprise/Dockerfile"
       },
@@ -241,7 +357,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/enterprise/Dockerfile"
       }
@@ -262,7 +378,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/datacenter/app/Dockerfile"
       },
@@ -272,7 +388,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/datacenter/app/Dockerfile"
       }
@@ -293,7 +409,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/datacenter/search/Dockerfile"
       },
@@ -303,7 +419,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "500fa5278eef556c2404f51191e3d4b1b93ddbce",
+        "sha": "2c5fde2923701623402dbec59369d4fa115f1adb",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "9/datacenter/search/Dockerfile"
       }
