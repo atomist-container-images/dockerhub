@@ -264,6 +264,35 @@
     "version": "26",
     "name": "couchbase",
     "tags": [
+      "7.2.7",
+      "enterprise-7.2.7"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "ae9a971db27050a4da598137fce7bd3d63396c24",
+        "repo": "https://github.com/couchbase/docker.git",
+        "path": "enterprise/couchbase-server/7.2.7/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "ae9a971db27050a4da598137fce7bd3d63396c24",
+        "repo": "https://github.com/couchbase/docker.git",
+        "path": "enterprise/couchbase-server/7.2.7/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "couchbase",
+    "tags": [
       "7.2.6",
       "enterprise-7.2.6"
     ],
