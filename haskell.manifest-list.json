@@ -4,9 +4,75 @@
     "name": "haskell",
     "tags": [
       "9",
+      "9.12",
+      "9.12.2",
+      "latest",
+      "bookworm",
+      "9-bookworm",
+      "9.12-bookworm",
+      "9.12.2-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.12/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.12/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "slim",
+      "9-slim",
+      "slim-bookworm",
+      "9-slim-bookworm",
+      "9.12-slim-bookworm",
+      "9.12.2-slim-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.12/slim-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.12/slim-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
       "9.10",
       "9.10.1",
-      "latest",
       "bullseye",
       "9-bullseye",
       "9.10-bullseye",
@@ -18,7 +84,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.10/bullseye/Dockerfile"
       },
@@ -28,7 +94,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.10/bullseye/Dockerfile"
       }
@@ -38,8 +104,6 @@
     "version": "26",
     "name": "haskell",
     "tags": [
-      "slim",
-      "9-slim",
       "slim-bullseye",
       "9-slim-bullseye",
       "9.10-slim-bullseye",
@@ -51,7 +115,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.10/slim-bullseye/Dockerfile"
       },
@@ -61,7 +125,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.10/slim-bullseye/Dockerfile"
       }
@@ -82,7 +146,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.8/bullseye/Dockerfile"
       },
@@ -92,7 +156,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.8/bullseye/Dockerfile"
       }
@@ -113,7 +177,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.8/slim-bullseye/Dockerfile"
       },
@@ -123,7 +187,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.8/slim-bullseye/Dockerfile"
       }
@@ -134,9 +198,9 @@
     "name": "haskell",
     "tags": [
       "9.6",
-      "9.6.6",
+      "9.6.7",
       "9.6-bullseye",
-      "9.6.6-bullseye"
+      "9.6.7-bullseye"
     ],
     "images": [
       {
@@ -144,7 +208,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.6/bullseye/Dockerfile"
       },
@@ -154,7 +218,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.6/bullseye/Dockerfile"
       }
@@ -165,9 +229,9 @@
     "name": "haskell",
     "tags": [
       "9.6-slim",
-      "9.6.6-slim",
+      "9.6.7-slim",
       "9.6-slim-bullseye",
-      "9.6.6-slim-bullseye"
+      "9.6.7-slim-bullseye"
     ],
     "images": [
       {
@@ -175,7 +239,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.6/slim-bullseye/Dockerfile"
       },
@@ -185,7 +249,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "68ddf626a38f6e76a81df168d1e24bd778b17bef",
+        "sha": "e7f56b0064dea2d53541ca85a9b2d2cb82cf8c13",
         "repo": "https://github.com/haskell/docker-haskell.git",
         "path": "9.6/slim-bullseye/Dockerfile"
       }
