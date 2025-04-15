@@ -3,10 +3,150 @@
     "version": "26",
     "name": "jruby",
     "tags": [
+      "10",
+      "10.0",
+      "10.0.0",
+      "latest",
+      "10.0-jre",
+      "10.0.0.0",
+      "10.0-jre21",
+      "10.0.0-jre",
+      "10.0.0-jre21",
+      "10.0.0.0-jre",
+      "10.0.0.0-jre21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jre21/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jre21/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jruby",
+    "tags": [
+      "10-jdk",
+      "10-jdk21",
+      "10.0-jdk",
+      "10.0-jdk21",
+      "10.0.0-jdk",
+      "10.0.0-jdk21",
+      "10.0.0.0-jdk",
+      "10.0.0.0-jdk21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jdk21/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jdk21/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jruby",
+    "tags": [
+      "10.0-jre24",
+      "10.0.0-jre24",
+      "10.0.0.0-jre24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jre24/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jre24/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jruby",
+    "tags": [
+      "10.0-jdk24",
+      "10.0.0-jdk24",
+      "10.0.0.0-jdk24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jdk24/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
+        "repo": "https://github.com/jruby/docker-jruby.git",
+        "path": "10.0/jdk24/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jruby",
+    "tags": [
       "9",
       "9.4",
       "9.4.12",
-      "latest",
       "9.4-jre",
       "9.4-jre8",
       "9.4.12.0",
@@ -21,7 +161,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre8/Dockerfile",
         "branch": "refs/heads/master"
@@ -32,7 +172,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre8/Dockerfile",
         "branch": "refs/heads/master"
@@ -58,7 +198,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk8/Dockerfile",
         "branch": "refs/heads/master"
@@ -69,7 +209,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk8/Dockerfile",
         "branch": "refs/heads/master"
@@ -90,7 +230,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre11/Dockerfile",
         "branch": "refs/heads/master"
@@ -101,7 +241,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre11/Dockerfile",
         "branch": "refs/heads/master"
@@ -122,7 +262,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -133,7 +273,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -154,7 +294,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -165,7 +305,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -186,7 +326,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre17/Dockerfile",
         "branch": "refs/heads/master"
@@ -197,7 +337,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre17/Dockerfile",
         "branch": "refs/heads/master"
@@ -218,7 +358,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -229,7 +369,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -250,7 +390,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre21/Dockerfile",
         "branch": "refs/heads/master"
@@ -261,7 +401,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.4/jre21/Dockerfile",
         "branch": "refs/heads/master"
@@ -288,7 +428,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre8/Dockerfile",
         "branch": "refs/heads/master"
@@ -299,7 +439,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre8/Dockerfile",
         "branch": "refs/heads/master"
@@ -323,7 +463,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk8/Dockerfile",
         "branch": "refs/heads/master"
@@ -334,7 +474,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk8/Dockerfile",
         "branch": "refs/heads/master"
@@ -355,7 +495,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre11/Dockerfile",
         "branch": "refs/heads/master"
@@ -366,7 +506,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre11/Dockerfile",
         "branch": "refs/heads/master"
@@ -387,7 +527,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -398,7 +538,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -419,7 +559,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -430,7 +570,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -451,7 +591,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre17/Dockerfile",
         "branch": "refs/heads/master"
@@ -462,7 +602,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre17/Dockerfile",
         "branch": "refs/heads/master"
@@ -483,7 +623,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -494,7 +634,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -515,7 +655,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre21/Dockerfile",
         "branch": "refs/heads/master"
@@ -526,7 +666,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "a35def8fa9a00387097d745c38c5a66be4494a32",
+        "sha": "6a11b439ed2d0d11dfe7258ae3910eb0a28f1096",
         "repo": "https://github.com/jruby/docker-jruby.git",
         "path": "9.3/jre21/Dockerfile",
         "branch": "refs/heads/master"
