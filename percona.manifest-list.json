@@ -30,8 +30,8 @@
     "version": "26",
     "name": "percona",
     "tags": [
-      "psmdb-7.0",
-      "psmdb-7.0.15"
+      "psmdb-8.0",
+      "psmdb-8.0.4"
     ],
     "images": [
       {
@@ -39,7 +39,27 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
+        "sha": "01836bbd1b62ad6ee28226986b2d7fff660523b6",
+        "repo": "https://github.com/percona/percona-docker.git",
+        "path": "percona-server-mongodb-8.0/Dockerfile-dockerhub",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "percona",
+    "tags": [
+      "psmdb-7.0",
+      "psmdb-7.0.16"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "01836bbd1b62ad6ee28226986b2d7fff660523b6",
         "repo": "https://github.com/percona/percona-docker.git",
         "path": "percona-server-mongodb-7.0/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
@@ -51,7 +71,7 @@
     "name": "percona",
     "tags": [
       "psmdb-6.0",
-      "psmdb-6.0.19"
+      "psmdb-6.0.21"
     ],
     "images": [
       {
@@ -59,29 +79,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
+        "sha": "01836bbd1b62ad6ee28226986b2d7fff660523b6",
         "repo": "https://github.com/percona/percona-docker.git",
         "path": "percona-server-mongodb-6.0/Dockerfile-dockerhub",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "percona",
-    "tags": [
-      "psmdb-5.0",
-      "psmdb-5.0.29"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "5640bc536e5ce7d1559fc4f28868fda941bbaf1d",
-        "repo": "https://github.com/percona/percona-docker.git",
-        "path": "percona-server-mongodb-5.0/Dockerfile-dockerhub",
         "branch": "refs/heads/main"
       }
     ]
