@@ -3,11 +3,81 @@
     "version": "26",
     "name": "gcc",
     "tags": [
+      "15",
+      "15.1",
+      "15.1.0",
+      "latest",
+      "bookworm",
+      "15-bookworm",
+      "15.1-bookworm",
+      "15.1.0-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a842bfea737b1127a922a27d768df7e382f740af",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "15/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "a842bfea737b1127a922a27d768df7e382f740af",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "15/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "a842bfea737b1127a922a27d768df7e382f740af",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "15/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a842bfea737b1127a922a27d768df7e382f740af",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "15/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "a842bfea737b1127a922a27d768df7e382f740af",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "15/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "a842bfea737b1127a922a27d768df7e382f740af",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "15/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gcc",
+    "tags": [
       "14",
       "14.2",
       "14.2.0",
-      "latest",
-      "bookworm",
       "14-bookworm",
       "14.2-bookworm",
       "14.2.0-bookworm"
