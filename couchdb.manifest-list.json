@@ -4,8 +4,8 @@
     "name": "couchdb",
     "tags": [
       "3",
-      "3.4",
-      "3.4.3",
+      "3.5",
+      "3.5.0",
       "latest"
     ],
     "images": [
@@ -14,9 +14,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
         "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.4.3/Dockerfile",
+        "path": "3.5.0/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -25,9 +25,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
         "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.4.3/Dockerfile",
+        "path": "3.5.0/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -35,9 +35,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
         "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.4.3/Dockerfile",
+        "path": "3.5.0/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -47,6 +47,88 @@
     "name": "couchdb",
     "tags": [
       "3-nouveau",
+      "3.5-nouveau",
+      "3.5.0-nouveau"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
+        "repo": "https://github.com/apache/couchdb-docker.git",
+        "path": "3.5.0-nouveau/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
+        "repo": "https://github.com/apache/couchdb-docker.git",
+        "path": "3.5.0-nouveau/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
+        "repo": "https://github.com/apache/couchdb-docker.git",
+        "path": "3.5.0-nouveau/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "couchdb",
+    "tags": [
+      "3.4",
+      "3.4.3"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
+        "repo": "https://github.com/apache/couchdb-docker.git",
+        "path": "3.4.3/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
+        "repo": "https://github.com/apache/couchdb-docker.git",
+        "path": "3.4.3/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
+        "repo": "https://github.com/apache/couchdb-docker.git",
+        "path": "3.4.3/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "couchdb",
+    "tags": [
       "3.4-nouveau",
       "3.4.3-nouveau"
     ],
@@ -56,7 +138,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
         "repo": "https://github.com/apache/couchdb-docker.git",
         "path": "3.4.3-nouveau/Dockerfile",
         "branch": "refs/heads/main"
@@ -67,7 +149,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
         "repo": "https://github.com/apache/couchdb-docker.git",
         "path": "3.4.3-nouveau/Dockerfile",
         "branch": "refs/heads/main"
@@ -77,60 +159,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
+        "sha": "2660034027fec97097f88afcc6f8a4416c364b24",
         "repo": "https://github.com/apache/couchdb-docker.git",
         "path": "3.4.3-nouveau/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "couchdb",
-    "tags": [
-      "3.3",
-      "3.3.3"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
-        "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.3.3/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
-        "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.3.3/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
-        "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.3.3/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "8a7dfc18fe8a9ba55a1c544ee3416f945dbb94ad",
-        "repo": "https://github.com/apache/couchdb-docker.git",
-        "path": "3.3.3/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
