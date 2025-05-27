@@ -105,6 +105,110 @@
     "version": "26",
     "name": "almalinux",
     "tags": [
+      "10",
+      "10.0",
+      "10.0-20250527"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/amd64/Dockerfile",
+        "branch": "refs/heads/10"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/arm64/Dockerfile",
+        "branch": "refs/heads/10"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/ppc64le/Dockerfile",
+        "branch": "refs/heads/10"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "default/s390x/Dockerfile",
+        "branch": "refs/heads/10"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "almalinux",
+    "tags": [
+      "10-minimal",
+      "10.0-minimal",
+      "10.0-minimal-20250527"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/amd64/Dockerfile",
+        "branch": "refs/heads/10"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/arm64/Dockerfile",
+        "branch": "refs/heads/10"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/ppc64le/Dockerfile",
+        "branch": "refs/heads/10"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "1864a779d7e0eb6345de3ff5fc464314224e19fe",
+        "repo": "https://github.com/AlmaLinux/container-images.git",
+        "path": "minimal/s390x/Dockerfile",
+        "branch": "refs/heads/10"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "almalinux",
+    "tags": [
       "8",
       "8.10",
       "8.10-20250519"
@@ -212,7 +316,7 @@
       "9",
       "9.6",
       "latest",
-      "9.6-20250520"
+      "9.6-20250527"
     ],
     "images": [
       {
@@ -220,7 +324,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "default/amd64/Dockerfile",
         "branch": "refs/heads/9"
@@ -231,7 +335,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "default/arm64/Dockerfile",
         "branch": "refs/heads/9"
@@ -241,7 +345,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "default/ppc64le/Dockerfile",
         "branch": "refs/heads/9"
@@ -251,7 +355,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "default/s390x/Dockerfile",
         "branch": "refs/heads/9"
@@ -265,7 +369,7 @@
       "minimal",
       "9-minimal",
       "9.6-minimal",
-      "9.6-minimal-20250520"
+      "9.6-minimal-20250527"
     ],
     "images": [
       {
@@ -273,7 +377,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "minimal/amd64/Dockerfile",
         "branch": "refs/heads/9"
@@ -284,7 +388,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "minimal/arm64/Dockerfile",
         "branch": "refs/heads/9"
@@ -294,7 +398,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "minimal/ppc64le/Dockerfile",
         "branch": "refs/heads/9"
@@ -304,7 +408,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "411c4c906cf1dc7664b30d5c34e2b7e9a273b80e",
+        "sha": "d8e55638e1ddeabf27e53b135b7a90ea96c07076",
         "repo": "https://github.com/AlmaLinux/container-images.git",
         "path": "minimal/s390x/Dockerfile",
         "branch": "refs/heads/9"
