@@ -3,82 +3,9 @@
     "version": "26",
     "name": "ubuntu",
     "tags": [
-      "20.04",
-      "focal",
-      "focal-20250404"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "fb4da0956290c3b216a35315510f66ca9bc4a460",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "oci/index.json",
-        "branch": "refs/tags/dist-focal-amd64-20250404-fb4da095"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "42f1d4c77bdc88fdac0bc8619c44407849c894e7",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "oci/index.json",
-        "branch": "refs/tags/dist-focal-arm32v7-20250404-42f1d4c7"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "a6dd2789be3295aea7509403d16d425057e8a2fe",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "oci/index.json",
-        "branch": "refs/tags/dist-focal-arm64v8-20250404-a6dd2789"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "ca076a80fd5feb15e0b7233a004c30acb4b2d4b8",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "oci/index.json",
-        "branch": "refs/tags/dist-focal-ppc64le-20250404-ca076a80"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "1dabcee8c70cb7f5d3887c93a3e34a927309680b",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "oci/index.json",
-        "branch": "refs/tags/dist-focal-riscv64-20250404-1dabcee8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "1445752abc1f6cf5ef19ff0addf4dad38288a9ee",
-        "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
-        "path": "oci/index.json",
-        "branch": "refs/tags/dist-focal-s390x-20250404-1445752a"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ubuntu",
-    "tags": [
       "22.04",
       "jammy",
-      "jammy-20250415.1"
+      "jammy-20250530"
     ],
     "images": [
       {
@@ -86,10 +13,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "518e3d0d114aa4029b5c8889611a4639a501f224",
+        "sha": "202257f3f1e712e9b2e4e9d66d68e028cbed990c",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-jammy-amd64-20250415.1-518e3d0d"
+        "branch": "refs/tags/dist-jammy-amd64-20250530-202257f3"
       },
       {
         "platform": {
@@ -97,10 +24,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "919f0652f42555e2caaa9ec5986ea2d799a7f08b",
+        "sha": "a3120a5600f27a6ee29e8193d0c6ea010a9170ed",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-jammy-arm32v7-20250415.1-919f0652"
+        "branch": "refs/tags/dist-jammy-arm32v7-20250530-a3120a56"
       },
       {
         "platform": {
@@ -108,40 +35,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "64d54350c6a2da561ea0d418f1fd7f7b71f26c92",
+        "sha": "8be79ec88e25d4106852f1854ec304216c90fd03",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-jammy-arm64v8-20250415.1-64d54350"
+        "branch": "refs/tags/dist-jammy-arm64v8-20250530-8be79ec8"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2e14eb60ae8170410e293aa9e4cef7c35376bdc5",
+        "sha": "f403a06913fc1fded74a943cbc2d9c34d3d39090",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-jammy-ppc64le-20250415.1-2e14eb60"
+        "branch": "refs/tags/dist-jammy-ppc64le-20250530-f403a069"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "208c9c8032f89e11edbe6f1e72e1fe732fa6885c",
+        "sha": "7831da7d44d905120e101de71ed171aecc1eaf1c",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-jammy-riscv64-20250415.1-208c9c80"
+        "branch": "refs/tags/dist-jammy-riscv64-20250530-7831da7d"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "0ec6da667499d8054da86bf1c16ee155eb92e169",
+        "sha": "b9751df80005c1402fb7ee16970e421079356469",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-jammy-s390x-20250415.1-0ec6da66"
+        "branch": "refs/tags/dist-jammy-s390x-20250530-b9751df8"
       }
     ]
   },
@@ -152,7 +79,7 @@
       "24.04",
       "noble",
       "latest",
-      "noble-20250415.1"
+      "noble-20250529"
     ],
     "images": [
       {
@@ -160,10 +87,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7c6f26288103e61ee50f3ac157815ba70bb3435d",
+        "sha": "222144abd5860a6d8ef142eb47fe61d8367cefdb",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-noble-amd64-20250415.1-7c6f2628"
+        "branch": "refs/tags/dist-noble-amd64-20250529-222144ab"
       },
       {
         "platform": {
@@ -171,10 +98,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "41f796f3ac22b25fdaa99939b78c5f7fd3c60364",
+        "sha": "52db21a98443a0358c4ef2183b04c00b02edddf5",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-noble-arm32v7-20250415.1-41f796f3"
+        "branch": "refs/tags/dist-noble-arm32v7-20250529-52db21a9"
       },
       {
         "platform": {
@@ -182,40 +109,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "023ffcdcce247852e8769f87bef6d729976337bc",
+        "sha": "7f9e3678bbb51c31998451a821ec0a8c0577e07d",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-noble-arm64v8-20250415.1-023ffcdc"
+        "branch": "refs/tags/dist-noble-arm64v8-20250529-7f9e3678"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f95945a0d7aa8a5ac7a95290d1ce411b7aac1978",
+        "sha": "bf4b5dedefa352762005b6ccbd1660e2ceff385c",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-noble-ppc64le-20250415.1-f95945a0"
+        "branch": "refs/tags/dist-noble-ppc64le-20250529-bf4b5ded"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "fb07dd2fc0da340345892ad6d71b8fb6b3a2ce1b",
+        "sha": "5a3de8de66675de2a40e7cef62cc5bce65891523",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-noble-riscv64-20250415.1-fb07dd2f"
+        "branch": "refs/tags/dist-noble-riscv64-20250529-5a3de8de"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "97144ec97dc4c61adf6416aef942e170fb7c695a",
+        "sha": "910f78de301c8da13f966097bf15fc9a88d30b4e",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-noble-s390x-20250415.1-97144ec9"
+        "branch": "refs/tags/dist-noble-s390x-20250529-910f78de"
       }
     ]
   },
@@ -225,7 +152,7 @@
     "tags": [
       "24.10",
       "oracular",
-      "oracular-20250225"
+      "oracular-20250428"
     ],
     "images": [
       {
@@ -233,10 +160,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "71a591b63518c11abbccce5c648ce23d9a55c63b",
+        "sha": "c68b0ce815238e8edacf842c439d3df2fa026b5e",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-oracular-amd64-20250225-71a591b6"
+        "branch": "refs/tags/dist-oracular-amd64-20250428-c68b0ce8"
       },
       {
         "platform": {
@@ -244,10 +171,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "afcecf8a2a8856d9f6cc4fdb09ce13cce670b61b",
+        "sha": "9e1100f806787756a88cc68522f705390e7c5d97",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-oracular-arm32v7-20250225-afcecf8a"
+        "branch": "refs/tags/dist-oracular-arm32v7-20250428-9e1100f8"
       },
       {
         "platform": {
@@ -255,40 +182,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b04a6b91d89307d15473186168ccf0f7124695b9",
+        "sha": "539b9392b81fa8c77f9f9baf6282e8c105e582f6",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-oracular-arm64v8-20250225-b04a6b91"
+        "branch": "refs/tags/dist-oracular-arm64v8-20250428-539b9392"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "a35f8f21c1183abaf1baa0fadbf4c29c2bccba3e",
+        "sha": "9a1a42661e5d8d9e21876c9ced779122130c6f72",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-oracular-ppc64le-20250225-a35f8f21"
+        "branch": "refs/tags/dist-oracular-ppc64le-20250428-9a1a4266"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "85ebea43484a3701ec4cfa453f4194f9e1151b00",
+        "sha": "369bd68cd40f5e15c0c731991f4fb3298f600a4f",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-oracular-riscv64-20250225-85ebea43"
+        "branch": "refs/tags/dist-oracular-riscv64-20250428-369bd68c"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "e3a1931d7b5cdb43015880230ee9889647c18030",
+        "sha": "b2706575c8af1e6817a5f8887e0090c2c123a69b",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-oracular-s390x-20250225-e3a1931d"
+        "branch": "refs/tags/dist-oracular-s390x-20250428-b2706575"
       }
     ]
   },
@@ -299,7 +226,7 @@
       "25.04",
       "plucky",
       "rolling",
-      "plucky-20250415"
+      "plucky-20250521"
     ],
     "images": [
       {
@@ -307,10 +234,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9aa542b421288860569e4375a11053227643ddf8",
+        "sha": "f96cf5be5b7e848059b5a9297fdbc15fa9a46e8d",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-plucky-amd64-20250415-9aa542b4"
+        "branch": "refs/tags/dist-plucky-amd64-20250521-f96cf5be"
       },
       {
         "platform": {
@@ -318,10 +245,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "ee04476ae9ddbc067461c42d480439bf2c2cab3b",
+        "sha": "7a55f95ff0b2b292936e19b2d6cc51f6005d8c73",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-plucky-arm32v7-20250415-ee04476a"
+        "branch": "refs/tags/dist-plucky-arm32v7-20250521-7a55f95f"
       },
       {
         "platform": {
@@ -329,40 +256,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "345a63e68bb263eb6ccfdf0c99f556a7d4fbc896",
+        "sha": "57fe53ce783918fb15111430c9c0097943713400",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-plucky-arm64v8-20250415-345a63e6"
+        "branch": "refs/tags/dist-plucky-arm64v8-20250521-57fe53ce"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7cbe67f685953cb999df580cf248d5b8a72dea6e",
+        "sha": "60dfce5b812d63d7e03955840846960af13486ba",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-plucky-ppc64le-20250415-7cbe67f6"
+        "branch": "refs/tags/dist-plucky-ppc64le-20250521-60dfce5b"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "d3eb4cc9c3ff385528ab19ae261172da01802f2e",
+        "sha": "54236627ec0e3284c74757361385b3581f055c67",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-plucky-riscv64-20250415-d3eb4cc9"
+        "branch": "refs/tags/dist-plucky-riscv64-20250521-54236627"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "357fe902e1025a47cfcf0fd0b7532378d994ea55",
+        "sha": "2ef3cbe6770037121bd813bfbf4a7abfeeadf86e",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-plucky-s390x-20250415-357fe902"
+        "branch": "refs/tags/dist-plucky-s390x-20250521-2ef3cbe6"
       }
     ]
   },
@@ -373,7 +300,7 @@
       "25.10",
       "devel",
       "questing",
-      "questing-20250514"
+      "questing-20250601"
     ],
     "images": [
       {
@@ -381,10 +308,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fdfe5cc8f8ad756c85ece74b2d96318dc7334468",
+        "sha": "0b88f99700c9869cad822402a402f3798e3a935b",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-questing-amd64-20250514-fdfe5cc8"
+        "branch": "refs/tags/dist-questing-amd64-20250601-0b88f997"
       },
       {
         "platform": {
@@ -392,10 +319,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "8190732f3c96cfcfb6f07e406069482ae1fb787f",
+        "sha": "9bdf3601a2d7206a989ee21765a487ef9e77d8c7",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-questing-arm32v7-20250514-8190732f"
+        "branch": "refs/tags/dist-questing-arm32v7-20250601-9bdf3601"
       },
       {
         "platform": {
@@ -403,40 +330,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "90ad928120ccb46c081ed69e7d624322ea283ab2",
+        "sha": "c53a2d426737acbb127a362d92ad6a4f9834e5ea",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-questing-arm64v8-20250514-90ad9281"
+        "branch": "refs/tags/dist-questing-arm64v8-20250601-c53a2d42"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "0c6e487e80cda411b1354d79115e827d6661ad20",
+        "sha": "f6535cb8e6565d6ee09619cc0f8a708eafff1484",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-questing-ppc64le-20250514-0c6e487e"
+        "branch": "refs/tags/dist-questing-ppc64le-20250601-f6535cb8"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "7a20f1f4fcb0815d720705a998b2455a44245d0e",
+        "sha": "99b88e63516d21140eb96d9110d8e503c9177e20",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-questing-riscv64-20250514-7a20f1f4"
+        "branch": "refs/tags/dist-questing-riscv64-20250601-99b88e63"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "344437b2f87a33e8a91be9e1748621b8456c32df",
+        "sha": "826bc81ac710fdd34c9fcc6aedcfd2c78fd28df9",
         "repo": "https://git.launchpad.net/cloud-images/+oci/ubuntu-base.git",
         "path": "oci/index.json",
-        "branch": "refs/tags/dist-questing-s390x-20250514-344437b2"
+        "branch": "refs/tags/dist-questing-s390x-20250601-826bc81a"
       }
     ]
   }
