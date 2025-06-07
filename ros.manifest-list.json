@@ -3,8 +3,8 @@
     "version": "26",
     "name": "ros",
     "tags": [
-      "noetic-ros-core",
-      "noetic-ros-core-focal"
+      "indigo-ros-core",
+      "indigo-ros-core-trusty"
     ],
     "images": [
       {
@@ -12,9 +12,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b525e9ef659ce448db6150fd5407ef62b2c5b265",
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/ros-core/Dockerfile"
+        "path": "ros/indigo/ubuntu/trusty/ros-core/Dockerfile"
       },
       {
         "platform": {
@@ -22,19 +22,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b525e9ef659ce448db6150fd5407ef62b2c5b265",
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/ros-core/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "b525e9ef659ce448db6150fd5407ef62b2c5b265",
-        "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/ros-core/Dockerfile"
+        "path": "ros/indigo/ubuntu/trusty/ros-core/Dockerfile"
       }
     ]
   },
@@ -42,9 +32,9 @@
     "version": "26",
     "name": "ros",
     "tags": [
-      "noetic",
-      "noetic-ros-base",
-      "noetic-ros-base-focal"
+      "indigo",
+      "indigo-ros-base",
+      "indigo-ros-base-trusty"
     ],
     "images": [
       {
@@ -52,9 +42,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "sha": "20061b005b245d1b7e23626afd0ea2c39de9db49",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/ros-base/Dockerfile"
+        "path": "ros/indigo/ubuntu/trusty/ros-base/Dockerfile"
       },
       {
         "platform": {
@@ -62,19 +52,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "sha": "20061b005b245d1b7e23626afd0ea2c39de9db49",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/ros-base/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
-        "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/ros-base/Dockerfile"
+        "path": "ros/indigo/ubuntu/trusty/ros-base/Dockerfile"
       }
     ]
   },
@@ -82,8 +62,8 @@
     "version": "26",
     "name": "ros",
     "tags": [
-      "noetic-robot",
-      "noetic-robot-focal"
+      "indigo-robot",
+      "indigo-robot-trusty"
     ],
     "images": [
       {
@@ -91,9 +71,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "sha": "20061b005b245d1b7e23626afd0ea2c39de9db49",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/robot/Dockerfile"
+        "path": "ros/indigo/ubuntu/trusty/robot/Dockerfile"
       },
       {
         "platform": {
@@ -101,19 +81,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "sha": "20061b005b245d1b7e23626afd0ea2c39de9db49",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/robot/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
-        "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/robot/Dockerfile"
+        "path": "ros/indigo/ubuntu/trusty/robot/Dockerfile"
       }
     ]
   },
@@ -121,8 +91,194 @@
     "version": "26",
     "name": "ros",
     "tags": [
-      "noetic-perception",
-      "noetic-perception-focal"
+      "indigo-perception",
+      "indigo-perception-trusty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "20061b005b245d1b7e23626afd0ea2c39de9db49",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/indigo/ubuntu/trusty/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "20061b005b245d1b7e23626afd0ea2c39de9db49",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/indigo/ubuntu/trusty/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "jade-ros-core",
+      "jade-ros-core-trusty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "jade",
+      "jade-ros-base",
+      "jade-ros-base-trusty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dbda2abfbee89ebab4b33bdb1cfaec6dc36a3822",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "dbda2abfbee89ebab4b33bdb1cfaec6dc36a3822",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "jade-robot",
+      "jade-robot-trusty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dbda2abfbee89ebab4b33bdb1cfaec6dc36a3822",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "dbda2abfbee89ebab4b33bdb1cfaec6dc36a3822",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/robot/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "jade-perception",
+      "jade-perception-trusty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "dbda2abfbee89ebab4b33bdb1cfaec6dc36a3822",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "dbda2abfbee89ebab4b33bdb1cfaec6dc36a3822",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/jade/ubuntu/trusty/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "kinetic-ros-core",
+      "kinetic-ros-core-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "kinetic",
+      "kinetic-ros-base",
+      "kinetic-ros-base-xenial"
     ],
     "images": [
       {
@@ -132,7 +288,7 @@
         },
         "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/perception/Dockerfile"
+        "path": "ros/kinetic/ubuntu/xenial/ros-base/Dockerfile"
       },
       {
         "platform": {
@@ -142,7 +298,7 @@
         },
         "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/perception/Dockerfile"
+        "path": "ros/kinetic/ubuntu/xenial/ros-base/Dockerfile"
       },
       {
         "platform": {
@@ -152,7 +308,1114 @@
         },
         "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
         "repo": "https://github.com/osrf/docker_images.git",
-        "path": "ros/noetic/ubuntu/focal/perception/Dockerfile"
+        "path": "ros/kinetic/ubuntu/xenial/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "kinetic-robot",
+      "kinetic-robot-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/robot/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "kinetic-perception",
+      "kinetic-perception-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/kinetic/ubuntu/xenial/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-ros-core",
+      "lunar-ros-core-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar",
+      "lunar-ros-base",
+      "lunar-ros-base-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-robot",
+      "lunar-robot-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/robot/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-perception",
+      "lunar-perception-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d81c0004d43383a6cd0f7b5a9b3020300f3cb1ca",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/xenial/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-ros-core-zesty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/zesty/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-ros-base-zesty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4cfa1c7fd7e4f6ec638d1615f12133edbc100731",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/zesty/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-robot-zesty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4cfa1c7fd7e4f6ec638d1615f12133edbc100731",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/zesty/robot/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lunar-perception-zesty"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4cfa1c7fd7e4f6ec638d1615f12133edbc100731",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lunar/ubuntu/zesty/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "melodic-ros-core",
+      "melodic-ros-core-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "melodic",
+      "melodic-ros-base",
+      "melodic-ros-base-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "melodic-robot",
+      "melodic-robot-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/robot/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "melodic-perception",
+      "melodic-perception-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/melodic/ubuntu/bionic/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "noetic-ros-core-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "noetic-ros-base-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "noetic-robot-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/robot/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/robot/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "noetic-perception-buster"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/noetic/debian/buster/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "ardent-ros-core",
+      "ardent-ros-core-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/ardent/ubuntu/xenial/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/ardent/ubuntu/xenial/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "ardent",
+      "ardent-ros-base",
+      "ardent-ros-base-xenial"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9619e8b2fedc763707c07bd5568f2401bfc5b117",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/ardent/ubuntu/xenial/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9619e8b2fedc763707c07bd5568f2401bfc5b117",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/ardent/ubuntu/xenial/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "bouncy-ros-core",
+      "bouncy-ros-core-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/bouncy/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/bouncy/ubuntu/bionic/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "bouncy",
+      "bouncy-ros-base",
+      "bouncy-ros-base-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9619e8b2fedc763707c07bd5568f2401bfc5b117",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/bouncy/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9619e8b2fedc763707c07bd5568f2401bfc5b117",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/bouncy/ubuntu/bionic/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "crystal-ros-core",
+      "crystal-ros-core-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/crystal/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "51ba1c72c513b62e8825c3df015ca4d926ac688c",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/crystal/ubuntu/bionic/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "crystal",
+      "crystal-ros-base",
+      "crystal-ros-base-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9619e8b2fedc763707c07bd5568f2401bfc5b117",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/crystal/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9619e8b2fedc763707c07bd5568f2401bfc5b117",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/crystal/ubuntu/bionic/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "dashing-ros-core",
+      "dashing-ros-core-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "dashing",
+      "dashing-ros-base",
+      "dashing-ros-base-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "dashing-ros1-bridge",
+      "dashing-ros1-bridge-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "87074e54828d12dacf84f15273e95e03eeb17d24",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros1-bridge/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "87074e54828d12dacf84f15273e95e03eeb17d24",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros1-bridge/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "87074e54828d12dacf84f15273e95e03eeb17d24",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/dashing/ubuntu/bionic/ros1-bridge/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "eloquent-ros-core",
+      "eloquent-ros-core-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3b5cbe2c25b25fa2b5acc9770f5f0b71143f864d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3b5cbe2c25b25fa2b5acc9770f5f0b71143f864d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3b5cbe2c25b25fa2b5acc9770f5f0b71143f864d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "eloquent",
+      "eloquent-ros-base",
+      "eloquent-ros-base-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b3e79c3aef3687b56b3c1052ae38aa7010234834",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "b3e79c3aef3687b56b3c1052ae38aa7010234834",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b3e79c3aef3687b56b3c1052ae38aa7010234834",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "eloquent-ros1-bridge",
+      "eloquent-ros1-bridge-bionic"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3b5cbe2c25b25fa2b5acc9770f5f0b71143f864d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros1-bridge/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "3b5cbe2c25b25fa2b5acc9770f5f0b71143f864d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros1-bridge/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "3b5cbe2c25b25fa2b5acc9770f5f0b71143f864d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/eloquent/ubuntu/bionic/ros1-bridge/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "foxy-ros-core",
+      "foxy-ros-core-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/foxy/ubuntu/focal/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/foxy/ubuntu/focal/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "foxy",
+      "foxy-ros-base",
+      "foxy-ros-base-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/foxy/ubuntu/focal/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "df19ab7d5993d3b78a908362cdcd1479a8e78b35",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/foxy/ubuntu/focal/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "galactic-ros-core",
+      "galactic-ros-core-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/galactic/ubuntu/focal/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9ab23751d41735b448da8cfa1580958279ae5101",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/galactic/ubuntu/focal/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "galactic",
+      "galactic-ros-base",
+      "galactic-ros-base-focal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6511d8fc0754616550b7f5ea31a40084c2462938",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/galactic/ubuntu/focal/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6511d8fc0754616550b7f5ea31a40084c2462938",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/galactic/ubuntu/focal/ros-base/Dockerfile"
       }
     ]
   },
@@ -241,6 +1504,94 @@
         "sha": "20d40c96b426b8956dec203e236abff2ec29b188",
         "repo": "https://github.com/osrf/docker_images.git",
         "path": "ros/humble/ubuntu/jammy/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "iron-ros-core",
+      "iron-ros-core-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2ad854492209b8dbab303578a5baedab4d5ab41d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2ad854492209b8dbab303578a5baedab4d5ab41d",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "iron",
+      "iron-ros-base",
+      "iron-ros-base-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "iron-perception",
+      "iron-perception-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "bca53bf4c09d771be3ff735da4157203b53ebc2b",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/iron/ubuntu/jammy/perception/Dockerfile"
       }
     ]
   },
