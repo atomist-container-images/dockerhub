@@ -1426,6 +1426,41 @@
     "version": "26",
     "name": "maven",
     "tags": [
+      "3-amazoncorretto-24-debian",
+      "3.9-amazoncorretto-24-debian",
+      "3.9.10-amazoncorretto-24-debian",
+      "3-amazoncorretto-24-debian-bookworm",
+      "3.9-amazoncorretto-24-debian-bookworm",
+      "3.9.10-amazoncorretto-24-debian-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e5a0f8fd8b06d35e932faa6285a1998f40f28c82",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-24-debian/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e5a0f8fd8b06d35e932faa6285a1998f40f28c82",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-24-debian/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
       "3-amazoncorretto-8",
       "3.9-amazoncorretto-8",
       "3.9.10-amazoncorretto-8"
