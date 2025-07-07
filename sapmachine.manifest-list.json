@@ -4,12 +4,18 @@
     "name": "sapmachine",
     "tags": [
       "24",
+      "jdk",
+      "24-jdk",
       "24.0.1",
       "latest",
+      "ubuntu",
+      "24-ubuntu",
+      "24.0.1-jdk",
       "jdk-ubuntu",
       "ubuntu-24.04",
       "ubuntu-noble",
       "24-jdk-ubuntu",
+      "24.0.1-ubuntu",
       "24-ubuntu-24.04",
       "24-ubuntu-noble",
       "jdk-ubuntu-24.04",
@@ -57,6 +63,9 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "jdk-headless",
+      "24-jdk-headless",
+      "24.0.1-jdk-headless",
       "jdk-headless-ubuntu",
       "24-jdk-headless-ubuntu",
       "jdk-headless-ubuntu-24.04",
@@ -102,6 +111,9 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "jre",
+      "24-jre",
+      "24.0.1-jre",
       "jre-ubuntu",
       "24-jre-ubuntu",
       "jre-ubuntu-24.04",
@@ -147,6 +159,9 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "jre-headless",
+      "24-jre-headless",
+      "24.0.1-jre-headless",
       "jre-headless-ubuntu",
       "24-jre-headless-ubuntu",
       "jre-headless-ubuntu-24.04",
@@ -366,186 +381,61 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
-      "ubuntu-20.04",
-      "ubuntu-focal",
-      "24-ubuntu-20.04",
-      "24-ubuntu-focal",
-      "jdk-ubuntu-20.04",
-      "jdk-ubuntu-focal",
-      "24-jdk-ubuntu-20.04",
-      "24-jdk-ubuntu-focal",
-      "24.0.1-ubuntu-20.04",
-      "24.0.1-ubuntu-focal",
-      "24.0.1-jdk-ubuntu-20.04",
-      "24.0.1-jdk-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jdk/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jdk/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jdk/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "jdk-headless-ubuntu-20.04",
-      "jdk-headless-ubuntu-focal",
-      "24-jdk-headless-ubuntu-20.04",
-      "24-jdk-headless-ubuntu-focal",
-      "24.0.1-jdk-headless-ubuntu-20.04",
-      "24.0.1-jdk-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jdk-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jdk-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jdk-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "jre-ubuntu-20.04",
-      "jre-ubuntu-focal",
-      "24-jre-ubuntu-20.04",
-      "24-jre-ubuntu-focal",
-      "24.0.1-jre-ubuntu-20.04",
-      "24.0.1-jre-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jre/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jre/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jre/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "jre-headless-ubuntu-20.04",
-      "jre-headless-ubuntu-focal",
-      "24-jre-headless-ubuntu-20.04",
-      "24-jre-headless-ubuntu-focal",
-      "24.0.1-jre-headless-ubuntu-20.04",
-      "24.0.1-jre-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jre-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jre-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "f812009dd9d683d710e00f3e9c6978c23c4da797",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/24/ubuntu/20_04/jre-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
+      "alpine",
+      "24-alpine",
       "jdk-alpine",
-      "alpine-3.21",
+      "alpine-3.22",
       "24-jdk-alpine",
+      "24.0.1-alpine",
+      "24-alpine-3.22",
+      "jdk-alpine-3.22",
+      "24.0.1-jdk-alpine",
+      "24-jdk-alpine-3.22",
+      "24.0.1-alpine-3.22",
+      "24.0.1-jdk-alpine-3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8540b4a7636cfd29507fb6853f8f5d6331f62d24",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/24/alpine/3_22/jdk/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
+      "jre-alpine",
+      "24-jre-alpine",
+      "jre-alpine-3.22",
+      "24.0.1-jre-alpine",
+      "24-jre-alpine-3.22",
+      "24.0.1-jre-alpine-3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8540b4a7636cfd29507fb6853f8f5d6331f62d24",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/24/alpine/3_22/jre/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
+      "alpine-3.21",
       "24-alpine-3.21",
       "jdk-alpine-3.21",
-      "24.0.1-jdk-alpine",
       "24-jdk-alpine-3.21",
       "24.0.1-alpine-3.21",
       "24.0.1-jdk-alpine-3.21"
@@ -566,10 +456,7 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
-      "jre-alpine",
-      "24-jre-alpine",
       "jre-alpine-3.21",
-      "24.0.1-jre-alpine",
       "24-jre-alpine-3.21",
       "24.0.1-jre-alpine-3.21"
     ],
@@ -591,8 +478,13 @@
     "tags": [
       "21",
       "lts",
+      "21-jdk",
       "21.0.7",
+      "21-ubuntu",
+      "21.0.7-jdk",
+      "lts-ubuntu",
       "21-jdk-ubuntu",
+      "21.0.7-ubuntu",
       "lts-jdk-ubuntu",
       "21-ubuntu-24.04",
       "21-ubuntu-noble",
@@ -643,6 +535,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "21-jdk-headless",
+      "21.0.7-jdk-headless",
       "21-jdk-headless-ubuntu",
       "lts-jdk-headless-ubuntu",
       "21.0.7-jdk-headless-ubuntu",
@@ -688,6 +582,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "21-jre",
+      "21.0.7-jre",
       "21-jre-ubuntu",
       "lts-jre-ubuntu",
       "21.0.7-jre-ubuntu",
@@ -733,6 +629,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "21-jre-headless",
+      "21.0.7-jre-headless",
       "21-jre-headless-ubuntu",
       "lts-jre-headless-ubuntu",
       "21.0.7-jre-headless-ubuntu",
@@ -952,185 +850,60 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
-      "21-ubuntu-20.04",
-      "21-ubuntu-focal",
-      "lts-ubuntu-20.04",
-      "lts-ubuntu-focal",
-      "21-jdk-ubuntu-20.04",
-      "21-jdk-ubuntu-focal",
-      "21.0.7-ubuntu-20.04",
-      "21.0.7-ubuntu-focal",
-      "lts-jdk-ubuntu-20.04",
-      "lts-jdk-ubuntu-focal",
-      "21.0.7-jdk-ubuntu-20.04",
-      "21.0.7-jdk-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jdk/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jdk/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jdk/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "21-jdk-headless-ubuntu-20.04",
-      "21-jdk-headless-ubuntu-focal",
-      "lts-jdk-headless-ubuntu-20.04",
-      "lts-jdk-headless-ubuntu-focal",
-      "21.0.7-jdk-headless-ubuntu-20.04",
-      "21.0.7-jdk-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jdk-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jdk-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jdk-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "21-jre-ubuntu-20.04",
-      "21-jre-ubuntu-focal",
-      "lts-jre-ubuntu-20.04",
-      "lts-jre-ubuntu-focal",
-      "21.0.7-jre-ubuntu-20.04",
-      "21.0.7-jre-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jre/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jre/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jre/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "21-jre-headless-ubuntu-20.04",
-      "21-jre-headless-ubuntu-focal",
-      "lts-jre-headless-ubuntu-20.04",
-      "lts-jre-headless-ubuntu-focal",
-      "21.0.7-jre-headless-ubuntu-20.04",
-      "21.0.7-jre-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jre-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jre-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "54b17adefafcdd1f5929dd7681d8b98ab4d86e4c",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/21/ubuntu/20_04/jre-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
+      "21-alpine",
+      "lts-alpine",
       "21-jdk-alpine",
-      "21-alpine-3.21",
+      "21.0.7-alpine",
+      "21-alpine-3.22",
       "lts-jdk-alpine",
-      "lts-alpine-3.21",
+      "lts-alpine-3.22",
       "21.0.7-jdk-alpine",
+      "21-jdk-alpine-3.22",
+      "21.0.7-alpine-3.22",
+      "lts-jdk-alpine-3.22",
+      "21.0.7-jdk-alpine-3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f6b5f88e98cac94b30cfaa2321cfde070fd32208",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/21/alpine/3_22/jdk/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
+      "21-jre-alpine",
+      "lts-jre-alpine",
+      "21.0.7-jre-alpine",
+      "21-jre-alpine-3.22",
+      "lts-jre-alpine-3.22",
+      "21.0.7-jre-alpine-3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f6b5f88e98cac94b30cfaa2321cfde070fd32208",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/21/alpine/3_22/jre/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
+      "21-alpine-3.21",
+      "lts-alpine-3.21",
       "21-jdk-alpine-3.21",
       "21.0.7-alpine-3.21",
       "lts-jdk-alpine-3.21",
@@ -1152,9 +925,6 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
-      "21-jre-alpine",
-      "lts-jre-alpine",
-      "21.0.7-jre-alpine",
       "21-jre-alpine-3.21",
       "lts-jre-alpine-3.21",
       "21.0.7-jre-alpine-3.21"
@@ -1176,8 +946,12 @@
     "name": "sapmachine",
     "tags": [
       "17",
+      "17-jdk",
       "17.0.15",
+      "17-ubuntu",
+      "17.0.15-jdk",
       "17-jdk-ubuntu",
+      "17.0.15-ubuntu",
       "17-ubuntu-24.04",
       "17-ubuntu-noble",
       "17.0.15-jdk-ubuntu",
@@ -1223,6 +997,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "17-jdk-headless",
+      "17.0.15-jdk-headless",
       "17-jdk-headless-ubuntu",
       "17.0.15-jdk-headless-ubuntu",
       "17-jdk-headless-ubuntu-24.04",
@@ -1265,6 +1041,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "17-jre",
+      "17.0.15-jre",
       "17-jre-ubuntu",
       "17.0.15-jre-ubuntu",
       "17-jre-ubuntu-24.04",
@@ -1307,6 +1085,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "17-jre-headless",
+      "17.0.15-jre-headless",
       "17-jre-headless-ubuntu",
       "17.0.15-jre-headless-ubuntu",
       "17-jre-headless-ubuntu-24.04",
@@ -1513,174 +1293,54 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
-      "17-ubuntu-20.04",
-      "17-ubuntu-focal",
-      "17-jdk-ubuntu-20.04",
-      "17-jdk-ubuntu-focal",
-      "17.0.15-ubuntu-20.04",
-      "17.0.15-ubuntu-focal",
-      "17.0.15-jdk-ubuntu-20.04",
-      "17.0.15-jdk-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jdk/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jdk/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jdk/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "17-jdk-headless-ubuntu-20.04",
-      "17-jdk-headless-ubuntu-focal",
-      "17.0.15-jdk-headless-ubuntu-20.04",
-      "17.0.15-jdk-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jdk-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jdk-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jdk-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "17-jre-ubuntu-20.04",
-      "17-jre-ubuntu-focal",
-      "17.0.15-jre-ubuntu-20.04",
-      "17.0.15-jre-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jre/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jre/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jre/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "17-jre-headless-ubuntu-20.04",
-      "17-jre-headless-ubuntu-focal",
-      "17.0.15-jre-headless-ubuntu-20.04",
-      "17.0.15-jre-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jre-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jre-headless/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "eda1e4d07cb6b70feef4d6192bcf09593bafc3dd",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/17/ubuntu/20_04/jre-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
+      "17-alpine",
       "17-jdk-alpine",
+      "17-alpine-3.22",
+      "17.0.15-alpine",
+      "17-jdk-alpine-3.22",
+      "17.0.15-jdk-alpine",
+      "17.0.15-alpine-3.22",
+      "17.0.15-jdk-alpine-3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "7363a6d1e47c9f6371c1fb5b2dcc8525396e5d2f",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/17/alpine/3_22/jdk/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
+      "17-jre-alpine",
+      "17-jre-alpine-3.22",
+      "17.0.15-jre-alpine",
+      "17.0.15-jre-alpine-3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "7363a6d1e47c9f6371c1fb5b2dcc8525396e5d2f",
+        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
+        "path": "dockerfiles/17/alpine/3_22/jre/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sapmachine",
+    "tags": [
       "17-alpine-3.21",
       "17-jdk-alpine-3.21",
-      "17.0.15-jdk-alpine",
       "17.0.15-alpine-3.21",
       "17.0.15-jdk-alpine-3.21"
     ],
@@ -1700,9 +1360,7 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
-      "17-jre-alpine",
       "17-jre-alpine-3.21",
-      "17.0.15-jre-alpine",
       "17.0.15-jre-alpine-3.21"
     ],
     "images": [
@@ -1722,8 +1380,12 @@
     "name": "sapmachine",
     "tags": [
       "11",
+      "11-jdk",
       "11.0.27",
+      "11-ubuntu",
+      "11.0.27-jdk",
       "11-jdk-ubuntu",
+      "11.0.27-ubuntu",
       "11-ubuntu-24.04",
       "11-ubuntu-noble",
       "11.0.27-jdk-ubuntu",
@@ -1750,6 +1412,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "11-jdk-headless",
+      "11.0.27-jdk-headless",
       "11-jdk-headless-ubuntu",
       "11.0.27-jdk-headless-ubuntu",
       "11-jdk-headless-ubuntu-24.04",
@@ -1773,6 +1437,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "11-jre",
+      "11.0.27-jre",
       "11-jre-ubuntu",
       "11.0.27-jre-ubuntu",
       "11-jre-ubuntu-24.04",
@@ -1796,6 +1462,8 @@
     "version": "26",
     "name": "sapmachine",
     "tags": [
+      "11-jre-headless",
+      "11.0.27-jre-headless",
       "11-jre-headless-ubuntu",
       "11.0.27-jre-headless-ubuntu",
       "11-jre-headless-ubuntu-24.04",
@@ -1900,94 +1568,6 @@
         "sha": "b56fec3b73cca3045d10f608837dcc1d690123db",
         "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
         "path": "dockerfiles/11/ubuntu/22_04/jre-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "11-ubuntu-20.04",
-      "11-ubuntu-focal",
-      "11-jdk-ubuntu-20.04",
-      "11-jdk-ubuntu-focal",
-      "11.0.27-ubuntu-20.04",
-      "11.0.27-ubuntu-focal",
-      "11.0.27-jdk-ubuntu-20.04",
-      "11.0.27-jdk-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b56fec3b73cca3045d10f608837dcc1d690123db",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/11/ubuntu/20_04/jdk/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "11-jdk-headless-ubuntu-20.04",
-      "11-jdk-headless-ubuntu-focal",
-      "11.0.27-jdk-headless-ubuntu-20.04",
-      "11.0.27-jdk-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b56fec3b73cca3045d10f608837dcc1d690123db",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/11/ubuntu/20_04/jdk-headless/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "11-jre-ubuntu-20.04",
-      "11-jre-ubuntu-focal",
-      "11.0.27-jre-ubuntu-20.04",
-      "11.0.27-jre-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b56fec3b73cca3045d10f608837dcc1d690123db",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/11/ubuntu/20_04/jre/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "sapmachine",
-    "tags": [
-      "11-jre-headless-ubuntu-20.04",
-      "11-jre-headless-ubuntu-focal",
-      "11.0.27-jre-headless-ubuntu-20.04",
-      "11.0.27-jre-headless-ubuntu-focal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "b56fec3b73cca3045d10f608837dcc1d690123db",
-        "repo": "https://github.com/SAP/SapMachine-infrastructure.git",
-        "path": "dockerfiles/11/ubuntu/20_04/jre-headless/Dockerfile"
       }
     ]
   }
