@@ -3,6 +3,66 @@
     "version": "26",
     "name": "oraclelinux",
     "tags": [
+      "10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
+        "repo": "https://github.com/oracle/container-images.git",
+        "path": "10/Dockerfile",
+        "branch": "refs/heads/dist-amd64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
+        "repo": "https://github.com/oracle/container-images.git",
+        "path": "10/Dockerfile",
+        "branch": "refs/heads/dist-arm64v8"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "oraclelinux",
+    "tags": [
+      "10-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
+        "repo": "https://github.com/oracle/container-images.git",
+        "path": "10-slim/Dockerfile",
+        "branch": "refs/heads/dist-amd64"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
+        "repo": "https://github.com/oracle/container-images.git",
+        "path": "10-slim/Dockerfile",
+        "branch": "refs/heads/dist-arm64v8"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "oraclelinux",
+    "tags": [
       "9"
     ],
     "images": [
@@ -11,7 +71,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "9/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -22,7 +82,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "9/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -41,7 +101,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "9-slim/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -52,7 +112,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "9-slim/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -71,7 +131,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "9-slim-fips/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -82,7 +142,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "9-slim-fips/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -102,7 +162,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -113,7 +173,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -132,7 +192,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8-slim/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -143,7 +203,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8-slim/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -162,7 +222,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8-slim-fips/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -173,7 +233,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "8-slim-fips/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -193,7 +253,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "7/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -204,7 +264,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "7/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -223,7 +283,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "7-slim/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -234,7 +294,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "7-slim/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
@@ -253,7 +313,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "294d682bff4740ce534309f766bf0f6736bf7be6",
+        "sha": "9af3781f4a6e91907dbda1fc34cbe5971c36729a",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "7-slim-fips/Dockerfile",
         "branch": "refs/heads/dist-amd64"
@@ -264,7 +324,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1ca940d0aaa06cccf3bb1c6917adda069c8a11ad",
+        "sha": "6d4c96c789b2c9cc6cb1f7cb8c13fb46f74fe576",
         "repo": "https://github.com/oracle/container-images.git",
         "path": "7-slim-fips/Dockerfile",
         "branch": "refs/heads/dist-arm64v8"
