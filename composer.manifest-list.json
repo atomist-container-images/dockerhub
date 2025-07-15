@@ -3,9 +3,10 @@
     "version": "26",
     "name": "composer",
     "tags": [
-      "2.2",
-      "lts",
-      "2.2.25"
+      "2",
+      "2.8",
+      "2.8.10",
+      "latest"
     ],
     "images": [
       {
@@ -13,9 +14,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -24,9 +25,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -35,9 +36,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -46,9 +47,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -56,9 +57,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -66,9 +67,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -76,9 +77,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -86,9 +87,102 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "1992e740d9584be61ea3130e18193276cf989cf5",
         "repo": "https://github.com/composer/docker.git",
-        "path": "lts/Dockerfile",
+        "path": "latest/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "composer",
+    "tags": [
+      "2.2",
+      "2.2.25"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
+        "repo": "https://github.com/composer/docker.git",
+        "path": "2.2/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -107,9 +201,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -118,9 +212,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -129,9 +223,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -140,9 +234,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -150,9 +244,9 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -160,9 +254,9 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -170,9 +264,9 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -180,104 +274,9 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "15ee952ef914adfc785fd77e4a0b619401dcc194",
+        "sha": "a037fe423a4fef8030b2a8c3131da0934a6295dd",
         "repo": "https://github.com/composer/docker.git",
-        "path": "legacy/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "composer",
-    "tags": [
-      "2",
-      "2.8",
-      "2.8.9",
-      "latest"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "100f579f6234b361017ae72b9de677ea04859ab7",
-        "repo": "https://github.com/composer/docker.git",
-        "path": "latest/Dockerfile",
+        "path": "1.10/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
