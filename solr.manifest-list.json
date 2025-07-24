@@ -4,9 +4,113 @@
     "name": "solr",
     "tags": [
       "9",
-      "9.8",
-      "9.8.1",
+      "9.9",
+      "9.9.0",
       "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "solr",
+    "tags": [
+      "slim",
+      "9-slim",
+      "9.9-slim",
+      "9.9.0-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "aa51c522c3e74cd1b2886209ea249358a34d324a",
+        "repo": "https://github.com/apache/solr-docker.git",
+        "path": "9.9-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "solr",
+    "tags": [
+      "9.8",
+      "9.8.1"
     ],
     "images": [
       {
@@ -56,8 +160,6 @@
     "version": "26",
     "name": "solr",
     "tags": [
-      "slim",
-      "9-slim",
       "9.8-slim",
       "9.8.1-slim"
     ],
@@ -101,108 +203,6 @@
         "sha": "fd6589c6455c184356b93880265f17c645840405",
         "repo": "https://github.com/apache/solr-docker.git",
         "path": "9.8-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "solr",
-    "tags": [
-      "9.7",
-      "9.7.0"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "solr",
-    "tags": [
-      "9.7-slim",
-      "9.7.0-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7-slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "cabde2a16c99aa974e1882df2c55ca17eab0bd17",
-        "repo": "https://github.com/apache/solr-docker.git",
-        "path": "9.7-slim/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
