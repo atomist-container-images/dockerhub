@@ -1394,6 +1394,38 @@
     "version": "26",
     "name": "maven",
     "tags": [
+      "3-amazoncorretto-24-al2023",
+      "3.9-amazoncorretto-24-al2023",
+      "3.9.11-amazoncorretto-24-al2023"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "91a4014542b7460b411512805153b5876783fc70",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-24-al2023/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "91a4014542b7460b411512805153b5876783fc70",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "amazoncorretto-24-al2023/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
       "3-amazoncorretto-24-alpine",
       "3.9-amazoncorretto-24-alpine",
       "3.9.11-amazoncorretto-24-alpine"
