@@ -4,9 +4,112 @@
     "name": "flink",
     "tags": [
       "java21",
+      "2.1-java21",
+      "2.1.0-java21",
+      "scala_2.12-java21",
+      "2.1-scala_2.12-java21",
+      "2.1.0-scala_2.12-java21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "398bafb626b7ee940cbd0d5026005d8d6f8d1786",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "2.1/scala_2.12-java21-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "398bafb626b7ee940cbd0d5026005d8d6f8d1786",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "2.1/scala_2.12-java21-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "flink",
+    "tags": [
+      "2.1",
+      "2.1.0",
+      "java17",
+      "latest",
+      "2.1-java17",
+      "scala_2.12",
+      "2.1.0-java17",
+      "2.1-scala_2.12",
+      "2.1.0-scala_2.12",
+      "scala_2.12-java17",
+      "2.1-scala_2.12-java17",
+      "2.1.0-scala_2.12-java17"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "398bafb626b7ee940cbd0d5026005d8d6f8d1786",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "2.1/scala_2.12-java17-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "398bafb626b7ee940cbd0d5026005d8d6f8d1786",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "2.1/scala_2.12-java17-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "flink",
+    "tags": [
+      "java11",
+      "2.1-java11",
+      "2.1.0-java11",
+      "scala_2.12-java11",
+      "2.1-scala_2.12-java11",
+      "2.1.0-scala_2.12-java11"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "398bafb626b7ee940cbd0d5026005d8d6f8d1786",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "2.1/scala_2.12-java11-ubuntu/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "398bafb626b7ee940cbd0d5026005d8d6f8d1786",
+        "repo": "https://github.com/apache/flink-docker.git",
+        "path": "2.1/scala_2.12-java11-ubuntu/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "flink",
+    "tags": [
       "2.0-java21",
       "2.0.0-java21",
-      "scala_2.12-java21",
       "2.0-scala_2.12-java21",
       "2.0.0-scala_2.12-java21"
     ],
@@ -38,14 +141,10 @@
     "tags": [
       "2.0",
       "2.0.0",
-      "java17",
-      "latest",
       "2.0-java17",
-      "scala_2.12",
       "2.0.0-java17",
       "2.0-scala_2.12",
       "2.0.0-scala_2.12",
-      "scala_2.12-java17",
       "2.0-scala_2.12-java17",
       "2.0.0-scala_2.12-java17"
     ],
@@ -75,10 +174,8 @@
     "version": "26",
     "name": "flink",
     "tags": [
-      "java11",
       "2.0-java11",
       "2.0.0-java11",
-      "scala_2.12-java11",
       "2.0-scala_2.12-java11",
       "2.0.0-scala_2.12-java11"
     ],
@@ -198,103 +295,6 @@
         "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
         "repo": "https://github.com/apache/flink-docker.git",
         "path": "1.20/scala_2.12-java11-ubuntu/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "flink",
-    "tags": [
-      "1.19-java8",
-      "1.19.3-java8",
-      "1.19-scala_2.12-java8",
-      "1.19.3-scala_2.12-java8"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
-        "repo": "https://github.com/apache/flink-docker.git",
-        "path": "1.19/scala_2.12-java8-ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
-        "repo": "https://github.com/apache/flink-docker.git",
-        "path": "1.19/scala_2.12-java8-ubuntu/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "flink",
-    "tags": [
-      "1.19-java17",
-      "1.19.3-java17",
-      "1.19-scala_2.12-java17",
-      "1.19.3-scala_2.12-java17"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
-        "repo": "https://github.com/apache/flink-docker.git",
-        "path": "1.19/scala_2.12-java17-ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
-        "repo": "https://github.com/apache/flink-docker.git",
-        "path": "1.19/scala_2.12-java17-ubuntu/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "flink",
-    "tags": [
-      "1.19",
-      "1.19.3",
-      "1.19-java11",
-      "1.19.3-java11",
-      "1.19-scala_2.12",
-      "1.19.3-scala_2.12",
-      "1.19-scala_2.12-java11",
-      "1.19.3-scala_2.12-java11"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
-        "repo": "https://github.com/apache/flink-docker.git",
-        "path": "1.19/scala_2.12-java11-ubuntu/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "3679d8deb790720fa63d4682c1fc928c252e7d9f",
-        "repo": "https://github.com/apache/flink-docker.git",
-        "path": "1.19/scala_2.12-java11-ubuntu/Dockerfile"
       }
     ]
   }
