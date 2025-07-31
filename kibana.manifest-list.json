@@ -11,7 +11,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2ef7e0a0be5abd21cb38a39c3cce65d5278ebfee",
+        "sha": "28b876f2aaba7bc27d76a1acd55cbc8ada9b5dea",
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "kibana/Dockerfile",
         "branch": "refs/heads/7.17"
@@ -22,7 +22,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2ef7e0a0be5abd21cb38a39c3cce65d5278ebfee",
+        "sha": "28b876f2aaba7bc27d76a1acd55cbc8ada9b5dea",
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "kibana/Dockerfile",
         "branch": "refs/heads/7.17"
@@ -93,6 +93,36 @@
     "version": "26",
     "name": "kibana",
     "tags": [
+      "8.19.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e4c2da0c16babf1795279cb79aa1bf507363b3f6",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "kibana/Dockerfile",
+        "branch": "refs/heads/8.19"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e4c2da0c16babf1795279cb79aa1bf507363b3f6",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "kibana/Dockerfile",
+        "branch": "refs/heads/8.19"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "kibana",
+    "tags": [
       "9.0.4"
     ],
     "images": [
@@ -116,6 +146,36 @@
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "kibana/Dockerfile",
         "branch": "refs/heads/9.0"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "kibana",
+    "tags": [
+      "9.1.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e25a4db7c35942e4deb90532335b7f43710ff5ce",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "kibana/Dockerfile",
+        "branch": "refs/heads/9.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e25a4db7c35942e4deb90532335b7f43710ff5ce",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "kibana/Dockerfile",
+        "branch": "refs/heads/9.1"
       }
     ]
   }
