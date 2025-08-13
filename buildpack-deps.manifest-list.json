@@ -3,9 +3,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "curl",
-      "stable-curl",
-      "bookworm-curl"
+      "bookworm-curl",
+      "oldstable-curl"
     ],
     "images": [
       {
@@ -88,9 +87,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "scm",
-      "stable-scm",
-      "bookworm-scm"
+      "bookworm-scm",
+      "oldstable-scm"
     ],
     "images": [
       {
@@ -173,9 +171,8 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "latest",
-      "stable",
-      "bookworm"
+      "bookworm",
+      "oldstable"
     ],
     "images": [
       {
@@ -259,7 +256,7 @@
     "name": "buildpack-deps",
     "tags": [
       "bullseye-curl",
-      "oldstable-curl"
+      "oldoldstable-curl"
     ],
     "images": [
       {
@@ -307,7 +304,7 @@
     "name": "buildpack-deps",
     "tags": [
       "bullseye-scm",
-      "oldstable-scm"
+      "oldoldstable-scm"
     ],
     "images": [
       {
@@ -355,7 +352,7 @@
     "name": "buildpack-deps",
     "tags": [
       "bullseye",
-      "oldstable"
+      "oldoldstable"
     ],
     "images": [
       {
@@ -395,6 +392,258 @@
         "sha": "d0ecd4b7313e9bc6b00d9a4fe62ad5787bc197ae",
         "repo": "https://github.com/docker-library/buildpack-deps.git",
         "path": "debian/bullseye/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "forky-curl",
+      "testing-curl"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/curl/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "forky-scm",
+      "testing-scm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/scm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "buildpack-deps",
+    "tags": [
+      "forky",
+      "testing"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6fbd1fd6aa17031b10f11a97c31b9da1ac09db76",
+        "repo": "https://github.com/docker-library/buildpack-deps.git",
+        "path": "debian/forky/Dockerfile"
       }
     ]
   },
@@ -681,8 +930,9 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "trixie-curl",
-      "testing-curl"
+      "curl",
+      "stable-curl",
+      "trixie-curl"
     ],
     "images": [
       {
@@ -765,8 +1015,9 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "trixie-scm",
-      "testing-scm"
+      "scm",
+      "stable-scm",
+      "trixie-scm"
     ],
     "images": [
       {
@@ -849,8 +1100,9 @@
     "version": "26",
     "name": "buildpack-deps",
     "tags": [
-      "trixie",
-      "testing"
+      "latest",
+      "stable",
+      "trixie"
     ],
     "images": [
       {
@@ -1572,15 +1824,6 @@
       {
         "platform": {
           "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "99e7dc24c50c0a7be371ea9e6aed6134ce4cbfeb",
-        "repo": "https://github.com/docker-library/buildpack-deps.git",
-        "path": "ubuntu/questing/curl/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
           "architecture": "s390x"
         },
         "sha": "99e7dc24c50c0a7be371ea9e6aed6134ce4cbfeb",
@@ -1638,15 +1881,6 @@
       {
         "platform": {
           "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "99e7dc24c50c0a7be371ea9e6aed6134ce4cbfeb",
-        "repo": "https://github.com/docker-library/buildpack-deps.git",
-        "path": "ubuntu/questing/scm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
           "architecture": "s390x"
         },
         "sha": "99e7dc24c50c0a7be371ea9e6aed6134ce4cbfeb",
@@ -1696,15 +1930,6 @@
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
-        },
-        "sha": "99e7dc24c50c0a7be371ea9e6aed6134ce4cbfeb",
-        "repo": "https://github.com/docker-library/buildpack-deps.git",
-        "path": "ubuntu/questing/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
         },
         "sha": "99e7dc24c50c0a7be371ea9e6aed6134ce4cbfeb",
         "repo": "https://github.com/docker-library/buildpack-deps.git",
