@@ -351,6 +351,78 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
+      "26-trixie",
+      "26-ea-trixie",
+      "26-jdk-trixie",
+      "26-ea-10-trixie",
+      "26-ea-jdk-trixie",
+      "26-ea-10-jdk-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "26/jdk/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "26/jdk/trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "openjdk",
+    "tags": [
+      "26-slim",
+      "26-ea-slim",
+      "26-jdk-slim",
+      "26-ea-10-slim",
+      "26-ea-jdk-slim",
+      "26-slim-trixie",
+      "26-ea-10-jdk-slim",
+      "26-ea-slim-trixie",
+      "26-jdk-slim-trixie",
+      "26-ea-10-slim-trixie",
+      "26-ea-jdk-slim-trixie",
+      "26-ea-10-jdk-slim-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "26/jdk/slim-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "26/jdk/slim-trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "openjdk",
+    "tags": [
       "26-bookworm",
       "26-ea-bookworm",
       "26-jdk-bookworm",
@@ -384,13 +456,7 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "26-slim",
-      "26-ea-slim",
-      "26-jdk-slim",
-      "26-ea-10-slim",
-      "26-ea-jdk-slim",
       "26-slim-bookworm",
-      "26-ea-10-jdk-slim",
       "26-ea-slim-bookworm",
       "26-jdk-slim-bookworm",
       "26-ea-10-slim-bookworm",
@@ -416,72 +482,6 @@
         "sha": "e6ea4775388030187e24406f191f932fb707f7bd",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "26/jdk/slim-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "26-bullseye",
-      "26-ea-bullseye",
-      "26-jdk-bullseye",
-      "26-ea-10-bullseye",
-      "26-ea-jdk-bullseye",
-      "26-ea-10-jdk-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "e6ea4775388030187e24406f191f932fb707f7bd",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "26/jdk/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "e6ea4775388030187e24406f191f932fb707f7bd",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "26/jdk/bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "26-slim-bullseye",
-      "26-ea-slim-bullseye",
-      "26-jdk-slim-bullseye",
-      "26-ea-10-slim-bullseye",
-      "26-ea-jdk-slim-bullseye",
-      "26-ea-10-jdk-slim-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "e6ea4775388030187e24406f191f932fb707f7bd",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "26/jdk/slim-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "e6ea4775388030187e24406f191f932fb707f7bd",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "26/jdk/slim-bullseye/Dockerfile"
       }
     ]
   },
@@ -1155,6 +1155,72 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
+      "25-trixie",
+      "25-rc-trixie",
+      "25-jdk-trixie",
+      "25-rc-jdk-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "25/jdk/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "25/jdk/trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "openjdk",
+    "tags": [
+      "25-slim",
+      "25-rc-slim",
+      "25-jdk-slim",
+      "25-rc-jdk-slim",
+      "25-slim-trixie",
+      "25-rc-slim-trixie",
+      "25-jdk-slim-trixie",
+      "25-rc-jdk-slim-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "25/jdk/slim-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "9fa18d4c199ab09c81ea596289a02fdcf0e684b1",
+        "repo": "https://github.com/docker-library/openjdk.git",
+        "path": "25/jdk/slim-trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "openjdk",
+    "tags": [
       "25-bookworm",
       "25-rc-bookworm",
       "25-jdk-bookworm",
@@ -1186,10 +1252,6 @@
     "version": "26",
     "name": "openjdk",
     "tags": [
-      "25-slim",
-      "25-rc-slim",
-      "25-jdk-slim",
-      "25-rc-jdk-slim",
       "25-slim-bookworm",
       "25-rc-slim-bookworm",
       "25-jdk-slim-bookworm",
@@ -1214,68 +1276,6 @@
         "sha": "0ef4c9faaa4fc9072be73522f4bbd5298a098505",
         "repo": "https://github.com/docker-library/openjdk.git",
         "path": "25/jdk/slim-bookworm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "25-bullseye",
-      "25-rc-bullseye",
-      "25-jdk-bullseye",
-      "25-rc-jdk-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "0ef4c9faaa4fc9072be73522f4bbd5298a098505",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "25/jdk/bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "0ef4c9faaa4fc9072be73522f4bbd5298a098505",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "25/jdk/bullseye/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "openjdk",
-    "tags": [
-      "25-slim-bullseye",
-      "25-rc-slim-bullseye",
-      "25-jdk-slim-bullseye",
-      "25-rc-jdk-slim-bullseye"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "0ef4c9faaa4fc9072be73522f4bbd5298a098505",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "25/jdk/slim-bullseye/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "0ef4c9faaa4fc9072be73522f4bbd5298a098505",
-        "repo": "https://github.com/docker-library/openjdk.git",
-        "path": "25/jdk/slim-bullseye/Dockerfile"
       }
     ]
   },
