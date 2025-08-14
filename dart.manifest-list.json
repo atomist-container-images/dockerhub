@@ -4,14 +4,14 @@
     "name": "dart",
     "tags": [
       "3",
-      "3.8",
+      "3.9",
       "sdk",
       "3-sdk",
-      "3.8.3",
+      "3.9.0",
       "latest",
       "stable",
-      "3.8-sdk",
-      "3.8.3-sdk",
+      "3.9-sdk",
+      "3.9.0-sdk",
       "stable-sdk"
     ],
     "images": [
@@ -20,9 +20,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "19c93897da021cf96a8466f017fbba294b9cb4f6",
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
         "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "stable/bookworm/Dockerfile",
+        "path": "stable/trixie/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -31,9 +31,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "19c93897da021cf96a8466f017fbba294b9cb4f6",
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
         "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "stable/bookworm/Dockerfile",
+        "path": "stable/trixie/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -42,9 +42,19 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "19c93897da021cf96a8466f017fbba294b9cb4f6",
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
         "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "stable/bookworm/Dockerfile",
+        "path": "stable/trixie/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
+        "repo": "https://github.com/dart-lang/dart-docker.git",
+        "path": "stable/trixie/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -55,8 +65,8 @@
     "tags": [
       "beta",
       "beta-sdk",
-      "3.9.0-333.4.beta",
-      "3.9.0-333.4.beta-sdk"
+      "3.10.0-75.1.beta",
+      "3.10.0-75.1.beta-sdk"
     ],
     "images": [
       {
@@ -64,9 +74,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "19c93897da021cf96a8466f017fbba294b9cb4f6",
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
         "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "beta/bookworm/Dockerfile",
+        "path": "beta/trixie/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -75,9 +85,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "19c93897da021cf96a8466f017fbba294b9cb4f6",
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
         "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "beta/bookworm/Dockerfile",
+        "path": "beta/trixie/Dockerfile",
         "branch": "refs/heads/main"
       },
       {
@@ -86,9 +96,19 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "19c93897da021cf96a8466f017fbba294b9cb4f6",
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
         "repo": "https://github.com/dart-lang/dart-docker.git",
-        "path": "beta/bookworm/Dockerfile",
+        "path": "beta/trixie/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6c30628c249e3915b95da3876f0c8f607e286bee",
+        "repo": "https://github.com/dart-lang/dart-docker.git",
+        "path": "beta/trixie/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
