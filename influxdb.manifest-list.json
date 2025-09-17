@@ -3,6 +3,140 @@
     "version": "26",
     "name": "influxdb",
     "tags": [
+      "1.12",
+      "1.12.2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.12-alpine",
+      "1.12.2-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.12-data",
+      "1.12.2-data"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/data/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.12-data-alpine",
+      "1.12.2-data-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/data/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.12-meta",
+      "1.12.2-meta"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/meta/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.12-meta-alpine",
+      "1.12.2-meta-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.12/meta/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
       "1.11",
       "1.11.8"
     ],
@@ -12,7 +146,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/Dockerfile"
       },
@@ -22,7 +156,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/Dockerfile"
       }
@@ -41,7 +175,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/alpine/Dockerfile"
       },
@@ -51,7 +185,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/alpine/Dockerfile"
       }
@@ -70,7 +204,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.10/data/Dockerfile"
       }
@@ -89,7 +223,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.10/data/alpine/Dockerfile"
       }
@@ -108,7 +242,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.10/meta/Dockerfile"
       }
@@ -127,7 +261,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.10/meta/alpine/Dockerfile"
       }
@@ -146,7 +280,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/data/Dockerfile"
       }
@@ -165,7 +299,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/data/alpine/Dockerfile"
       }
@@ -184,7 +318,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/meta/Dockerfile"
       }
@@ -203,7 +337,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/1.11/meta/alpine/Dockerfile"
       }
@@ -224,7 +358,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/2.7/Dockerfile"
       },
@@ -234,7 +368,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/2.7/Dockerfile"
       }
@@ -255,7 +389,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/2.7/alpine/Dockerfile"
       },
@@ -265,7 +399,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/2.7/alpine/Dockerfile"
       }
@@ -286,7 +420,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/3.4-core/Dockerfile"
       },
@@ -296,7 +430,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/3.4-core/Dockerfile"
       }
@@ -317,7 +451,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/3.4-enterprise/Dockerfile"
       },
@@ -327,7 +461,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "ae3563eebd7fcb47f8df8bd62a937e7669a3440a",
+        "sha": "a062f7bfcba3bffb3e4dec8cf2ab1f3cace43a4b",
         "repo": "https://github.com/influxdata/influxdata-docker.git",
         "path": "influxdb/3.4-enterprise/Dockerfile"
       }
