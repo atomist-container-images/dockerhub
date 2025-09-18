@@ -187,6 +187,78 @@
     "version": "26",
     "name": "maven",
     "tags": [
+      "4.0.0-rc-4-eclipse-temurin-17",
+      "4.0.0-rc-4-eclipse-temurin-17-noble"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "64ef35f1a6ef3538a0c7e846647d33ffa6232390",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-noble-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "64ef35f1a6ef3538a0c7e846647d33ffa6232390",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-noble-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "64ef35f1a6ef3538a0c7e846647d33ffa6232390",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-noble-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "64ef35f1a6ef3538a0c7e846647d33ffa6232390",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-noble-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "64ef35f1a6ef3538a0c7e846647d33ffa6232390",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-noble-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "64ef35f1a6ef3538a0c7e846647d33ffa6232390",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "eclipse-temurin-17-noble-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
       "3-eclipse-temurin-21-alpine",
       "3.9-eclipse-temurin-21-alpine",
       "3.9.11-eclipse-temurin-21-alpine"
@@ -776,7 +848,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-11-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -787,7 +859,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-11-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -911,7 +983,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-17-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -922,7 +994,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-17-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1042,7 +1114,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-21-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1053,7 +1125,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-21-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1173,7 +1245,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-24-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1184,7 +1256,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-24-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1304,7 +1376,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-8-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1315,7 +1387,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "c88438835c10762bc0724dc5d0a53503cce58757",
+        "sha": "5557ed7695b311b7880b5094dbedcb759dddd86a",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "amazoncorretto-8-debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -1427,48 +1499,6 @@
         "sha": "6bd15f0c704bad9806b4bbedea6f1faff5194c71",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "sapmachine-21/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "maven",
-    "tags": [
-      "3-sapmachine-24",
-      "3.9-sapmachine-24",
-      "3.9.11-sapmachine-24"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6bd15f0c704bad9806b4bbedea6f1faff5194c71",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "sapmachine-24/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "6bd15f0c704bad9806b4bbedea6f1faff5194c71",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "sapmachine-24/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "6bd15f0c704bad9806b4bbedea6f1faff5194c71",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "sapmachine-24/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
