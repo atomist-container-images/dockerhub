@@ -271,6 +271,82 @@
     "version": "26",
     "name": "influxdb",
     "tags": [
+      "1.10-data",
+      "1.10.9-data"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "587f06976afee685fc5dc9533b577b13efbf3fd1",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.10/data/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.10-data-alpine",
+      "1.10.9-data-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "587f06976afee685fc5dc9533b577b13efbf3fd1",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.10/data/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.10-meta",
+      "1.10.9-meta"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "587f06976afee685fc5dc9533b577b13efbf3fd1",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.10/meta/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
+      "1.10-meta-alpine",
+      "1.10.9-meta-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "587f06976afee685fc5dc9533b577b13efbf3fd1",
+        "repo": "https://github.com/influxdata/influxdata-docker.git",
+        "path": "influxdb/1.10/meta/alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "influxdb",
+    "tags": [
       "2",
       "2.7",
       "2.7.12",
