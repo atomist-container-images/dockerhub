@@ -3,8 +3,37 @@
     "version": "26",
     "name": "crate",
     "tags": [
+      "6.0",
+      "6.0.2",
+      "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a1cbe321622a14325f07abaff8a861d0ab32ede3",
+        "repo": "https://github.com/crate/docker-crate.git",
+        "path": "Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a1cbe321622a14325f07abaff8a861d0ab32ede3",
+        "repo": "https://github.com/crate/docker-crate.git",
+        "path": "Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "crate",
+    "tags": [
       "5.10",
-      "latest",
       "5.10.12"
     ],
     "images": [
