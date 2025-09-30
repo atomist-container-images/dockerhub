@@ -8,24 +8,283 @@
       "jdk",
       "9-jdk",
       "9.1.0",
-      "jdk21",
+      "jdk25",
       "noble",
       "latest",
-      "9-jdk21",
+      "9-jdk25",
       "9-noble",
       "9.1-jdk",
-      "9.1-jdk21",
+      "9.1-jdk25",
       "9.1-noble",
       "9.1.0-jdk",
       "jdk-noble",
       "9-jdk-noble",
-      "9.1.0-jdk21",
+      "9.1.0-jdk25",
       "9.1.0-noble",
+      "jdk25-noble",
+      "9-jdk25-noble",
+      "9.1-jdk-noble",
+      "9.1-jdk25-noble",
+      "9.1.0-jdk-noble",
+      "9.1.0-jdk25-noble"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gradle",
+    "tags": [
+      "alpine",
+      "9-alpine",
+      "9.1-alpine",
+      "jdk-alpine",
+      "9-jdk-alpine",
+      "9.1.0-alpine",
+      "jdk25-alpine",
+      "9-jdk25-alpine",
+      "9.1-jdk-alpine",
+      "9.1-jdk25-alpine",
+      "9.1.0-jdk-alpine",
+      "9.1.0-jdk25-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-alpine/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-alpine/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gradle",
+    "tags": [
+      "corretto",
+      "jdk25-corretto",
+      "corretto-al2023",
+      "9-jdk25-corretto",
+      "9.1-jdk25-corretto",
+      "9.1.0-jdk25-corretto",
+      "jdk25-corretto-al2023",
+      "9-jdk25-corretto-al2023",
+      "9.1-jdk25-corretto-al2023",
+      "9.1.0-jdk25-corretto-al2023"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-corretto/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-corretto/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gradle",
+    "tags": [
+      "ubi",
+      "jdk25-ubi",
+      "9-jdk25-ubi",
+      "ubi-minimal",
+      "9.1-jdk25-ubi",
+      "9.1.0-jdk25-ubi",
+      "jdk25-ubi-minimal",
+      "9-jdk25-ubi-minimal",
+      "9.1-jdk25-ubi-minimal",
+      "9.1.0-jdk25-ubi-minimal"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-ubi10/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-ubi10/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-ubi10/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-ubi10/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gradle",
+    "tags": [
+      "graal",
+      "9-graal",
+      "9.1-graal",
+      "jdk-graal",
+      "9-jdk-graal",
+      "9.1.0-graal",
+      "graal-noble",
+      "jdk25-graal",
+      "9-graal-noble",
+      "9-jdk25-graal",
+      "9.1-jdk-graal",
+      "9.1-graal-noble",
+      "9.1-jdk25-graal",
+      "9.1.0-jdk-graal",
+      "jdk-graal-noble",
+      "9-jdk-graal-noble",
+      "9.1.0-graal-noble",
+      "9.1.0-jdk25-graal",
+      "jdk25-graal-noble",
+      "9-jdk25-graal-noble",
+      "9.1-jdk-graal-noble",
+      "9.1-jdk25-graal-noble",
+      "9.1.0-jdk-graal-noble",
+      "9.1.0-jdk25-graal-noble"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble-graal/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
+        "repo": "https://github.com/gradle/docker-gradle.git",
+        "path": "jdk25-noble-graal/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gradle",
+    "tags": [
+      "jdk21",
+      "9-jdk21",
+      "9.1-jdk21",
+      "9.1.0-jdk21",
       "jdk21-noble",
       "9-jdk21-noble",
-      "9.1-jdk-noble",
       "9.1-jdk21-noble",
-      "9.1.0-jdk-noble",
       "9.1.0-jdk21-noble"
     ],
     "images": [
@@ -34,7 +293,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -45,7 +304,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -55,7 +314,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -65,7 +324,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -75,7 +334,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -105,7 +364,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -116,7 +375,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -126,7 +385,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -136,7 +395,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -147,17 +406,9 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "alpine",
-      "9-alpine",
-      "9.1-alpine",
-      "jdk-alpine",
-      "9-jdk-alpine",
-      "9.1.0-alpine",
       "jdk21-alpine",
       "9-jdk21-alpine",
-      "9.1-jdk-alpine",
       "9.1-jdk21-alpine",
-      "9.1.0-jdk-alpine",
       "9.1.0-jdk21-alpine"
     ],
     "images": [
@@ -166,7 +417,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -177,7 +428,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -188,9 +439,7 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "corretto",
       "jdk21-corretto",
-      "corretto-al2023",
       "9-jdk21-corretto",
       "9.1-jdk21-corretto",
       "9.1.0-jdk21-corretto",
@@ -205,7 +454,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-corretto/Dockerfile",
         "branch": "refs/heads/master"
@@ -216,7 +465,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-corretto/Dockerfile",
         "branch": "refs/heads/master"
@@ -227,10 +476,8 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "ubi",
       "jdk21-ubi",
       "9-jdk21-ubi",
-      "ubi-minimal",
       "9.1-jdk21-ubi",
       "9.1.0-jdk21-ubi",
       "jdk21-ubi-minimal",
@@ -244,7 +491,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -255,7 +502,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -265,7 +512,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -275,7 +522,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -286,29 +533,13 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "graal",
-      "9-graal",
-      "9.1-graal",
-      "jdk-graal",
-      "9-jdk-graal",
-      "9.1.0-graal",
-      "graal-noble",
       "jdk21-graal",
-      "9-graal-noble",
       "9-jdk21-graal",
-      "9.1-jdk-graal",
-      "9.1-graal-noble",
       "9.1-jdk21-graal",
-      "9.1.0-jdk-graal",
-      "jdk-graal-noble",
-      "9-jdk-graal-noble",
-      "9.1.0-graal-noble",
       "9.1.0-jdk21-graal",
       "jdk21-graal-noble",
       "9-jdk21-graal-noble",
-      "9.1-jdk-graal-noble",
       "9.1-jdk21-graal-noble",
-      "9.1.0-jdk-graal-noble",
       "9.1.0-jdk21-graal-noble"
     ],
     "images": [
@@ -317,7 +548,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -328,7 +559,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -358,7 +589,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -369,7 +600,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -395,7 +626,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -406,7 +637,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -417,7 +648,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -427,7 +658,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -437,7 +668,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -447,7 +678,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/master"
@@ -469,7 +700,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -480,7 +711,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -491,7 +722,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -501,7 +732,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -511,7 +742,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/master"
@@ -533,7 +764,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -559,7 +790,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-corretto/Dockerfile",
         "branch": "refs/heads/master"
@@ -570,7 +801,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-corretto/Dockerfile",
         "branch": "refs/heads/master"
@@ -596,7 +827,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -607,7 +838,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -617,7 +848,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -627,7 +858,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/master"
@@ -653,7 +884,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -664,7 +895,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -686,7 +917,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -697,7 +928,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -708,248 +939,17 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "jdk24",
-      "9-jdk24",
-      "9.1-jdk24",
-      "9.1.0-jdk24",
-      "jdk24-noble",
-      "9-jdk24-noble",
-      "9.1-jdk24-noble",
-      "9.1.0-jdk24-noble"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/master"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "jdk24-alpine",
-      "9-jdk24-alpine",
-      "9.1-jdk24-alpine",
-      "9.1.0-jdk24-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-alpine/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-alpine/Dockerfile",
-        "branch": "refs/heads/master"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "jdk24-corretto",
-      "9-jdk24-corretto",
-      "9.1-jdk24-corretto",
-      "9.1.0-jdk24-corretto",
-      "jdk24-corretto-al2023",
-      "9-jdk24-corretto-al2023",
-      "9.1-jdk24-corretto-al2023",
-      "9.1.0-jdk24-corretto-al2023"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-corretto/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-corretto/Dockerfile",
-        "branch": "refs/heads/master"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "jdk24-ubi",
-      "9-jdk24-ubi",
-      "9.1-jdk24-ubi",
-      "9.1.0-jdk24-ubi",
-      "jdk24-ubi-minimal",
-      "9-jdk24-ubi-minimal",
-      "9.1-jdk24-ubi-minimal",
-      "9.1.0-jdk24-ubi-minimal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/master"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "jdk24-graal",
-      "9-jdk24-graal",
-      "9.1-jdk24-graal",
-      "9.1.0-jdk24-graal",
-      "jdk24-graal-noble",
-      "9-jdk24-graal-noble",
-      "9.1-jdk24-graal-noble",
-      "9.1.0-jdk24-graal-noble"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble-graal/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble-graal/Dockerfile",
-        "branch": "refs/heads/master"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "jdk-21-and-24",
-      "9-jdk-21-and-24",
-      "9.1-jdk-21-and-24",
-      "9.1.0-jdk-21-and-24",
-      "jdk-21-and-24-noble",
+      "jdk-25-and-25",
+      "9-jdk-25-and-25",
+      "9.1-jdk-25-and-25",
+      "9.1.0-jdk-25-and-25",
+      "jdk-25-and-25-noble",
       "jdk-lts-and-current",
-      "9-jdk-21-and-24-noble",
+      "9-jdk-25-and-25-noble",
       "9-jdk-lts-and-current",
-      "9.1-jdk-21-and-24-noble",
+      "9.1-jdk-25-and-25-noble",
       "9.1-jdk-lts-and-current",
-      "9.1.0-jdk-21-and-24-noble",
+      "9.1.0-jdk-25-and-25-noble",
       "9.1.0-jdk-lts-and-current",
       "jdk-lts-and-current-noble",
       "9-jdk-lts-and-current-noble",
@@ -962,7 +962,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current/Dockerfile",
         "branch": "refs/heads/master"
@@ -973,7 +973,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current/Dockerfile",
         "branch": "refs/heads/master"
@@ -983,7 +983,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current/Dockerfile",
         "branch": "refs/heads/master"
@@ -993,7 +993,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current/Dockerfile",
         "branch": "refs/heads/master"
@@ -1003,7 +1003,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current/Dockerfile",
         "branch": "refs/heads/master"
@@ -1014,10 +1014,10 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "jdk-21-and-24-alpine",
-      "9-jdk-21-and-24-alpine",
-      "9.1-jdk-21-and-24-alpine",
-      "9.1.0-jdk-21-and-24-alpine",
+      "jdk-25-and-25-alpine",
+      "9-jdk-25-and-25-alpine",
+      "9.1-jdk-25-and-25-alpine",
+      "9.1.0-jdk-25-and-25-alpine",
       "jdk-lts-and-current-alpine",
       "9-jdk-lts-and-current-alpine",
       "9.1-jdk-lts-and-current-alpine",
@@ -1029,7 +1029,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -1040,7 +1040,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -1051,18 +1051,18 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "jdk-21-and-24-corretto",
-      "9-jdk-21-and-24-corretto",
-      "9.1-jdk-21-and-24-corretto",
-      "9.1.0-jdk-21-and-24-corretto",
+      "jdk-25-and-25-corretto",
+      "9-jdk-25-and-25-corretto",
+      "9.1-jdk-25-and-25-corretto",
+      "9.1.0-jdk-25-and-25-corretto",
       "jdk-lts-and-current-corretto",
-      "jdk-21-and-24-corretto-al2023",
+      "jdk-25-and-25-corretto-al2023",
       "9-jdk-lts-and-current-corretto",
-      "9-jdk-21-and-24-corretto-al2023",
+      "9-jdk-25-and-25-corretto-al2023",
       "9.1-jdk-lts-and-current-corretto",
-      "9.1-jdk-21-and-24-corretto-al2023",
+      "9.1-jdk-25-and-25-corretto-al2023",
       "9.1.0-jdk-lts-and-current-corretto",
-      "9.1.0-jdk-21-and-24-corretto-al2023",
+      "9.1.0-jdk-25-and-25-corretto-al2023",
       "jdk-lts-and-current-corretto-al2023",
       "9-jdk-lts-and-current-corretto-al2023",
       "9.1-jdk-lts-and-current-corretto-al2023",
@@ -1074,7 +1074,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current-corretto/Dockerfile",
         "branch": "refs/heads/master"
@@ -1085,7 +1085,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current-corretto/Dockerfile",
         "branch": "refs/heads/master"
@@ -1096,17 +1096,17 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "jdk-21-and-24-graal",
-      "9-jdk-21-and-24-graal",
-      "9.1-jdk-21-and-24-graal",
-      "9.1.0-jdk-21-and-24-graal",
-      "jdk-21-and-24-graal-noble",
+      "jdk-25-and-25-graal",
+      "9-jdk-25-and-25-graal",
+      "9.1-jdk-25-and-25-graal",
+      "9.1.0-jdk-25-and-25-graal",
+      "jdk-25-and-25-graal-noble",
       "jdk-lts-and-current-graal",
-      "9-jdk-21-and-24-graal-noble",
+      "9-jdk-25-and-25-graal-noble",
       "9-jdk-lts-and-current-graal",
-      "9.1-jdk-21-and-24-graal-noble",
+      "9.1-jdk-25-and-25-graal-noble",
       "9.1-jdk-lts-and-current-graal",
-      "9.1.0-jdk-21-and-24-graal-noble",
+      "9.1.0-jdk-25-and-25-graal-noble",
       "9.1.0-jdk-lts-and-current-graal",
       "jdk-lts-and-current-graal-noble",
       "9-jdk-lts-and-current-graal-noble",
@@ -1119,7 +1119,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -1130,7 +1130,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "6110e752da885f3aa002c6a474d85dd82c608717",
+        "sha": "557df3e9d316f5069672935faff5a4fe532e63a6",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk-lts-and-current-graal/Dockerfile",
         "branch": "refs/heads/master"
@@ -1166,7 +1166,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1177,7 +1177,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1187,7 +1187,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1197,7 +1197,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1207,7 +1207,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1234,7 +1234,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1245,7 +1245,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1255,7 +1255,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1265,7 +1265,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1292,7 +1292,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-alpine/Dockerfile",
         "branch": "refs/heads/8"
@@ -1303,7 +1303,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-alpine/Dockerfile",
         "branch": "refs/heads/8"
@@ -1327,7 +1327,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -1338,7 +1338,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -1362,7 +1362,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1373,7 +1373,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1383,7 +1383,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1393,7 +1393,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1429,7 +1429,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1440,7 +1440,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-noble-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1467,7 +1467,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1478,7 +1478,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk21-jammy-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1502,7 +1502,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1513,7 +1513,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1524,7 +1524,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1534,7 +1534,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1544,7 +1544,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1554,7 +1554,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/8"
@@ -1575,7 +1575,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1586,7 +1586,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1597,7 +1597,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1607,7 +1607,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1617,7 +1617,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1638,7 +1638,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-alpine/Dockerfile",
         "branch": "refs/heads/8"
@@ -1662,7 +1662,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -1673,7 +1673,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -1697,7 +1697,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1708,7 +1708,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1718,7 +1718,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1728,7 +1728,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1752,7 +1752,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1763,7 +1763,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1784,7 +1784,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1795,7 +1795,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -1821,7 +1821,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1832,7 +1832,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1843,7 +1843,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1853,7 +1853,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1863,7 +1863,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -1885,7 +1885,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-alpine/Dockerfile",
         "branch": "refs/heads/8"
@@ -1911,7 +1911,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -1922,7 +1922,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -1948,7 +1948,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1959,7 +1959,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1969,7 +1969,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -1979,7 +1979,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -2005,7 +2005,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -2016,7 +2016,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -2027,7 +2027,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -2037,7 +2037,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/8"
@@ -2063,7 +2063,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -2074,7 +2074,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -2100,7 +2100,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -2111,7 +2111,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -2121,7 +2121,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/8"
@@ -2132,103 +2132,7 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "8-jdk24",
-      "8.14-jdk24",
-      "8.14.3-jdk24",
-      "8-jdk24-noble",
-      "8.14-jdk24-noble",
-      "8.14.3-jdk24-noble"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-noble/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "8-jdk24-alpine",
-      "8.14-jdk24-alpine",
-      "8.14.3-jdk24-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-alpine/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-alpine/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
+      "jdk24-corretto",
       "8-jdk24-corretto",
       "8.14-jdk24-corretto",
       "8.14.3-jdk24-corretto",
@@ -2242,7 +2146,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk24-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -2253,7 +2157,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk24-corretto/Dockerfile",
         "branch": "refs/heads/8"
@@ -2264,61 +2168,7 @@
     "version": "26",
     "name": "gradle",
     "tags": [
-      "8-jdk24-ubi",
-      "8.14-jdk24-ubi",
-      "8.14.3-jdk24-ubi",
-      "8-jdk24-ubi-minimal",
-      "8.14-jdk24-ubi-minimal",
-      "8.14.3-jdk24-ubi-minimal"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk24-ubi9/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
+      "jdk24-graal",
       "8-jdk24-graal",
       "8.14-jdk24-graal",
       "8.14.3-jdk24-graal",
@@ -2332,7 +2182,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk24-noble-graal/Dockerfile",
         "branch": "refs/heads/8"
@@ -2343,197 +2193,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
+        "sha": "23cd8c04ce29ecafdbb26fc064e5db3da663b5d8",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk24-noble-graal/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "8-jdk-21-and-24",
-      "8.14-jdk-21-and-24",
-      "8.14.3-jdk-21-and-24",
-      "8-jdk-21-and-24-noble",
-      "8-jdk-lts-and-current",
-      "8.14-jdk-21-and-24-noble",
-      "8.14-jdk-lts-and-current",
-      "8.14.3-jdk-21-and-24-noble",
-      "8.14.3-jdk-lts-and-current",
-      "8-jdk-lts-and-current-noble",
-      "8.14-jdk-lts-and-current-noble",
-      "8.14.3-jdk-lts-and-current-noble"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "8-jdk-21-and-24-alpine",
-      "8.14-jdk-21-and-24-alpine",
-      "8.14.3-jdk-21-and-24-alpine",
-      "8-jdk-lts-and-current-alpine",
-      "8.14-jdk-lts-and-current-alpine",
-      "8.14.3-jdk-lts-and-current-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current-alpine/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current-alpine/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "8-jdk-21-and-24-corretto",
-      "8.14-jdk-21-and-24-corretto",
-      "8.14.3-jdk-21-and-24-corretto",
-      "8-jdk-lts-and-current-corretto",
-      "8-jdk-21-and-24-corretto-al2023",
-      "8.14-jdk-lts-and-current-corretto",
-      "8.14-jdk-21-and-24-corretto-al2023",
-      "8.14.3-jdk-lts-and-current-corretto",
-      "8.14.3-jdk-21-and-24-corretto-al2023",
-      "8-jdk-lts-and-current-corretto-al2023",
-      "8.14-jdk-lts-and-current-corretto-al2023",
-      "8.14.3-jdk-lts-and-current-corretto-al2023"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current-corretto/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current-corretto/Dockerfile",
-        "branch": "refs/heads/8"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "gradle",
-    "tags": [
-      "8-jdk-21-and-24-graal",
-      "8.14-jdk-21-and-24-graal",
-      "8.14.3-jdk-21-and-24-graal",
-      "8-jdk-21-and-24-graal-noble",
-      "8-jdk-lts-and-current-graal",
-      "8.14-jdk-21-and-24-graal-noble",
-      "8.14-jdk-lts-and-current-graal",
-      "8.14.3-jdk-21-and-24-graal-noble",
-      "8.14.3-jdk-lts-and-current-graal",
-      "8-jdk-lts-and-current-graal-noble",
-      "8.14-jdk-lts-and-current-graal-noble",
-      "8.14.3-jdk-lts-and-current-graal-noble"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current-graal/Dockerfile",
-        "branch": "refs/heads/8"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2b15ee6f83372b5bffe508cca515d41e31351ca8",
-        "repo": "https://github.com/gradle/docker-gradle.git",
-        "path": "jdk-lts-and-current-graal/Dockerfile",
         "branch": "refs/heads/8"
       }
     ]
@@ -2567,7 +2229,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/7"
@@ -2578,7 +2240,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/7"
@@ -2589,7 +2251,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/7"
@@ -2599,7 +2261,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/7"
@@ -2609,7 +2271,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/7"
@@ -2619,7 +2281,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble/Dockerfile",
         "branch": "refs/heads/7"
@@ -2646,7 +2308,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2657,7 +2319,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2668,7 +2330,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2678,7 +2340,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2688,7 +2350,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2715,7 +2377,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-alpine/Dockerfile",
         "branch": "refs/heads/7"
@@ -2739,7 +2401,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-corretto/Dockerfile",
         "branch": "refs/heads/7"
@@ -2750,7 +2412,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-corretto/Dockerfile",
         "branch": "refs/heads/7"
@@ -2774,7 +2436,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -2785,7 +2447,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -2795,7 +2457,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -2805,7 +2467,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -2841,7 +2503,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble-graal/Dockerfile",
         "branch": "refs/heads/7"
@@ -2852,7 +2514,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-noble-graal/Dockerfile",
         "branch": "refs/heads/7"
@@ -2879,7 +2541,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy-graal/Dockerfile",
         "branch": "refs/heads/7"
@@ -2890,7 +2552,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk17-jammy-graal/Dockerfile",
         "branch": "refs/heads/7"
@@ -2914,7 +2576,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2925,7 +2587,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2936,7 +2598,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2946,7 +2608,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2956,7 +2618,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -2977,7 +2639,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-alpine/Dockerfile",
         "branch": "refs/heads/7"
@@ -3001,7 +2663,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-corretto/Dockerfile",
         "branch": "refs/heads/7"
@@ -3012,7 +2674,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-corretto/Dockerfile",
         "branch": "refs/heads/7"
@@ -3036,7 +2698,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3047,7 +2709,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3057,7 +2719,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3067,7 +2729,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3091,7 +2753,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -3102,7 +2764,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -3113,7 +2775,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -3123,7 +2785,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/7"
@@ -3147,7 +2809,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-corretto/Dockerfile",
         "branch": "refs/heads/7"
@@ -3158,7 +2820,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-corretto/Dockerfile",
         "branch": "refs/heads/7"
@@ -3182,7 +2844,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3193,7 +2855,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3203,7 +2865,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "b5a613a05a7b71eaf2e60ba6dfaf16b7355f0ae1",
+        "sha": "692045c708bc589ff8fa26fb083bdf1b23c0f8a5",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/7"
@@ -3239,7 +2901,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3250,7 +2912,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3261,7 +2923,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3271,7 +2933,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3281,7 +2943,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3308,7 +2970,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-alpine/Dockerfile",
         "branch": "refs/heads/6"
@@ -3332,7 +2994,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-corretto/Dockerfile",
         "branch": "refs/heads/6"
@@ -3343,7 +3005,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-corretto/Dockerfile",
         "branch": "refs/heads/6"
@@ -3367,7 +3029,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/6"
@@ -3378,7 +3040,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/6"
@@ -3388,7 +3050,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/6"
@@ -3398,7 +3060,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk11-ubi9/Dockerfile",
         "branch": "refs/heads/6"
@@ -3422,7 +3084,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3433,7 +3095,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3444,7 +3106,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3454,7 +3116,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-jammy/Dockerfile",
         "branch": "refs/heads/6"
@@ -3478,7 +3140,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-corretto/Dockerfile",
         "branch": "refs/heads/6"
@@ -3489,7 +3151,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-corretto/Dockerfile",
         "branch": "refs/heads/6"
@@ -3513,7 +3175,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/6"
@@ -3524,7 +3186,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/6"
@@ -3534,7 +3196,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "312f71be6aee0839daaddc2c4a65b192b20efa6c",
+        "sha": "89adc634c8c98e9c132935942ed75ffce1d862f1",
         "repo": "https://github.com/gradle/docker-gradle.git",
         "path": "jdk8-ubi9/Dockerfile",
         "branch": "refs/heads/6"
