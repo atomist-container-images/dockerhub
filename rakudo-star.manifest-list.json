@@ -4,8 +4,8 @@
     "name": "rakudo-star",
     "tags": [
       "latest",
-      "bookworm",
-      "2025.08.1"
+      "trixie",
+      "2025.08.1-trixie"
     ],
     "images": [
       {
@@ -13,7 +13,36 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+        "sha": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
+        "repo": "https://github.com/rakudo/docker.git",
+        "path": "2025.08.1/trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
+        "repo": "https://github.com/rakudo/docker.git",
+        "path": "2025.08.1/trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "rakudo-star",
+    "tags": [
+      "bookworm",
+      "2025.08.1-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
         "repo": "https://github.com/rakudo/docker.git",
         "path": "2025.08.1/bookworm/Dockerfile"
       },
@@ -23,7 +52,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+        "sha": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
         "repo": "https://github.com/rakudo/docker.git",
         "path": "2025.08.1/bookworm/Dockerfile"
       }
@@ -42,7 +71,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+        "sha": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
         "repo": "https://github.com/rakudo/docker.git",
         "path": "2025.08.1/alpine/Dockerfile"
       },
@@ -52,7 +81,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "8c213b2fb89d60eb631068eecba27dab9a0989bc",
+        "sha": "c40c9a549916b02b0c6c8d5cda7dbd444c094278",
         "repo": "https://github.com/rakudo/docker.git",
         "path": "2025.08.1/alpine/Dockerfile"
       }
