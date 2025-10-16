@@ -4,10 +4,395 @@
     "name": "node",
     "tags": [
       "alpine3.21",
+      "25-alpine3.21",
+      "25.0-alpine3.21",
+      "25.0.0-alpine3.21",
+      "current-alpine3.21"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.21/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "alpine",
+      "25-alpine",
+      "alpine3.22",
+      "25.0-alpine",
+      "25-alpine3.22",
+      "25.0.0-alpine",
+      "current-alpine",
+      "25.0-alpine3.22",
+      "25.0.0-alpine3.22",
+      "current-alpine3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "25",
+      "25.0",
+      "25.0.0",
+      "latest",
+      "current",
+      "bookworm",
+      "25-bookworm",
+      "25.0-bookworm",
+      "25.0.0-bookworm",
+      "current-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "slim",
+      "25-slim",
+      "25.0-slim",
+      "25.0.0-slim",
+      "current-slim",
+      "bookworm-slim",
+      "25-bookworm-slim",
+      "25.0-bookworm-slim",
+      "25.0.0-bookworm-slim",
+      "current-bookworm-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bookworm-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "bullseye",
+      "25-bullseye",
+      "25.0-bullseye",
+      "25.0.0-bullseye",
+      "current-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bullseye/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bullseye/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "bullseye-slim",
+      "25-bullseye-slim",
+      "25.0-bullseye-slim",
+      "25.0.0-bullseye-slim",
+      "current-bullseye-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bullseye-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/bullseye-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "trixie",
+      "25-trixie",
+      "25.0-trixie",
+      "25.0.0-trixie",
+      "current-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "trixie-slim",
+      "25-trixie-slim",
+      "25.0-trixie-slim",
+      "25.0.0-trixie-slim",
+      "current-trixie-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "eda40f3c41d33cb595232cb7000ab31af1ce2f02",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/trixie-slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
       "24-alpine3.21",
       "24.10-alpine3.21",
-      "24.10.0-alpine3.21",
-      "current-alpine3.21"
+      "24.10.0-alpine3.21"
     ],
     "images": [
       {
@@ -47,16 +432,12 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "alpine",
       "24-alpine",
-      "alpine3.22",
       "24.10-alpine",
       "24-alpine3.22",
       "24.10.0-alpine",
-      "current-alpine",
       "24.10-alpine3.22",
-      "24.10.0-alpine3.22",
-      "current-alpine3.22"
+      "24.10.0-alpine3.22"
     ],
     "images": [
       {
@@ -98,14 +479,10 @@
     "tags": [
       "24",
       "24.10",
-      "latest",
       "24.10.0",
-      "current",
-      "bookworm",
       "24-bookworm",
       "24.10-bookworm",
-      "24.10.0-bookworm",
-      "current-bookworm"
+      "24.10.0-bookworm"
     ],
     "images": [
       {
@@ -155,16 +532,12 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "slim",
       "24-slim",
       "24.10-slim",
       "24.10.0-slim",
-      "current-slim",
-      "bookworm-slim",
       "24-bookworm-slim",
       "24.10-bookworm-slim",
-      "24.10.0-bookworm-slim",
-      "current-bookworm-slim"
+      "24.10.0-bookworm-slim"
     ],
     "images": [
       {
@@ -214,11 +587,9 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "bullseye",
       "24-bullseye",
       "24.10-bullseye",
-      "24.10.0-bullseye",
-      "current-bullseye"
+      "24.10.0-bullseye"
     ],
     "images": [
       {
@@ -248,11 +619,9 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "bullseye-slim",
       "24-bullseye-slim",
       "24.10-bullseye-slim",
-      "24.10.0-bullseye-slim",
-      "current-bullseye-slim"
+      "24.10.0-bullseye-slim"
     ],
     "images": [
       {
@@ -282,11 +651,9 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "trixie",
       "24-trixie",
       "24.10-trixie",
-      "24.10.0-trixie",
-      "current-trixie"
+      "24.10.0-trixie"
     ],
     "images": [
       {
@@ -336,11 +703,9 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "trixie-slim",
       "24-trixie-slim",
       "24.10-trixie-slim",
-      "24.10.0-trixie-slim",
-      "current-trixie-slim"
+      "24.10.0-trixie-slim"
     ],
     "images": [
       {
