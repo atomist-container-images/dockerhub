@@ -4,9 +4,29 @@
     "name": "rocket.chat",
     "tags": [
       "7",
-      "7.11",
-      "7.11.0",
+      "7.12",
+      "7.12.0",
       "latest"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "129d590b56996d514da7a824c2d894b238ec4ed1",
+        "repo": "https://github.com/RocketChat/Docker.Official.Image.git",
+        "path": "7.12/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "rocket.chat",
+    "tags": [
+      "7.11",
+      "7.11.0"
     ],
     "images": [
       {
@@ -117,26 +137,6 @@
         "sha": "962b38b0911a42f671939098c7983897f1601521",
         "repo": "https://github.com/RocketChat/Docker.Official.Image.git",
         "path": "7.6/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "rocket.chat",
-    "tags": [
-      "7.5",
-      "7.5.5"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "962b38b0911a42f671939098c7983897f1601521",
-        "repo": "https://github.com/RocketChat/Docker.Official.Image.git",
-        "path": "7.5/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
