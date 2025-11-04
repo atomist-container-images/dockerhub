@@ -4,9 +4,13 @@
     "name": "ghost",
     "tags": [
       "6",
-      "6.5",
-      "6.5.3",
-      "latest"
+      "6.6",
+      "6.6.0",
+      "latest",
+      "bookworm",
+      "6-bookworm",
+      "6.6-bookworm",
+      "6.6.0-bookworm"
     ],
     "images": [
       {
@@ -14,9 +18,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/debian/Dockerfile"
+        "path": "6/bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -24,9 +28,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/debian/Dockerfile"
+        "path": "6/bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -34,27 +38,18 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/debian/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
-        "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/debian/Dockerfile"
+        "path": "6/bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/debian/Dockerfile"
+        "path": "6/bookworm/Dockerfile"
       }
     ]
   },
@@ -64,8 +59,12 @@
     "tags": [
       "alpine",
       "6-alpine",
-      "6.5-alpine",
-      "6.5.3-alpine"
+      "6.6-alpine",
+      "alpine3.22",
+      "6-alpine3.22",
+      "6.6.0-alpine",
+      "6.6-alpine3.22",
+      "6.6.0-alpine3.22"
     ],
     "images": [
       {
@@ -73,29 +72,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
-        "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
-        "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/alpine/Dockerfile"
+        "path": "6/alpine3.22/Dockerfile"
       },
       {
         "platform": {
@@ -103,9 +82,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "3a0fff73dd94321a446873efbb465b58893d4241",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "6/alpine/Dockerfile"
+        "path": "6/alpine3.22/Dockerfile"
       }
     ]
   },
@@ -115,7 +94,10 @@
     "tags": [
       "5",
       "5.130",
-      "5.130.5"
+      "5.130.5",
+      "5-bookworm",
+      "5.130-bookworm",
+      "5.130.5-bookworm"
     ],
     "images": [
       {
@@ -123,9 +105,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/debian/Dockerfile"
+        "path": "5/bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -133,9 +115,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/debian/Dockerfile"
+        "path": "5/bookworm/Dockerfile"
       },
       {
         "platform": {
@@ -143,27 +125,18 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/debian/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
-        "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/debian/Dockerfile"
+        "path": "5/bookworm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/debian/Dockerfile"
+        "path": "5/bookworm/Dockerfile"
       }
     ]
   },
@@ -172,8 +145,11 @@
     "name": "ghost",
     "tags": [
       "5-alpine",
+      "5-alpine3.22",
       "5.130-alpine",
-      "5.130.5-alpine"
+      "5.130.5-alpine",
+      "5.130-alpine3.22",
+      "5.130.5-alpine3.22"
     ],
     "images": [
       {
@@ -181,29 +157,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
-        "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
-        "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/alpine/Dockerfile"
+        "path": "5/alpine3.22/Dockerfile"
       },
       {
         "platform": {
@@ -211,9 +167,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "fdba3d80f50da610007165f5fe46f9b8af69764b",
+        "sha": "98ead58b730477b94884db445c67f3251408cdc4",
         "repo": "https://github.com/docker-library/ghost.git",
-        "path": "5/alpine/Dockerfile"
+        "path": "5/alpine3.22/Dockerfile"
       }
     ]
   }
