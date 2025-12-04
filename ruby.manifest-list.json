@@ -344,8 +344,93 @@
     "name": "ruby",
     "tags": [
       "4.0-rc-alpine",
-      "4.0-rc-alpine3.22",
+      "4.0-rc-alpine3.23",
       "4.0.0-preview2-alpine",
+      "4.0.0-preview2-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "4.0-rc/alpine3.23/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ruby",
+    "tags": [
+      "4.0-rc-alpine3.22",
       "4.0.0-preview2-alpine3.22"
     ],
     "images": [
@@ -423,91 +508,6 @@
         "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
         "repo": "https://github.com/docker-library/ruby.git",
         "path": "4.0-rc/alpine3.22/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ruby",
-    "tags": [
-      "4.0-rc-alpine3.21",
-      "4.0.0-preview2-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "7e8d616d1a178acd0f6e570c9f208f8c5e1a11d6",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "4.0-rc/alpine3.21/Dockerfile"
       }
     ]
   },
@@ -870,9 +870,96 @@
       "alpine",
       "3-alpine",
       "3.4-alpine",
+      "alpine3.23",
+      "3-alpine3.23",
+      "3.4.7-alpine",
+      "3.4-alpine3.23",
+      "3.4.7-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.4/alpine3.23/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ruby",
+    "tags": [
       "alpine3.22",
       "3-alpine3.22",
-      "3.4.7-alpine",
       "3.4-alpine3.22",
       "3.4.7-alpine3.22"
     ],
@@ -951,93 +1038,6 @@
         "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
         "repo": "https://github.com/docker-library/ruby.git",
         "path": "3.4/alpine3.22/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ruby",
-    "tags": [
-      "alpine3.21",
-      "3-alpine3.21",
-      "3.4-alpine3.21",
-      "3.4.7-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "7b7c8319337974e0df7e809c2360027d873ab259",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.4/alpine3.21/Dockerfile"
       }
     ]
   },
@@ -1387,6 +1387,91 @@
     "tags": [
       "3.3-alpine",
       "3.3.10-alpine",
+      "3.3-alpine3.23",
+      "3.3.10-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.3/alpine3.23/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ruby",
+    "tags": [
       "3.3-alpine3.22",
       "3.3.10-alpine3.22"
     ],
@@ -1465,91 +1550,6 @@
         "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
         "repo": "https://github.com/docker-library/ruby.git",
         "path": "3.3/alpine3.22/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ruby",
-    "tags": [
-      "3.3-alpine3.21",
-      "3.3.10-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "54c82927da7b67b0cb60a1bcd300d702ef565b7d",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.3/alpine3.21/Dockerfile"
       }
     ]
   },
@@ -1899,6 +1899,91 @@
     "tags": [
       "3.2-alpine",
       "3.2.9-alpine",
+      "3.2-alpine3.23",
+      "3.2.9-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "6785f2adeba05201537f991bf70d5e3985278826",
+        "repo": "https://github.com/docker-library/ruby.git",
+        "path": "3.2/alpine3.23/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ruby",
+    "tags": [
       "3.2-alpine3.22",
       "3.2.9-alpine3.22"
     ],
@@ -1977,91 +2062,6 @@
         "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
         "repo": "https://github.com/docker-library/ruby.git",
         "path": "3.2/alpine3.22/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "ruby",
-    "tags": [
-      "3.2-alpine3.21",
-      "3.2.9-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "33e4f980322b70f078a64d9e61eae1af040df5c2",
-        "repo": "https://github.com/docker-library/ruby.git",
-        "path": "3.2/alpine3.21/Dockerfile"
       }
     ]
   }
