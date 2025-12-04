@@ -11,7 +11,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fba75f9783b458ac342cc675892688169f6d5f9c",
+        "sha": "6d093bfbf2b1270ff21f4e0d28a84aa5c65143fc",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "x86_64/Dockerfile",
         "branch": "refs/heads/41"
@@ -22,7 +22,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "fba75f9783b458ac342cc675892688169f6d5f9c",
+        "sha": "6d093bfbf2b1270ff21f4e0d28a84aa5c65143fc",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "aarch64/Dockerfile",
         "branch": "refs/heads/41"
@@ -32,7 +32,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "fba75f9783b458ac342cc675892688169f6d5f9c",
+        "sha": "6d093bfbf2b1270ff21f4e0d28a84aa5c65143fc",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "ppc64le/Dockerfile",
         "branch": "refs/heads/41"
@@ -42,7 +42,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "fba75f9783b458ac342cc675892688169f6d5f9c",
+        "sha": "6d093bfbf2b1270ff21f4e0d28a84aa5c65143fc",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "s390x/Dockerfile",
         "branch": "refs/heads/41"
@@ -53,7 +53,57 @@
     "version": "26",
     "name": "fedora",
     "tags": [
-      "42",
+      "42"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "699f0dadeec3c88d7f7eaff86bc4a933bfaefd26",
+        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
+        "path": "x86_64/Dockerfile",
+        "branch": "refs/heads/42"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "699f0dadeec3c88d7f7eaff86bc4a933bfaefd26",
+        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
+        "path": "aarch64/Dockerfile",
+        "branch": "refs/heads/42"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "699f0dadeec3c88d7f7eaff86bc4a933bfaefd26",
+        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
+        "path": "ppc64le/Dockerfile",
+        "branch": "refs/heads/42"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "699f0dadeec3c88d7f7eaff86bc4a933bfaefd26",
+        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
+        "path": "s390x/Dockerfile",
+        "branch": "refs/heads/42"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "fedora",
+    "tags": [
+      "43",
       "latest"
     ],
     "images": [
@@ -62,57 +112,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b13b13dd4561da14a4de975c2ec754cb3fda5a27",
-        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
-        "path": "x86_64/Dockerfile",
-        "branch": "refs/heads/42"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "b13b13dd4561da14a4de975c2ec754cb3fda5a27",
-        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
-        "path": "aarch64/Dockerfile",
-        "branch": "refs/heads/42"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "b13b13dd4561da14a4de975c2ec754cb3fda5a27",
-        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
-        "path": "ppc64le/Dockerfile",
-        "branch": "refs/heads/42"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "b13b13dd4561da14a4de975c2ec754cb3fda5a27",
-        "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
-        "path": "s390x/Dockerfile",
-        "branch": "refs/heads/42"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "fedora",
-    "tags": [
-      "43"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "d256792f0edba99d8c16d059c56709bff135a26b",
+        "sha": "e6a492c9ccf0eb7de06884ccf99470795e01b627",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "x86_64/Dockerfile",
         "branch": "refs/heads/43"
@@ -123,7 +123,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d256792f0edba99d8c16d059c56709bff135a26b",
+        "sha": "e6a492c9ccf0eb7de06884ccf99470795e01b627",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "aarch64/Dockerfile",
         "branch": "refs/heads/43"
@@ -133,7 +133,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "d256792f0edba99d8c16d059c56709bff135a26b",
+        "sha": "e6a492c9ccf0eb7de06884ccf99470795e01b627",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "ppc64le/Dockerfile",
         "branch": "refs/heads/43"
@@ -143,7 +143,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "d256792f0edba99d8c16d059c56709bff135a26b",
+        "sha": "e6a492c9ccf0eb7de06884ccf99470795e01b627",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "s390x/Dockerfile",
         "branch": "refs/heads/43"
@@ -163,7 +163,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7c36ff8d21c058cce31ee9e25f0c9c0537369c2f",
+        "sha": "20e0f8dd0ff44143005030fdf69ba5674dc23ff3",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "x86_64/Dockerfile",
         "branch": "refs/heads/44"
@@ -174,7 +174,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7c36ff8d21c058cce31ee9e25f0c9c0537369c2f",
+        "sha": "20e0f8dd0ff44143005030fdf69ba5674dc23ff3",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "aarch64/Dockerfile",
         "branch": "refs/heads/44"
@@ -184,7 +184,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "7c36ff8d21c058cce31ee9e25f0c9c0537369c2f",
+        "sha": "20e0f8dd0ff44143005030fdf69ba5674dc23ff3",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "ppc64le/Dockerfile",
         "branch": "refs/heads/44"
@@ -194,7 +194,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "7c36ff8d21c058cce31ee9e25f0c9c0537369c2f",
+        "sha": "20e0f8dd0ff44143005030fdf69ba5674dc23ff3",
         "repo": "https://github.com/fedora-cloud/docker-brew-fedora.git",
         "path": "s390x/Dockerfile",
         "branch": "refs/heads/44"
