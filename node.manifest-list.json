@@ -3,57 +3,8 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "alpine3.21",
-      "25-alpine3.21",
-      "25.2-alpine3.21",
-      "25.2.1-alpine3.21",
-      "current-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "25e49232583710c7f70df7258d904861bec73b73",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "25/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "25e49232583710c7f70df7258d904861bec73b73",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "25/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "25e49232583710c7f70df7258d904861bec73b73",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "25/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "node",
-    "tags": [
-      "alpine",
-      "25-alpine",
       "alpine3.22",
-      "25.2-alpine",
       "25-alpine3.22",
-      "25.2.1-alpine",
-      "current-alpine",
       "25.2-alpine3.22",
       "25.2.1-alpine3.22",
       "current-alpine3.22"
@@ -88,6 +39,55 @@
         "sha": "25e49232583710c7f70df7258d904861bec73b73",
         "repo": "https://github.com/nodejs/docker-node.git",
         "path": "25/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "alpine",
+      "25-alpine",
+      "alpine3.23",
+      "25.2-alpine",
+      "25-alpine3.23",
+      "25.2.1-alpine",
+      "current-alpine",
+      "25.2-alpine3.23",
+      "25.2.1-alpine3.23",
+      "current-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "25/alpine3.23/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -390,56 +390,7 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "24-alpine3.21",
-      "lts-alpine3.21",
-      "24.11-alpine3.21",
-      "24.11.1-alpine3.21",
-      "krypton-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "a364e16a23fb97ea9768e5adbae36f1de63f44e9",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "24/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "a364e16a23fb97ea9768e5adbae36f1de63f44e9",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "24/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "a364e16a23fb97ea9768e5adbae36f1de63f44e9",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "24/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "node",
-    "tags": [
-      "24-alpine",
-      "lts-alpine",
-      "24.11-alpine",
       "24-alpine3.22",
-      "24.11.1-alpine",
-      "krypton-alpine",
       "lts-alpine3.22",
       "24.11-alpine3.22",
       "24.11.1-alpine3.22",
@@ -475,6 +426,55 @@
         "sha": "a364e16a23fb97ea9768e5adbae36f1de63f44e9",
         "repo": "https://github.com/nodejs/docker-node.git",
         "path": "24/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "24-alpine",
+      "lts-alpine",
+      "24.11-alpine",
+      "24-alpine3.23",
+      "24.11.1-alpine",
+      "krypton-alpine",
+      "lts-alpine3.23",
+      "24.11-alpine3.23",
+      "24.11.1-alpine3.23",
+      "krypton-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "24/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "24/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "24/alpine3.23/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -778,76 +778,7 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "22-alpine3.21",
-      "jod-alpine3.21",
-      "22.21-alpine3.21",
-      "22.21.1-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "bf78d7603fbea92cd3652edb3b2edadd6f5a3fe8",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "22/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "bf78d7603fbea92cd3652edb3b2edadd6f5a3fe8",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "22/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "bf78d7603fbea92cd3652edb3b2edadd6f5a3fe8",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "22/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "bf78d7603fbea92cd3652edb3b2edadd6f5a3fe8",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "22/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "bf78d7603fbea92cd3652edb3b2edadd6f5a3fe8",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "22/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "node",
-    "tags": [
-      "22-alpine",
-      "jod-alpine",
-      "22.21-alpine",
       "22-alpine3.22",
-      "22.21.1-alpine",
       "jod-alpine3.22",
       "22.21-alpine3.22",
       "22.21.1-alpine3.22"
@@ -904,6 +835,75 @@
         "sha": "bf78d7603fbea92cd3652edb3b2edadd6f5a3fe8",
         "repo": "https://github.com/nodejs/docker-node.git",
         "path": "22/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "22-alpine",
+      "jod-alpine",
+      "22.21-alpine",
+      "22-alpine3.23",
+      "22.21.1-alpine",
+      "jod-alpine3.23",
+      "22.21-alpine3.23",
+      "22.21.1-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "22/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "22/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "22/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "22/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "22/alpine3.23/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
@@ -1242,86 +1242,7 @@
     "version": "26",
     "name": "node",
     "tags": [
-      "20-alpine3.21",
-      "iron-alpine3.21",
-      "20.19-alpine3.21",
-      "20.19.6-alpine3.21"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "20/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "20/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "20/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "20/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "20/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
-        "repo": "https://github.com/nodejs/docker-node.git",
-        "path": "20/alpine3.21/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "node",
-    "tags": [
-      "20-alpine",
-      "iron-alpine",
-      "20.19-alpine",
       "20-alpine3.22",
-      "20.19.6-alpine",
       "iron-alpine3.22",
       "20.19-alpine3.22",
       "20.19.6-alpine3.22"
@@ -1388,6 +1309,85 @@
         "sha": "edcdc15af6dea5978e694a8efe90347925baafad",
         "repo": "https://github.com/nodejs/docker-node.git",
         "path": "20/alpine3.22/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "node",
+    "tags": [
+      "20-alpine",
+      "iron-alpine",
+      "20.19-alpine",
+      "20-alpine3.23",
+      "20.19.6-alpine",
+      "iron-alpine3.23",
+      "20.19-alpine3.23",
+      "20.19.6-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/alpine3.23/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "8874b155122c3e130f8104f57bd56696dab77cb6",
+        "repo": "https://github.com/nodejs/docker-node.git",
+        "path": "20/alpine3.23/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
