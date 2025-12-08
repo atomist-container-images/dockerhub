@@ -4,29 +4,29 @@
     "name": "groovy",
     "tags": [
       "4",
-      "4.0",
+      "5.0",
       "jdk",
-      "4-jdk",
-      "jdk21",
+      "5-jdk",
+      "5.0.3",
+      "jdk25",
       "noble",
-      "4.0.27",
       "latest",
-      "4-jdk21",
-      "4-noble",
-      "4.0-jdk",
-      "4.0-jdk21",
-      "4.0-noble",
+      "5-jdk25",
+      "5-noble",
+      "5.0-jdk",
+      "5.0-jdk25",
+      "5.0-noble",
+      "5.0.3-jdk",
       "jdk-noble",
-      "4.0.27-jdk",
-      "4-jdk-noble",
-      "jdk21-noble",
-      "4.0.27-jdk21",
-      "4.0.27-noble",
-      "4-jdk21-noble",
-      "4.0-jdk-noble",
-      "4.0-jdk21-noble",
-      "4.0.27-jdk-noble",
-      "4.0.27-jdk21-noble"
+      "5-jdk-noble",
+      "5.0.3-jdk25",
+      "5.0.3-noble",
+      "jdk25-noble",
+      "5-jdk25-noble",
+      "5.0-jdk-noble",
+      "5.0-jdk25-noble",
+      "5.0.3-jdk-noble",
+      "5.0.3-jdk25-noble"
     ],
     "images": [
       {
@@ -34,7 +34,115 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "groovy",
+    "tags": [
+      "alpine",
+      "5-alpine",
+      "5.0-alpine",
+      "jdk-alpine",
+      "5-jdk-alpine",
+      "5.0.3-alpine",
+      "jdk25-alpine",
+      "5-jdk25-alpine",
+      "5.0-jdk-alpine",
+      "5.0-jdk25-alpine",
+      "5.0.3-jdk-alpine",
+      "5.0.3-jdk25-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25-alpine/Dockerfile",
+        "branch": "refs/heads/master"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
+        "repo": "https://github.com/groovy/docker-groovy.git",
+        "path": "jdk25-alpine/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "groovy",
+    "tags": [
+      "jdk21",
+      "5-jdk21",
+      "5.0-jdk21",
+      "5.0.3-jdk21",
+      "jdk21-noble",
+      "5-jdk21-noble",
+      "5.0-jdk21-noble",
+      "5.0.3-jdk21-noble"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -45,7 +153,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -55,7 +163,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -65,7 +173,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -75,7 +183,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21/Dockerfile",
         "branch": "refs/heads/master"
@@ -86,18 +194,10 @@
     "version": "26",
     "name": "groovy",
     "tags": [
-      "alpine",
-      "4-alpine",
-      "4.0-alpine",
-      "jdk-alpine",
-      "4-jdk-alpine",
       "jdk21-alpine",
-      "4.0.27-alpine",
-      "4-jdk21-alpine",
-      "4.0-jdk-alpine",
-      "4.0-jdk21-alpine",
-      "4.0.27-jdk-alpine",
-      "4.0.27-jdk21-alpine"
+      "5-jdk21-alpine",
+      "5.0-jdk21-alpine",
+      "5.0.3-jdk21-alpine"
     ],
     "images": [
       {
@@ -105,7 +205,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -116,7 +216,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk21-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -128,13 +228,13 @@
     "name": "groovy",
     "tags": [
       "jdk17",
-      "4-jdk17",
-      "4.0-jdk17",
+      "5-jdk17",
+      "5.0-jdk17",
+      "5.0.3-jdk17",
       "jdk17-noble",
-      "4.0.27-jdk17",
-      "4-jdk17-noble",
-      "4.0-jdk17-noble",
-      "4.0.27-jdk17-noble"
+      "5-jdk17-noble",
+      "5.0-jdk17-noble",
+      "5.0.3-jdk17-noble"
     ],
     "images": [
       {
@@ -142,7 +242,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -153,7 +253,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -164,7 +264,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -174,7 +274,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -184,7 +284,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -194,7 +294,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17/Dockerfile",
         "branch": "refs/heads/master"
@@ -206,9 +306,9 @@
     "name": "groovy",
     "tags": [
       "jdk17-alpine",
-      "4-jdk17-alpine",
-      "4.0-jdk17-alpine",
-      "4.0.27-jdk17-alpine"
+      "5-jdk17-alpine",
+      "5.0-jdk17-alpine",
+      "5.0.3-jdk17-alpine"
     ],
     "images": [
       {
@@ -216,7 +316,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk17-alpine/Dockerfile",
         "branch": "refs/heads/master"
@@ -229,20 +329,20 @@
     "tags": [
       "jammy",
       "jdk11",
-      "4-jammy",
-      "4-jdk11",
-      "4.0-jammy",
-      "4.0-jdk11",
+      "5-jammy",
+      "5-jdk11",
+      "5.0-jammy",
+      "5.0-jdk11",
       "jdk-jammy",
-      "4-jdk-jammy",
+      "5-jdk-jammy",
+      "5.0.3-jammy",
+      "5.0.3-jdk11",
       "jdk11-jammy",
-      "4.0.27-jammy",
-      "4.0.27-jdk11",
-      "4-jdk11-jammy",
-      "4.0-jdk-jammy",
-      "4.0-jdk11-jammy",
-      "4.0.27-jdk-jammy",
-      "4.0.27-jdk11-jammy"
+      "5-jdk11-jammy",
+      "5.0-jdk-jammy",
+      "5.0-jdk11-jammy",
+      "5.0.3-jdk-jammy",
+      "5.0.3-jdk11-jammy"
     ],
     "images": [
       {
@@ -250,7 +350,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -261,7 +361,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -272,7 +372,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -282,7 +382,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -292,7 +392,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk11/Dockerfile",
         "branch": "refs/heads/master"
@@ -304,9 +404,9 @@
     "name": "groovy",
     "tags": [
       "jdk11-alpine",
-      "4-jdk11-alpine",
-      "4.0-jdk11-alpine",
-      "4.0.27-jdk11-alpine"
+      "5-jdk11-alpine",
+      "5.0-jdk11-alpine",
+      "5.0.3-jdk11-alpine"
     ],
     "images": [
       {
@@ -314,67 +414,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
+        "sha": "4c69514606dd56641932a0253ded4932f808cf0b",
         "repo": "https://github.com/groovy/docker-groovy.git",
         "path": "jdk11-alpine/Dockerfile",
-        "branch": "refs/heads/master"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "groovy",
-    "tags": [
-      "jdk8",
-      "4-jdk8",
-      "4.0-jdk8",
-      "jdk8-jammy",
-      "4.0.27-jdk8",
-      "4-jdk8-jammy",
-      "4.0-jdk8-jammy",
-      "4.0.27-jdk8-jammy"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
-        "repo": "https://github.com/groovy/docker-groovy.git",
-        "path": "jdk8/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
-        "repo": "https://github.com/groovy/docker-groovy.git",
-        "path": "jdk8/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
-        "repo": "https://github.com/groovy/docker-groovy.git",
-        "path": "jdk8/Dockerfile",
-        "branch": "refs/heads/master"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "5a3c63b31c157987812e0b7d7d510cf83490e259",
-        "repo": "https://github.com/groovy/docker-groovy.git",
-        "path": "jdk8/Dockerfile",
         "branch": "refs/heads/master"
       }
     ]
