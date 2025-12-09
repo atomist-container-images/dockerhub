@@ -481,12 +481,8 @@
     "version": "26",
     "name": "rust",
     "tags": [
-      "alpine",
-      "1-alpine",
       "alpine3.22",
-      "1.91-alpine",
       "1-alpine3.22",
-      "1.91.1-alpine",
       "1.91-alpine3.22",
       "1.91.1-alpine3.22"
     ],
@@ -518,6 +514,50 @@
         "sha": "87dc1897ae38315b52ecedf77227576e4861487d",
         "repo": "https://github.com/rust-lang/docker-rust.git",
         "path": "stable/alpine3.22/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "rust",
+    "tags": [
+      "alpine",
+      "1-alpine",
+      "alpine3.23",
+      "1.91-alpine",
+      "1-alpine3.23",
+      "1.91.1-alpine",
+      "1.91-alpine3.23",
+      "1.91.1-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "606fc92c104f66af9e7e5f2bea1bf2f5072d84b6",
+        "repo": "https://github.com/rust-lang/docker-rust.git",
+        "path": "stable/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "606fc92c104f66af9e7e5f2bea1bf2f5072d84b6",
+        "repo": "https://github.com/rust-lang/docker-rust.git",
+        "path": "stable/alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "606fc92c104f66af9e7e5f2bea1bf2f5072d84b6",
+        "repo": "https://github.com/rust-lang/docker-rust.git",
+        "path": "stable/alpine3.23/Dockerfile"
       }
     ]
   }
