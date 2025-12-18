@@ -5,7 +5,8 @@
     "tags": [
       "3.12",
       "3.12.7",
-      "latest"
+      "latest",
+      "3.12.7.1"
     ],
     "images": [
       {
@@ -13,7 +14,37 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "7e851ff41a456ff2528a8a4e5752aa6cde889e2e",
+        "sha": "61e5a446605aeee6df0ffed534d221bd63a35ee3",
+        "repo": "https://github.com/arangodb/arangodb-docker.git",
+        "path": "alpine/3.12.7.1/Dockerfile",
+        "branch": "refs/heads/official"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "61e5a446605aeee6df0ffed534d221bd63a35ee3",
+        "repo": "https://github.com/arangodb/arangodb-docker.git",
+        "path": "alpine/3.12.7.1/Dockerfile",
+        "branch": "refs/heads/official"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "arangodb",
+    "tags": [
+      "3.12.7.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "61e5a446605aeee6df0ffed534d221bd63a35ee3",
         "repo": "https://github.com/arangodb/arangodb-docker.git",
         "path": "alpine/3.12.7/Dockerfile",
         "branch": "refs/heads/official"
@@ -24,7 +55,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "7e851ff41a456ff2528a8a4e5752aa6cde889e2e",
+        "sha": "61e5a446605aeee6df0ffed534d221bd63a35ee3",
         "repo": "https://github.com/arangodb/arangodb-docker.git",
         "path": "alpine/3.12.7/Dockerfile",
         "branch": "refs/heads/official"
