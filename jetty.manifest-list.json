@@ -434,12 +434,12 @@
     "version": "26",
     "name": "jetty",
     "tags": [
-      "12-jdk21-alpine",
-      "12.1-jdk21-alpine",
-      "12.1.4-jdk21-alpine",
-      "12-jdk21-alpine-eclipse-temurin",
-      "12.1-jdk21-alpine-eclipse-temurin",
-      "12.1.4-jdk21-alpine-eclipse-temurin"
+      "12-jdk25-alpine",
+      "12.1-jdk25-alpine",
+      "12.1.5-jdk25-alpine",
+      "12-jdk25-alpine-eclipse-temurin",
+      "12.1-jdk25-alpine-eclipse-temurin",
+      "12.1.5-jdk25-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -447,7 +447,63 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "eclipse-temurin/12.1/jdk25-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jetty",
+    "tags": [
+      "12-jdk25",
+      "12.1-jdk25",
+      "12.1.5-jdk25",
+      "12-jdk25-eclipse-temurin",
+      "12.1-jdk25-eclipse-temurin",
+      "12.1.5-jdk25-eclipse-temurin"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "eclipse-temurin/12.1/jdk25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "eclipse-temurin/12.1/jdk25/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jetty",
+    "tags": [
+      "12-jdk21-alpine",
+      "12.1-jdk21-alpine",
+      "12.1.5-jdk21-alpine",
+      "12-jdk21-alpine-eclipse-temurin",
+      "12.1-jdk21-alpine-eclipse-temurin",
+      "12.1.5-jdk21-alpine-eclipse-temurin"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.1/jdk21-alpine/Dockerfile"
       }
@@ -460,17 +516,17 @@
       "12",
       "12.1",
       "jdk21",
-      "12.1.4",
+      "12.1.5",
       "latest",
       "12-jdk21",
       "12.1-jdk21",
-      "12.1.4-jdk21",
+      "12.1.5-jdk21",
       "12-eclipse-temurin",
       "12.1-eclipse-temurin",
-      "12.1.4-eclipse-temurin",
+      "12.1.5-eclipse-temurin",
       "12-jdk21-eclipse-temurin",
       "12.1-jdk21-eclipse-temurin",
-      "12.1.4-jdk21-eclipse-temurin"
+      "12.1.5-jdk21-eclipse-temurin"
     ],
     "images": [
       {
@@ -478,7 +534,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.1/jdk21/Dockerfile"
       },
@@ -488,7 +544,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.1/jdk21/Dockerfile"
       }
@@ -500,10 +556,10 @@
     "tags": [
       "12-jdk17-alpine",
       "12.1-jdk17-alpine",
-      "12.1.4-jdk17-alpine",
+      "12.1.5-jdk17-alpine",
       "12-jdk17-alpine-eclipse-temurin",
       "12.1-jdk17-alpine-eclipse-temurin",
-      "12.1.4-jdk17-alpine-eclipse-temurin"
+      "12.1.5-jdk17-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -511,7 +567,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.1/jdk17-alpine/Dockerfile"
       }
@@ -524,10 +580,10 @@
       "jdk17",
       "12-jdk17",
       "12.1-jdk17",
-      "12.1.4-jdk17",
+      "12.1.5-jdk17",
       "12-jdk17-eclipse-temurin",
       "12.1-jdk17-eclipse-temurin",
-      "12.1.4-jdk17-eclipse-temurin"
+      "12.1.5-jdk17-eclipse-temurin"
     ],
     "images": [
       {
@@ -535,7 +591,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.1/jdk17/Dockerfile"
       },
@@ -545,7 +601,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.1/jdk17/Dockerfile"
       }
@@ -556,9 +612,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jre21-alpine",
-      "12.0.30-jre21-alpine",
+      "12.0.31-jre21-alpine",
       "12.0-jre21-alpine-eclipse-temurin",
-      "12.0.30-jre21-alpine-eclipse-temurin"
+      "12.0.31-jre21-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -566,7 +622,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jre21-alpine/Dockerfile"
       }
@@ -577,9 +633,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jre21",
-      "12.0.30-jre21",
+      "12.0.31-jre21",
       "12.0-jre21-eclipse-temurin",
-      "12.0.30-jre21-eclipse-temurin"
+      "12.0.31-jre21-eclipse-temurin"
     ],
     "images": [
       {
@@ -587,7 +643,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jre21/Dockerfile"
       },
@@ -597,7 +653,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jre21/Dockerfile"
       }
@@ -608,9 +664,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jre17-alpine",
-      "12.0.30-jre17-alpine",
+      "12.0.31-jre17-alpine",
       "12.0-jre17-alpine-eclipse-temurin",
-      "12.0.30-jre17-alpine-eclipse-temurin"
+      "12.0.31-jre17-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -618,7 +674,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jre17-alpine/Dockerfile"
       }
@@ -629,9 +685,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jre17",
-      "12.0.30-jre17",
+      "12.0.31-jre17",
       "12.0-jre17-eclipse-temurin",
-      "12.0.30-jre17-eclipse-temurin"
+      "12.0.31-jre17-eclipse-temurin"
     ],
     "images": [
       {
@@ -639,7 +695,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jre17/Dockerfile"
       },
@@ -649,7 +705,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jre17/Dockerfile"
       }
@@ -660,9 +716,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk25-alpine",
-      "12.0.30-jdk25-alpine",
+      "12.0.31-jdk25-alpine",
       "12.0-jdk25-alpine-eclipse-temurin",
-      "12.0.30-jdk25-alpine-eclipse-temurin"
+      "12.0.31-jdk25-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -670,7 +726,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk25-alpine/Dockerfile"
       }
@@ -681,9 +737,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk25",
-      "12.0.30-jdk25",
+      "12.0.31-jdk25",
       "12.0-jdk25-eclipse-temurin",
-      "12.0.30-jdk25-eclipse-temurin"
+      "12.0.31-jdk25-eclipse-temurin"
     ],
     "images": [
       {
@@ -691,7 +747,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk25/Dockerfile"
       },
@@ -701,7 +757,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk25/Dockerfile"
       }
@@ -712,9 +768,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk21-alpine",
-      "12.0.30-jdk21-alpine",
+      "12.0.31-jdk21-alpine",
       "12.0-jdk21-alpine-eclipse-temurin",
-      "12.0.30-jdk21-alpine-eclipse-temurin"
+      "12.0.31-jdk21-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -722,7 +778,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk21-alpine/Dockerfile"
       }
@@ -733,13 +789,13 @@
     "name": "jetty",
     "tags": [
       "12.0",
-      "12.0.30",
+      "12.0.31",
       "12.0-jdk21",
-      "12.0.30-jdk21",
+      "12.0.31-jdk21",
       "12.0-eclipse-temurin",
-      "12.0.30-eclipse-temurin",
+      "12.0.31-eclipse-temurin",
       "12.0-jdk21-eclipse-temurin",
-      "12.0.30-jdk21-eclipse-temurin"
+      "12.0.31-jdk21-eclipse-temurin"
     ],
     "images": [
       {
@@ -747,7 +803,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk21/Dockerfile"
       },
@@ -757,7 +813,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk21/Dockerfile"
       }
@@ -768,9 +824,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk17-alpine",
-      "12.0.30-jdk17-alpine",
+      "12.0.31-jdk17-alpine",
       "12.0-jdk17-alpine-eclipse-temurin",
-      "12.0.30-jdk17-alpine-eclipse-temurin"
+      "12.0.31-jdk17-alpine-eclipse-temurin"
     ],
     "images": [
       {
@@ -778,7 +834,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk17-alpine/Dockerfile"
       }
@@ -789,9 +845,9 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk17",
-      "12.0.30-jdk17",
+      "12.0.31-jdk17",
       "12.0-jdk17-eclipse-temurin",
-      "12.0.30-jdk17-eclipse-temurin"
+      "12.0.31-jdk17-eclipse-temurin"
     ],
     "images": [
       {
@@ -799,7 +855,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk17/Dockerfile"
       },
@@ -809,7 +865,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "eclipse-temurin/12.0/jdk17/Dockerfile"
       }
@@ -1746,9 +1802,9 @@
     "version": "26",
     "name": "jetty",
     "tags": [
-      "12-jdk21-alpine-amazoncorretto",
-      "12.1-jdk21-alpine-amazoncorretto",
-      "12.1.4-jdk21-alpine-amazoncorretto"
+      "12-jdk25-alpine-amazoncorretto",
+      "12.1-jdk25-alpine-amazoncorretto",
+      "12.1.5-jdk25-alpine-amazoncorretto"
     ],
     "images": [
       {
@@ -1756,7 +1812,67 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "amazoncorretto/12.1/jdk25-alpine/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "amazoncorretto/12.1/jdk25-alpine/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jetty",
+    "tags": [
+      "12-jdk25-amazoncorretto",
+      "12.1-jdk25-amazoncorretto",
+      "12.1.5-jdk25-amazoncorretto"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "amazoncorretto/12.1/jdk25/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
+        "repo": "https://github.com/eclipse/jetty.docker.git",
+        "path": "amazoncorretto/12.1/jdk25/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "jetty",
+    "tags": [
+      "12-jdk21-alpine-amazoncorretto",
+      "12.1-jdk21-alpine-amazoncorretto",
+      "12.1.5-jdk21-alpine-amazoncorretto"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk21-alpine/Dockerfile"
       },
@@ -1766,7 +1882,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk21-alpine/Dockerfile"
       }
@@ -1778,10 +1894,10 @@
     "tags": [
       "12-amazoncorretto",
       "12.1-amazoncorretto",
-      "12.1.4-amazoncorretto",
+      "12.1.5-amazoncorretto",
       "12-jdk21-amazoncorretto",
       "12.1-jdk21-amazoncorretto",
-      "12.1.4-jdk21-amazoncorretto"
+      "12.1.5-jdk21-amazoncorretto"
     ],
     "images": [
       {
@@ -1789,7 +1905,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk21/Dockerfile"
       },
@@ -1799,7 +1915,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk21/Dockerfile"
       }
@@ -1811,7 +1927,7 @@
     "tags": [
       "12-jdk17-alpine-amazoncorretto",
       "12.1-jdk17-alpine-amazoncorretto",
-      "12.1.4-jdk17-alpine-amazoncorretto"
+      "12.1.5-jdk17-alpine-amazoncorretto"
     ],
     "images": [
       {
@@ -1819,7 +1935,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk17-alpine/Dockerfile"
       },
@@ -1829,7 +1945,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk17-alpine/Dockerfile"
       }
@@ -1841,7 +1957,7 @@
     "tags": [
       "12-jdk17-amazoncorretto",
       "12.1-jdk17-amazoncorretto",
-      "12.1.4-jdk17-amazoncorretto"
+      "12.1.5-jdk17-amazoncorretto"
     ],
     "images": [
       {
@@ -1849,7 +1965,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk17/Dockerfile"
       },
@@ -1859,7 +1975,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.1/jdk17/Dockerfile"
       }
@@ -1870,7 +1986,7 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk25-al2023-amazoncorretto",
-      "12.0.30-jdk25-al2023-amazoncorretto"
+      "12.0.31-jdk25-al2023-amazoncorretto"
     ],
     "images": [
       {
@@ -1878,7 +1994,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk25-al2023/Dockerfile"
       },
@@ -1888,7 +2004,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk25-al2023/Dockerfile"
       }
@@ -1899,7 +2015,7 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk21-alpine-amazoncorretto",
-      "12.0.30-jdk21-alpine-amazoncorretto"
+      "12.0.31-jdk21-alpine-amazoncorretto"
     ],
     "images": [
       {
@@ -1907,7 +2023,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk21-alpine/Dockerfile"
       },
@@ -1917,7 +2033,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk21-alpine/Dockerfile"
       }
@@ -1928,7 +2044,7 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk21-al2023-amazoncorretto",
-      "12.0.30-jdk21-al2023-amazoncorretto"
+      "12.0.31-jdk21-al2023-amazoncorretto"
     ],
     "images": [
       {
@@ -1936,7 +2052,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk21-al2023/Dockerfile"
       },
@@ -1946,7 +2062,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk21-al2023/Dockerfile"
       }
@@ -1957,9 +2073,9 @@
     "name": "jetty",
     "tags": [
       "12.0-amazoncorretto",
-      "12.0.30-amazoncorretto",
+      "12.0.31-amazoncorretto",
       "12.0-jdk21-amazoncorretto",
-      "12.0.30-jdk21-amazoncorretto"
+      "12.0.31-jdk21-amazoncorretto"
     ],
     "images": [
       {
@@ -1967,7 +2083,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk21/Dockerfile"
       },
@@ -1977,7 +2093,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk21/Dockerfile"
       }
@@ -1988,7 +2104,7 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk17-alpine-amazoncorretto",
-      "12.0.30-jdk17-alpine-amazoncorretto"
+      "12.0.31-jdk17-alpine-amazoncorretto"
     ],
     "images": [
       {
@@ -1996,7 +2112,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk17-alpine/Dockerfile"
       },
@@ -2006,7 +2122,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk17-alpine/Dockerfile"
       }
@@ -2017,7 +2133,7 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk17-al2023-amazoncorretto",
-      "12.0.30-jdk17-al2023-amazoncorretto"
+      "12.0.31-jdk17-al2023-amazoncorretto"
     ],
     "images": [
       {
@@ -2025,7 +2141,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk17-al2023/Dockerfile"
       },
@@ -2035,7 +2151,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk17-al2023/Dockerfile"
       }
@@ -2046,7 +2162,7 @@
     "name": "jetty",
     "tags": [
       "12.0-jdk17-amazoncorretto",
-      "12.0.30-jdk17-amazoncorretto"
+      "12.0.31-jdk17-amazoncorretto"
     ],
     "images": [
       {
@@ -2054,7 +2170,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk17/Dockerfile"
       },
@@ -2064,7 +2180,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d810e2cd991b09d1c075f394180b488e3856ecfb",
+        "sha": "674ee96da163d9312b30958397e8ee568fb14635",
         "repo": "https://github.com/eclipse/jetty.docker.git",
         "path": "amazoncorretto/12.0/jdk17/Dockerfile"
       }
