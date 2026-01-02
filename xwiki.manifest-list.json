@@ -4,16 +4,19 @@
     "name": "xwiki",
     "tags": [
       "17",
+      "lts",
       "17.10",
       "latest",
       "stable",
-      "17.10.0",
+      "17.10.2",
+      "lts-mysql",
       "mysql-tomcat",
       "stable-mysql",
       "17-mysql-tomcat",
+      "lts-mysql-tomcat",
       "17.10-mysql-tomcat",
       "stable-mysql-tomcat",
-      "17.10.0-mysql-tomcat"
+      "17.10.2-mysql-tomcat"
     ],
     "images": [
       {
@@ -21,7 +24,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b1dc0934aa1761ef397459f7dbf866480e9fc6c9",
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
         "repo": "https://github.com/xwiki/xwiki-docker.git",
         "path": "17/mysql-tomcat/Dockerfile"
       },
@@ -31,7 +34,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b1dc0934aa1761ef397459f7dbf866480e9fc6c9",
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
         "repo": "https://github.com/xwiki/xwiki-docker.git",
         "path": "17/mysql-tomcat/Dockerfile"
       }
@@ -41,12 +44,14 @@
     "version": "26",
     "name": "xwiki",
     "tags": [
+      "lts-postgres",
       "postgres-tomcat",
       "stable-postgres",
       "17-postgres-tomcat",
+      "lts-postgres-tomcat",
       "17.10-postgres-tomcat",
       "stable-postgres-tomcat",
-      "17.10.0-postgres-tomcat"
+      "17.10.2-postgres-tomcat"
     ],
     "images": [
       {
@@ -54,7 +59,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b1dc0934aa1761ef397459f7dbf866480e9fc6c9",
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
         "repo": "https://github.com/xwiki/xwiki-docker.git",
         "path": "17/postgres-tomcat/Dockerfile"
       },
@@ -64,7 +69,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b1dc0934aa1761ef397459f7dbf866480e9fc6c9",
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
         "repo": "https://github.com/xwiki/xwiki-docker.git",
         "path": "17/postgres-tomcat/Dockerfile"
       }
@@ -74,12 +79,14 @@
     "version": "26",
     "name": "xwiki",
     "tags": [
+      "lts-mariadb",
       "mariadb-tomcat",
       "stable-mariadb",
       "17-mariadb-tomcat",
+      "lts-mariadb-tomcat",
       "17.10-mariadb-tomcat",
       "stable-mariadb-tomcat",
-      "17.10.0-mariadb-tomcat"
+      "17.10.2-mariadb-tomcat"
     ],
     "images": [
       {
@@ -87,7 +94,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b1dc0934aa1761ef397459f7dbf866480e9fc6c9",
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
         "repo": "https://github.com/xwiki/xwiki-docker.git",
         "path": "17/mariadb-tomcat/Dockerfile"
       },
@@ -97,9 +104,94 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "b1dc0934aa1761ef397459f7dbf866480e9fc6c9",
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
         "repo": "https://github.com/xwiki/xwiki-docker.git",
         "path": "17/mariadb-tomcat/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "xwiki",
+    "tags": [
+      "17.10.1",
+      "17.10.1-mysql-tomcat"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "17.10.1/mysql-tomcat/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "17.10.1/mysql-tomcat/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "xwiki",
+    "tags": [
+      "17.10.1-postgres-tomcat"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "17.10.1/postgres-tomcat/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "17.10.1/postgres-tomcat/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "xwiki",
+    "tags": [
+      "17.10.1-mariadb-tomcat"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "17.10.1/mariadb-tomcat/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a7602018132edae5f6fc023fd172692ff2794452",
+        "repo": "https://github.com/xwiki/xwiki-docker.git",
+        "path": "17.10.1/mariadb-tomcat/Dockerfile"
       }
     ]
   },
@@ -197,12 +289,9 @@
     "name": "xwiki",
     "tags": [
       "16",
-      "lts",
       "16.10",
       "16.10.15",
-      "lts-mysql",
       "16-mysql-tomcat",
-      "lts-mysql-tomcat",
       "16.10-mysql-tomcat",
       "16.10.15-mysql-tomcat"
     ],
@@ -232,9 +321,7 @@
     "version": "26",
     "name": "xwiki",
     "tags": [
-      "lts-postgres",
       "16-postgres-tomcat",
-      "lts-postgres-tomcat",
       "16.10-postgres-tomcat",
       "16.10.15-postgres-tomcat"
     ],
@@ -264,9 +351,7 @@
     "version": "26",
     "name": "xwiki",
     "tags": [
-      "lts-mariadb",
       "16-mariadb-tomcat",
-      "lts-mariadb-tomcat",
       "16.10-mariadb-tomcat",
       "16.10.15-mariadb-tomcat"
     ],
