@@ -149,16 +149,16 @@
     "tags": [
       "5",
       "5.26",
-      "5.26.19",
-      "5-bullseye",
+      "5.26.20",
+      "5-trixie",
       "5-community",
-      "5.26-bullseye",
+      "5.26-trixie",
       "5.26-community",
-      "5.26.19-bullseye",
-      "5.26.19-community",
-      "5-community-bullseye",
-      "5.26-community-bullseye",
-      "5.26.19-community-bullseye"
+      "5.26.20-trixie",
+      "5.26.20-community",
+      "5-community-trixie",
+      "5.26-community-trixie",
+      "5.26.20-community-trixie"
     ],
     "images": [
       {
@@ -166,9 +166,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/bullseye/community/Dockerfile"
+        "path": "5.26.20/trixie/community/Dockerfile"
       },
       {
         "platform": {
@@ -176,9 +176,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/bullseye/community/Dockerfile"
+        "path": "5.26.20/trixie/community/Dockerfile"
       }
     ]
   },
@@ -188,10 +188,10 @@
     "tags": [
       "5-enterprise",
       "5.26-enterprise",
-      "5.26.19-enterprise",
-      "5-enterprise-bullseye",
-      "5.26-enterprise-bullseye",
-      "5.26.19-enterprise-bullseye"
+      "5.26.20-enterprise",
+      "5-enterprise-trixie",
+      "5.26-enterprise-trixie",
+      "5.26.20-enterprise-trixie"
     ],
     "images": [
       {
@@ -199,9 +199,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/bullseye/enterprise/Dockerfile"
+        "path": "5.26.20/trixie/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -209,9 +209,135 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/bullseye/enterprise/Dockerfile"
+        "path": "5.26.20/trixie/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "5-bullseye",
+      "5.26-bullseye",
+      "5.26.20-bullseye",
+      "5-community-bullseye",
+      "5.26-community-bullseye",
+      "5.26.20-community-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/bullseye/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/bullseye/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "5-enterprise-bullseye",
+      "5.26-enterprise-bullseye",
+      "5.26.20-enterprise-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/bullseye/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/bullseye/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "5-ubi10",
+      "5.26-ubi10",
+      "5.26.20-ubi10",
+      "5-community-ubi10",
+      "5.26-community-ubi10",
+      "5.26.20-community-ubi10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/ubi10/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/ubi10/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "5-enterprise-ubi10",
+      "5.26-enterprise-ubi10",
+      "5.26.20-enterprise-ubi10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/ubi10/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "5.26.20/ubi10/enterprise/Dockerfile"
       }
     ]
   },
@@ -221,10 +347,10 @@
     "tags": [
       "5-ubi9",
       "5.26-ubi9",
-      "5.26.19-ubi9",
+      "5.26.20-ubi9",
       "5-community-ubi9",
       "5.26-community-ubi9",
-      "5.26.19-community-ubi9"
+      "5.26.20-community-ubi9"
     ],
     "images": [
       {
@@ -232,9 +358,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/ubi9/community/Dockerfile"
+        "path": "5.26.20/ubi9/community/Dockerfile"
       },
       {
         "platform": {
@@ -242,9 +368,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/ubi9/community/Dockerfile"
+        "path": "5.26.20/ubi9/community/Dockerfile"
       }
     ]
   },
@@ -254,7 +380,7 @@
     "tags": [
       "5-enterprise-ubi9",
       "5.26-enterprise-ubi9",
-      "5.26.19-enterprise-ubi9"
+      "5.26.20-enterprise-ubi9"
     ],
     "images": [
       {
@@ -262,9 +388,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/ubi9/enterprise/Dockerfile"
+        "path": "5.26.20/ubi9/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -272,9 +398,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "78f760a7c0f43c772bbcb71aee05bbefcc7bf85c",
+        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.19/ubi9/enterprise/Dockerfile"
+        "path": "5.26.20/ubi9/enterprise/Dockerfile"
       }
     ]
   },
