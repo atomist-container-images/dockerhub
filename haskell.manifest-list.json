@@ -4,11 +4,75 @@
     "name": "haskell",
     "tags": [
       "9",
-      "9.12",
-      "9.12.2",
+      "9.14",
+      "9.14.1",
       "latest",
       "bookworm",
       "9-bookworm",
+      "9.14-bookworm",
+      "9.14.1-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "507dcd550c1eb050a5839572f74b908e3a3e306b",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.14/bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "507dcd550c1eb050a5839572f74b908e3a3e306b",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.14/bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "slim",
+      "9-slim",
+      "slim-bookworm",
+      "9-slim-bookworm",
+      "9.14-slim-bookworm",
+      "9.14.1-slim-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "507dcd550c1eb050a5839572f74b908e3a3e306b",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.14/slim-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "507dcd550c1eb050a5839572f74b908e3a3e306b",
+        "repo": "https://github.com/haskell/docker-haskell.git",
+        "path": "9.14/slim-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "haskell",
+    "tags": [
+      "9.12",
+      "9.12.2",
       "9.12-bookworm",
       "9.12.2-bookworm"
     ],
@@ -38,10 +102,6 @@
     "version": "26",
     "name": "haskell",
     "tags": [
-      "slim",
-      "9-slim",
-      "slim-bookworm",
-      "9-slim-bookworm",
       "9.12-slim-bookworm",
       "9.12.2-slim-bookworm"
     ],
