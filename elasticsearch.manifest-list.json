@@ -3,7 +3,7 @@
     "version": "26",
     "name": "elasticsearch",
     "tags": [
-      "8.19.10"
+      "8.19.11"
     ],
     "images": [
       {
@@ -11,7 +11,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f15851a9a22d36ecdf682c600f316b6b413e291a",
+        "sha": "f7772a32e16a4867434d723b232842eec7393b9c",
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "elasticsearch/Dockerfile",
         "branch": "refs/heads/8.19"
@@ -22,7 +22,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f15851a9a22d36ecdf682c600f316b6b413e291a",
+        "sha": "f7772a32e16a4867434d723b232842eec7393b9c",
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "elasticsearch/Dockerfile",
         "branch": "refs/heads/8.19"
@@ -63,7 +63,7 @@
     "version": "26",
     "name": "elasticsearch",
     "tags": [
-      "9.2.4"
+      "9.2.5"
     ],
     "images": [
       {
@@ -71,7 +71,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "0bbe2f0a64566b01dd591cd9f8188eda17c40bab",
+        "sha": "8a655bd2337a6f9f6f7ad3f3847b32bb4f698676",
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "elasticsearch/Dockerfile",
         "branch": "refs/heads/9.2"
@@ -82,10 +82,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "0bbe2f0a64566b01dd591cd9f8188eda17c40bab",
+        "sha": "8a655bd2337a6f9f6f7ad3f3847b32bb4f698676",
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "elasticsearch/Dockerfile",
         "branch": "refs/heads/9.2"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "elasticsearch",
+    "tags": [
+      "9.3.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e4f56cd49d21682fdfd7ee0c457de67360479d9c",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "elasticsearch/Dockerfile",
+        "branch": "refs/heads/9.3"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e4f56cd49d21682fdfd7ee0c457de67360479d9c",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "elasticsearch/Dockerfile",
+        "branch": "refs/heads/9.3"
       }
     ]
   }
