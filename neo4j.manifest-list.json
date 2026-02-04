@@ -3,22 +3,22 @@
     "version": "26",
     "name": "neo4j",
     "tags": [
-      "2025",
+      "2026",
       "latest",
-      "2025.12",
-      "bullseye",
-      "2025.12.1",
+      "trixie",
+      "2026.01",
+      "2026.01.3",
       "community",
-      "2025-bullseye",
-      "2025-community",
-      "2025.12-bullseye",
-      "2025.12-community",
-      "2025.12.1-bullseye",
-      "community-bullseye",
-      "2025.12.1-community",
-      "2025-community-bullseye",
-      "2025.12-community-bullseye",
-      "2025.12.1-community-bullseye"
+      "2026-trixie",
+      "2026-community",
+      "2026.01-trixie",
+      "2026.01.3-trixie",
+      "community-trixie",
+      "2026.01-community",
+      "2026.01.3-community",
+      "2026-community-trixie",
+      "2026.01-community-trixie",
+      "2026.01.3-community-trixie"
     ],
     "images": [
       {
@@ -26,9 +26,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/bullseye/community/Dockerfile"
+        "path": "2026.01.3/trixie/community/Dockerfile"
       },
       {
         "platform": {
@@ -36,9 +36,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/bullseye/community/Dockerfile"
+        "path": "2026.01.3/trixie/community/Dockerfile"
       }
     ]
   },
@@ -47,13 +47,13 @@
     "name": "neo4j",
     "tags": [
       "enterprise",
-      "2025-enterprise",
-      "2025.12-enterprise",
-      "enterprise-bullseye",
-      "2025.12.1-enterprise",
-      "2025-enterprise-bullseye",
-      "2025.12-enterprise-bullseye",
-      "2025.12.1-enterprise-bullseye"
+      "2026-enterprise",
+      "enterprise-trixie",
+      "2026.01-enterprise",
+      "2026.01.3-enterprise",
+      "2026-enterprise-trixie",
+      "2026.01-enterprise-trixie",
+      "2026.01.3-enterprise-trixie"
     ],
     "images": [
       {
@@ -61,9 +61,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/bullseye/enterprise/Dockerfile"
+        "path": "2026.01.3/trixie/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -71,9 +71,141 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/bullseye/enterprise/Dockerfile"
+        "path": "2026.01.3/trixie/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "ubi10",
+      "2026-ubi10",
+      "2026.01-ubi10",
+      "2026.01.3-ubi10",
+      "community-ubi10",
+      "2026-community-ubi10",
+      "2026.01-community-ubi10",
+      "2026.01.3-community-ubi10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/ubi10/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/ubi10/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "enterprise-ubi10",
+      "2026-enterprise-ubi10",
+      "2026.01-enterprise-ubi10",
+      "2026.01.3-enterprise-ubi10"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/ubi10/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/ubi10/enterprise/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "bullseye",
+      "2026-bullseye",
+      "2026.01-bullseye",
+      "2026.01.3-bullseye",
+      "community-bullseye",
+      "2026-community-bullseye",
+      "2026.01-community-bullseye",
+      "2026.01.3-community-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/bullseye/community/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/bullseye/community/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "neo4j",
+    "tags": [
+      "enterprise-bullseye",
+      "2026-enterprise-bullseye",
+      "2026.01-enterprise-bullseye",
+      "2026.01.3-enterprise-bullseye"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/bullseye/enterprise/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
+        "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
+        "path": "2026.01.3/bullseye/enterprise/Dockerfile"
       }
     ]
   },
@@ -82,13 +214,13 @@
     "name": "neo4j",
     "tags": [
       "ubi9",
-      "2025-ubi9",
-      "2025.12-ubi9",
-      "2025.12.1-ubi9",
+      "2026-ubi9",
+      "2026.01-ubi9",
+      "2026.01.3-ubi9",
       "community-ubi9",
-      "2025-community-ubi9",
-      "2025.12-community-ubi9",
-      "2025.12.1-community-ubi9"
+      "2026-community-ubi9",
+      "2026.01-community-ubi9",
+      "2026.01.3-community-ubi9"
     ],
     "images": [
       {
@@ -96,9 +228,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/ubi9/community/Dockerfile"
+        "path": "2026.01.3/ubi9/community/Dockerfile"
       },
       {
         "platform": {
@@ -106,9 +238,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/ubi9/community/Dockerfile"
+        "path": "2026.01.3/ubi9/community/Dockerfile"
       }
     ]
   },
@@ -117,9 +249,9 @@
     "name": "neo4j",
     "tags": [
       "enterprise-ubi9",
-      "2025-enterprise-ubi9",
-      "2025.12-enterprise-ubi9",
-      "2025.12.1-enterprise-ubi9"
+      "2026-enterprise-ubi9",
+      "2026.01-enterprise-ubi9",
+      "2026.01.3-enterprise-ubi9"
     ],
     "images": [
       {
@@ -127,9 +259,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/ubi9/enterprise/Dockerfile"
+        "path": "2026.01.3/ubi9/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -137,9 +269,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b20f87c4c1a15215188793eace59114d47fe0e0",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "2025.12.1/ubi9/enterprise/Dockerfile"
+        "path": "2026.01.3/ubi9/enterprise/Dockerfile"
       }
     ]
   },
@@ -149,16 +281,16 @@
     "tags": [
       "5",
       "5.26",
-      "5.26.20",
+      "5.26.21",
       "5-trixie",
       "5-community",
       "5.26-trixie",
       "5.26-community",
-      "5.26.20-trixie",
-      "5.26.20-community",
+      "5.26.21-trixie",
+      "5.26.21-community",
       "5-community-trixie",
       "5.26-community-trixie",
-      "5.26.20-community-trixie"
+      "5.26.21-community-trixie"
     ],
     "images": [
       {
@@ -166,9 +298,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/trixie/community/Dockerfile"
+        "path": "5.26.21/trixie/community/Dockerfile"
       },
       {
         "platform": {
@@ -176,9 +308,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/trixie/community/Dockerfile"
+        "path": "5.26.21/trixie/community/Dockerfile"
       }
     ]
   },
@@ -188,10 +320,10 @@
     "tags": [
       "5-enterprise",
       "5.26-enterprise",
-      "5.26.20-enterprise",
+      "5.26.21-enterprise",
       "5-enterprise-trixie",
       "5.26-enterprise-trixie",
-      "5.26.20-enterprise-trixie"
+      "5.26.21-enterprise-trixie"
     ],
     "images": [
       {
@@ -199,9 +331,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/trixie/enterprise/Dockerfile"
+        "path": "5.26.21/trixie/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -209,9 +341,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/trixie/enterprise/Dockerfile"
+        "path": "5.26.21/trixie/enterprise/Dockerfile"
       }
     ]
   },
@@ -221,10 +353,10 @@
     "tags": [
       "5-bullseye",
       "5.26-bullseye",
-      "5.26.20-bullseye",
+      "5.26.21-bullseye",
       "5-community-bullseye",
       "5.26-community-bullseye",
-      "5.26.20-community-bullseye"
+      "5.26.21-community-bullseye"
     ],
     "images": [
       {
@@ -232,9 +364,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/bullseye/community/Dockerfile"
+        "path": "5.26.21/bullseye/community/Dockerfile"
       },
       {
         "platform": {
@@ -242,9 +374,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/bullseye/community/Dockerfile"
+        "path": "5.26.21/bullseye/community/Dockerfile"
       }
     ]
   },
@@ -254,7 +386,7 @@
     "tags": [
       "5-enterprise-bullseye",
       "5.26-enterprise-bullseye",
-      "5.26.20-enterprise-bullseye"
+      "5.26.21-enterprise-bullseye"
     ],
     "images": [
       {
@@ -262,9 +394,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/bullseye/enterprise/Dockerfile"
+        "path": "5.26.21/bullseye/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -272,9 +404,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/bullseye/enterprise/Dockerfile"
+        "path": "5.26.21/bullseye/enterprise/Dockerfile"
       }
     ]
   },
@@ -284,10 +416,10 @@
     "tags": [
       "5-ubi10",
       "5.26-ubi10",
-      "5.26.20-ubi10",
+      "5.26.21-ubi10",
       "5-community-ubi10",
       "5.26-community-ubi10",
-      "5.26.20-community-ubi10"
+      "5.26.21-community-ubi10"
     ],
     "images": [
       {
@@ -295,9 +427,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi10/community/Dockerfile"
+        "path": "5.26.21/ubi10/community/Dockerfile"
       },
       {
         "platform": {
@@ -305,9 +437,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi10/community/Dockerfile"
+        "path": "5.26.21/ubi10/community/Dockerfile"
       }
     ]
   },
@@ -317,7 +449,7 @@
     "tags": [
       "5-enterprise-ubi10",
       "5.26-enterprise-ubi10",
-      "5.26.20-enterprise-ubi10"
+      "5.26.21-enterprise-ubi10"
     ],
     "images": [
       {
@@ -325,9 +457,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi10/enterprise/Dockerfile"
+        "path": "5.26.21/ubi10/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -335,9 +467,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi10/enterprise/Dockerfile"
+        "path": "5.26.21/ubi10/enterprise/Dockerfile"
       }
     ]
   },
@@ -347,10 +479,10 @@
     "tags": [
       "5-ubi9",
       "5.26-ubi9",
-      "5.26.20-ubi9",
+      "5.26.21-ubi9",
       "5-community-ubi9",
       "5.26-community-ubi9",
-      "5.26.20-community-ubi9"
+      "5.26.21-community-ubi9"
     ],
     "images": [
       {
@@ -358,9 +490,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi9/community/Dockerfile"
+        "path": "5.26.21/ubi9/community/Dockerfile"
       },
       {
         "platform": {
@@ -368,9 +500,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi9/community/Dockerfile"
+        "path": "5.26.21/ubi9/community/Dockerfile"
       }
     ]
   },
@@ -380,7 +512,7 @@
     "tags": [
       "5-enterprise-ubi9",
       "5.26-enterprise-ubi9",
-      "5.26.20-enterprise-ubi9"
+      "5.26.21-enterprise-ubi9"
     ],
     "images": [
       {
@@ -388,9 +520,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi9/enterprise/Dockerfile"
+        "path": "5.26.21/ubi9/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -398,9 +530,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d4e4e90a496407cf88ec3afa022e181fd6e5fd8e",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "5.26.20/ubi9/enterprise/Dockerfile"
+        "path": "5.26.21/ubi9/enterprise/Dockerfile"
       }
     ]
   },
@@ -409,9 +541,9 @@
     "name": "neo4j",
     "tags": [
       "4.4",
-      "4.4.47",
+      "4.4.48",
       "4.4-community",
-      "4.4.47-community"
+      "4.4.48-community"
     ],
     "images": [
       {
@@ -419,9 +551,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4f3993df7e2ce064be1f1e66e4219f71aef4aa6c",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "4.4.47/bullseye/community/Dockerfile"
+        "path": "4.4.48/bullseye/community/Dockerfile"
       },
       {
         "platform": {
@@ -429,9 +561,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4f3993df7e2ce064be1f1e66e4219f71aef4aa6c",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "4.4.47/bullseye/community/Dockerfile"
+        "path": "4.4.48/bullseye/community/Dockerfile"
       }
     ]
   },
@@ -440,7 +572,7 @@
     "name": "neo4j",
     "tags": [
       "4.4-enterprise",
-      "4.4.47-enterprise"
+      "4.4.48-enterprise"
     ],
     "images": [
       {
@@ -448,9 +580,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "4f3993df7e2ce064be1f1e66e4219f71aef4aa6c",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "4.4.47/bullseye/enterprise/Dockerfile"
+        "path": "4.4.48/bullseye/enterprise/Dockerfile"
       },
       {
         "platform": {
@@ -458,9 +590,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "4f3993df7e2ce064be1f1e66e4219f71aef4aa6c",
+        "sha": "a3f58105abfd307a24467da003f46d4bd13813f3",
         "repo": "https://github.com/neo4j/docker-neo4j-publish.git",
-        "path": "4.4.47/bullseye/enterprise/Dockerfile"
+        "path": "4.4.48/bullseye/enterprise/Dockerfile"
       }
     ]
   }
