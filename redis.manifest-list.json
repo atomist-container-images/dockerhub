@@ -3,199 +3,14 @@
     "version": "26",
     "name": "redis",
     "tags": [
-      "8.6-rc1",
-      "8.6-rc1-trixie"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "redis",
-    "tags": [
-      "8.6-rc1-alpine",
-      "8.6-rc1-alpine3.23"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "275b71068b3065fcf794d08f908b61548f451795",
-        "repo": "https://github.com/redis/docker-library-redis.git",
-        "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.6-rc1"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "redis",
-    "tags": [
       "8",
-      "8.4",
-      "8.4.0",
+      "8.6",
+      "8.6.0",
       "latest",
-      "bookworm",
-      "8-bookworm",
-      "8.4-bookworm",
-      "8.4.0-bookworm"
+      "trixie",
+      "8-trixie",
+      "8.6-trixie",
+      "8.6.0-trixie"
     ],
     "images": [
       {
@@ -203,20 +18,20 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
@@ -224,10 +39,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
@@ -235,50 +50,50 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
-          "architecture": "mips64le"
+          "architecture": "riscv64"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "debian/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       }
     ]
   },
@@ -288,12 +103,12 @@
     "tags": [
       "alpine",
       "8-alpine",
-      "8.4-alpine",
-      "alpine3.22",
-      "8-alpine3.22",
-      "8.4.0-alpine",
-      "8.4-alpine3.22",
-      "8.4.0-alpine3.22"
+      "8.6-alpine",
+      "alpine3.23",
+      "8-alpine3.23",
+      "8.6.0-alpine",
+      "8.6-alpine3.23",
+      "8.6.0-alpine3.23"
     ],
     "images": [
       {
@@ -301,10 +116,10 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
@@ -312,10 +127,10 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
@@ -323,10 +138,10 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
@@ -334,50 +149,239 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "de8bb5f3e3ead8584e76834816b9e7e332d2bd49",
+        "sha": "980a73fbe9c6b7be0c251ff453c8ffdbef6700fc",
         "repo": "https://github.com/redis/docker-library-redis.git",
         "path": "alpine/Dockerfile",
-        "branch": "refs/tags/v8.4.0"
+        "branch": "refs/tags/v8.6.0"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "redis",
+    "tags": [
+      "8.4",
+      "8.4.1",
+      "8.4-trixie",
+      "8.4.1-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "debian/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "redis",
+    "tags": [
+      "8.4-alpine",
+      "8.4.1-alpine",
+      "8.4-alpine3.22",
+      "8.4.1-alpine3.22"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "c5effbcb7f9a63ece6e9ca0d20de488f11c2df68",
+        "repo": "https://github.com/redis/docker-library-redis.git",
+        "path": "alpine/Dockerfile",
+        "branch": "refs/tags/v8.4.1"
       }
     ]
   },
