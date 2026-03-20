@@ -2077,27 +2077,6 @@
     "version": "26",
     "name": "maven",
     "tags": [
-      "3-sapmachine-11",
-      "3.9-sapmachine-11",
-      "3.9.14-sapmachine-11"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2de5f5e0b9b7a9dfab3aa5635fb533a9b269a11c",
-        "repo": "https://github.com/carlossg/docker-maven.git",
-        "path": "sapmachine-11/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "maven",
-    "tags": [
       "3-sapmachine-17",
       "3.9-sapmachine-17",
       "3.9.14-sapmachine-17"
@@ -2262,12 +2241,8 @@
     "version": "26",
     "name": "maven",
     "tags": [
-      "sapmachine",
-      "3-sapmachine",
-      "3.9-sapmachine",
       "3-sapmachine-25",
       "3.9-sapmachine-25",
-      "3.9.14-sapmachine",
       "3.9.14-sapmachine-25"
     ],
     "images": [
@@ -2308,7 +2283,6 @@
     "version": "26",
     "name": "maven",
     "tags": [
-      "4.0.0-rc-5-sapmachine",
       "4.0.0-rc-5-sapmachine-25"
     ],
     "images": [
@@ -2341,6 +2315,93 @@
         "sha": "46922cf792151295209364a0917ab106fea60692",
         "repo": "https://github.com/carlossg/docker-maven.git",
         "path": "sapmachine-25-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
+      "sapmachine",
+      "3-sapmachine",
+      "3.9-sapmachine",
+      "3-sapmachine-26",
+      "3.9-sapmachine-26",
+      "3.9.14-sapmachine",
+      "3.9.14-sapmachine-26"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "94e692921d4d62c0c584191e999372c8b1b5b7b7",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-26/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "94e692921d4d62c0c584191e999372c8b1b5b7b7",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-26/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "94e692921d4d62c0c584191e999372c8b1b5b7b7",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-26/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "maven",
+    "tags": [
+      "4.0.0-rc-5-sapmachine",
+      "4.0.0-rc-5-sapmachine-26"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "94e692921d4d62c0c584191e999372c8b1b5b7b7",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-26-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "94e692921d4d62c0c584191e999372c8b1b5b7b7",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-26-maven-4/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "94e692921d4d62c0c584191e999372c8b1b5b7b7",
+        "repo": "https://github.com/carlossg/docker-maven.git",
+        "path": "sapmachine-26-maven-4/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
