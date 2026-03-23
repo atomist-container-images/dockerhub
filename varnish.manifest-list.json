@@ -15,7 +15,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9549601f65e81660417432a6963cdb9a41da3caf",
+        "sha": "e3046964b5e715cc298f69c26c8840085cc4543e",
         "repo": "https://github.com/varnish/docker-varnish.git",
         "path": "fresh/debian/Dockerfile",
         "branch": "refs/heads/main"
@@ -26,9 +26,107 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9549601f65e81660417432a6963cdb9a41da3caf",
+        "sha": "e3046964b5e715cc298f69c26c8840085cc4543e",
         "repo": "https://github.com/varnish/docker-varnish.git",
         "path": "fresh/debian/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "8",
+      "8.0",
+      "old",
+      "8.0.1"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "86705c07fadc4d579a6104250f958e493b4699a6",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "86705c07fadc4d579a6104250f958e493b4699a6",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/debian/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "8-alpine",
+      "8.0-alpine",
+      "old-alpine",
+      "8.0.1-alpine"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "86705c07fadc4d579a6104250f958e493b4699a6",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "86705c07fadc4d579a6104250f958e493b4699a6",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "old/alpine/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "varnish",
+    "tags": [
+      "6.0",
+      "6.0.17",
+      "stable"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e049c0a37dec0db6f81bbab0aba45f8f238bd0f1",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e049c0a37dec0db6f81bbab0aba45f8f238bd0f1",
+        "repo": "https://github.com/varnish/docker-varnish.git",
+        "path": "stable/debian/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
