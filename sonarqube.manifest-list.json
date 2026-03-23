@@ -4,9 +4,8 @@
     "name": "sonarqube",
     "tags": [
       "developer",
-      "2026.1-developer",
-      "2026-lta-developer",
-      "2026.1.0-developer"
+      "2026.2-developer",
+      "2026.2.0-developer"
     ],
     "images": [
       {
@@ -14,7 +13,91 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3536fb9581da63de5294fa8b249ec9a74c5cd0b0",
+        "sha": "3ccc76d6a8a16b6402a16ba3e0b26e43c825d4d8",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "commercial-editions/developer/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "enterprise",
+      "2026.2-enterprise",
+      "2026.2.0-enterprise"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3ccc76d6a8a16b6402a16ba3e0b26e43c825d4d8",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "commercial-editions/enterprise/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "datacenter-app",
+      "2026.2-datacenter-app",
+      "2026.2.0-datacenter-app"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3ccc76d6a8a16b6402a16ba3e0b26e43c825d4d8",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "commercial-editions/datacenter/app/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "datacenter-search",
+      "2026.2-datacenter-search",
+      "2026.2.0-datacenter-search"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "3ccc76d6a8a16b6402a16ba3e0b26e43c825d4d8",
+        "repo": "https://github.com/SonarSource/docker-sonarqube.git",
+        "path": "commercial-editions/datacenter/search/Dockerfile",
+        "branch": "refs/heads/master"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "sonarqube",
+    "tags": [
+      "2026.1-developer",
+      "2026-lta-developer",
+      "2026.1.1-developer"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "8c0a0d739faad86652bf34aca90147d9c9ce8b19",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/developer/Dockerfile",
         "branch": "refs/heads/release/2026.1"
@@ -25,10 +108,9 @@
     "version": "26",
     "name": "sonarqube",
     "tags": [
-      "enterprise",
       "2026.1-enterprise",
       "2026-lta-enterprise",
-      "2026.1.0-enterprise"
+      "2026.1.1-enterprise"
     ],
     "images": [
       {
@@ -36,7 +118,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3536fb9581da63de5294fa8b249ec9a74c5cd0b0",
+        "sha": "8c0a0d739faad86652bf34aca90147d9c9ce8b19",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/enterprise/Dockerfile",
         "branch": "refs/heads/release/2026.1"
@@ -47,10 +129,9 @@
     "version": "26",
     "name": "sonarqube",
     "tags": [
-      "datacenter-app",
       "2026.1-datacenter-app",
       "2026-lta-datacenter-app",
-      "2026.1.0-datacenter-app"
+      "2026.1.1-datacenter-app"
     ],
     "images": [
       {
@@ -58,7 +139,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3536fb9581da63de5294fa8b249ec9a74c5cd0b0",
+        "sha": "8c0a0d739faad86652bf34aca90147d9c9ce8b19",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/datacenter/app/Dockerfile",
         "branch": "refs/heads/release/2026.1"
@@ -69,10 +150,9 @@
     "version": "26",
     "name": "sonarqube",
     "tags": [
-      "datacenter-search",
       "2026.1-datacenter-search",
       "2026-lta-datacenter-search",
-      "2026.1.0-datacenter-search"
+      "2026.1.1-datacenter-search"
     ],
     "images": [
       {
@@ -80,7 +160,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "3536fb9581da63de5294fa8b249ec9a74c5cd0b0",
+        "sha": "8c0a0d739faad86652bf34aca90147d9c9ce8b19",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/datacenter/search/Dockerfile",
         "branch": "refs/heads/release/2026.1"
@@ -92,7 +172,7 @@
     "name": "sonarqube",
     "tags": [
       "2025.4-developer",
-      "2025.4.4-developer",
+      "2025.4.5-developer",
       "2025.4-lta-developer"
     ],
     "images": [
@@ -101,7 +181,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b366d18634f02e45e6dc4d28151db6704b0630c8",
+        "sha": "468f913df52ab9dc6f2f9e78f91ab6cbc70a9a5c",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/developer/Dockerfile",
         "branch": "refs/heads/release/2025.4"
@@ -113,7 +193,7 @@
     "name": "sonarqube",
     "tags": [
       "2025.4-enterprise",
-      "2025.4.4-enterprise",
+      "2025.4.5-enterprise",
       "2025.4-lta-enterprise"
     ],
     "images": [
@@ -122,7 +202,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b366d18634f02e45e6dc4d28151db6704b0630c8",
+        "sha": "468f913df52ab9dc6f2f9e78f91ab6cbc70a9a5c",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/enterprise/Dockerfile",
         "branch": "refs/heads/release/2025.4"
@@ -134,7 +214,7 @@
     "name": "sonarqube",
     "tags": [
       "2025.4-datacenter-app",
-      "2025.4.4-datacenter-app",
+      "2025.4.5-datacenter-app",
       "2025.4-lta-datacenter-app"
     ],
     "images": [
@@ -143,7 +223,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b366d18634f02e45e6dc4d28151db6704b0630c8",
+        "sha": "468f913df52ab9dc6f2f9e78f91ab6cbc70a9a5c",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/datacenter/app/Dockerfile",
         "branch": "refs/heads/release/2025.4"
@@ -155,7 +235,7 @@
     "name": "sonarqube",
     "tags": [
       "2025.4-datacenter-search",
-      "2025.4.4-datacenter-search",
+      "2025.4.5-datacenter-search",
       "2025.4-lta-datacenter-search"
     ],
     "images": [
@@ -164,7 +244,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "b366d18634f02e45e6dc4d28151db6704b0630c8",
+        "sha": "468f913df52ab9dc6f2f9e78f91ab6cbc70a9a5c",
         "repo": "https://github.com/SonarSource/docker-sonarqube.git",
         "path": "commercial-editions/datacenter/search/Dockerfile",
         "branch": "refs/heads/release/2025.4"
