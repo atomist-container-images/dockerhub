@@ -3,10 +3,355 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "6.2",
-      "6.2.4",
+      "6.3",
+      "6.3.0",
       "noble",
       "latest",
+      "6.3-noble",
+      "6.3.0-noble"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/24.04/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/24.04/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "slim",
+      "6.3-slim",
+      "6.3.0-slim",
+      "noble-slim",
+      "6.3-noble-slim",
+      "6.3.0-noble-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/24.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/24.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "jammy",
+      "6.3-jammy",
+      "6.3.0-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/22.04/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/22.04/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "jammy-slim",
+      "6.3-jammy-slim",
+      "6.3.0-jammy-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/22.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/ubuntu/22.04/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "bookworm",
+      "6.3-bookworm",
+      "6.3.0-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/debian/12/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/debian/12/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "bookworm-slim",
+      "6.3-bookworm-slim",
+      "6.3.0-bookworm-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/debian/12/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/debian/12/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "amazonlinux2",
+      "6.3-amazonlinux2",
+      "6.3.0-amazonlinux2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/amazonlinux/2/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/amazonlinux/2/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "amazonlinux2-slim",
+      "6.3-amazonlinux2-slim",
+      "6.3.0-amazonlinux2-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/amazonlinux/2/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/amazonlinux/2/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "rhel-ubi9",
+      "6.3-rhel-ubi9",
+      "6.3.0-rhel-ubi9"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/rhel-ubi/9/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/rhel-ubi/9/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "rhel-ubi9-slim",
+      "6.3-rhel-ubi9-slim",
+      "6.3.0-rhel-ubi9-slim"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/rhel-ubi/9/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/rhel-ubi/9/slim/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "windowsservercore-ltsc2022",
+      "6.3-windowsservercore-ltsc2022",
+      "6.3.0-windowsservercore-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "67c14ef6c4d58fdfc7bb3377b26b0287aa88c435",
+        "repo": "https://github.com/apple/swift-docker.git",
+        "path": "6.3/windows/LTSC2022/Dockerfile",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "swift",
+    "tags": [
+      "6.2",
+      "6.2.4",
       "6.2-noble",
       "6.2.4-noble"
     ],
@@ -38,10 +383,8 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "slim",
       "6.2-slim",
       "6.2.4-slim",
-      "noble-slim",
       "6.2-noble-slim",
       "6.2.4-noble-slim"
     ],
@@ -73,7 +416,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "jammy",
       "6.2-jammy",
       "6.2.4-jammy"
     ],
@@ -105,7 +447,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "jammy-slim",
       "6.2-jammy-slim",
       "6.2.4-jammy-slim"
     ],
@@ -137,7 +478,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "bookworm",
       "6.2-bookworm",
       "6.2.4-bookworm"
     ],
@@ -169,7 +509,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "bookworm-slim",
       "6.2-bookworm-slim",
       "6.2.4-bookworm-slim"
     ],
@@ -201,7 +540,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "amazonlinux2",
       "6.2-amazonlinux2",
       "6.2.4-amazonlinux2"
     ],
@@ -233,7 +571,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "amazonlinux2-slim",
       "6.2-amazonlinux2-slim",
       "6.2.4-amazonlinux2-slim"
     ],
@@ -265,7 +602,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "rhel-ubi9",
       "6.2-rhel-ubi9",
       "6.2.4-rhel-ubi9"
     ],
@@ -297,7 +633,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "rhel-ubi9-slim",
       "6.2-rhel-ubi9-slim",
       "6.2.4-rhel-ubi9-slim"
     ],
@@ -329,7 +664,6 @@
     "version": "26",
     "name": "swift",
     "tags": [
-      "windowsservercore-ltsc2022",
       "6.2-windowsservercore-ltsc2022",
       "6.2.4-windowsservercore-ltsc2022"
     ],
@@ -948,309 +1282,6 @@
         "sha": "f44060cdf224436060d2df98a5c3f63f2600de63",
         "repo": "https://github.com/apple/swift-docker.git",
         "path": "6.0/windows/LTSC2022/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10",
-      "5.10.1",
-      "5.10-jammy",
-      "5.10.1-jammy"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/22.04/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/22.04/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-slim",
-      "5.10.1-slim",
-      "5.10-jammy-slim",
-      "5.10.1-jammy-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/22.04/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/22.04/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-noble",
-      "5.10.1-noble"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/24.04/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/24.04/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-noble-slim",
-      "5.10.1-noble-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "38e4244ebab3d6a4e702fb30449827d6c28ee1fd",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/24.04/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "38e4244ebab3d6a4e702fb30449827d6c28ee1fd",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/ubuntu/24.04/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-bookworm",
-      "5.10.1-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/debian/12/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/debian/12/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-amazonlinux2",
-      "5.10.1-amazonlinux2"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/amazonlinux/2/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/amazonlinux/2/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-amazonlinux2-slim",
-      "5.10.1-amazonlinux2-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/amazonlinux/2/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/amazonlinux/2/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-rhel-ubi9",
-      "5.10.1-rhel-ubi9"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/rhel-ubi/9/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/rhel-ubi/9/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-rhel-ubi9-slim",
-      "5.10.1-rhel-ubi9-slim"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/rhel-ubi/9/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "53c4d44e4b556d7bab6ff94c80e5bd0444cdc17d",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/rhel-ubi/9/slim/Dockerfile",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "swift",
-    "tags": [
-      "5.10-windowsservercore-ltsc2022",
-      "5.10.1-windowsservercore-ltsc2022"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "90888735fac23a3a5cd8f798d1d7de89bb5d47bb",
-        "repo": "https://github.com/apple/swift-docker.git",
-        "path": "5.10/windows/LTSC2022/Dockerfile",
         "branch": "refs/heads/main"
       }
     ]
