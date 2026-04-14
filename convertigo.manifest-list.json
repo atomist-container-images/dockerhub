@@ -4,7 +4,7 @@
     "name": "convertigo",
     "tags": [
       "8.4",
-      "8.4.1",
+      "8.4.2",
       "latest"
     ],
     "images": [
@@ -13,7 +13,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "fb6f00cdd5842fffb22271230507789e4c565fa4",
+        "sha": "e858e10da3fcec033c75fdfeca963613e0504ebb",
         "repo": "https://github.com/convertigo/convertigo.git",
         "path": "docker/default/Dockerfile"
       },
@@ -23,9 +23,40 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "fb6f00cdd5842fffb22271230507789e4c565fa4",
+        "sha": "e858e10da3fcec033c75fdfeca963613e0504ebb",
         "repo": "https://github.com/convertigo/convertigo.git",
         "path": "docker/default/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "convertigo",
+    "tags": [
+      "8.3",
+      "8.3.13"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "b2d70389f013d3ccb4e50e4388f2a0603015768f",
+        "repo": "https://github.com/convertigo/convertigo.git",
+        "path": "docker/default/Dockerfile",
+        "branch": "refs/tags/8.3.13"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "b2d70389f013d3ccb4e50e4388f2a0603015768f",
+        "repo": "https://github.com/convertigo/convertigo.git",
+        "path": "docker/default/Dockerfile",
+        "branch": "refs/tags/8.3.13"
       }
     ]
   }
