@@ -3,531 +3,10 @@
     "version": "26",
     "name": "joomla",
     "tags": [
-      "6.1-rc-php8.3-apache",
-      "6.1.0-rc-php8.3-apache",
-      "6.1.0-rc1-php8.3-apache"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/apache/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "joomla",
-    "tags": [
-      "6.1-rc-php8.3-fpm-alpine",
-      "6.1.0-rc-php8.3-fpm-alpine",
-      "6.1.0-rc1-php8.3-fpm-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm-alpine/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "joomla",
-    "tags": [
-      "6.1-rc-php8.3-fpm",
-      "6.1.0-rc-php8.3-fpm",
-      "6.1.0-rc1-php8.3-fpm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.3/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "joomla",
-    "tags": [
-      "6.1-rc",
-      "6.1.0-rc",
-      "6.1.0-rc1",
-      "6.1-rc-apache",
-      "6.1-rc-php8.4",
-      "6.1.0-rc-apache",
-      "6.1.0-rc-php8.4",
-      "6.1.0-rc1-apache",
-      "6.1.0-rc1-php8.4",
-      "6.1-rc-php8.4-apache",
-      "6.1.0-rc-php8.4-apache",
-      "6.1.0-rc1-php8.4-apache"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/apache/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "joomla",
-    "tags": [
-      "6.1-rc-php8.4-fpm-alpine",
-      "6.1.0-rc-php8.4-fpm-alpine",
-      "6.1.0-rc1-php8.4-fpm-alpine"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm-alpine/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "joomla",
-    "tags": [
-      "6.1-rc-php8.4-fpm",
-      "6.1.0-rc-php8.4-fpm",
-      "6.1.0-rc1-php8.4-fpm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
-        "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.1-rc/php8.4/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "joomla",
-    "tags": [
       "php8.3-apache",
       "6-php8.3-apache",
-      "6.0-php8.3-apache",
-      "6.0.4-php8.3-apache"
+      "6.1-php8.3-apache",
+      "6.1.0-php8.3-apache"
     ],
     "images": [
       {
@@ -535,18 +14,18 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
@@ -554,9 +33,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
@@ -564,45 +43,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/apache/Dockerfile"
+        "path": "6.1/php8.3/apache/Dockerfile"
       }
     ]
   },
@@ -612,8 +91,8 @@
     "tags": [
       "php8.3-fpm-alpine",
       "6-php8.3-fpm-alpine",
-      "6.0-php8.3-fpm-alpine",
-      "6.0.4-php8.3-fpm-alpine"
+      "6.1-php8.3-fpm-alpine",
+      "6.1.0-php8.3-fpm-alpine"
     ],
     "images": [
       {
@@ -621,9 +100,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -631,9 +110,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -641,9 +120,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -651,45 +130,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.3/fpm-alpine/Dockerfile"
       }
     ]
   },
@@ -699,8 +178,8 @@
     "tags": [
       "php8.3-fpm",
       "6-php8.3-fpm",
-      "6.0-php8.3-fpm",
-      "6.0.4-php8.3-fpm"
+      "6.1-php8.3-fpm",
+      "6.1.0-php8.3-fpm"
     ],
     "images": [
       {
@@ -708,18 +187,18 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
@@ -727,9 +206,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
@@ -737,45 +216,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.3/fpm/Dockerfile"
+        "path": "6.1/php8.3/fpm/Dockerfile"
       }
     ]
   },
@@ -784,21 +263,21 @@
     "name": "joomla",
     "tags": [
       "6",
-      "6.0",
-      "6.0.4",
+      "6.1",
+      "6.1.0",
       "apache",
       "latest",
       "php8.4",
       "6-apache",
       "6-php8.4",
-      "6.0-apache",
-      "6.0-php8.4",
-      "6.0.4-apache",
-      "6.0.4-php8.4",
+      "6.1-apache",
+      "6.1-php8.4",
+      "6.1.0-apache",
+      "6.1.0-php8.4",
       "php8.4-apache",
       "6-php8.4-apache",
-      "6.0-php8.4-apache",
-      "6.0.4-php8.4-apache"
+      "6.1-php8.4-apache",
+      "6.1.0-php8.4-apache"
     ],
     "images": [
       {
@@ -806,18 +285,18 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
@@ -825,9 +304,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
@@ -835,45 +314,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/apache/Dockerfile"
+        "path": "6.1/php8.4/apache/Dockerfile"
       }
     ]
   },
@@ -883,8 +362,8 @@
     "tags": [
       "php8.4-fpm-alpine",
       "6-php8.4-fpm-alpine",
-      "6.0-php8.4-fpm-alpine",
-      "6.0.4-php8.4-fpm-alpine"
+      "6.1-php8.4-fpm-alpine",
+      "6.1.0-php8.4-fpm-alpine"
     ],
     "images": [
       {
@@ -892,9 +371,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -902,9 +381,9 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -912,9 +391,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
@@ -922,45 +401,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm-alpine/Dockerfile"
+        "path": "6.1/php8.4/fpm-alpine/Dockerfile"
       }
     ]
   },
@@ -970,8 +449,8 @@
     "tags": [
       "php8.4-fpm",
       "6-php8.4-fpm",
-      "6.0-php8.4-fpm",
-      "6.0.4-php8.4-fpm"
+      "6.1-php8.4-fpm",
+      "6.1.0-php8.4-fpm"
     ],
     "images": [
       {
@@ -979,18 +458,18 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
@@ -998,9 +477,9 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
@@ -1008,45 +487,45 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
-        "path": "6.0/php8.4/fpm/Dockerfile"
+        "path": "6.1/php8.4/fpm/Dockerfile"
       }
     ]
   },
@@ -1056,7 +535,7 @@
     "tags": [
       "5-php8.2-apache",
       "5.4-php8.2-apache",
-      "5.4.4-php8.2-apache"
+      "5.4.5-php8.2-apache"
     ],
     "images": [
       {
@@ -1064,7 +543,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1073,7 +552,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1083,7 +562,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1093,7 +572,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1102,7 +581,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1111,7 +590,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1120,7 +599,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       },
@@ -1129,7 +608,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/apache/Dockerfile"
       }
@@ -1141,7 +620,7 @@
     "tags": [
       "5-php8.2-fpm-alpine",
       "5.4-php8.2-fpm-alpine",
-      "5.4.4-php8.2-fpm-alpine"
+      "5.4.5-php8.2-fpm-alpine"
     ],
     "images": [
       {
@@ -1149,7 +628,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1159,7 +638,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1169,7 +648,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1179,7 +658,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1188,7 +667,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1197,7 +676,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1206,7 +685,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       },
@@ -1215,7 +694,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm-alpine/Dockerfile"
       }
@@ -1227,7 +706,7 @@
     "tags": [
       "5-php8.2-fpm",
       "5.4-php8.2-fpm",
-      "5.4.4-php8.2-fpm"
+      "5.4.5-php8.2-fpm"
     ],
     "images": [
       {
@@ -1235,7 +714,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1244,7 +723,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1254,7 +733,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1264,7 +743,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1273,7 +752,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1282,7 +761,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1291,7 +770,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       },
@@ -1300,7 +779,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.2/fpm/Dockerfile"
       }
@@ -1312,16 +791,16 @@
     "tags": [
       "5",
       "5.4",
-      "5.4.4",
+      "5.4.5",
       "5-apache",
       "5-php8.3",
       "5.4-apache",
       "5.4-php8.3",
-      "5.4.4-apache",
-      "5.4.4-php8.3",
+      "5.4.5-apache",
+      "5.4.5-php8.3",
       "5-php8.3-apache",
       "5.4-php8.3-apache",
-      "5.4.4-php8.3-apache"
+      "5.4.5-php8.3-apache"
     ],
     "images": [
       {
@@ -1329,7 +808,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1338,7 +817,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1348,7 +827,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1358,7 +837,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1367,7 +846,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1376,7 +855,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1385,7 +864,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       },
@@ -1394,7 +873,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/apache/Dockerfile"
       }
@@ -1406,7 +885,7 @@
     "tags": [
       "5-php8.3-fpm-alpine",
       "5.4-php8.3-fpm-alpine",
-      "5.4.4-php8.3-fpm-alpine"
+      "5.4.5-php8.3-fpm-alpine"
     ],
     "images": [
       {
@@ -1414,7 +893,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1424,7 +903,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1434,7 +913,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1444,7 +923,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1453,7 +932,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1462,7 +941,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1471,7 +950,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       },
@@ -1480,7 +959,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm-alpine/Dockerfile"
       }
@@ -1492,7 +971,7 @@
     "tags": [
       "5-php8.3-fpm",
       "5.4-php8.3-fpm",
-      "5.4.4-php8.3-fpm"
+      "5.4.5-php8.3-fpm"
     ],
     "images": [
       {
@@ -1500,7 +979,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1509,7 +988,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1519,7 +998,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1529,7 +1008,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1538,7 +1017,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1547,7 +1026,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1556,7 +1035,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       },
@@ -1565,7 +1044,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "dea4bc155f8c667309e034488d06481455134f2e",
+        "sha": "562e0feb6f118eb87010ece972df7c720ab8a6a5",
         "repo": "https://github.com/joomla-docker/docker-joomla.git",
         "path": "5.4/php8.3/fpm/Dockerfile"
       }
