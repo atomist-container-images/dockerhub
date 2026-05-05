@@ -33,36 +33,6 @@
     "version": "26",
     "name": "logstash",
     "tags": [
-      "9.2.8"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "f365a5d7a0c03b5cb6df3cad5031fe5e2489f800",
-        "repo": "https://github.com/elastic/dockerfiles.git",
-        "path": "logstash/Dockerfile",
-        "branch": "refs/heads/9.2"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "f365a5d7a0c03b5cb6df3cad5031fe5e2489f800",
-        "repo": "https://github.com/elastic/dockerfiles.git",
-        "path": "logstash/Dockerfile",
-        "branch": "refs/heads/9.2"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "logstash",
-    "tags": [
       "9.3.4"
     ],
     "images": [
@@ -86,6 +56,36 @@
         "repo": "https://github.com/elastic/dockerfiles.git",
         "path": "logstash/Dockerfile",
         "branch": "refs/heads/9.3"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "logstash",
+    "tags": [
+      "9.4.0"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "40351d59b2e635f4d132c488ce5cc0e0962013d9",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "logstash/Dockerfile",
+        "branch": "refs/heads/9.4"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "40351d59b2e635f4d132c488ce5cc0e0962013d9",
+        "repo": "https://github.com/elastic/dockerfiles.git",
+        "path": "logstash/Dockerfile",
+        "branch": "refs/heads/9.4"
       }
     ]
   }
