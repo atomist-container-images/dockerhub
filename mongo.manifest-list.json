@@ -3,8 +3,8 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3-rc-noble",
-      "8.3.0-rc5-noble"
+      "8.3-noble",
+      "8.3.1-noble"
     ],
     "images": [
       {
@@ -12,37 +12,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
-        "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mongo",
-    "tags": [
-      "8.3.0-rc5"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
-        "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/Dockerfile"
+        "path": "8.3/Dockerfile"
       },
       {
         "platform": {
@@ -50,27 +22,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
-        "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
-        "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+        "path": "8.3/Dockerfile"
       }
     ]
   },
@@ -78,7 +32,7 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3-rc"
+      "8.3.1"
     ],
     "images": [
       {
@@ -86,9 +40,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/Dockerfile"
+        "path": "8.3/Dockerfile"
       },
       {
         "platform": {
@@ -96,27 +50,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/Dockerfile"
+        "path": "8.3/Dockerfile"
       },
       {
         "platform": {
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2025/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2025/Dockerfile"
       },
       {
         "platform": {
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2022/Dockerfile"
       }
     ]
   },
@@ -124,72 +78,45 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3-rc-windowsservercore-ltsc2025",
-      "8.3.0-rc5-windowsservercore-ltsc2025"
+      "8.3"
     ],
     "images": [
       {
         "platform": {
-          "os": "windows",
+          "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2025/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mongo",
-    "tags": [
-      "8.3.0-rc5-windowsservercore"
-    ],
-    "images": [
+        "path": "8.3/Dockerfile"
+      },
       {
         "platform": {
-          "os": "windows",
-          "architecture": "amd64"
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2025/Dockerfile"
+        "path": "8.3/Dockerfile"
       },
       {
         "platform": {
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2022/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "mongo",
-    "tags": [
-      "8.3-rc-windowsservercore"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "windows",
-          "architecture": "amd64"
-        },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
-        "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2025/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2025/Dockerfile"
       },
       {
         "platform": {
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2022/Dockerfile"
       }
     ]
   },
@@ -197,8 +124,8 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3-rc-windowsservercore-ltsc2022",
-      "8.3.0-rc5-windowsservercore-ltsc2022"
+      "8.3-windowsservercore-ltsc2025",
+      "8.3.1-windowsservercore-ltsc2025"
     ],
     "images": [
       {
@@ -206,9 +133,9 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/windowsservercore-ltsc2022/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2025/Dockerfile"
       }
     ]
   },
@@ -216,8 +143,7 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3-rc-nanoserver-ltsc2022",
-      "8.3.0-rc5-nanoserver-ltsc2022"
+      "8.3.1-windowsservercore"
     ],
     "images": [
       {
@@ -225,9 +151,18 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/nanoserver-ltsc2022/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
+        "repo": "https://github.com/docker-library/mongo.git",
+        "path": "8.3/windows/windowsservercore-ltsc2022/Dockerfile"
       }
     ]
   },
@@ -235,7 +170,7 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3.0-rc5-nanoserver"
+      "8.3-windowsservercore"
     ],
     "images": [
       {
@@ -243,9 +178,18 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/nanoserver-ltsc2022/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2025/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
+        "repo": "https://github.com/docker-library/mongo.git",
+        "path": "8.3/windows/windowsservercore-ltsc2022/Dockerfile"
       }
     ]
   },
@@ -253,7 +197,8 @@
     "version": "26",
     "name": "mongo",
     "tags": [
-      "8.3-rc-nanoserver"
+      "8.3-windowsservercore-ltsc2022",
+      "8.3.1-windowsservercore-ltsc2022"
     ],
     "images": [
       {
@@ -261,9 +206,64 @@
           "os": "windows",
           "architecture": "amd64"
         },
-        "sha": "d7a18fed30efc943c53cf73003afc638a5ba8f59",
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
         "repo": "https://github.com/docker-library/mongo.git",
-        "path": "8.3-rc/windows/nanoserver-ltsc2022/Dockerfile"
+        "path": "8.3/windows/windowsservercore-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mongo",
+    "tags": [
+      "8.3-nanoserver-ltsc2022",
+      "8.3.1-nanoserver-ltsc2022"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
+        "repo": "https://github.com/docker-library/mongo.git",
+        "path": "8.3/windows/nanoserver-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mongo",
+    "tags": [
+      "8.3.1-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
+        "repo": "https://github.com/docker-library/mongo.git",
+        "path": "8.3/windows/nanoserver-ltsc2022/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "mongo",
+    "tags": [
+      "8.3-nanoserver"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "windows",
+          "architecture": "amd64"
+        },
+        "sha": "f9e0e782f5dd8bbd88d8be0e65ff226c898823c5",
+        "repo": "https://github.com/docker-library/mongo.git",
+        "path": "8.3/windows/nanoserver-ltsc2022/Dockerfile"
       }
     ]
   },
