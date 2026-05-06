@@ -3,11 +3,81 @@
     "version": "26",
     "name": "gcc",
     "tags": [
+      "16",
+      "16.1",
+      "16.1.0",
+      "latest",
+      "trixie",
+      "16-trixie",
+      "16.1-trixie",
+      "16.1.0-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "24fb071be01a0e6241fbbabd59a3dd07d31b80f5",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "24fb071be01a0e6241fbbabd59a3dd07d31b80f5",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "24fb071be01a0e6241fbbabd59a3dd07d31b80f5",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "24fb071be01a0e6241fbbabd59a3dd07d31b80f5",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "24fb071be01a0e6241fbbabd59a3dd07d31b80f5",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "16/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "24fb071be01a0e6241fbbabd59a3dd07d31b80f5",
+        "repo": "https://github.com/docker-library/gcc.git",
+        "path": "16/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "gcc",
+    "tags": [
       "15",
       "15.2",
       "15.2.0",
-      "latest",
-      "trixie",
       "15-trixie",
       "15.2-trixie",
       "15.2.0-trixie"
