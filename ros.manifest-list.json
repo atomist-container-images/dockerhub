@@ -268,6 +268,94 @@
     "version": "26",
     "name": "ros",
     "tags": [
+      "lyrical-ros-core",
+      "lyrical-ros-core-resolute"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0d65786f3d9bb10d55dc28ccd5b87da204240d1a",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lyrical/ubuntu/resolute/ros-core/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0d65786f3d9bb10d55dc28ccd5b87da204240d1a",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lyrical/ubuntu/resolute/ros-core/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lyrical",
+      "lyrical-ros-base",
+      "lyrical-ros-base-resolute"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0d65786f3d9bb10d55dc28ccd5b87da204240d1a",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lyrical/ubuntu/resolute/ros-base/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0d65786f3d9bb10d55dc28ccd5b87da204240d1a",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lyrical/ubuntu/resolute/ros-base/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
+      "lyrical-perception",
+      "lyrical-perception-resolute"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "0d65786f3d9bb10d55dc28ccd5b87da204240d1a",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lyrical/ubuntu/resolute/perception/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "0d65786f3d9bb10d55dc28ccd5b87da204240d1a",
+        "repo": "https://github.com/osrf/docker_images.git",
+        "path": "ros/lyrical/ubuntu/resolute/perception/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "ros",
+    "tags": [
       "rolling-ros-core",
       "rolling-ros-core-noble"
     ],
