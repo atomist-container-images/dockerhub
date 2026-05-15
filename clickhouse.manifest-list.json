@@ -3,16 +3,14 @@
     "version": "26",
     "name": "clickhouse",
     "tags": [
-      "lts",
-      "26.3",
+      "26.4",
       "jammy",
-      "26.3.9",
+      "26.4.2",
       "latest",
-      "26.3.9.8",
-      "lts-jammy",
-      "26.3-jammy",
-      "26.3.9-jammy",
-      "26.3.9.8-jammy"
+      "26.4.2.10",
+      "26.4-jammy",
+      "26.4.2-jammy",
+      "26.4.2.10-jammy"
     ],
     "images": [
       {
@@ -20,9 +18,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
         "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/26.3.9.8/Dockerfile.ubuntu",
+        "path": "server/26.4.2.10/Dockerfile.ubuntu",
         "branch": "refs/heads/main"
       },
       {
@@ -31,9 +29,46 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
         "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/26.3.9.8/Dockerfile.ubuntu",
+        "path": "server/26.4.2.10/Dockerfile.ubuntu",
+        "branch": "refs/heads/main"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "clickhouse",
+    "tags": [
+      "lts",
+      "26.3",
+      "26.3.10",
+      "lts-jammy",
+      "26.3-jammy",
+      "26.3.10.62",
+      "26.3.10-jammy",
+      "26.3.10.62-jammy"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
+        "repo": "https://github.com/ClickHouse/docker-library.git",
+        "path": "server/26.3.10.62/Dockerfile.ubuntu",
+        "branch": "refs/heads/main"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
+        "repo": "https://github.com/ClickHouse/docker-library.git",
+        "path": "server/26.3.10.62/Dockerfile.ubuntu",
         "branch": "refs/heads/main"
       }
     ]
@@ -43,11 +78,11 @@
     "name": "clickhouse",
     "tags": [
       "26.2",
-      "26.2.16",
-      "26.2.16.4",
+      "26.2.18",
+      "26.2.18.8",
       "26.2-jammy",
-      "26.2.16-jammy",
-      "26.2.16.4-jammy"
+      "26.2.18-jammy",
+      "26.2.18.8-jammy"
     ],
     "images": [
       {
@@ -55,9 +90,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
         "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/26.2.16.4/Dockerfile.ubuntu",
+        "path": "server/26.2.18.8/Dockerfile.ubuntu",
         "branch": "refs/heads/main"
       },
       {
@@ -66,44 +101,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
         "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/26.2.16.4/Dockerfile.ubuntu",
-        "branch": "refs/heads/main"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "clickhouse",
-    "tags": [
-      "26.1",
-      "26.1.11",
-      "26.1.11.9",
-      "26.1-jammy",
-      "26.1.11-jammy",
-      "26.1.11.9-jammy"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
-        "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/26.1.11.9/Dockerfile.ubuntu",
-        "branch": "refs/heads/main"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
-        "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/26.1.11.9/Dockerfile.ubuntu",
+        "path": "server/26.2.18.8/Dockerfile.ubuntu",
         "branch": "refs/heads/main"
       }
     ]
@@ -113,11 +113,11 @@
     "name": "clickhouse",
     "tags": [
       "25.8",
-      "25.8.22",
+      "25.8.23",
       "25.8-jammy",
-      "25.8.22.28",
-      "25.8.22-jammy",
-      "25.8.22.28-jammy"
+      "25.8.23.13",
+      "25.8.23-jammy",
+      "25.8.23.13-jammy"
     ],
     "images": [
       {
@@ -125,9 +125,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
         "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/25.8.22.28/Dockerfile.ubuntu",
+        "path": "server/25.8.23.13/Dockerfile.ubuntu",
         "branch": "refs/heads/main"
       },
       {
@@ -136,9 +136,9 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1a906c8184fab558b6df654fa30d2e361d869337",
+        "sha": "f52001e9bb5d4b45a5ac79113f9c164de2773575",
         "repo": "https://github.com/ClickHouse/docker-library.git",
-        "path": "server/25.8.22.28/Dockerfile.ubuntu",
+        "path": "server/25.8.23.13/Dockerfile.ubuntu",
         "branch": "refs/heads/main"
       }
     ]
