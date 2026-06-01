@@ -3,10 +3,10 @@
     "version": "26",
     "name": "mariadb",
     "tags": [
-      "12.3-ubi-rc",
-      "12.3-ubi10-rc",
-      "12.3.1-ubi-rc",
-      "12.3.1-ubi10-rc"
+      "13.0-ubi-rc",
+      "13.0-ubi10-rc",
+      "13.0.1-ubi-rc",
+      "13.0.1-ubi10-rc"
     ],
     "images": [
       {
@@ -14,9 +14,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "53935c78b82bff912b361357d59db11d7246ea96",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3-ubi/Dockerfile"
+        "path": "13.0-ubi/Dockerfile"
       },
       {
         "platform": {
@@ -24,27 +24,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "53935c78b82bff912b361357d59db11d7246ea96",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3-ubi/Dockerfile"
+        "path": "13.0-ubi/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "53935c78b82bff912b361357d59db11d7246ea96",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3-ubi/Dockerfile"
+        "path": "13.0-ubi/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "53935c78b82bff912b361357d59db11d7246ea96",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3-ubi/Dockerfile"
+        "path": "13.0-ubi/Dockerfile"
       }
     ]
   },
@@ -52,10 +52,10 @@
     "version": "26",
     "name": "mariadb",
     "tags": [
-      "12.3-rc",
-      "12.3.1-rc",
-      "12.3-noble-rc",
-      "12.3.1-noble-rc"
+      "13.0-rc",
+      "13.0.1-rc",
+      "13.0-resolute-rc",
+      "13.0.1-resolute-rc"
     ],
     "images": [
       {
@@ -63,9 +63,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3/Dockerfile"
+        "path": "13.0/Dockerfile"
       },
       {
         "platform": {
@@ -73,27 +73,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3/Dockerfile"
+        "path": "13.0/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3/Dockerfile"
+        "path": "13.0/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.3/Dockerfile"
+        "path": "13.0/Dockerfile"
       }
     ]
   },
@@ -102,11 +102,13 @@
     "name": "mariadb",
     "tags": [
       "12-ubi",
+      "lts-ubi",
       "12-ubi10",
-      "12.2-ubi",
-      "12.2-ubi10",
-      "12.2.2-ubi",
-      "12.2.2-ubi10"
+      "12.3-ubi",
+      "lts-ubi10",
+      "12.3-ubi10",
+      "12.3.2-ubi",
+      "12.3.2-ubi10"
     ],
     "images": [
       {
@@ -114,9 +116,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2-ubi/Dockerfile"
+        "path": "12.3-ubi/Dockerfile"
       },
       {
         "platform": {
@@ -124,27 +126,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2-ubi/Dockerfile"
+        "path": "12.3-ubi/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2-ubi/Dockerfile"
+        "path": "12.3-ubi/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "f8552c80b5104868ff1bb88851ca976bd99029ee",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2-ubi/Dockerfile"
+        "path": "12.3-ubi/Dockerfile"
       }
     ]
   },
@@ -153,13 +155,15 @@
     "name": "mariadb",
     "tags": [
       "12",
-      "12.2",
+      "lts",
+      "12.3",
       "noble",
-      "12.2.2",
+      "12.3.2",
       "latest",
       "12-noble",
-      "12.2-noble",
-      "12.2.2-noble"
+      "lts-noble",
+      "12.3-noble",
+      "12.3.2-noble"
     ],
     "images": [
       {
@@ -167,9 +171,9 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2/Dockerfile"
+        "path": "12.3/Dockerfile"
       },
       {
         "platform": {
@@ -177,27 +181,27 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2/Dockerfile"
+        "path": "12.3/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2/Dockerfile"
+        "path": "12.3/Dockerfile"
       },
       {
         "platform": {
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "1b6429ba3544e134715c15f8c56cc6f665f827c9",
+        "sha": "af9b72baa083d6c40b2e0741ec65fd74adacde68",
         "repo": "https://github.com/MariaDB/mariadb-docker.git",
-        "path": "12.2/Dockerfile"
+        "path": "12.3/Dockerfile"
       }
     ]
   },
@@ -207,9 +211,7 @@
     "tags": [
       "11-ubi",
       "11-ubi9",
-      "lts-ubi",
       "11.8-ubi",
-      "lts-ubi9",
       "11.8-ubi9",
       "11.8.8-ubi",
       "11.8.8-ubi9"
@@ -259,11 +261,9 @@
     "name": "mariadb",
     "tags": [
       "11",
-      "lts",
       "11.8",
       "11.8.8",
       "11-noble",
-      "lts-noble",
       "11.8-noble",
       "11.8.8-noble"
     ],
