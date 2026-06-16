@@ -3,6 +3,946 @@
     "version": "26",
     "name": "drupal",
     "tags": [
+      "11.4-rc",
+      "11.4.0-rc1",
+      "11.4-rc-apache",
+      "11.4-rc-php8.5",
+      "11.4.0-rc1-apache",
+      "11.4.0-rc1-php8.5",
+      "11.4-rc-apache-trixie",
+      "11.4-rc-php8.5-apache",
+      "11.4.0-rc1-apache-trixie",
+      "11.4.0-rc1-php8.5-apache",
+      "11.4-rc-php8.5-apache-trixie",
+      "11.4.0-rc1-php8.5-apache-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-fpm",
+      "11.4.0-rc1-fpm",
+      "11.4-rc-fpm-trixie",
+      "11.4-rc-php8.5-fpm",
+      "11.4.0-rc1-fpm-trixie",
+      "11.4.0-rc1-php8.5-fpm",
+      "11.4-rc-php8.5-fpm-trixie",
+      "11.4.0-rc1-php8.5-fpm-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-apache-bookworm",
+      "11.4.0-rc1-apache-bookworm",
+      "11.4-rc-php8.5-apache-bookworm",
+      "11.4.0-rc1-php8.5-apache-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/apache-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-fpm-bookworm",
+      "11.4.0-rc1-fpm-bookworm",
+      "11.4-rc-php8.5-fpm-bookworm",
+      "11.4.0-rc1-php8.5-fpm-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-fpm-alpine",
+      "11.4.0-rc1-fpm-alpine",
+      "11.4-rc-fpm-alpine3.24",
+      "11.4-rc-php8.5-fpm-alpine",
+      "11.4.0-rc1-fpm-alpine3.24",
+      "11.4.0-rc1-php8.5-fpm-alpine",
+      "11.4-rc-php8.5-fpm-alpine3.24",
+      "11.4.0-rc1-php8.5-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-fpm-alpine3.23",
+      "11.4.0-rc1-fpm-alpine3.23",
+      "11.4-rc-php8.5-fpm-alpine3.23",
+      "11.4.0-rc1-php8.5-fpm-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.5/fpm-alpine3.23/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-php8.4",
+      "11.4.0-rc1-php8.4",
+      "11.4-rc-php8.4-apache",
+      "11.4.0-rc1-php8.4-apache",
+      "11.4-rc-php8.4-apache-trixie",
+      "11.4.0-rc1-php8.4-apache-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-php8.4-fpm",
+      "11.4.0-rc1-php8.4-fpm",
+      "11.4-rc-php8.4-fpm-trixie",
+      "11.4.0-rc1-php8.4-fpm-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-trixie/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-php8.4-apache-bookworm",
+      "11.4.0-rc1-php8.4-apache-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/apache-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-php8.4-fpm-bookworm",
+      "11.4.0-rc1-php8.4-fpm-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-bookworm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-bookworm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-php8.4-fpm-alpine",
+      "11.4.0-rc1-php8.4-fpm-alpine",
+      "11.4-rc-php8.4-fpm-alpine3.24",
+      "11.4.0-rc1-php8.4-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.4-rc-php8.4-fpm-alpine3.23",
+      "11.4.0-rc1-php8.4-fpm-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "e2e444470cddf158cd1333ea5c60128df5f64d33",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.4-rc/php8.4/fpm-alpine3.23/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
       "php8.5",
       "11-php8.5",
       "11.3-php8.5",
@@ -307,10 +1247,97 @@
     "tags": [
       "php8.5-fpm-alpine",
       "11-php8.5-fpm-alpine",
-      "php8.5-fpm-alpine3.23",
+      "php8.5-fpm-alpine3.24",
       "11.3-php8.5-fpm-alpine",
-      "11-php8.5-fpm-alpine3.23",
+      "11-php8.5-fpm-alpine3.24",
       "11.3.11-php8.5-fpm-alpine",
+      "11.3-php8.5-fpm-alpine3.24",
+      "11.3.11-php8.5-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.5/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "php8.5-fpm-alpine3.23",
+      "11-php8.5-fpm-alpine3.23",
       "11.3-php8.5-fpm-alpine3.23",
       "11.3.11-php8.5-fpm-alpine3.23"
     ],
@@ -389,93 +1416,6 @@
         "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "11.3/php8.5/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "php8.5-fpm-alpine3.22",
-      "11-php8.5-fpm-alpine3.22",
-      "11.3-php8.5-fpm-alpine3.22",
-      "11.3.11-php8.5-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.5/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -815,18 +1755,109 @@
     "tags": [
       "fpm-alpine",
       "11-fpm-alpine",
-      "fpm-alpine3.23",
+      "fpm-alpine3.24",
       "11.3-fpm-alpine",
-      "11-fpm-alpine3.23",
+      "11-fpm-alpine3.24",
       "php8.4-fpm-alpine",
       "11.3.11-fpm-alpine",
-      "11.3-fpm-alpine3.23",
+      "11.3-fpm-alpine3.24",
       "11-php8.4-fpm-alpine",
-      "php8.4-fpm-alpine3.23",
+      "php8.4-fpm-alpine3.24",
       "11.3-php8.4-fpm-alpine",
+      "11.3.11-fpm-alpine3.24",
+      "11-php8.4-fpm-alpine3.24",
+      "11.3.11-php8.4-fpm-alpine",
+      "11.3-php8.4-fpm-alpine3.24",
+      "11.3.11-php8.4-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.3/php8.4/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "fpm-alpine3.23",
+      "11-fpm-alpine3.23",
+      "11.3-fpm-alpine3.23",
+      "php8.4-fpm-alpine3.23",
       "11.3.11-fpm-alpine3.23",
       "11-php8.4-fpm-alpine3.23",
-      "11.3.11-php8.4-fpm-alpine",
       "11.3-php8.4-fpm-alpine3.23",
       "11.3.11-php8.4-fpm-alpine3.23"
     ],
@@ -905,97 +1936,6 @@
         "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "11.3/php8.4/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "fpm-alpine3.22",
-      "11-fpm-alpine3.22",
-      "11.3-fpm-alpine3.22",
-      "php8.4-fpm-alpine3.22",
-      "11.3.11-fpm-alpine3.22",
-      "11-php8.4-fpm-alpine3.22",
-      "11.3-php8.4-fpm-alpine3.22",
-      "11.3.11-php8.4-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "69247c8e8e31ec9b28829b97e36d300596669739",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.3/php8.4/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -1307,10 +2247,97 @@
     "tags": [
       "11.2-fpm-alpine",
       "11.2.13-fpm-alpine",
-      "11.2-fpm-alpine3.23",
+      "11.2-fpm-alpine3.24",
       "11.2-php8.4-fpm-alpine",
-      "11.2.13-fpm-alpine3.23",
+      "11.2.13-fpm-alpine3.24",
       "11.2.13-php8.4-fpm-alpine",
+      "11.2-php8.4-fpm-alpine3.24",
+      "11.2.13-php8.4-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.4/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "11.2-fpm-alpine3.23",
+      "11.2.13-fpm-alpine3.23",
       "11.2-php8.4-fpm-alpine3.23",
       "11.2.13-php8.4-fpm-alpine3.23"
     ],
@@ -1389,93 +2416,6 @@
         "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "11.2/php8.4/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "11.2-fpm-alpine3.22",
-      "11.2.13-fpm-alpine3.22",
-      "11.2-php8.4-fpm-alpine3.22",
-      "11.2.13-php8.4-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.4/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -1773,6 +2713,91 @@
     "tags": [
       "11.2-php8.3-fpm-alpine",
       "11.2.13-php8.3-fpm-alpine",
+      "11.2-php8.3-fpm-alpine3.24",
+      "11.2.13-php8.3-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "11.2/php8.3/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
       "11.2-php8.3-fpm-alpine3.23",
       "11.2.13-php8.3-fpm-alpine3.23"
     ],
@@ -1851,91 +2876,6 @@
         "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "11.2/php8.3/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "11.2-php8.3-fpm-alpine3.22",
-      "11.2.13-php8.3-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "2511b40a0fb126f6f64e3e219922a61d7c465b22",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "11.2/php8.3/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -2261,14 +3201,103 @@
     "tags": [
       "10-fpm-alpine",
       "10.6-fpm-alpine",
-      "10-fpm-alpine3.23",
+      "10-fpm-alpine3.24",
       "10.6.10-fpm-alpine",
-      "10.6-fpm-alpine3.23",
+      "10.6-fpm-alpine3.24",
       "10-php8.4-fpm-alpine",
       "10.6-php8.4-fpm-alpine",
+      "10.6.10-fpm-alpine3.24",
+      "10-php8.4-fpm-alpine3.24",
+      "10.6.10-php8.4-fpm-alpine",
+      "10.6-php8.4-fpm-alpine3.24",
+      "10.6.10-php8.4-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.4/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "10-fpm-alpine3.23",
+      "10.6-fpm-alpine3.23",
       "10.6.10-fpm-alpine3.23",
       "10-php8.4-fpm-alpine3.23",
-      "10.6.10-php8.4-fpm-alpine",
       "10.6-php8.4-fpm-alpine3.23",
       "10.6.10-php8.4-fpm-alpine3.23"
     ],
@@ -2347,95 +3376,6 @@
         "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "10.6/php8.4/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "10-fpm-alpine3.22",
-      "10.6-fpm-alpine3.22",
-      "10.6.10-fpm-alpine3.22",
-      "10-php8.4-fpm-alpine3.22",
-      "10.6-php8.4-fpm-alpine3.22",
-      "10.6.10-php8.4-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.4/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -2740,8 +3680,94 @@
     "tags": [
       "10-php8.3-fpm-alpine",
       "10.6-php8.3-fpm-alpine",
-      "10-php8.3-fpm-alpine3.23",
+      "10-php8.3-fpm-alpine3.24",
       "10.6.10-php8.3-fpm-alpine",
+      "10.6-php8.3-fpm-alpine3.24",
+      "10.6.10-php8.3-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.6/php8.3/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "10-php8.3-fpm-alpine3.23",
       "10.6-php8.3-fpm-alpine3.23",
       "10.6.10-php8.3-fpm-alpine3.23"
     ],
@@ -2820,92 +3846,6 @@
         "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "10.6/php8.3/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "10-php8.3-fpm-alpine3.22",
-      "10.6-php8.3-fpm-alpine3.22",
-      "10.6.10-php8.3-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "149f27d3f94fa6db143a87bba0e5f3f314b827f2",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.6/php8.3/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -3217,10 +4157,97 @@
     "tags": [
       "10.5-fpm-alpine",
       "10.5.11-fpm-alpine",
-      "10.5-fpm-alpine3.23",
+      "10.5-fpm-alpine3.24",
       "10.5-php8.4-fpm-alpine",
-      "10.5.11-fpm-alpine3.23",
+      "10.5.11-fpm-alpine3.24",
       "10.5.11-php8.4-fpm-alpine",
+      "10.5-php8.4-fpm-alpine3.24",
+      "10.5.11-php8.4-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.4/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
+      "10.5-fpm-alpine3.23",
+      "10.5.11-fpm-alpine3.23",
       "10.5-php8.4-fpm-alpine3.23",
       "10.5.11-php8.4-fpm-alpine3.23"
     ],
@@ -3299,93 +4326,6 @@
         "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "10.5/php8.4/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "10.5-fpm-alpine3.22",
-      "10.5.11-fpm-alpine3.22",
-      "10.5-php8.4-fpm-alpine3.22",
-      "10.5.11-php8.4-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.4/fpm-alpine3.22/Dockerfile"
       }
     ]
   },
@@ -3683,6 +4623,91 @@
     "tags": [
       "10.5-php8.3-fpm-alpine",
       "10.5.11-php8.3-fpm-alpine",
+      "10.5-php8.3-fpm-alpine3.24",
+      "10.5.11-php8.3-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "880a92e8f6d8a7886213d04e7aba759d4cd0c8d2",
+        "repo": "https://github.com/docker-library/drupal.git",
+        "path": "10.5/php8.3/fpm-alpine3.24/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "drupal",
+    "tags": [
       "10.5-php8.3-fpm-alpine3.23",
       "10.5.11-php8.3-fpm-alpine3.23"
     ],
@@ -3761,91 +4786,6 @@
         "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
         "repo": "https://github.com/docker-library/drupal.git",
         "path": "10.5/php8.3/fpm-alpine3.23/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "drupal",
-    "tags": [
-      "10.5-php8.3-fpm-alpine3.22",
-      "10.5.11-php8.3-fpm-alpine3.22"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "83f0711e28256ec5dcc872cae38478e5b7391e35",
-        "repo": "https://github.com/docker-library/drupal.git",
-        "path": "10.5/php8.3/fpm-alpine3.22/Dockerfile"
       }
     ]
   }
