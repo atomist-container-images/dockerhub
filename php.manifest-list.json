@@ -3,6 +3,1214 @@
     "version": "26",
     "name": "php",
     "tags": [
+      "8.6-rc",
+      "8.6-rc-cli",
+      "8.6.0alpha1",
+      "8.6-rc-trixie",
+      "8.6.0alpha1-cli",
+      "8.6-rc-cli-trixie",
+      "8.6.0alpha1-trixie",
+      "8.6.0alpha1-cli-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/cli/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-apache",
+      "8.6.0alpha1-apache",
+      "8.6-rc-apache-trixie",
+      "8.6.0alpha1-apache-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/apache/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-fpm",
+      "8.6.0alpha1-fpm",
+      "8.6-rc-fpm-trixie",
+      "8.6.0alpha1-fpm-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/fpm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-zts",
+      "8.6.0alpha1-zts",
+      "8.6-rc-zts-trixie",
+      "8.6.0alpha1-zts-trixie"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/trixie/zts/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-bookworm",
+      "8.6-rc-cli-bookworm",
+      "8.6.0alpha1-bookworm",
+      "8.6.0alpha1-cli-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/cli/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-apache-bookworm",
+      "8.6.0alpha1-apache-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/apache/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-fpm-bookworm",
+      "8.6.0alpha1-fpm-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/fpm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-zts-bookworm",
+      "8.6.0alpha1-zts-bookworm"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "mips64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/bookworm/zts/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-alpine",
+      "8.6-rc-alpine3.24",
+      "8.6-rc-cli-alpine",
+      "8.6.0alpha1-alpine",
+      "8.6-rc-cli-alpine3.24",
+      "8.6.0alpha1-alpine3.24",
+      "8.6.0alpha1-cli-alpine",
+      "8.6.0alpha1-cli-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/cli/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-fpm-alpine",
+      "8.6-rc-fpm-alpine3.24",
+      "8.6.0alpha1-fpm-alpine",
+      "8.6.0alpha1-fpm-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/fpm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-zts-alpine",
+      "8.6-rc-zts-alpine3.24",
+      "8.6.0alpha1-zts-alpine",
+      "8.6.0alpha1-zts-alpine3.24"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.24/zts/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-alpine3.23",
+      "8.6-rc-cli-alpine3.23",
+      "8.6.0alpha1-alpine3.23",
+      "8.6.0alpha1-cli-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/cli/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-fpm-alpine3.23",
+      "8.6.0alpha1-fpm-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/fpm/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
+      "8.6-rc-zts-alpine3.23",
+      "8.6.0alpha1-zts-alpine3.23"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v6"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm",
+          "variant": "v7"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "386"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "ppc64le"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "riscv64"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "s390x"
+        },
+        "sha": "2f6224c17e0b4481e1a7d495efaa3d4c0358fc84",
+        "repo": "https://github.com/docker-library/php.git",
+        "path": "8.6-rc/alpine3.23/zts/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "php",
+    "tags": [
       "8.5-rc",
       "8.5.8RC1",
       "8.5-rc-cli",
@@ -2473,1222 +3681,14 @@
     "version": "26",
     "name": "php",
     "tags": [
-      "8.4-rc",
-      "8.4.23RC1",
-      "8.4-rc-cli",
-      "8.4-rc-trixie",
-      "8.4.23RC1-cli",
-      "8.4.23RC1-trixie",
-      "8.4-rc-cli-trixie",
-      "8.4.23RC1-cli-trixie"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/cli/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-apache",
-      "8.4.23RC1-apache",
-      "8.4-rc-apache-trixie",
-      "8.4.23RC1-apache-trixie"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/apache/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-fpm",
-      "8.4.23RC1-fpm",
-      "8.4-rc-fpm-trixie",
-      "8.4.23RC1-fpm-trixie"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-zts",
-      "8.4.23RC1-zts",
-      "8.4-rc-zts-trixie",
-      "8.4.23RC1-zts-trixie"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/trixie/zts/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-bookworm",
-      "8.4.23RC1-bookworm",
-      "8.4-rc-cli-bookworm",
-      "8.4.23RC1-cli-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/cli/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-apache-bookworm",
-      "8.4.23RC1-apache-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/apache/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-fpm-bookworm",
-      "8.4.23RC1-fpm-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-zts-bookworm",
-      "8.4.23RC1-zts-bookworm"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "mips64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/bookworm/zts/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-alpine",
-      "8.4.23RC1-alpine",
-      "8.4-rc-alpine3.24",
-      "8.4-rc-cli-alpine",
-      "8.4.23RC1-alpine3.24",
-      "8.4.23RC1-cli-alpine",
-      "8.4-rc-cli-alpine3.24",
-      "8.4.23RC1-cli-alpine3.24"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/cli/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-fpm-alpine",
-      "8.4.23RC1-fpm-alpine",
-      "8.4-rc-fpm-alpine3.24",
-      "8.4.23RC1-fpm-alpine3.24"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-zts-alpine",
-      "8.4.23RC1-zts-alpine",
-      "8.4-rc-zts-alpine3.24",
-      "8.4.23RC1-zts-alpine3.24"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.24/zts/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-alpine3.23",
-      "8.4.23RC1-alpine3.23",
-      "8.4-rc-cli-alpine3.23",
-      "8.4.23RC1-cli-alpine3.23"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/cli/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-fpm-alpine3.23",
-      "8.4.23RC1-fpm-alpine3.23"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/fpm/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
-      "8.4-rc-zts-alpine3.23",
-      "8.4.23RC1-zts-alpine3.23"
-    ],
-    "images": [
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "amd64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v6"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm",
-          "variant": "v7"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "arm64",
-          "variant": "v8"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "386"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "ppc64le"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "riscv64"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      },
-      {
-        "platform": {
-          "os": "linux",
-          "architecture": "s390x"
-        },
-        "sha": "56a27a746dcfcd53bc043adec3fc00a22b5a8eb7",
-        "repo": "https://github.com/docker-library/php.git",
-        "path": "8.4-rc/alpine3.23/zts/Dockerfile"
-      }
-    ]
-  },
-  {
-    "version": "26",
-    "name": "php",
-    "tags": [
       "8.4",
-      "8.4.22",
+      "8.4.23",
       "8.4-cli",
       "8.4-trixie",
-      "8.4.22-cli",
-      "8.4.22-trixie",
+      "8.4.23-cli",
+      "8.4.23-trixie",
       "8.4-cli-trixie",
-      "8.4.22-cli-trixie"
+      "8.4.23-cli-trixie"
     ],
     "images": [
       {
@@ -3696,7 +3696,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3705,7 +3705,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3715,7 +3715,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3725,7 +3725,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3734,7 +3734,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3743,7 +3743,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3752,7 +3752,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       },
@@ -3761,7 +3761,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/cli/Dockerfile"
       }
@@ -3772,9 +3772,9 @@
     "name": "php",
     "tags": [
       "8.4-apache",
-      "8.4.22-apache",
+      "8.4.23-apache",
       "8.4-apache-trixie",
-      "8.4.22-apache-trixie"
+      "8.4.23-apache-trixie"
     ],
     "images": [
       {
@@ -3782,7 +3782,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3791,7 +3791,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3801,7 +3801,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3811,7 +3811,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3820,7 +3820,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3829,7 +3829,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3838,7 +3838,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       },
@@ -3847,7 +3847,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/apache/Dockerfile"
       }
@@ -3858,9 +3858,9 @@
     "name": "php",
     "tags": [
       "8.4-fpm",
-      "8.4.22-fpm",
+      "8.4.23-fpm",
       "8.4-fpm-trixie",
-      "8.4.22-fpm-trixie"
+      "8.4.23-fpm-trixie"
     ],
     "images": [
       {
@@ -3868,7 +3868,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3877,7 +3877,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3887,7 +3887,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3897,7 +3897,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3906,7 +3906,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3915,7 +3915,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3924,7 +3924,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       },
@@ -3933,7 +3933,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/fpm/Dockerfile"
       }
@@ -3944,9 +3944,9 @@
     "name": "php",
     "tags": [
       "8.4-zts",
-      "8.4.22-zts",
+      "8.4.23-zts",
       "8.4-zts-trixie",
-      "8.4.22-zts-trixie"
+      "8.4.23-zts-trixie"
     ],
     "images": [
       {
@@ -3954,7 +3954,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -3963,7 +3963,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -3973,7 +3973,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -3983,7 +3983,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -3992,7 +3992,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -4001,7 +4001,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -4010,7 +4010,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       },
@@ -4019,7 +4019,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/trixie/zts/Dockerfile"
       }
@@ -4030,9 +4030,9 @@
     "name": "php",
     "tags": [
       "8.4-bookworm",
-      "8.4.22-bookworm",
+      "8.4.23-bookworm",
       "8.4-cli-bookworm",
-      "8.4.22-cli-bookworm"
+      "8.4.23-cli-bookworm"
     ],
     "images": [
       {
@@ -4040,7 +4040,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4049,7 +4049,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4059,7 +4059,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4069,7 +4069,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4078,7 +4078,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4087,7 +4087,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4096,7 +4096,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       },
@@ -4105,7 +4105,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/cli/Dockerfile"
       }
@@ -4116,7 +4116,7 @@
     "name": "php",
     "tags": [
       "8.4-apache-bookworm",
-      "8.4.22-apache-bookworm"
+      "8.4.23-apache-bookworm"
     ],
     "images": [
       {
@@ -4124,7 +4124,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4133,7 +4133,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4143,7 +4143,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4153,7 +4153,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4162,7 +4162,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4171,7 +4171,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4180,7 +4180,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       },
@@ -4189,7 +4189,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/apache/Dockerfile"
       }
@@ -4200,7 +4200,7 @@
     "name": "php",
     "tags": [
       "8.4-fpm-bookworm",
-      "8.4.22-fpm-bookworm"
+      "8.4.23-fpm-bookworm"
     ],
     "images": [
       {
@@ -4208,7 +4208,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4217,7 +4217,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4227,7 +4227,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4237,7 +4237,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4246,7 +4246,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4255,7 +4255,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4264,7 +4264,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       },
@@ -4273,7 +4273,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/fpm/Dockerfile"
       }
@@ -4284,7 +4284,7 @@
     "name": "php",
     "tags": [
       "8.4-zts-bookworm",
-      "8.4.22-zts-bookworm"
+      "8.4.23-zts-bookworm"
     ],
     "images": [
       {
@@ -4292,7 +4292,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4301,7 +4301,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4311,7 +4311,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4321,7 +4321,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4330,7 +4330,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4339,7 +4339,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4348,7 +4348,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       },
@@ -4357,7 +4357,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/bookworm/zts/Dockerfile"
       }
@@ -4368,13 +4368,13 @@
     "name": "php",
     "tags": [
       "8.4-alpine",
-      "8.4.22-alpine",
+      "8.4.23-alpine",
       "8.4-alpine3.24",
       "8.4-cli-alpine",
-      "8.4.22-alpine3.24",
-      "8.4.22-cli-alpine",
+      "8.4.23-alpine3.24",
+      "8.4.23-cli-alpine",
       "8.4-cli-alpine3.24",
-      "8.4.22-cli-alpine3.24"
+      "8.4.23-cli-alpine3.24"
     ],
     "images": [
       {
@@ -4382,7 +4382,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4392,7 +4392,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4402,7 +4402,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4412,7 +4412,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4421,7 +4421,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4430,7 +4430,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4439,7 +4439,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       },
@@ -4448,7 +4448,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/cli/Dockerfile"
       }
@@ -4459,9 +4459,9 @@
     "name": "php",
     "tags": [
       "8.4-fpm-alpine",
-      "8.4.22-fpm-alpine",
+      "8.4.23-fpm-alpine",
       "8.4-fpm-alpine3.24",
-      "8.4.22-fpm-alpine3.24"
+      "8.4.23-fpm-alpine3.24"
     ],
     "images": [
       {
@@ -4469,7 +4469,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4479,7 +4479,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4489,7 +4489,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4499,7 +4499,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4508,7 +4508,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4517,7 +4517,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4526,7 +4526,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       },
@@ -4535,7 +4535,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/fpm/Dockerfile"
       }
@@ -4546,9 +4546,9 @@
     "name": "php",
     "tags": [
       "8.4-zts-alpine",
-      "8.4.22-zts-alpine",
+      "8.4.23-zts-alpine",
       "8.4-zts-alpine3.24",
-      "8.4.22-zts-alpine3.24"
+      "8.4.23-zts-alpine3.24"
     ],
     "images": [
       {
@@ -4556,7 +4556,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4566,7 +4566,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4576,7 +4576,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4586,7 +4586,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4595,7 +4595,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4604,7 +4604,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4613,7 +4613,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       },
@@ -4622,7 +4622,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.24/zts/Dockerfile"
       }
@@ -4633,9 +4633,9 @@
     "name": "php",
     "tags": [
       "8.4-alpine3.23",
-      "8.4.22-alpine3.23",
+      "8.4.23-alpine3.23",
       "8.4-cli-alpine3.23",
-      "8.4.22-cli-alpine3.23"
+      "8.4.23-cli-alpine3.23"
     ],
     "images": [
       {
@@ -4643,7 +4643,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4653,7 +4653,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4663,7 +4663,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4673,7 +4673,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4682,7 +4682,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4691,7 +4691,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4700,7 +4700,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       },
@@ -4709,7 +4709,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/cli/Dockerfile"
       }
@@ -4720,7 +4720,7 @@
     "name": "php",
     "tags": [
       "8.4-fpm-alpine3.23",
-      "8.4.22-fpm-alpine3.23"
+      "8.4.23-fpm-alpine3.23"
     ],
     "images": [
       {
@@ -4728,7 +4728,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4738,7 +4738,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4748,7 +4748,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4758,7 +4758,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4767,7 +4767,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4776,7 +4776,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4785,7 +4785,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       },
@@ -4794,7 +4794,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/fpm/Dockerfile"
       }
@@ -4805,7 +4805,7 @@
     "name": "php",
     "tags": [
       "8.4-zts-alpine3.23",
-      "8.4.22-zts-alpine3.23"
+      "8.4.23-zts-alpine3.23"
     ],
     "images": [
       {
@@ -4813,7 +4813,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4823,7 +4823,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4833,7 +4833,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4843,7 +4843,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4852,7 +4852,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4861,7 +4861,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4870,7 +4870,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       },
@@ -4879,7 +4879,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "9df0b01226d18f08ce3741962999897e88e573d3",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.4/alpine3.23/zts/Dockerfile"
       }
@@ -4890,13 +4890,13 @@
     "name": "php",
     "tags": [
       "8.3",
-      "8.3.31",
+      "8.3.32",
       "8.3-cli",
       "8.3-trixie",
-      "8.3.31-cli",
-      "8.3.31-trixie",
+      "8.3.32-cli",
+      "8.3.32-trixie",
       "8.3-cli-trixie",
-      "8.3.31-cli-trixie"
+      "8.3.32-cli-trixie"
     ],
     "images": [
       {
@@ -4904,7 +4904,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4913,7 +4913,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4923,7 +4923,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4933,7 +4933,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4942,7 +4942,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4951,7 +4951,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4960,7 +4960,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       },
@@ -4969,7 +4969,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/cli/Dockerfile"
       }
@@ -4980,9 +4980,9 @@
     "name": "php",
     "tags": [
       "8.3-apache",
-      "8.3.31-apache",
+      "8.3.32-apache",
       "8.3-apache-trixie",
-      "8.3.31-apache-trixie"
+      "8.3.32-apache-trixie"
     ],
     "images": [
       {
@@ -4990,7 +4990,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -4999,7 +4999,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -5009,7 +5009,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -5019,7 +5019,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -5028,7 +5028,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -5037,7 +5037,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -5046,7 +5046,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       },
@@ -5055,7 +5055,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/apache/Dockerfile"
       }
@@ -5066,9 +5066,9 @@
     "name": "php",
     "tags": [
       "8.3-fpm",
-      "8.3.31-fpm",
+      "8.3.32-fpm",
       "8.3-fpm-trixie",
-      "8.3.31-fpm-trixie"
+      "8.3.32-fpm-trixie"
     ],
     "images": [
       {
@@ -5076,7 +5076,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5085,7 +5085,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5095,7 +5095,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5105,7 +5105,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5114,7 +5114,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5123,7 +5123,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5132,7 +5132,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       },
@@ -5141,7 +5141,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/fpm/Dockerfile"
       }
@@ -5152,9 +5152,9 @@
     "name": "php",
     "tags": [
       "8.3-zts",
-      "8.3.31-zts",
+      "8.3.32-zts",
       "8.3-zts-trixie",
-      "8.3.31-zts-trixie"
+      "8.3.32-zts-trixie"
     ],
     "images": [
       {
@@ -5162,7 +5162,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5171,7 +5171,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5181,7 +5181,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5191,7 +5191,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5200,7 +5200,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5209,7 +5209,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5218,7 +5218,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       },
@@ -5227,7 +5227,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/trixie/zts/Dockerfile"
       }
@@ -5238,9 +5238,9 @@
     "name": "php",
     "tags": [
       "8.3-bookworm",
-      "8.3.31-bookworm",
+      "8.3.32-bookworm",
       "8.3-cli-bookworm",
-      "8.3.31-cli-bookworm"
+      "8.3.32-cli-bookworm"
     ],
     "images": [
       {
@@ -5248,7 +5248,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5257,7 +5257,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5267,7 +5267,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5277,7 +5277,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5286,7 +5286,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5295,7 +5295,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5304,7 +5304,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       },
@@ -5313,7 +5313,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/cli/Dockerfile"
       }
@@ -5324,7 +5324,7 @@
     "name": "php",
     "tags": [
       "8.3-apache-bookworm",
-      "8.3.31-apache-bookworm"
+      "8.3.32-apache-bookworm"
     ],
     "images": [
       {
@@ -5332,7 +5332,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5341,7 +5341,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5351,7 +5351,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5361,7 +5361,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5370,7 +5370,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5379,7 +5379,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5388,7 +5388,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       },
@@ -5397,7 +5397,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/apache/Dockerfile"
       }
@@ -5408,7 +5408,7 @@
     "name": "php",
     "tags": [
       "8.3-fpm-bookworm",
-      "8.3.31-fpm-bookworm"
+      "8.3.32-fpm-bookworm"
     ],
     "images": [
       {
@@ -5416,7 +5416,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5425,7 +5425,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5435,7 +5435,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5445,7 +5445,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5454,7 +5454,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5463,7 +5463,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5472,7 +5472,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       },
@@ -5481,7 +5481,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/fpm/Dockerfile"
       }
@@ -5492,7 +5492,7 @@
     "name": "php",
     "tags": [
       "8.3-zts-bookworm",
-      "8.3.31-zts-bookworm"
+      "8.3.32-zts-bookworm"
     ],
     "images": [
       {
@@ -5500,7 +5500,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5509,7 +5509,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5519,7 +5519,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5529,7 +5529,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5538,7 +5538,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5547,7 +5547,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5556,7 +5556,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       },
@@ -5565,7 +5565,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/bookworm/zts/Dockerfile"
       }
@@ -5576,13 +5576,13 @@
     "name": "php",
     "tags": [
       "8.3-alpine",
-      "8.3.31-alpine",
+      "8.3.32-alpine",
       "8.3-alpine3.24",
       "8.3-cli-alpine",
-      "8.3.31-alpine3.24",
-      "8.3.31-cli-alpine",
+      "8.3.32-alpine3.24",
+      "8.3.32-cli-alpine",
       "8.3-cli-alpine3.24",
-      "8.3.31-cli-alpine3.24"
+      "8.3.32-cli-alpine3.24"
     ],
     "images": [
       {
@@ -5590,7 +5590,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5600,7 +5600,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5610,7 +5610,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5620,7 +5620,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5629,7 +5629,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5638,7 +5638,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5647,7 +5647,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       },
@@ -5656,7 +5656,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/cli/Dockerfile"
       }
@@ -5667,9 +5667,9 @@
     "name": "php",
     "tags": [
       "8.3-fpm-alpine",
-      "8.3.31-fpm-alpine",
+      "8.3.32-fpm-alpine",
       "8.3-fpm-alpine3.24",
-      "8.3.31-fpm-alpine3.24"
+      "8.3.32-fpm-alpine3.24"
     ],
     "images": [
       {
@@ -5677,7 +5677,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5687,7 +5687,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5697,7 +5697,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5707,7 +5707,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5716,7 +5716,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5725,7 +5725,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5734,7 +5734,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       },
@@ -5743,7 +5743,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/fpm/Dockerfile"
       }
@@ -5754,9 +5754,9 @@
     "name": "php",
     "tags": [
       "8.3-zts-alpine",
-      "8.3.31-zts-alpine",
+      "8.3.32-zts-alpine",
       "8.3-zts-alpine3.24",
-      "8.3.31-zts-alpine3.24"
+      "8.3.32-zts-alpine3.24"
     ],
     "images": [
       {
@@ -5764,7 +5764,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5774,7 +5774,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5784,7 +5784,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5794,7 +5794,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5803,7 +5803,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5812,7 +5812,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5821,7 +5821,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       },
@@ -5830,7 +5830,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.24/zts/Dockerfile"
       }
@@ -5841,9 +5841,9 @@
     "name": "php",
     "tags": [
       "8.3-alpine3.23",
-      "8.3.31-alpine3.23",
+      "8.3.32-alpine3.23",
       "8.3-cli-alpine3.23",
-      "8.3.31-cli-alpine3.23"
+      "8.3.32-cli-alpine3.23"
     ],
     "images": [
       {
@@ -5851,7 +5851,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5861,7 +5861,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5871,7 +5871,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5881,7 +5881,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5890,7 +5890,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5899,7 +5899,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5908,7 +5908,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       },
@@ -5917,7 +5917,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/cli/Dockerfile"
       }
@@ -5928,7 +5928,7 @@
     "name": "php",
     "tags": [
       "8.3-fpm-alpine3.23",
-      "8.3.31-fpm-alpine3.23"
+      "8.3.32-fpm-alpine3.23"
     ],
     "images": [
       {
@@ -5936,7 +5936,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -5946,7 +5946,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -5956,7 +5956,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -5966,7 +5966,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -5975,7 +5975,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -5984,7 +5984,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -5993,7 +5993,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       },
@@ -6002,7 +6002,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/fpm/Dockerfile"
       }
@@ -6013,7 +6013,7 @@
     "name": "php",
     "tags": [
       "8.3-zts-alpine3.23",
-      "8.3.31-zts-alpine3.23"
+      "8.3.32-zts-alpine3.23"
     ],
     "images": [
       {
@@ -6021,7 +6021,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6031,7 +6031,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6041,7 +6041,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6051,7 +6051,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6060,7 +6060,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6069,7 +6069,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6078,7 +6078,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       },
@@ -6087,7 +6087,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.3/alpine3.23/zts/Dockerfile"
       }
@@ -6098,13 +6098,13 @@
     "name": "php",
     "tags": [
       "8.2",
-      "8.2.31",
+      "8.2.32",
       "8.2-cli",
       "8.2-trixie",
-      "8.2.31-cli",
-      "8.2.31-trixie",
+      "8.2.32-cli",
+      "8.2.32-trixie",
       "8.2-cli-trixie",
-      "8.2.31-cli-trixie"
+      "8.2.32-cli-trixie"
     ],
     "images": [
       {
@@ -6112,7 +6112,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6121,7 +6121,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6131,7 +6131,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6141,7 +6141,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6150,7 +6150,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6159,7 +6159,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6168,7 +6168,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       },
@@ -6177,7 +6177,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/cli/Dockerfile"
       }
@@ -6188,9 +6188,9 @@
     "name": "php",
     "tags": [
       "8.2-apache",
-      "8.2.31-apache",
+      "8.2.32-apache",
       "8.2-apache-trixie",
-      "8.2.31-apache-trixie"
+      "8.2.32-apache-trixie"
     ],
     "images": [
       {
@@ -6198,7 +6198,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6207,7 +6207,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6217,7 +6217,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6227,7 +6227,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6236,7 +6236,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6245,7 +6245,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6254,7 +6254,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       },
@@ -6263,7 +6263,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/apache/Dockerfile"
       }
@@ -6274,9 +6274,9 @@
     "name": "php",
     "tags": [
       "8.2-fpm",
-      "8.2.31-fpm",
+      "8.2.32-fpm",
       "8.2-fpm-trixie",
-      "8.2.31-fpm-trixie"
+      "8.2.32-fpm-trixie"
     ],
     "images": [
       {
@@ -6284,7 +6284,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6293,7 +6293,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6303,7 +6303,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6313,7 +6313,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6322,7 +6322,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6331,7 +6331,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6340,7 +6340,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       },
@@ -6349,7 +6349,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/fpm/Dockerfile"
       }
@@ -6360,9 +6360,9 @@
     "name": "php",
     "tags": [
       "8.2-zts",
-      "8.2.31-zts",
+      "8.2.32-zts",
       "8.2-zts-trixie",
-      "8.2.31-zts-trixie"
+      "8.2.32-zts-trixie"
     ],
     "images": [
       {
@@ -6370,7 +6370,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6379,7 +6379,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6389,7 +6389,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6399,7 +6399,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6408,7 +6408,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6417,7 +6417,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6426,7 +6426,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       },
@@ -6435,7 +6435,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/trixie/zts/Dockerfile"
       }
@@ -6446,9 +6446,9 @@
     "name": "php",
     "tags": [
       "8.2-bookworm",
-      "8.2.31-bookworm",
+      "8.2.32-bookworm",
       "8.2-cli-bookworm",
-      "8.2.31-cli-bookworm"
+      "8.2.32-cli-bookworm"
     ],
     "images": [
       {
@@ -6456,7 +6456,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6465,7 +6465,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6475,7 +6475,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6485,7 +6485,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6494,7 +6494,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6503,7 +6503,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6512,7 +6512,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       },
@@ -6521,7 +6521,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/cli/Dockerfile"
       }
@@ -6532,7 +6532,7 @@
     "name": "php",
     "tags": [
       "8.2-apache-bookworm",
-      "8.2.31-apache-bookworm"
+      "8.2.32-apache-bookworm"
     ],
     "images": [
       {
@@ -6540,7 +6540,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6549,7 +6549,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6559,7 +6559,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6569,7 +6569,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6578,7 +6578,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6587,7 +6587,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6596,7 +6596,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       },
@@ -6605,7 +6605,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/apache/Dockerfile"
       }
@@ -6616,7 +6616,7 @@
     "name": "php",
     "tags": [
       "8.2-fpm-bookworm",
-      "8.2.31-fpm-bookworm"
+      "8.2.32-fpm-bookworm"
     ],
     "images": [
       {
@@ -6624,7 +6624,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6633,7 +6633,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6643,7 +6643,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6653,7 +6653,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6662,7 +6662,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6671,7 +6671,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6680,7 +6680,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       },
@@ -6689,7 +6689,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/fpm/Dockerfile"
       }
@@ -6700,7 +6700,7 @@
     "name": "php",
     "tags": [
       "8.2-zts-bookworm",
-      "8.2.31-zts-bookworm"
+      "8.2.32-zts-bookworm"
     ],
     "images": [
       {
@@ -6708,7 +6708,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6717,7 +6717,7 @@
           "os": "linux",
           "architecture": "arm"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6727,7 +6727,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6737,7 +6737,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6746,7 +6746,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6755,7 +6755,7 @@
           "os": "linux",
           "architecture": "mips64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6764,7 +6764,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       },
@@ -6773,7 +6773,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/bookworm/zts/Dockerfile"
       }
@@ -6784,13 +6784,13 @@
     "name": "php",
     "tags": [
       "8.2-alpine",
-      "8.2.31-alpine",
+      "8.2.32-alpine",
       "8.2-alpine3.24",
       "8.2-cli-alpine",
-      "8.2.31-alpine3.24",
-      "8.2.31-cli-alpine",
+      "8.2.32-alpine3.24",
+      "8.2.32-cli-alpine",
       "8.2-cli-alpine3.24",
-      "8.2.31-cli-alpine3.24"
+      "8.2.32-cli-alpine3.24"
     ],
     "images": [
       {
@@ -6798,7 +6798,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6808,7 +6808,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6818,7 +6818,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6828,7 +6828,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6837,7 +6837,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6846,7 +6846,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6855,7 +6855,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       },
@@ -6864,7 +6864,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/cli/Dockerfile"
       }
@@ -6875,9 +6875,9 @@
     "name": "php",
     "tags": [
       "8.2-fpm-alpine",
-      "8.2.31-fpm-alpine",
+      "8.2.32-fpm-alpine",
       "8.2-fpm-alpine3.24",
-      "8.2.31-fpm-alpine3.24"
+      "8.2.32-fpm-alpine3.24"
     ],
     "images": [
       {
@@ -6885,7 +6885,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6895,7 +6895,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6905,7 +6905,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6915,7 +6915,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6924,7 +6924,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6933,7 +6933,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6942,7 +6942,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       },
@@ -6951,7 +6951,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/fpm/Dockerfile"
       }
@@ -6962,9 +6962,9 @@
     "name": "php",
     "tags": [
       "8.2-zts-alpine",
-      "8.2.31-zts-alpine",
+      "8.2.32-zts-alpine",
       "8.2-zts-alpine3.24",
-      "8.2.31-zts-alpine3.24"
+      "8.2.32-zts-alpine3.24"
     ],
     "images": [
       {
@@ -6972,7 +6972,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -6982,7 +6982,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -6992,7 +6992,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -7002,7 +7002,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -7011,7 +7011,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -7020,7 +7020,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -7029,7 +7029,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       },
@@ -7038,7 +7038,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "51f293de283bdf886127edddbcb79899c00f3ab1",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.24/zts/Dockerfile"
       }
@@ -7049,9 +7049,9 @@
     "name": "php",
     "tags": [
       "8.2-alpine3.23",
-      "8.2.31-alpine3.23",
+      "8.2.32-alpine3.23",
       "8.2-cli-alpine3.23",
-      "8.2.31-cli-alpine3.23"
+      "8.2.32-cli-alpine3.23"
     ],
     "images": [
       {
@@ -7059,7 +7059,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7069,7 +7069,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7079,7 +7079,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7089,7 +7089,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7098,7 +7098,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7107,7 +7107,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7116,7 +7116,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       },
@@ -7125,7 +7125,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/cli/Dockerfile"
       }
@@ -7136,7 +7136,7 @@
     "name": "php",
     "tags": [
       "8.2-fpm-alpine3.23",
-      "8.2.31-fpm-alpine3.23"
+      "8.2.32-fpm-alpine3.23"
     ],
     "images": [
       {
@@ -7144,7 +7144,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7154,7 +7154,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7164,7 +7164,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7174,7 +7174,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7183,7 +7183,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7192,7 +7192,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7201,7 +7201,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       },
@@ -7210,7 +7210,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/fpm/Dockerfile"
       }
@@ -7221,7 +7221,7 @@
     "name": "php",
     "tags": [
       "8.2-zts-alpine3.23",
-      "8.2.31-zts-alpine3.23"
+      "8.2.32-zts-alpine3.23"
     ],
     "images": [
       {
@@ -7229,7 +7229,7 @@
           "os": "linux",
           "architecture": "amd64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7239,7 +7239,7 @@
           "architecture": "arm",
           "variant": "v6"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7249,7 +7249,7 @@
           "architecture": "arm",
           "variant": "v7"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7259,7 +7259,7 @@
           "architecture": "arm64",
           "variant": "v8"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7268,7 +7268,7 @@
           "os": "linux",
           "architecture": "386"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7277,7 +7277,7 @@
           "os": "linux",
           "architecture": "ppc64le"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7286,7 +7286,7 @@
           "os": "linux",
           "architecture": "riscv64"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       },
@@ -7295,7 +7295,7 @@
           "os": "linux",
           "architecture": "s390x"
         },
-        "sha": "f4e930a76363da0b3b2f034d8ffc0532b1f8e61a",
+        "sha": "59c24e8d64b7d9d13f712503fa46305b84db3505",
         "repo": "https://github.com/docker-library/php.git",
         "path": "8.2/alpine3.23/zts/Dockerfile"
       }
