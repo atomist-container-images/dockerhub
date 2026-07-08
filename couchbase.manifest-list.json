@@ -3,9 +3,67 @@
     "version": "26",
     "name": "couchbase",
     "tags": [
-      "8.0.1",
+      "8.0.2",
       "latest",
       "enterprise",
+      "enterprise-8.0.2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "4a3898584da7fcc7e2aff217af4f2b26b1f58bb0",
+        "repo": "https://github.com/couchbase/docker.git",
+        "path": "enterprise/couchbase-server/8.0.2/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "4a3898584da7fcc7e2aff217af4f2b26b1f58bb0",
+        "repo": "https://github.com/couchbase/docker.git",
+        "path": "enterprise/couchbase-server/8.0.2/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "couchbase",
+    "tags": [
+      "community",
+      "community-8.0.2"
+    ],
+    "images": [
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "amd64"
+        },
+        "sha": "96cacbbca82c2fc60876825e4b65c1eda40157f7",
+        "repo": "https://github.com/couchbase/docker.git",
+        "path": "community/couchbase-server/8.0.2/Dockerfile"
+      },
+      {
+        "platform": {
+          "os": "linux",
+          "architecture": "arm64",
+          "variant": "v8"
+        },
+        "sha": "96cacbbca82c2fc60876825e4b65c1eda40157f7",
+        "repo": "https://github.com/couchbase/docker.git",
+        "path": "community/couchbase-server/8.0.2/Dockerfile"
+      }
+    ]
+  },
+  {
+    "version": "26",
+    "name": "couchbase",
+    "tags": [
+      "8.0.1",
       "enterprise-8.0.1"
     ],
     "images": [
@@ -34,7 +92,6 @@
     "version": "26",
     "name": "couchbase",
     "tags": [
-      "community",
       "community-8.0.1"
     ],
     "images": [
